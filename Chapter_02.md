@@ -226,14 +226,45 @@
         - **2.6.2.6.1. Bounded Context Domain Layer Class Diagrams**
         - **2.6.2.6.2. Bounded Context Database Design Diagram**
     - **2.6.3. Bounded Context: Alerts**
+    
       - **2.6.3.1. Domain Layer**
-      - **2.6.3.2. Interface Layer**
+        
+      <br>**Sub-capa Model:**
+        
+       | Tipo         | Nombre                   | Descripción                                         | Responsabilidad Principal                             | Relación con otros elementos                                                                                                                                 |
+        |--------------|--------------------------|-----------------------------------------------------|-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+        | Aggregate    | Alert                    | Clase para definir una Alerta de la aplicación      | Ser el punto de entrada para la gestion de Alertas    | Relacionado con el boundedContext de pagos para generar Alertas y el boundedContext de Tec-Section para generar una Alerta al momento de llamar a un tecnico |
+        | Value Object | AlertType                | Value object usado en el Aggregate Alert            | Representa el tipo de Alerta                          | Relacionado con Alert                                                                                                                                        |
+        | Value Object | AlertTittle              | Value object usado en el Aggregate Alert            | Representa el titulo de la Alerta                     | Relacionado con Alert                                                                                                                                        |
+        | Value Object | AlertMessage             | Value object usado en el Aggregate Alert            | Representa el contenido de la Alerta                  | Relacionado con Alert                                                                                                                                        |
+        | Command      | CreateAlertCommand       | Comando para crear una Alerta                       | Encapsular los datos requeridos para crear una alerta | Usado cuando se quiere crear una alerta para el tecnico y el usuario                                                                                         |
+        | Command      | DeleteAlertCommand       | Comando para eliminar una Alert                     | Encapsular los datos para crear eliminar una alerta   | Verifica si el tecnico o el usuario eliminan la alerta. Tambien si el tecnico rechaza una alerta esta se eliminara luego para este mismo.                    |
+        | Command      | AcceptAlertCommand       | Comando para aceptar una Alert                      | Modificar informacion para aceptar una alerta         | Usado cuando el tecnico acepta el trabajo pedido por el usuario                                                                                              |
+        | Command      | DeclineAlertCommand      | Comando para rechazar una Alert                     | Modificar informacion para rechazar una alerta        | Usado cuando el tecnico acepta el trabajo pedido por el usuario                                                                                              |
+        | Query        | GetAlertByUserQuery      | Consulta para obtener todas las alertas del Usuario | Recuperar las alertas del Usuario                     | Usado en la seccion de Alertas del Usuario                                                                                                                   |
+        | Query        | GetAlertByTechnicalQuery | Consulta para obtener todas las alertas del Tecnico | Recuperar las alertas del Tecnico                     | Usado en la seccion de Alertas del Tecnico                                                                                                                   |
+        
+        **Sub-capa Service:**
+    
+      | Tipo      | Nombre              | Descripción                                     | Responsabilidad Principal                                        | Relación con otros elementos                                           |
+      |-----------|---------------------|-------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------|
+      | Interface | AlertCommandService | Servicio para comandos relacionados con Alert   | Declara métodos para crear, aceptar, rechazar o eliminar alertas | Implementado por  `AlertCommandServiceImp`. Usado en capa Application  |
+      | Interface | AlertQueryService   | Servicio para consultas relacionadas con Alert  | Declarar métodos para filtrar por usuario o técnico              | Implementado por `AlertQueryServiceImpl`. Usado en capa de Application |
+
+        - **2.6.3.2. Interface Layer**
+      
       - **2.6.3.3. Application Layer**
+      
       - **2.6.3.4. Infrastructure Layer**
+      
       - **2.6.3.5. Bounded Context Software Architecture Component Level Diagrams**
+      
       - **2.6.3.6. Bounded Context Software Architecture Code Level Diagrams**
+      
         - **2.6.3.6.1. Bounded Context Domain Layer Class Diagrams**
+        
         - **2.6.3.6.2. Bounded Context Database Design Diagram**
+        
     - **2.6.4. Bounded Context: Tec-Section**
       - **2.6.4.1. Domain Layer**
       - **2.6.4.2. Interface Layer**
