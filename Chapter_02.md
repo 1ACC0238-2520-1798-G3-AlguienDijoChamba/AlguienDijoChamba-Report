@@ -298,7 +298,25 @@
         <br>
         
         - **2.6.3.6.2. Bounded Context Database Design Diagram**
+          <br><br>
+        <div align="center">
+        <img src="feature/chapter02/Diagrama_de_Datos_Bounded_Alert-Diagrama-Base-Datos.png">
+        </div>
+        <br>
         
+        **Tabla: Appointments**
+      
+        | Campo        | Tipo         | Descripción                      |
+          |--------------|--------------|----------------------------------|
+          | id           | int          | Identificador único de la alerta |
+          | type         | varchar(14)  | Tipo de alerta                   |
+          | title        | varchar(120) | Título de la alerta              |
+          | message      | varchar(250) | Contenido de la alerta           |
+          | customer_id  | int          | ID del Customer relacionado      |
+          | worker_id    | int          | ID del Worker relacionado        |
+          | created_at   | datetime     | Fecha de creación de la alerta   |
+          | updated_at   | datetime     | Fecha de última actualización    |
+
     - **2.6.4. Bounded Context: Tec-Section**
       - **2.6.4.1. Domain Layer**
       - **2.6.4.2. Interface Layer**
