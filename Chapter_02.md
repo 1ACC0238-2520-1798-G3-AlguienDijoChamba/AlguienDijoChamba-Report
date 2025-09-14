@@ -281,7 +281,12 @@
         | Repository | AlertRepository | Repositorio a usar del modelo "Alert"  | Acceder y manipular datos persistidos de Alertas | Usado en la capa Application para crear, aceptar, rechazar, eliminar y consultar alertas |
       
       - **2.6.3.5. Bounded Context Software Architecture Component Level Diagrams**
-      
+        <br><br>
+        El diagrama de componentes del Alert System muestra una arquitectura modular y bien definida. Los controladores gestionan la comunicación con los usuarios Customer y Worker, delegando la ejecución en los servicios de aplicación. Las entidades de dominio encapsulan la lógica central, mientras que los repositorios manejan la persistencia de datos. Este enfoque sigue los principios de DDD y Clean Architecture, garantizando separación de responsabilidades, mantenibilidad y facilidad de extensión del sistema.<br> <br>
+        <div align="center">
+        <img src="feature/chapter02/Alert-Component.png">
+        </div>
+        <br>
       - **2.6.3.6. Bounded Context Software Architecture Code Level Diagrams**
       
         - **2.6.3.6.1. Bounded Context Domain Layer Class Diagrams**
