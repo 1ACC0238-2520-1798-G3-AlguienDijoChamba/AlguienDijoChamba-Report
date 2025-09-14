@@ -284,7 +284,7 @@
         <br><br>
         El diagrama de componentes del Alert System muestra una arquitectura modular y bien definida. Los controladores gestionan la comunicación con los usuarios Customer y Worker, delegando la ejecución en los servicios de aplicación. Las entidades de dominio encapsulan la lógica central, mientras que los repositorios manejan la persistencia de datos. Este enfoque sigue los principios de DDD y Clean Architecture, garantizando separación de responsabilidades, mantenibilidad y facilidad de extensión del sistema.<br> <br>
         <div align="center">
-        <img src="feature/chapter02/Alert-Component.png">
+        <img src="feature/chapter02/Alert_Component.png">
         </div>
         <br>
       - **2.6.3.6. Bounded Context Software Architecture Code Level Diagrams**
@@ -300,7 +300,7 @@
         - **2.6.3.6.2. Bounded Context Database Design Diagram**
           <br><br>
         <div align="center">
-        <img src="feature/chapter02/Diagrama_de_Datos_Bounded_Alert-Diagrama-Base-Datos.png">
+        <img src="feature/chapter02/Diagrama_de_Datos_Bounded_Alert_Diagrama_Base_Datos.png">
         </div>
         <br>
         
