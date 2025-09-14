@@ -290,6 +290,12 @@
       - **2.6.3.6. Bounded Context Software Architecture Code Level Diagrams**
       
         - **2.6.3.6.1. Bounded Context Domain Layer Class Diagrams**
+          <br><br>
+          Este diagrama UML representa la arquitectura de un sistema de gestión de alertas centrado en la administración de notificaciones entre Customers y Workers. La estructura está basada en principios de diseño orientado a objetos y se organiza en capas de comandos y consultas, siguiendo un enfoque CQRS . A lo largo del análisis, se describirán los principales componentes del sistema, como los servicios de comandos y consultas, la entidad central Alert, así como los value objects, los comandos y consultas asociados. También se explicará cómo estas clases interactúan entre sí mediante relaciones de herencia, interfaces, asociación y dependencia para mantener una lógica de negocio clara, desacoplada y mantenible.<br> <br>
+        <div align="center">
+        <img src="feature/chapter02/Diagrama_de_Datos_Bounded_Alert.jpg">
+        </div>
+        <br>
         
         - **2.6.3.6.2. Bounded Context Database Design Diagram**
         
