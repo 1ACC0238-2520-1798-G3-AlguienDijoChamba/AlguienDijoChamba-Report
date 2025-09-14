@@ -274,6 +274,11 @@
         | QueryHandler   | AlertQueryServiceImpl   | Implementación de las consultas de Alert | Implementar métodos para obtener alertas por ` GetAlertByCustomerQuery` y `GetAlertByWorkerQuery `   | Implementa la interfaz `AlerQueryService`. Usado por `AlertController` y lo Query  del dominio  |
 
       - **2.6.3.4. Infrastructure Layer**
+        **Sub-capa Repository**
+      
+        | Tipo       | Nombre          | Descripción                            | Responsabilidad Principal                        | Relación con otros elementos                                                             |
+        |------------|-----------------|----------------------------------------|--------------------------------------------------|------------------------------------------------------------------------------------------|
+        | Repository | AlertRepository | Repositorio a usar del modelo "Alert"  | Acceder y manipular datos persistidos de Alertas | Usado en la capa Application para crear, aceptar, rechazar, eliminar y consultar alertas |
       
       - **2.6.3.5. Bounded Context Software Architecture Component Level Diagrams**
       
