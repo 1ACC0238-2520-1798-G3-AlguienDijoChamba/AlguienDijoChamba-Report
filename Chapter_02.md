@@ -194,8 +194,7 @@
     | **Skills (Habilidades)** | Conjunto de competencias técnicas y conocimientos que posee un trabajador. |
 
     - **2.4.1. User Stories**
-      # Historias de Usuario para la App Móvil de "Alguien Dijo Chamba"
-
+# Historias de Usuario para la App Móvil de "Alguien Dijo Chamba"
 | **Epic / Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** |
 |----------------------|------------|-----------------|-----------------------------|
 | **EP01** | Registro y Gestión de Perfil de Usuario | Como usuario (cliente o técnico) de Alguien Dijo Chamba, quiero crear, visualizar, editar y gestionar mi perfil para tener mis datos actualizados y poder utilizar la plataforma correctamente. | - **Escenario 1**: Al abrir la app por primera vez, puedo registrarme con un correo electrónico válido, una contraseña segura y mi ubicación. Los datos se guardan para que mi cuenta esté lista para usarse. <br> - **Escenario 2**: Si intento registrarme con un correo electrónico inválido o una contraseña débil, la app me muestra un mensaje de error indicando qué campos debo corregir. |
@@ -210,6 +209,7 @@
 | **US04** | Buscar Profesionales por Especialidad y Ubicación | Como cliente, quiero buscar profesionales filtrando por el tipo de servicio que necesito (ej. fontanero) y mi ubicación para encontrar opciones cercanas. | - **Escenario 1**: Al buscar un profesional en la app, puedo filtrar por especialidad y ubicación. <br> - **Escenario 2**: Si no hay profesionales disponibles en mi zona, la app me muestra un mensaje indicando que no se encontraron resultados. |
 | **US05** | Ver Perfil Detallado del Profesional | Como cliente, quiero ver el perfil de un profesional que incluye su experiencia, calificaciones, comentarios de otros usuarios y tarifas estimadas para evaluar su idoneidad. | - **Escenario 1**: Puedo ver el perfil completo de un profesional en la app, con detalles sobre su experiencia y tarifas. |
 | **US06** | Contactar al Profesional | Como cliente, quiero poder contactar directamente a un profesional a través de la plataforma (ej. enviar mensaje, solicitar cotización) para discutir mi necesidad y coordinar el servicio. | - **Escenario 1**: Desde el perfil de un profesional, puedo enviarle un mensaje para coordinar detalles del servicio. <br> - **Escenario 2**: Puedo solicitar una cotización a un profesional desde su perfil en la app. |     
+
     - **2.4.2. Impact Mapping**
     - **2.4.3. Product Backlog**
   - **2.5. Strategic-Level Domain-Driven Design**
@@ -342,6 +342,7 @@
       - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
         - **2.6.4.6.2. Bounded Context Database Design Diagram**
+
 
 
 
