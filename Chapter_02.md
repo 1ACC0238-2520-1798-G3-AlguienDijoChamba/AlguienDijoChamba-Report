@@ -195,24 +195,74 @@
 
     - **2.4.1. User Stories**
       
-#Historias de Usuario para "Alguien Dijo Chamba"
-| **Epic / Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** |
-|----------------------|------------|-----------------|-----------------------------|
-| **EP01** | Registro y Gestión de Perfil de Usuario | Como usuario (cliente o técnico) de Alguien Dijo Chamba, quiero crear, visualizar, editar y gestionar mi perfil para tener mis datos actualizados y poder utilizar la plataforma correctamente. | - **Escenario 1**: Al abrir la app por primera vez, puedo registrarme con un correo electrónico válido, una contraseña segura y mi ubicación. Los datos se guardan para que mi cuenta esté lista para usarse. <br> - **Escenario 2**: Si intento registrarme con un correo electrónico inválido o una contraseña débil, la app me muestra un mensaje de error indicando qué campos debo corregir. |
-| **EP02** | Búsqueda y Contacto de Profesionales | Como cliente, quiero buscar profesionales por especialidad, ubicación y reputación, y contactarlos fácilmente para solicitar sus servicios. | - **Escenario 1**: Al utilizar la app, puedo buscar fácilmente un profesional filtrando por su especialidad, ubicación y reputación. <br> - **Escenario 2**: Si no encuentro ningún profesional que coincida con mi búsqueda, la app me muestra un mensaje informándome que no hay resultados disponibles. |
-| **EP03** | Gestión de Servicios Técnicos (para Profesionales) | Como profesional técnico, quiero gestionar mi perfil de servicios, disponibilidad y recibir solicitudes de trabajo a través de la app. | - **Escenario 1**: Como técnico, puedo editar mi perfil directamente desde la app y añadir información sobre mis servicios, tarifas y horarios de disponibilidad. <br> - **Escenario 2**: Recibo notificaciones en mi móvil cuando un cliente me solicita un servicio, permitiéndome aceptar o rechazar el trabajo. |
-| **EP04** | Monitoreo Inteligente del Hogar (para Clientes) | Como cliente con el dispositivo IoT, quiero visualizar el consumo de agua y electricidad en tiempo real desde mi móvil y recibir alertas de posibles anomalías. | - **Escenario 1**: Desde la app, puedo ver en tiempo real mi consumo de agua y electricidad y recibir notificaciones de consumo excesivo. <br> - **Escenario 2**: Si el consumo supera los umbrales configurados, la app me envía una alerta para que pueda tomar medidas inmediatas. |
-| **EP05** | Gestión de Solicitudes y Contrataciones | Como cliente, quiero gestionar mis solicitudes de servicio, ver el estado de las contrataciones y realizar pagos de forma segura a través de la app. Como profesional, quiero gestionar las solicitudes recibidas y confirmar los trabajos. | - **Escenario 1**: Como cliente, puedo ver el estado de mis solicitudes de servicio y pagar directamente desde la app. <br> - **Escenario 2**: Como profesional, puedo revisar las solicitudes de los clientes y confirmar la disponibilidad o rechazar solicitudes. |
-| **EP06** | Sistema de Calificaciones y Reseñas | Como cliente, quiero calificar y dejar reseñas sobre los servicios o profesionales, y ver las calificaciones y reseñas de otros para tomar decisiones informadas. | - **Escenario 1**: Después de recibir un servicio, puedo calificar al profesional y dejar una reseña desde la app. <br> - **Escenario 2**: Puedo ver las calificaciones de otros clientes y las reseñas sobre un profesional para tomar una decisión informada. |
-| **US01** | Registro de Nuevo Usuario (Cliente) | Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales. | - **Escenario 1**: Cuando me registro en la app con un correo electrónico válido y una contraseña segura, mi cuenta de cliente se crea exitosamente. <br> - **Escenario 2**: Si intento registrarme con datos inválidos, la app me muestra un mensaje de error indicando qué debo corregir. |
-| **US02** | Registro de Nuevo Profesional Técnico | Como nuevo profesional técnico, quiero registrarme en la plataforma detallando mis especialidades, experiencia y datos de contacto para poder ofrecer mis servicios. | - **Escenario 1**: Puedo registrar mi perfil con mis especialidades, experiencia y datos de contacto a través de la app. <br> - **Escenario 2**: Si no completo todos los campos obligatorios, la app me indica qué información falta. |
-| **US03** | Editar Perfil de Usuario | Como usuario registrado (cliente o técnico), quiero poder editar la información de mi perfil (datos de contacto, ubicación, especialidades, tarifas, etc.) para mantenerla actualizada. | - **Escenario 1**: Puedo editar y guardar los datos de mi perfil en la app, y la información se actualiza correctamente. <br> - **Escenario 2**: Si intento guardar un número de teléfono con formato incorrecto, la app me muestra un mensaje de error. |
-| **US04** | Buscar Profesionales por Especialidad y Ubicación | Como cliente, quiero buscar profesionales filtrando por el tipo de servicio que necesito (ej. fontanero) y mi ubicación para encontrar opciones cercanas. | - **Escenario 1**: Al buscar un profesional en la app, puedo filtrar por especialidad y ubicación. <br> - **Escenario 2**: Si no hay profesionales disponibles en mi zona, la app me muestra un mensaje indicando que no se encontraron resultados. |
-| **US05** | Ver Perfil Detallado del Profesional | Como cliente, quiero ver el perfil de un profesional que incluye su experiencia, calificaciones, comentarios de otros usuarios y tarifas estimadas para evaluar su idoneidad. | - **Escenario 1**: Puedo ver el perfil completo de un profesional en la app, con detalles sobre su experiencia y tarifas. |
-| **US06** | Contactar al Profesional | Como cliente, quiero poder contactar directamente a un profesional a través de la plataforma (ej. enviar mensaje, solicitar cotización) para discutir mi necesidad y coordinar el servicio. | - **Escenario 1**: Desde el perfil de un profesional, puedo enviarle un mensaje para coordinar detalles del servicio. <br> - **Escenario 2**: Puedo solicitar una cotización a un profesional desde su perfil en la app. |            
+    #Historias de Usuario para "Alguien Dijo Chamba"
+    | **Epic / Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** |
+    |----------------------|------------|-----------------|-----------------------------|
+    | **EP01** | Registro y Gestión de Perfil de Usuario | Como usuario (cliente o técnico) de Alguien Dijo Chamba, quiero crear, visualizar, editar y gestionar mi perfil para tener mis datos actualizados y poder utilizar la plataforma correctamente. | - **Escenario 1**: Al abrir la app por primera vez, puedo registrarme con un correo electrónico válido, una contraseña segura y mi ubicación. Los datos se guardan para que mi cuenta esté lista para usarse. <br> - **Escenario 2**: Si intento registrarme con un correo electrónico inválido o una contraseña débil, la app me muestra un mensaje de error indicando qué campos debo corregir. |
+    | **EP02** | Búsqueda y Contacto de Profesionales | Como cliente, quiero buscar profesionales por especialidad, ubicación y reputación, y contactarlos fácilmente para solicitar sus servicios. | - **Escenario 1**: Al utilizar la app, puedo buscar fácilmente un profesional filtrando por su especialidad, ubicación y reputación. <br> - **Escenario 2**: Si no encuentro ningún profesional que coincida con mi búsqueda, la app me muestra un mensaje informándome que no hay resultados disponibles. |
+    | **EP03** | Gestión de Servicios Técnicos (para Profesionales) | Como profesional técnico, quiero gestionar mi perfil de servicios, disponibilidad y recibir solicitudes de trabajo a través de la app. | - **Escenario 1**: Como técnico, puedo editar mi perfil directamente desde la app y añadir información sobre mis servicios, tarifas y horarios de disponibilidad. <br> - **Escenario 2**: Recibo notificaciones en mi móvil cuando un cliente me solicita un servicio, permitiéndome aceptar o rechazar el trabajo. |
+    | **EP04** | Monitoreo Inteligente del Hogar (para Clientes) | Como cliente con el dispositivo IoT, quiero visualizar el consumo de agua y electricidad en tiempo real desde mi móvil y recibir alertas de posibles anomalías. | - **Escenario 1**: Desde la app, puedo ver en tiempo real mi consumo de agua y electricidad y recibir notificaciones de consumo excesivo. <br> - **Escenario 2**: Si el consumo supera los umbrales configurados, la app me envía una alerta para que pueda tomar medidas inmediatas. |
+    | **EP05** | Gestión de Solicitudes y Contrataciones | Como cliente, quiero gestionar mis solicitudes de servicio, ver el estado de las contrataciones y realizar pagos de forma segura a través de la app. Como profesional, quiero gestionar las solicitudes recibidas y confirmar los trabajos. | - **Escenario 1**: Como cliente, puedo ver el estado de mis solicitudes de servicio y pagar directamente desde la app. <br> - **Escenario 2**: Como profesional, puedo revisar las solicitudes de los clientes y confirmar la disponibilidad o rechazar solicitudes. |
+    | **EP06** | Sistema de Calificaciones y Reseñas | Como cliente, quiero calificar y dejar reseñas sobre los servicios o profesionales, y ver las calificaciones y reseñas de otros para tomar decisiones informadas. | - **Escenario 1**: Después de recibir un servicio, puedo calificar al profesional y dejar una reseña desde la app. <br> - **Escenario 2**: Puedo ver las calificaciones de otros clientes y las reseñas sobre un profesional para tomar una decisión informada. |
+    | **US01** | Registro de Nuevo Usuario (Cliente) | Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales. | - **Escenario 1**: Cuando me registro en la app con un correo electrónico válido y una contraseña segura, mi cuenta de cliente se crea exitosamente. <br> - **Escenario 2**: Si intento registrarme con datos inválidos, la app me muestra un mensaje de error indicando qué debo corregir. |
+    | **US02** | Registro de Nuevo Profesional Técnico | Como nuevo profesional técnico, quiero registrarme en la plataforma detallando mis especialidades, experiencia y datos de contacto para poder ofrecer mis servicios. | - **Escenario 1**: Puedo registrar mi perfil con mis especialidades, experiencia y datos de contacto a través de la app. <br> - **Escenario 2**: Si no completo todos los campos obligatorios, la app me indica qué información falta. |
+    | **US03** | Editar Perfil de Usuario | Como usuario registrado (cliente o técnico), quiero poder editar la información de mi perfil (datos de contacto, ubicación, especialidades, tarifas, etc.) para mantenerla actualizada. | - **Escenario 1**: Puedo editar y guardar los datos de mi perfil en la app, y la información se actualiza correctamente. <br> - **Escenario 2**: Si intento guardar un número de teléfono con formato incorrecto, la app me muestra un mensaje de error. |
+    | **US04** | Buscar Profesionales por Especialidad y Ubicación | Como cliente, quiero buscar profesionales filtrando por el tipo de servicio que necesito (ej. fontanero) y mi ubicación para encontrar opciones cercanas. | - **Escenario 1**: Al buscar un profesional en la app, puedo filtrar por especialidad y ubicación. <br> - **Escenario 2**: Si no hay profesionales disponibles en mi zona, la app me muestra un mensaje indicando que no se encontraron resultados. |
+    | **US05** | Ver Perfil Detallado del Profesional | Como cliente, quiero ver el perfil de un profesional que incluye su experiencia, calificaciones, comentarios de otros usuarios y tarifas estimadas para evaluar su idoneidad. | - **Escenario 1**: Puedo ver el perfil completo de un profesional en la app, con detalles sobre su experiencia y tarifas. |
+    | **US06** | Contactar al Profesional | Como cliente, quiero poder contactar directamente a un profesional a través de la plataforma (ej. enviar mensaje, solicitar cotización) para discutir mi necesidad y coordinar el servicio. | - **Escenario 1**: Desde el perfil de un profesional, puedo enviarle un mensaje para coordinar detalles del servicio. <br> - **Escenario 2**: Puedo solicitar una cotización a un profesional desde su perfil en la app. |            
 
     - **2.4.2. Impact Mapping**
-    - **2.4.3. Product Backlog**
+    - **2.4.3. Product Backlog** 
+        <div align="center">
+    <table>
+      <thead>
+        <tr>
+          <th># Orden</th>
+          <th>User Story Id</th>
+          <th>Título</th>
+          <th>Story Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>US01</td><td>Registro de Nuevo Usuario (Cliente)</td><td>5</td></tr>
+        <tr><td>2</td><td>US02</td><td>Registro de Nuevo Profesional Técnico</td><td>5</td></tr>
+        <tr><td>3</td><td>US03</td><td>Editar Perfil de Usuario</td><td>5</td></tr>
+        <tr><td>4</td><td>US04</td><td>Buscar Profesionales por Especialidad y Ubicación</td><td>5</td></tr>
+        <tr><td>5</td><td>US05</td><td>Ver Perfil Detallado del Profesional</td><td>5</td></tr>
+        <tr><td>6</td><td>US06</td><td>Contactar al Profesional</td><td>5</td></tr>
+        <tr><td>7</td><td>US07</td><td>Configurar Perfil de Servicios</td><td>5</td></tr>
+        <tr><td>8</td><td>US08</td><td>Recibir y Gestionar Solicitudes de Servicio</td><td>5</td></tr>
+        <tr><td>9</td><td>US09</td><td>Gestionar Disponibilidad</td><td>5</td></tr>
+        <tr><td>10</td><td>US10</td><td>Visualizar Consumo de Agua y Electricidad</td><td>5</td></tr>
+        <tr><td>11</td><td>US11</td><td>Realizar Pago del Servicio</td><td>5</td></tr>
+        <tr><td>12</td><td>US12</td><td>Gestionar Solicitudes y Contrataciones</td><td>5</td></tr>
+        <tr><td>13</td><td>US13</td><td>Calificar y Dejar Reseña (Cliente)</td><td>4</td></tr>
+        <tr><td>14</td><td>US14</td><td>Ver Calificaciones y Reseñas de Profesionales</td><td>4</td></tr>
+        <tr><td>15</td><td>US15</td><td>Suscribirse al Plan Premium</td><td>3</td></tr>
+        <tr><td>16</td><td>US16</td><td>Configurar Dispositivo IoT</td><td>3</td></tr>
+        <tr><td>17</td><td>US17</td><td>Vincular Dispositivo IoT a la Cuenta</td><td>3</td></tr>
+        <tr><td>18</td><td>TS01</td><td>Visualizar Lista de Profesionales</td><td>3</td></tr>
+        <tr><td>19</td><td>TS02</td><td>Registrar Nuevo Profesional</td><td>3</td></tr>
+        <tr><td>20</td><td>TS03</td><td>Actualizar Perfil del Profesional</td><td>3</td></tr>
+        <tr><td>21</td><td>TS04</td><td>Notificación de Nueva Solicitud de Servicio</td><td>3</td></tr>
+        <tr><td>22</td><td>TS05</td><td>Envío de Mensaje al Profesional</td><td>3</td></tr>
+        <tr><td>23</td><td>TS06</td><td>Envío de Solicitud de Cotización</td><td>3</td></tr>
+        <tr><td>24</td><td>TS07</td><td>Visualización de Perfil Detallado</td><td>3</td></tr>
+        <tr><td>25</td><td>TS08</td><td>Notificación de Solicitud de Servicio Aceptada</td><td>3</td></tr>
+        <tr><td>26</td><td>TS09</td><td>Notificación de Solicitud de Servicio Rechazada</td><td>3</td></tr>
+        <tr><td>27</td><td>TS10</td><td>Notificación de Disponibilidad Actualizada</td><td>3</td></tr>
+        <tr><td>28</td><td>TS11</td><td>Visualización de Consumo en Tiempo Real</td><td>3</td></tr>
+        <tr><td>29</td><td>TS12</td><td>Notificación de Consumo Excesivo</td><td>3</td></tr>
+        <tr><td>30</td><td>TS13</td><td>Confirmación de Pago Exitoso</td><td>3</td></tr>
+        <tr><td>31</td><td>TS14</td><td>Confirmación de Pago Fallido</td><td>3</td></tr>
+        <tr><td>32</td><td>TS15</td><td>Visualización de Reseñas y Calificaciones</td><td>3</td></tr>
+        <tr><td>33</td><td>TS16</td><td>Procesamiento de Solicitudes de Pago</td><td>3</td></tr>
+        <tr><td>34</td><td>TS17</td><td>Suscripción a Plan Premium</td><td>3</td></tr>
+        <tr><td>35</td><td>TS18</td><td>Guía de Configuración de Dispositivo IoT</td><td>3</td></tr>
+        <tr><td>36</td><td>TS19</td><td>Vinculación Exitosa del Dispositivo IoT</td><td>3</td></tr>
+      </tbody>
+    </table>
+    </div>
   - **2.5. Strategic-Level Domain-Driven Design**
     - **2.5.1. EventStorming**
       - **2.5.1.1. Candidate Context Discovery**  
@@ -343,6 +393,7 @@
       - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
         - **2.6.4.6.2. Bounded Context Database Design Diagram**
+
 
 
 
