@@ -194,6 +194,94 @@
     | **Skills (Habilidades)** | Conjunto de competencias técnicas y conocimientos que posee un trabajador. |
 
     - **2.4.1. User Stories**
+      # Historias de Usuario para la App Móvil de Fix Now
+
+## EP01: Registro y Gestión de Perfil de Usuario
+**Historia de Usuario**: Como usuario (cliente o técnico) de Fix Now, quiero crear, visualizar, editar y gestionar mi perfil para tener mis datos actualizados y poder utilizar la plataforma correctamente.
+
+- **Escenario 1**: Al abrir la app por primera vez, puedo registrarme con un correo electrónico válido, una contraseña segura y mi ubicación. Los datos se guardan para que mi cuenta esté lista para usarse.
+- **Escenario 2**: Si intento registrarme con un correo electrónico inválido o una contraseña débil, la app me muestra un mensaje de error indicando qué campos debo corregir.
+
+---
+
+## EP02: Búsqueda y Contacto de Profesionales
+**Historia de Usuario**: Como cliente, quiero buscar profesionales por especialidad, ubicación y reputación, y contactarlos fácilmente para solicitar sus servicios.
+
+- **Escenario 1**: Al utilizar la app, puedo buscar fácilmente un profesional filtrando por su especialidad, ubicación y reputación.
+- **Escenario 2**: Si no encuentro ningún profesional que coincida con mi búsqueda, la app me muestra un mensaje informándome que no hay resultados disponibles.
+
+---
+
+## EP03: Gestión de Servicios Técnicos (para Profesionales)
+**Historia de Usuario**: Como profesional técnico, quiero gestionar mi perfil de servicios, disponibilidad y recibir solicitudes de trabajo a través de la app.
+
+- **Escenario 1**: Como técnico, puedo editar mi perfil directamente desde la app y añadir información sobre mis servicios, tarifas y horarios de disponibilidad.
+- **Escenario 2**: Recibo notificaciones en mi móvil cuando un cliente me solicita un servicio, permitiéndome aceptar o rechazar el trabajo.
+
+---
+
+## EP04: Monitoreo Inteligente del Hogar (para Clientes)
+**Historia de Usuario**: Como cliente con el dispositivo IoT, quiero visualizar el consumo de agua y electricidad en tiempo real desde mi móvil y recibir alertas de posibles anomalías.
+
+- **Escenario 1**: Desde la app, puedo ver en tiempo real mi consumo de agua y electricidad y recibir notificaciones de consumo excesivo.
+- **Escenario 2**: Si el consumo supera los umbrales configurados, la app me envía una alerta para que pueda tomar medidas inmediatas.
+
+---
+
+## EP05: Gestión de Solicitudes y Contrataciones
+**Historia de Usuario**: Como cliente, quiero gestionar mis solicitudes de servicio, ver el estado de las contrataciones y realizar pagos de forma segura a través de la app. Como profesional, quiero gestionar las solicitudes recibidas y confirmar los trabajos.
+
+- **Escenario 1**: Como cliente, puedo ver el estado de mis solicitudes de servicio y pagar directamente desde la app.
+- **Escenario 2**: Como profesional, puedo revisar las solicitudes de los clientes y confirmar la disponibilidad o rechazar solicitudes.
+
+---
+
+## EP06: Sistema de Calificaciones y Reseñas
+**Historia de Usuario**: Como cliente, quiero calificar y dejar reseñas sobre los servicios o profesionales, y ver las calificaciones y reseñas de otros para tomar decisiones informadas.
+
+- **Escenario 1**: Después de recibir un servicio, puedo calificar al profesional y dejar una reseña desde la app.
+- **Escenario 2**: Puedo ver las calificaciones de otros clientes y las reseñas sobre un profesional para tomar una decisión informada.
+
+---
+
+## US01: Registro de Nuevo Usuario (Cliente)
+**Historia de Usuario**: Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales.
+
+- **Escenario 1**: Cuando me registro en la app con un correo electrónico válido y una contraseña segura, mi cuenta de cliente se crea exitosamente.
+- **Escenario 2**: Si intento registrarme con datos inválidos, la app me muestra un mensaje de error indicando qué debo corregir.
+
+---
+
+## US02: Registro de Nuevo Profesional Técnico
+**Historia de Usuario**: Como nuevo profesional técnico, quiero registrarme en la plataforma detallando mis especialidades, experiencia y datos de contacto para poder ofrecer mis servicios.
+
+- **Escenario 1**: Puedo registrar mi perfil con mis especialidades, experiencia y datos de contacto a través de la app.
+- **Escenario 2**: Si no completo todos los campos obligatorios, la app me indica qué información falta.
+
+---
+
+## US03: Editar Perfil de Usuario
+**Historia de Usuario**: Como usuario registrado (cliente o técnico), quiero poder editar la información de mi perfil (datos de contacto, ubicación, especialidades, tarifas, etc.) para mantenerla actualizada.
+
+- **Escenario 1**: Puedo editar y guardar los datos de mi perfil en la app, y la información se actualiza correctamente.
+- **Escenario 2**: Si intento guardar un número de teléfono con formato incorrecto, la app me muestra un mensaje de error.
+
+---
+
+## US04: Buscar Profesionales por Especialidad y Ubicación
+**Historia de Usuario**: Como cliente, quiero buscar profesionales filtrando por el tipo de servicio que necesito (ej. fontanero) y mi ubicación para encontrar opciones cercanas.
+
+- **Escenario 1**: Al buscar un profesional en la app, puedo filtrar por especialidad y ubicación.
+- **Escenario 2**: Si no hay profesionales disponibles en mi zona, la app me muestra un mensaje indicando que no se encontraron resultados.
+
+---
+
+## US05: Ver Perfil Detallado del Profesional
+**Historia de Usuario**: Como cliente, quiero ver el perfil de un profesional que incluye su experiencia, calificaciones, comentarios de otros usuarios y tarifas estimadas para evaluar su idoneidad.
+
+- **Escenario 1**: Puedo ver el perfil completo de un profesional en la app, con detalles sobre su experiencia y tarifas.
+  
+---
     - **2.4.2. Impact Mapping**
     - **2.4.3. Product Backlog**
   - **2.5. Strategic-Level Domain-Driven Design**
@@ -326,4 +414,5 @@
       - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
         - **2.6.4.6.2. Bounded Context Database Design Diagram**
+
 
