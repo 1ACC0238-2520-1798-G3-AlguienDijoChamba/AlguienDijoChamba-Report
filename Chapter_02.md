@@ -593,14 +593,42 @@ En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesid
         </div>
         <br>
     - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
-   <br><br>
+   - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
+        <br><br>
         Este diagrama UML representa la arquitectura de un sistema de gestión técnica centrado en la administración de secciones de trabajo, solicitudes de servicio y la interacción entre clientes (Customers) y técnicos (Technicians), teniendo como entidad principal a TecSection, la cual coordina la relación entre técnicos, solicitudes y servicios. Los principales componentes incluyen: Technician y Customer como actores principales, ServiceRequest como núcleo de la interacción entre cliente y técnico, Invoice y Payment para la gestión de facturación y cobros, Category para agrupar técnicos por especialidad, Review para la retroalimentación del cliente y Admin como supervisor del sistema. Las relaciones reflejan la lógica del dominio, donde un Customer puede generar múltiples solicitudes que se asignan a un Technician dentro de una TecSection, cada solicitud puede generar facturas y pagos, y los clientes pueden dejar reseñas sobre el servicio recibido. En conjunto, este diseño permite un sistema modular, escalable y mantenible, con una clara separación de responsabilidades que facilita su evolución futura.<br> <br>
         <div align="center">
         <img src="feature/chapter02/Diagrama_de_Datos_Bounded_TecSection.jpg">
         </div>
         <br>
-   - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
     - **2.6.4.6.2. Bounded Context Database Design Diagram**
+  <br><br>
+  <div align="center">
+  <img src="feature/chapter02/Diagrama_de_Datos_Bounded_TecSection_Diagrama_Base_Datos.png">
+  </div>
+  <br>
+  
+  **Tabla: WorkRequest**
+  
+  | Campo              | Tipo           | Descripción                                         |
+  |--------------------|----------------|-----------------------------------------------------|
+  | id                 | varchar(36)    | Identificador único de la solicitud (PK)            |
+  | title              | varchar(120)   | Título de la solicitud de trabajo                   |
+  | description        | varchar(300)   | Detalle de la solicitud                             |
+  | date               | datetime       | Fecha en la que se realizará el servicio            |
+  | time               | varchar(20)    | Hora programada del inicio del servicio             |
+  | endTime            | varchar(20)    | Hora estimada de finalización                       |
+  | technicianName     | varchar(120)   | Nombre del técnico asignado o del cliente           |
+  | address            | varchar(200)   | Dirección donde se realizará el trabajo             |
+  | mapImageUrl        | varchar(250)   | URL del mapa de referencia                          |
+  | dayText            | varchar(20)    | Texto descriptivo del día (Hoy, Mañana, etc.)       |
+  | finalAmount        | decimal(10,2)  | Monto final del servicio acordado                   |
+  | finalWorkDescription | varchar(250) | Descripción final del trabajo realizado             |
+  | status             | varchar(15)    | Estado de la solicitud (pending, accepted, etc.)    |
+  | worker_id          | int            | ID del Worker relacionado (FK)                      |
+  | created_at         | datetime       | Fecha de creación de la solicitud                   |
+  | updated_at         | datetime       | Fecha de última actualización de la solicitud       |
+
+
 
 
 
