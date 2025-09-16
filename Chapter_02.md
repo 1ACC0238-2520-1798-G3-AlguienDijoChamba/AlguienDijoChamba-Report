@@ -586,9 +586,16 @@ En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesid
   | Repository | WorkerProfileRepository | Repositorio para el modelo `WorkerProfile`    | Acceder y manipular datos persistidos de perfiles de técnicos          | Usado en la capa Application por `WorkerProfileCommandServiceImpl` y `WorkerProfileQueryServiceImpl` |
 
     - **2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**
+ <br><br>
+       El diagrama de componentes de Tec Section muestra la organización del sistema en dos módulos principales: WorkRequest y WorkerProfile, cada uno compuesto por cuatro elementos con responsabilidades específicas. Los Controllers cumplen el rol de exponer datos, actuando como interfaz REST para que los actores externos (Customer y Worker) interactúen con la aplicación. Los Services se encargan de ejecutar datos, orquestando la lógica de negocio mediante la creación, actualización y finalización de solicitudes. Los Resources permiten consultar datos, garantizando que la información del dominio se estructure y presente de manera consistente para su consumo. Finalmente, los Repositories se responsabilizan de modificar datos, encapsulando la persistencia y asegurando independencia entre el dominio y la infraestructura. Esta división modular garantiza claridad en las responsabilidades, bajo acoplamiento y facilidad de mantenimiento, siguiendo los principios de DDD y Clean Architecture.
+        <div align="center">
+        <img src="feature/chapter02/TecSection_Component.jpg">
+        </div>
+        <br>
     - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
    - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
     - **2.6.4.6.2. Bounded Context Database Design Diagram**
+
 
 
 
