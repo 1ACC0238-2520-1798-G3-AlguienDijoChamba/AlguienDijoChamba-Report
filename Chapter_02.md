@@ -549,8 +549,8 @@ En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesid
 | Service   | WorkRequestService  | Servicio simulado para manejar solicitudes de trabajo (mock).  | Retornar listado de solicitudes para un Worker o Customer (Observable).   | Usado en capa Application para renderizar en vistas de Worker y Customer                       |
 | Service   | WorkerApiService    | Servicio para integrar con el backend vía API REST             | Gestionar Workers, Customers, categorías y solicitudes en la base de datos | Se comunica con la API (`/api/v1/workers`, `/api/v1/users`, `/api/v1/categories`). Consumido en capa Application |
 
-      - **2.6.4.2. Interface Layer**
-       **Sub-capa REST**
+  - **2.6.4.2. Interface Layer**
+    **Sub-capa REST**
   
   | Tipo       | Nombre                                           | Descripción                                                              | Responsabilidad Principal                                                                                          | Relación con otros elementos                                                                 |
   |------------|--------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
@@ -567,12 +567,29 @@ En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesid
   | Assembler  | WorkRequestResourceFromEntityAssembler          | Convierte una entidad WorkRequest en un recurso de respuesta              | Asegurar respuesta consistente para el cliente                                                                      | Usado en `WorkRequestController` para retornar `WorkRequestResponseResource`                   |
   | Assembler  | WorkerProfileResourceFromEntityAssembler        | Convierte una entidad WorkerProfile en un recurso de respuesta            | Asegurar respuesta consistente para el cliente                                                                      | Usado en `WorkerProfileController` para retornar `WorkerProfileResponseResource`               |
   
-      - **2.6.4.3. Application Layer**
-      - **2.6.4.4. Infrastructure Layer**
-      - **2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**
-      - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
-        - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
-        - **2.6.4.6.2. Bounded Context Database Design Diagram**
+- **2.6.4.3. Application Layer**
+  **Sub-capa Internal**
+  
+  | Tipo           | Nombre                           | Descripción                                          | Responsabilidad Principal                                                                 | Relación con otros elementos                                                                 |
+  |----------------|----------------------------------|------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+  | CommandHandler | WorkRequestCommandServiceImpl    | Implementación de los comandos de WorkRequest        | Implementar métodos para crear, actualizar, aceptar y completar solicitudes de trabajo     | Implementa la interfaz `WorkRequestCommandService`. Usado por `WorkRequestController` y los CommandHandlers del dominio |
+  | QueryHandler   | WorkRequestQueryServiceImpl      | Implementación de las consultas de WorkRequest       | Implementar métodos para obtener solicitudes por estado, cliente o técnico                 | Implementa la interfaz `WorkRequestQueryService`. Usado por `WorkRequestController` y los QueryHandlers del dominio       |
+  | CommandHandler | WorkerProfileCommandServiceImpl  | Implementación de los comandos de WorkerProfile      | Implementar métodos para registrar y actualizar perfiles de técnicos                      | Implementa la interfaz `WorkerProfileCommandService`. Usado por `WorkerProfileController` y los CommandHandlers del dominio |
+  | QueryHandler   | WorkerProfileQueryServiceImpl    | Implementación de las consultas de WorkerProfile     | Implementar métodos para consultar perfiles por categoría, disponibilidad, experiencia     | Implementa la interfaz `WorkerProfileQueryService`. Usado por `WorkerProfileController` y los QueryHandlers del dominio   |
+
+- **2.6.4.4. Infrastructure Layer**
+  **Sub-capa Repository**
+  
+  | Tipo       | Nombre                  | Descripción                                   | Responsabilidad Principal                                              | Relación con otros elementos                                                                 |
+  |------------|-------------------------|-----------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+  | Repository | WorkRequestRepository   | Repositorio para el modelo `WorkRequest`      | Acceder y manipular datos persistidos de solicitudes de trabajo        | Usado en la capa Application por `WorkRequestCommandServiceImpl` y `WorkRequestQueryServiceImpl` |
+  | Repository | WorkerProfileRepository | Repositorio para el modelo `WorkerProfile`    | Acceder y manipular datos persistidos de perfiles de técnicos          | Usado en la capa Application por `WorkerProfileCommandServiceImpl` y `WorkerProfileQueryServiceImpl` |
+
+    - **2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**
+    - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
+   - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
+    - **2.6.4.6.2. Bounded Context Database Design Diagram**
+
 
 
 
