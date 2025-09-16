@@ -114,7 +114,7 @@
   - **2.2. Entrevistas**
     - **2.2.1. Diseño de entrevistas**
       
-Con el propósito de identificar de manera más clara las necesidades, comportamientos y expectativas de nuestros usuarios potenciales, hemos elaborado un conjunto de entrevistas. Estas están enfocadas en evaluar la aceptación y el interés por los servicios que plantea Fix Now, tanto desde la perspectiva de los hogares que requieren asistencia como desde la de los técnicos que ofrecen su trabajo.
+Con el propósito de identificar de manera más clara las necesidades, comportamientos y expectativas de nuestros usuarios potenciales, hemos elaborado un conjunto de entrevistas. Estas están enfocadas en evaluar la aceptación y el interés por los servicios que plantea AlguienDijoChamba, tanto desde la perspectiva de los hogares que requieren asistencia como desde la de los técnicos que ofrecen su trabajo.
 
 **Preguntas para el segmento hogares #1: AlguienDijoChamba **.
 
@@ -531,6 +531,7 @@ En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesid
       - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
         - **2.6.4.6.2. Bounded Context Database Design Diagram**
+
 
 
 
