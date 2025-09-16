@@ -601,13 +601,92 @@
 |-----------|---------------------|----------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | Service   | WorkRequestService  | Servicio simulado para manejar solicitudes de trabajo (mock).  | Retornar listado de solicitudes para un Worker o Customer (Observable).   | Usado en capa Application para renderizar en vistas de Worker y Customer                       |
 | Service   | WorkerApiService    | Servicio para integrar con el backend vía API REST             | Gestionar Workers, Customers, categorías y solicitudes en la base de datos | Se comunica con la API (`/api/v1/workers`, `/api/v1/users`, `/api/v1/categories`). Consumido en capa Application |
-      - **2.6.4.2. Interface Layer**
-      - **2.6.4.3. Application Layer**
-      - **2.6.4.4. Infrastructure Layer**
-      - **2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**
-      - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
-        - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
-        - **2.6.4.6.2. Bounded Context Database Design Diagram**
+
+  - **2.6.4.2. Interface Layer**
+    **Sub-capa REST**
+  
+  | Tipo       | Nombre                                           | Descripción                                                              | Responsabilidad Principal                                                                                          | Relación con otros elementos                                                                 |
+  |------------|--------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+  | Controller | WorkRequestController                           | Controlador REST para gestionar solicitudes de trabajo                   | Recibir solicitudes de Customer (crear, actualizar, listar) y de Worker (aceptar, completar), y coordinar comandos | Utiliza `WorkRequestResource`, `WorkRequestResponseResource` y los assemblers correspondientes |
+  | Controller | WorkerProfileController                         | Controlador REST para gestionar perfiles de técnicos                     | Exponer endpoints para registrar, actualizar y consultar información de Worker                                     | Utiliza `WorkerProfileResource`, `WorkerProfileResponseResource` y los assemblers correspondientes |
+  | Resource   | WorkRequestResource                             | Estructura de una petición para crear o modificar un WorkRequest          | Representar datos del dominio (dirección, fecha, descripción, categoría, etc.) de forma accesible al Cliente        | Usado en `WorkRequestController` para recibir datos estructurados del Customer                 |
+  | Resource   | WorkRequestResponseResource                     | Estructura de respuesta para un WorkRequest                              | Exponer estado, técnico asignado y detalles del trabajo en formato accesible                                        | Usado en `WorkRequestController` para responder con datos procesados                           |
+  | Resource   | WorkerProfileResource                           | Estructura de petición para crear o modificar un perfil de Worker         | Representar datos como nombre, experiencia, contacto, categoría                                                     | Usado en `WorkerProfileController` para recibir información del Worker                        |
+  | Resource   | WorkerProfileResponseResource                   | Estructura de respuesta para un perfil de Worker                          | Exponer datos del técnico en formato accesible (estado, disponibilidad, contacto)                                   | Usado en `WorkerProfileController` para responder con datos procesados                        |
+  | Assembler  | CreateWorkRequestCommandFromResourceAssembler   | Convierte un recurso de petición en un `CreateWorkRequestCommand`         | Evitar acoplamiento entre la interfaz REST y la capa de aplicación                                                  | Usado en `WorkRequestController` para traducir la petición a comando                          |
+  | Assembler  | UpdateWorkRequestCommandFromResourceAssembler   | Convierte un recurso de petición en un `UpdateWorkRequestCommand`         | Evitar acoplamiento entre REST y la capa de aplicación                                                              | Usado en `WorkRequestController`                                                              |
+  | Assembler  | AcceptWorkRequestCommandFromResourceAssembler   | Convierte un recurso de petición en un `AcceptWorkRequestCommand`         | Traducir acción del Worker al comando correspondiente                                                              | Usado en `WorkRequestController`                                                              |
+  | Assembler  | CompleteWorkRequestCommandFromResourceAssembler | Convierte un recurso de petición en un `CompleteWorkRequestCommand`       | Traducir acción de finalizar trabajo al comando correspondiente                                                     | Usado en `WorkRequestController`                                                              |
+  | Assembler  | WorkRequestResourceFromEntityAssembler          | Convierte una entidad WorkRequest en un recurso de respuesta              | Asegurar respuesta consistente para el cliente                                                                      | Usado en `WorkRequestController` para retornar `WorkRequestResponseResource`                   |
+  | Assembler  | WorkerProfileResourceFromEntityAssembler        | Convierte una entidad WorkerProfile en un recurso de respuesta            | Asegurar respuesta consistente para el cliente                                                                      | Usado en `WorkerProfileController` para retornar `WorkerProfileResponseResource`               |
+  
+- **2.6.4.3. Application Layer**
+  **Sub-capa Internal**
+  
+  | Tipo           | Nombre                           | Descripción                                          | Responsabilidad Principal                                                                 | Relación con otros elementos                                                                 |
+  |----------------|----------------------------------|------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+  | CommandHandler | WorkRequestCommandServiceImpl    | Implementación de los comandos de WorkRequest        | Implementar métodos para crear, actualizar, aceptar y completar solicitudes de trabajo     | Implementa la interfaz `WorkRequestCommandService`. Usado por `WorkRequestController` y los CommandHandlers del dominio |
+  | QueryHandler   | WorkRequestQueryServiceImpl      | Implementación de las consultas de WorkRequest       | Implementar métodos para obtener solicitudes por estado, cliente o técnico                 | Implementa la interfaz `WorkRequestQueryService`. Usado por `WorkRequestController` y los QueryHandlers del dominio       |
+  | CommandHandler | WorkerProfileCommandServiceImpl  | Implementación de los comandos de WorkerProfile      | Implementar métodos para registrar y actualizar perfiles de técnicos                      | Implementa la interfaz `WorkerProfileCommandService`. Usado por `WorkerProfileController` y los CommandHandlers del dominio |
+  | QueryHandler   | WorkerProfileQueryServiceImpl    | Implementación de las consultas de WorkerProfile     | Implementar métodos para consultar perfiles por categoría, disponibilidad, experiencia     | Implementa la interfaz `WorkerProfileQueryService`. Usado por `WorkerProfileController` y los QueryHandlers del dominio   |
+
+- **2.6.4.4. Infrastructure Layer**
+  **Sub-capa Repository**
+  
+  | Tipo       | Nombre                  | Descripción                                   | Responsabilidad Principal                                              | Relación con otros elementos                                                                 |
+  |------------|-------------------------|-----------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+  | Repository | WorkRequestRepository   | Repositorio para el modelo `WorkRequest`      | Acceder y manipular datos persistidos de solicitudes de trabajo        | Usado en la capa Application por `WorkRequestCommandServiceImpl` y `WorkRequestQueryServiceImpl` |
+  | Repository | WorkerProfileRepository | Repositorio para el modelo `WorkerProfile`    | Acceder y manipular datos persistidos de perfiles de técnicos          | Usado en la capa Application por `WorkerProfileCommandServiceImpl` y `WorkerProfileQueryServiceImpl` |
+
+    - **2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**
+ <br><br>
+       El diagrama de componentes de Tec Section muestra la organización del sistema en dos módulos principales: WorkRequest y WorkerProfile, cada uno compuesto por cuatro elementos con responsabilidades específicas. Los Controllers cumplen el rol de exponer datos, actuando como interfaz REST para que los actores externos (Customer y Worker) interactúen con la aplicación. Los Services se encargan de ejecutar datos, orquestando la lógica de negocio mediante la creación, actualización y finalización de solicitudes. Los Resources permiten consultar datos, garantizando que la información del dominio se estructure y presente de manera consistente para su consumo. Finalmente, los Repositories se responsabilizan de modificar datos, encapsulando la persistencia y asegurando independencia entre el dominio y la infraestructura. Esta división modular garantiza claridad en las responsabilidades, bajo acoplamiento y facilidad de mantenimiento, siguiendo los principios de DDD y Clean Architecture.
+        <div align="center">
+        <img src="feature/chapter02/TecSection_Component.jpg">
+        </div>
+        <br>
+    - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
+   - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
+        <br><br>
+        Este diagrama UML representa la arquitectura de un sistema de gestión técnica centrado en la administración de secciones de trabajo, solicitudes de servicio y la interacción entre clientes (Customers) y técnicos (Technicians), teniendo como entidad principal a TecSection, la cual coordina la relación entre técnicos, solicitudes y servicios. Los principales componentes incluyen: Technician y Customer como actores principales, ServiceRequest como núcleo de la interacción entre cliente y técnico, Invoice y Payment para la gestión de facturación y cobros, Category para agrupar técnicos por especialidad, Review para la retroalimentación del cliente y Admin como supervisor del sistema. Las relaciones reflejan la lógica del dominio, donde un Customer puede generar múltiples solicitudes que se asignan a un Technician dentro de una TecSection, cada solicitud puede generar facturas y pagos, y los clientes pueden dejar reseñas sobre el servicio recibido. En conjunto, este diseño permite un sistema modular, escalable y mantenible, con una clara separación de responsabilidades que facilita su evolución futura.<br> <br>
+        <div align="center">
+        <img src="feature/chapter02/Diagrama_de_Datos_Bounded_TecSection.jpg">
+        </div>
+        <br>
+    - **2.6.4.6.2. Bounded Context Database Design Diagram**
+  <br><br>
+  <div align="center">
+  <img src="feature/chapter02/Diagrama_de_Datos_Bounded_TecSection_Diagrama_Base_Datos.jpg">
+  </div>
+  <br>
+  
+  **Tabla: WorkRequest**
+  
+  | Campo              | Tipo           | Descripción                                         |
+  |--------------------|----------------|-----------------------------------------------------|
+  | id                 | varchar(36)    | Identificador único de la solicitud (PK)            |
+  | title              | varchar(120)   | Título de la solicitud de trabajo                   |
+  | description        | varchar(300)   | Detalle de la solicitud                             |
+  | date               | datetime       | Fecha en la que se realizará el servicio            |
+  | time               | varchar(20)    | Hora programada del inicio del servicio             |
+  | endTime            | varchar(20)    | Hora estimada de finalización                       |
+  | technicianName     | varchar(120)   | Nombre del técnico asignado o del cliente           |
+  | address            | varchar(200)   | Dirección donde se realizará el trabajo             |
+  | mapImageUrl        | varchar(250)   | URL del mapa de referencia                          |
+  | dayText            | varchar(20)    | Texto descriptivo del día (Hoy, Mañana, etc.)       |
+  | finalAmount        | decimal(10,2)  | Monto final del servicio acordado                   |
+  | finalWorkDescription | varchar(250) | Descripción final del trabajo realizado             |
+  | status             | varchar(15)    | Estado de la solicitud (pending, accepted, etc.)    |
+  | worker_id          | int            | ID del Worker relacionado (FK)                      |
+  | created_at         | datetime       | Fecha de creación de la solicitud                   |
+  | updated_at         | datetime       | Fecha de última actualización de la solicitud       |
+
+
+
+
+
+
+
 
 
 
