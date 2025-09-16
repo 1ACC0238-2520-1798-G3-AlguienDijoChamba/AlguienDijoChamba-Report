@@ -144,8 +144,115 @@ Pensando en una app como Fix Now, ¿qué funciones te serían más útiles? (eje
 10. ¿Qué esperas de una plataforma como esta en términos de pagos, seguridad, comunicación con clientes y flexibilidad?
 11. ¿Qué valorarías más en una plataforma como Fix Now? (visibilidad, facilidad de pago, agenda organizada, historial de clientes, etc.)
 
-    - **2.2.2. Registro de entrevistas**
-    - **2.2.3. Análisis de entrevistas**
+   ### 2.2.2. Registro de entrevistas.
+**Entrevistas segmento 01: Tecnicos Profesionales**
+**Entrevista 1:**
+Datos del entrevistador:
+- Nombre: ---
+  
+Datos del entrevistado:
+- Nombre: ---
+- Edad: --
+- Distrito de residencia: --
+- Enlace: ---
+  
+colocar imagen
+
+**Resumen de la entrevista:**
+
+
+**Entrevista 2:**
+Datos del entrevistador:
+- Nombre: ---
+  
+Datos del entrevistado:
+- Nombre: --
+- Edad: ---
+- Distrito de residencia: ---
+- Enlace: ---
+  
+Colocar imageen
+
+**Resumen de la entrevista:**
+
+**Entrevista 3:**
+Datos del entrevistador:
+- Nombre: --
+  
+Datos del entrevistado:
+- Nombre: --
+- Edad: --
+- Distrito de residencia: --
+- Enlace: https:--
+
+colocar imagen
+
+**Resumen de la entrevista:**
+
+
+**Entrevistas segmento 02: Usuarios Clientes**
+**Entrevista 1:**
+Datos del entrevistador:
+- Nombre: Percy Alonso Muñiz 
+  
+Datos del entrevistado:
+- Nombre: Jarol Saquiray
+- Edad: 18 años
+- Distrito de residencia: Jesus Maria
+- Enlace: https: link
+  
+Agregar Imagen 
+
+**Resumen de la entrevista:**
+Jarol percibe una aplicación como Fix Now como una alternativa confiable frente a redes sociales. Le atrae la idea de técnicos verificados, pagos transparentes y beneficios a través de niveles. Considera que la principal propuesta de valor debe ser la confianza y la rapidez en la atención.
+
+**Entrevista 2:**
+Datos del entrevistador:
+- Nombre: Percy Alonso Muñiz Huayanca
+  
+Datos del entrevistado:
+- Nombre: Leonardo Caballa
+- Edad: 20 años
+- Distrito de residencia: Jesus Maria
+- Enlace:
+  
+Agregar Imagen
+
+**Resumen de la entrevista:**
+Leonardo identifica como problemas principales la informalidad y la falta de confianza al contratar técnicos por canales tradicionales. Percibe en Fix Now una solución viable gracias a la verificación de perfiles, la transparencia en costos y la facilidad de comunicación. Además, muestra interés en la gamificación y en sistemas de pago digital inmediato, lo cual refuerza la importancia de ofrecer seguridad, beneficios tangibles y una experiencia ágil para los usuarios.
+
+**Entrevista 3:**
+Datos del entrevistador:
+- Nombre: Percy Alonso Muñiz 
+  
+Datos del entrevistado:
+- Nombre: Angel Garcia
+- Edad: 21 años
+- Distrito de residencia: Surco
+- Enlace: 
+  
+Agregar Imagen
+
+**Resumen de la entrevista:**
+Ángel ve a Fix Now como una oportunidad para resolver problemas de informalidad, costos inesperados y falta de garantías en los servicios técnicos. Considera que la verificación de técnicos, la transparencia en precios y los pagos digitales inmediatos son elementos esenciales. Además, valora la incorporación de un sistema de niveles con beneficios y la posibilidad de integrar monitoreo inteligente en el hogar, lo cual refuerza el atractivo de la plataforma.
+
+### 2.2.3. Análisis de entrevistas.
+
+**Análisis segmento 01: Tecnicos Profesionales**
+--
+
+
+
+Agregar Imaagen
+
+**Analisis segmento 02: Usuarios Clientes**
+Las entrevistas evidencian una necesidad común de confianza, transparencia y seguridad al contratar técnicos. La propuesta de Fix Now resulta atractiva al combinar verificación de perfiles, referencias confiables, cotizaciones claras y pagos digitales inmediatos. Además, la incorporación de gamificación y monitoreo inteligente refuerza la diferenciación de la plataforma, respondiendo tanto a las expectativas prácticas (costos, rapidez, calidad) como a la generación de valor agregado en el hogar
+
+Agregar Imagen
+
+Conclusión
+En general, las entrevistas confirmaron que Fix Now responde a necesidades reales. Los clientes buscan seguridad, transparencia y facilidad. Los técnicos necesitan herramientas para crecer profesionalmente y llegar a más personas. Ambos segmentos mostraron interés en la propuesta y en las funcionalidades planteadas, lo cual refuerza el valor de la plataforma que estamos construyendo.
+
   - **2.3. Needfinding**
     - **2.3.1. User Personas**
 
@@ -424,6 +531,7 @@ Pensando en una app como Fix Now, ¿qué funciones te serían más útiles? (eje
       - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
         - **2.6.4.6.2. Bounded Context Database Design Diagram**
+
 
 
 
