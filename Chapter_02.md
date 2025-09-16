@@ -548,13 +548,32 @@ En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesid
 |-----------|---------------------|----------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | Service   | WorkRequestService  | Servicio simulado para manejar solicitudes de trabajo (mock).  | Retornar listado de solicitudes para un Worker o Customer (Observable).   | Usado en capa Application para renderizar en vistas de Worker y Customer                       |
 | Service   | WorkerApiService    | Servicio para integrar con el backend vía API REST             | Gestionar Workers, Customers, categorías y solicitudes en la base de datos | Se comunica con la API (`/api/v1/workers`, `/api/v1/users`, `/api/v1/categories`). Consumido en capa Application |
+
       - **2.6.4.2. Interface Layer**
+       **Sub-capa REST**
+  
+  | Tipo       | Nombre                                           | Descripción                                                              | Responsabilidad Principal                                                                                          | Relación con otros elementos                                                                 |
+  |------------|--------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+  | Controller | WorkRequestController                           | Controlador REST para gestionar solicitudes de trabajo                   | Recibir solicitudes de Customer (crear, actualizar, listar) y de Worker (aceptar, completar), y coordinar comandos | Utiliza `WorkRequestResource`, `WorkRequestResponseResource` y los assemblers correspondientes |
+  | Controller | WorkerProfileController                         | Controlador REST para gestionar perfiles de técnicos                     | Exponer endpoints para registrar, actualizar y consultar información de Worker                                     | Utiliza `WorkerProfileResource`, `WorkerProfileResponseResource` y los assemblers correspondientes |
+  | Resource   | WorkRequestResource                             | Estructura de una petición para crear o modificar un WorkRequest          | Representar datos del dominio (dirección, fecha, descripción, categoría, etc.) de forma accesible al Cliente        | Usado en `WorkRequestController` para recibir datos estructurados del Customer                 |
+  | Resource   | WorkRequestResponseResource                     | Estructura de respuesta para un WorkRequest                              | Exponer estado, técnico asignado y detalles del trabajo en formato accesible                                        | Usado en `WorkRequestController` para responder con datos procesados                           |
+  | Resource   | WorkerProfileResource                           | Estructura de petición para crear o modificar un perfil de Worker         | Representar datos como nombre, experiencia, contacto, categoría                                                     | Usado en `WorkerProfileController` para recibir información del Worker                        |
+  | Resource   | WorkerProfileResponseResource                   | Estructura de respuesta para un perfil de Worker                          | Exponer datos del técnico en formato accesible (estado, disponibilidad, contacto)                                   | Usado en `WorkerProfileController` para responder con datos procesados                        |
+  | Assembler  | CreateWorkRequestCommandFromResourceAssembler   | Convierte un recurso de petición en un `CreateWorkRequestCommand`         | Evitar acoplamiento entre la interfaz REST y la capa de aplicación                                                  | Usado en `WorkRequestController` para traducir la petición a comando                          |
+  | Assembler  | UpdateWorkRequestCommandFromResourceAssembler   | Convierte un recurso de petición en un `UpdateWorkRequestCommand`         | Evitar acoplamiento entre REST y la capa de aplicación                                                              | Usado en `WorkRequestController`                                                              |
+  | Assembler  | AcceptWorkRequestCommandFromResourceAssembler   | Convierte un recurso de petición en un `AcceptWorkRequestCommand`         | Traducir acción del Worker al comando correspondiente                                                              | Usado en `WorkRequestController`                                                              |
+  | Assembler  | CompleteWorkRequestCommandFromResourceAssembler | Convierte un recurso de petición en un `CompleteWorkRequestCommand`       | Traducir acción de finalizar trabajo al comando correspondiente                                                     | Usado en `WorkRequestController`                                                              |
+  | Assembler  | WorkRequestResourceFromEntityAssembler          | Convierte una entidad WorkRequest en un recurso de respuesta              | Asegurar respuesta consistente para el cliente                                                                      | Usado en `WorkRequestController` para retornar `WorkRequestResponseResource`                   |
+  | Assembler  | WorkerProfileResourceFromEntityAssembler        | Convierte una entidad WorkerProfile en un recurso de respuesta            | Asegurar respuesta consistente para el cliente                                                                      | Usado en `WorkerProfileController` para retornar `WorkerProfileResponseResource`               |
+  
       - **2.6.4.3. Application Layer**
       - **2.6.4.4. Infrastructure Layer**
       - **2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**
       - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
         - **2.6.4.6.2. Bounded Context Database Design Diagram**
+
 
 
 
