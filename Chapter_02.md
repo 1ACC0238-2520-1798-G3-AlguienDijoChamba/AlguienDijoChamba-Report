@@ -524,6 +524,30 @@ En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesid
 
     - **2.6.4. Bounded Context: Tec-Section**
       - **2.6.4.1. Domain Layer**
+        
+        <br>**Sub-capa Model:**
+        
+| Tipo         | Nombre         | Descripción                                                         | Responsabilidad Principal                                   | Relación con otros elementos                                                                                  |
+|--------------|----------------|---------------------------------------------------------------------|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| Aggregate    | WorkRequest    | Entidad que representa una solicitud de trabajo                     | Ser el punto de entrada para gestionar trabajos solicitados | Relacionado con WorkerProfile para asignar técnicos y con los servicios que manejan solicitudes               |
+| Value Object | WorkStatus     | Value object dentro de WorkRequest                                  | Representa el estado del trabajo (pending, accepted, etc.)  | Relacionado con WorkRequest                                                                                    |
+| Value Object | WorkDetails    | Value object dentro de WorkRequest                                  | Representa descripción final, monto y horario               | Relacionado con WorkRequest                                                                                    |
+| Aggregate    | WorkerProfile  | Entidad que representa el perfil del técnico                        | Ser el punto de entrada para gestionar información de Worker | Relacionado con WorkRequest, ya que es quien recibe o acepta las solicitudes de trabajo                       |
+| Value Object | WorkerStatus   | Value object dentro de WorkerProfile                                | Representa el estado del técnico (PENDING_APPROVAL, ACTIVE) | Relacionado con WorkerProfile                                                                                  |
+| Value Object | WorkerContact  | Value object dentro de WorkerProfile                                | Contiene información de contacto como email y teléfono      | Relacionado con WorkerProfile                                                                                  |
+| Command      | CreateWorkRequestCommand | Comando para crear una solicitud de trabajo          | Encapsular datos requeridos para generar un nuevo WorkRequest | Usado cuando un Customer registra un nuevo trabajo                                                                |
+| Command      | UpdateWorkRequestCommand | Comando para actualizar datos de un WorkRequest     | Modificar datos como fecha, dirección o descripción         | Usado por el Customer antes de que un Worker lo acepte                                                               |
+| Command      | AcceptWorkRequestCommand | Comando para aceptar un trabajo solicitado         | Modificar estado de WorkRequest a "accepted"                | Usado cuando un Worker acepta el trabajo                                                                              |
+| Command      | CompleteWorkRequestCommand | Comando para marcar un trabajo como completado     | Modificar estado y registrar monto y descripción final      | Usado por el Worker al finalizar el servicio                                                                        |
+| Query        | GetWorkRequestsByWorkerQuery | Consulta para obtener solicitudes por Worker      | Recuperar las solicitudes asignadas a un Worker             | Usado en la sección de solicitudes del Worker                                                                      |
+| Query        | GetWorkRequestsByCustomerQuery | Consulta para obtener solicitudes por Customer    | Recuperar las solicitudes hechas por un Customer            | Usado en la sección de solicitudes del Customer                                                                  |
+
+  **Sub-capa Service:**
+    
+| Tipo      | Nombre              | Descripción                                                    | Responsabilidad Principal                                                | Relación con otros elementos                                                                   |
+|-----------|---------------------|----------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Service   | WorkRequestService  | Servicio simulado para manejar solicitudes de trabajo (mock).  | Retornar listado de solicitudes para un Worker o Customer (Observable).   | Usado en capa Application para renderizar en vistas de Worker y Customer                       |
+| Service   | WorkerApiService    | Servicio para integrar con el backend vía API REST             | Gestionar Workers, Customers, categorías y solicitudes en la base de datos | Se comunica con la API (`/api/v1/workers`, `/api/v1/users`, `/api/v1/categories`). Consumido en capa Application |
       - **2.6.4.2. Interface Layer**
       - **2.6.4.3. Application Layer**
       - **2.6.4.4. Infrastructure Layer**
@@ -531,6 +555,7 @@ En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesid
       - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
         - **2.6.4.6.2. Bounded Context Database Design Diagram**
+
 
 
 
