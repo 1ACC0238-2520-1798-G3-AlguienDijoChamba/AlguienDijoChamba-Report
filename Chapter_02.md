@@ -603,7 +603,7 @@ En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesid
     - **2.6.4.6.2. Bounded Context Database Design Diagram**
   <br><br>
   <div align="center">
-  <img src="feature/chapter02/Diagrama_de_Datos_Bounded_TecSection_Diagrama_Base_Datos.png">
+  <img src="feature/chapter02/Diagrama_de_Datos_Bounded_TecSection_Diagrama_Base_Datos.jpg">
   </div>
   <br>
   
@@ -627,6 +627,7 @@ En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesid
   | worker_id          | int            | ID del Worker relacionado (FK)                      |
   | created_at         | datetime       | Fecha de creación de la solicitud                   |
   | updated_at         | datetime       | Fecha de última actualización de la solicitud       |
+
 
 
 
