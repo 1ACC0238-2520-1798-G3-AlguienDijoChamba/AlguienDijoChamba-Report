@@ -114,144 +114,148 @@
   - **2.2. Entrevistas**
     - **2.2.1. Diseño de entrevistas**
       
-Con el propósito de identificar de manera más clara las necesidades, comportamientos y expectativas de nuestros usuarios potenciales, hemos elaborado un conjunto de entrevistas. Estas están enfocadas en evaluar la aceptación y el interés por los servicios que plantea AlguienDijoChamba, tanto desde la perspectiva de los hogares que requieren asistencia como desde la de los técnicos que ofrecen su trabajo.
+        Con el propósito de identificar de manera más clara las necesidades, comportamientos y expectativas de nuestros usuarios potenciales, hemos elaborado un conjunto de entrevistas. Estas están enfocadas en evaluar la aceptación y el interés por los servicios que plantea AlguienDijoChamba, tanto desde la perspectiva de los hogares que requieren asistencia como desde la de los técnicos que ofrecen su trabajo.
 
-**Preguntas para el segmento hogares #1: AlguienDijoChamba **.
+        **Preguntas para el segmento Objetivo 1: Profesionales Tecnicos**
 
-1. En tu casa, ¿cada cuánto tiempo sueles necesitar servicios de técnicos como fontaneros, electricistas o carpinteros?
-2. Cuando surge un problema en tu hogar, ¿cómo sueles encontrar a un técnico? (ejemplo: recomendaciones, redes sociales, directorios, etc.)
-3. ¿Qué dificultades has tenido al buscar un técnico confiable para tu casa?
-4. ¿Qué tan importante es para ti conocer las referencias, calificaciones o experiencia de un técnico antes de contratarlo?
-5. ¿Alguna vez has usado una aplicación o página web para contratar un técnico? ¿Cómo fue tu experiencia?
-6. Si existiera una app que verificara la identidad y experiencia de los técnicos, ¿te daría más confianza contratar por ahí?
-7. Si una app ofreciera un sistema de niveles (Bronce, Plata, Oro) que te otorgue beneficios como descuentos, acceso a técnicos preferenciales o soporte prioritario, ¿qué tan atractivo te parecería?
-8. ¿Qué beneficios esperarías recibir para motivarte a subir de nivel en un sistema de gamificación como este?
-9. ¿Qué opinas de que los técnicos reciban el pago inmediatamente al finalizar el servicio? ¿Crees que eso aumentaría tu confianza como usuario?
-Pensando en una app como AlguienDijoChamba, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
-10. Pensando en una app como AlguienDijoChamba, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
+      1. En tu casa, ¿cada cuánto tiempo sueles necesitar servicios de técnicos como fontaneros, electricistas o carpinteros?
+      2. Cuando surge un problema en tu hogar, ¿cómo sueles encontrar a un técnico? (ejemplo: recomendaciones, redes sociales, directorios, etc.)
+      3. ¿Qué dificultades has tenido al buscar un técnico confiable para tu casa?
+      4. ¿Qué tan importante es para ti conocer las referencias, calificaciones o experiencia de un técnico antes de contratarlo?
+      5. ¿Alguna vez has usado una aplicación o página web para contratar un técnico? ¿Cómo fue tu experiencia?
+      6. Si existiera una app que verificara la identidad y experiencia de los técnicos, ¿te daría más confianza contratar por ahí?
+      7. Si una app ofreciera un sistema de niveles (Bronce, Plata, Oro) que te otorgue beneficios como descuentos, acceso a técnicos preferenciales o soporte prioritario, ¿qué tan atractivo te parecería?
+      8. ¿Qué beneficios esperarías recibir para motivarte a subir de nivel en un sistema de gamificación como este?
+      9. ¿Qué opinas de que los técnicos reciban el pago inmediatamente al finalizar el servicio? ¿Crees que eso aumentaría tu confianza como usuario?
+      Pensando en una app como AlguienDijoChamba, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
+      10. Pensando en una app como AlguienDijoChamba, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
 
-**Preguntas para el segmento Trabajadores #2: AlguienDijoChamba**.
+        **Preguntas para el segmento Objetivo 2: Clientes**
 
-1. ¿A qué oficio te dedicas actualmente? (fontanero, electricista, carpintero, etc.)
-2. ¿Cómo consigues hoy a tus clientes? (recomendaciones, redes sociales, volanteo, etc.)
-3. ¿Qué dificultades tienes al buscar nuevos clientes o mantener un flujo constante de trabajo?
-4. ¿Has usado antes una aplicación o plataforma digital para ofrecer tus servicios? ¿Qué tal fue tu experiencia?
-5. Si existiera una app como AlguienDijoChamba, ¿qué herramientas te gustaría que incluya para facilitar tu trabajo? (agenda, cotizaciones, chat, pagos, etc.)
-6. ¿Qué tan importante sería para ti contar con un perfil verificado y calificaciones que destaquen tu experiencia?
-7. ¿Qué opinas de un sistema de gamificación con niveles (Bronce, Plata, Oro) que te dé beneficios como mayor visibilidad, prioridad en solicitudes o menos comisión? ¿Lo considerarías motivador?
-8. ¿Qué beneficios te gustaría recibir al subir de nivel en este sistema?
-9. ¿Qué tan atractivo te resulta que la app te pague de forma instantánea al terminar el servicio, sin esperar días o trámites adicionales?
-10. ¿Qué esperas de una plataforma como esta en términos de pagos, seguridad, comunicación con clientes y flexibilidad?
-11. ¿Qué valorarías más en una plataforma como AlguienDijoChamba? (visibilidad, facilidad de pago, agenda organizada, historial de clientes, etc.)
+        1. ¿A qué oficio te dedicas actualmente? (fontanero, electricista, carpintero, etc.)
+        2. ¿Cómo consigues hoy a tus clientes? (recomendaciones, redes sociales, volanteo, etc.)
+        3. ¿Qué dificultades tienes al buscar nuevos clientes o mantener un flujo constante de trabajo?
+        4. ¿Has usado antes una aplicación o plataforma digital para ofrecer tus servicios? ¿Qué tal fue tu experiencia?
+        5. Si existiera una app como AlguienDijoChamba, ¿qué herramientas te gustaría que incluya para facilitar tu trabajo? (agenda, cotizaciones, chat, pagos, etc.)
+        6. ¿Qué tan importante sería para ti contar con un perfil verificado y calificaciones que destaquen tu experiencia?
+        7. ¿Qué opinas de un sistema de gamificación con niveles (Bronce, Plata, Oro) que te dé beneficios como mayor visibilidad, prioridad en solicitudes o menos comisión? ¿Lo considerarías motivador?
+        8. ¿Qué beneficios te gustaría recibir al subir de nivel en este sistema?
+        9. ¿Qué tan atractivo te resulta que la app te pague de forma instantánea al terminar el servicio, sin esperar días o trámites adicionales?
+        10. ¿Qué esperas de una plataforma como esta en términos de pagos, seguridad, comunicación con clientes y flexibilidad?
+        11. ¿Qué valorarías más en una plataforma como AlguienDijoChamba? (visibilidad, facilidad de pago, agenda organizada, historial de clientes, etc.)
 
-   ### 2.2.2. Registro de entrevistas.
-**Entrevistas segmento 01: Tecnicos Profesionales**
-**Entrevista 1:**
-Datos del entrevistador:
-- Nombre: ---
-  
-Datos del entrevistado:
-- Nombre: ---
-- Edad: --
-- Distrito de residencia: --
-- Enlace: ---
-  
-colocar imagen
+  - **2.2.2. Registro de entrevistas**
 
-**Resumen de la entrevista:**
+    **Entrevistas Segmento Objetivo 1: Profesionales Tecnicos**
 
+      **Entrevista 1:**
+      Datos del entrevistador:
+      - Nombre: ---
+        
+      Datos del entrevistado:
+      - Nombre: ---
+      - Edad: --
+      - Distrito de residencia: --
+      - Enlace: ---
+        
+      colocar imagen
 
-**Entrevista 2:**
-Datos del entrevistador:
-- Nombre: ---
-  
-Datos del entrevistado:
-- Nombre: --
-- Edad: ---
-- Distrito de residencia: ---
-- Enlace: ---
-  
-Colocar imageen
-
-**Resumen de la entrevista:**
-
-**Entrevista 3:**
-Datos del entrevistador:
-- Nombre: --
-  
-Datos del entrevistado:
-- Nombre: --
-- Edad: --
-- Distrito de residencia: --
-- Enlace: https:--
-
-colocar imagen
-
-**Resumen de la entrevista:**
+      **Resumen de la entrevista:**
 
 
-**Entrevistas segmento 02: Usuarios Clientes**
-**Entrevista 1:**
-Datos del entrevistador:
-- Nombre: Percy Alonso Muñiz 
-  
-Datos del entrevistado:
-- Nombre: Jarol Saquiray
-- Edad: 18 años
-- Distrito de residencia: Jesus Maria
-- Enlace: https: link
-  
-Agregar Imagen 
+      **Entrevista 2:**
+      Datos del entrevistador:
+      - Nombre: ---
+        
+      Datos del entrevistado:
+      - Nombre: --
+      - Edad: ---
+      - Distrito de residencia: ---
+      - Enlace: ---
+        
+      Colocar imageen
 
-**Resumen de la entrevista:**
-Jarol percibe una aplicación como AlguienDijoChamba como una alternativa confiable frente a redes sociales. Le atrae la idea de técnicos verificados, pagos transparentes y beneficios a través de niveles. Considera que la principal propuesta de valor debe ser la confianza y la rapidez en la atención.
+      **Resumen de la entrevista:**
 
-**Entrevista 2:**
-Datos del entrevistador:
-- Nombre: Percy Alonso Muñiz Huayanca
-  
-Datos del entrevistado:
-- Nombre: Leonardo Caballa
-- Edad: 20 años
-- Distrito de residencia: Jesus Maria
-- Enlace:
-  
-Agregar Imagen
+      **Entrevista 3:**
+      Datos del entrevistador:
+      - Nombre: --
+        
+      Datos del entrevistado:
+      - Nombre: --
+      - Edad: --
+      - Distrito de residencia: --
+      - Enlace: https:--
 
-**Resumen de la entrevista:**
-Leonardo identifica como problemas principales la informalidad y la falta de confianza al contratar técnicos por canales tradicionales. Percibe en AlguienDijoChamba una solución viable gracias a la verificación de perfiles, la transparencia en costos y la facilidad de comunicación. Además, muestra interés en la gamificación y en sistemas de pago digital inmediato, lo cual refuerza la importancia de ofrecer seguridad, beneficios tangibles y una experiencia ágil para los usuarios.
+      colocar imagen
 
-**Entrevista 3:**
-Datos del entrevistador:
-- Nombre: Percy Alonso Muñiz 
-  
-Datos del entrevistado:
-- Nombre: Angel Garcia
-- Edad: 21 años
-- Distrito de residencia: Surco
-- Enlace: 
-  
-Agregar Imagen
-
-**Resumen de la entrevista:**
-Ángel ve a AlguienDijoChamba como una oportunidad para resolver problemas de informalidad, costos inesperados y falta de garantías en los servicios técnicos. Considera que la verificación de técnicos, la transparencia en precios y los pagos digitales inmediatos son elementos esenciales. Además, valora la incorporación de un sistema de niveles con beneficios y la posibilidad de integrar monitoreo inteligente en el hogar, lo cual refuerza el atractivo de la plataforma.
-
-### 2.2.3. Análisis de entrevistas.
-
-**Análisis segmento 01: Tecnicos Profesionales**
---
+      **Resumen de la entrevista:**
 
 
+      **Entrevistas Segmento Objetivo 2: Clientes**
 
-Agregar Imaagen
+      **Entrevista 1:**
+      Datos del entrevistador:
+      - Nombre: Percy Alonso Muñiz 
+        
+      Datos del entrevistado:
+      - Nombre: Jarol Saquiray
+      - Edad: 18 años
+      - Distrito de residencia: Jesus Maria
+      - Enlace: https: link
+        
+      Agregar Imagen 
 
-**Analisis segmento 02: Usuarios Clientes**
-Las entrevistas evidencian una necesidad común de confianza, transparencia y seguridad al contratar técnicos. La propuesta de AlguienDijoChamba resulta atractiva al combinar verificación de perfiles, referencias confiables, cotizaciones claras y pagos digitales inmediatos. Además, la incorporación de gamificación y monitoreo inteligente refuerza la diferenciación de la plataforma, respondiendo tanto a las expectativas prácticas (costos, rapidez, calidad) como a la generación de valor agregado en el hogar
+      **Resumen de la entrevista:**
 
-Agregar Imagen
+      Jarol percibe una aplicación como AlguienDijoChamba como una alternativa confiable frente a redes sociales. Le atrae la idea de técnicos verificados, pagos transparentes y beneficios a través de niveles. Considera que la principal propuesta de valor debe ser la confianza y la rapidez en la atención.
 
-Conclusión
-En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesidades reales. Los clientes buscan seguridad, transparencia y facilidad. Los técnicos necesitan herramientas para crecer profesionalmente y llegar a más personas. Ambos segmentos mostraron interés en la propuesta y en las funcionalidades planteadas, lo cual refuerza el valor de la plataforma que estamos construyendo.
+      **Entrevista 2:**
+      Datos del entrevistador:
+      - Nombre: Percy Alonso Muñiz Huayanca
+        
+      Datos del entrevistado:
+      - Nombre: Leonardo Caballa
+      - Edad: 20 años
+      - Distrito de residencia: Jesus Maria
+      - Enlace:
+        
+      Agregar Imagen
+
+      **Resumen de la entrevista:**
+
+      Leonardo identifica como problemas principales la informalidad y la falta de confianza al contratar técnicos por canales tradicionales. Percibe en AlguienDijoChamba una solución viable gracias a la verificación de perfiles, la transparencia en costos y la facilidad de comunicación. Además, muestra interés en la gamificación y en sistemas de pago digital inmediato, lo cual refuerza la importancia de ofrecer seguridad, beneficios tangibles y una experiencia ágil para los usuarios.
+
+      **Entrevista 3:**
+      Datos del entrevistador:
+      - Nombre: Percy Alonso Muñiz 
+        
+      Datos del entrevistado:
+      - Nombre: Angel Garcia
+      - Edad: 21 años
+      - Distrito de residencia: Surco
+      - Enlace: 
+        
+      Agregar Imagen
+
+      **Resumen de la entrevista:**
+
+      Ángel ve a AlguienDijoChamba como una oportunidad para resolver problemas de informalidad, costos inesperados y falta de garantías en los servicios técnicos. Considera que la verificación de técnicos, la transparencia en precios y los pagos digitales inmediatos son elementos esenciales. Además, valora la incorporación de un sistema de niveles con beneficios y la posibilidad de integrar monitoreo inteligente en el hogar, lo cual refuerza el atractivo de la plataforma.
+
+   - **2.2.3. Análisis de entrevistas**
+
+      **Análisis Segmento Objetivo 1: Profesionales Tecnicos**
+
+      Agregar Imaagen
+
+      **Analisis Segmento Objetivo 2: Clientes**
+
+      Las entrevistas evidencian una necesidad común de confianza, transparencia y seguridad al contratar técnicos. La propuesta de AlguienDijoChamba resulta atractiva al combinar verificación de perfiles, referencias confiables, cotizaciones claras y pagos digitales inmediatos. Además, la incorporación de gamificación y monitoreo inteligente refuerza la diferenciación de la plataforma, respondiendo tanto a las expectativas prácticas (costos, rapidez, calidad) como a la generación de valor agregado en el hogar
+
+      Agregar Imagen
+
+      Conclusión
+      En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesidades reales. Los clientes buscan seguridad, transparencia y facilidad. Los técnicos necesitan herramientas para crecer profesionalmente y llegar a más personas. Ambos segmentos mostraron interés en la propuesta y en las funcionalidades planteadas, lo cual refuerza el valor de la plataforma que estamos construyendo.
 
   - **2.3. Needfinding**
     - **2.3.1. User Personas**
@@ -446,14 +450,65 @@ En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesid
         - **2.6.1.6.1. Bounded Context Domain Layer Class Diagrams**
         - **2.6.1.6.2. Bounded Context Database Design Diagram**
     - **2.6.2. Bounded Context: Payments**
-      - **2.6.2.1. Domain Layer**
-      - **2.6.2.2. Interface Layer**
-      - **2.6.2.3. Application Layer**
-      - **2.6.2.4. Infrastructure Layer**
+      - **2.6.2.1. Domain Layer** <br>
+      
+        **Sub-capa Model:**
+
+        | Tipo     | Nombre     | Descripción                                                                 | Responsabilidad Principal                                    | Relación con otros elementos                  |
+        |----------|------------|-----------------------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------------------|
+        | Entity   | Payment    | Representa un pago realizado por un cliente a un técnico.                   | Gestionar información del pago (monto, estado, fecha).       | Relación con `Customer`, `Worker`, `Order`.   |
+        | Entity   | Transaction| Registro detallado de la operación financiera.                             | Validar y asegurar consistencia de la transacción.           | Asociado a `Payment`.                         |
+        | ValueObj | Amount     | Valor del monto a pagar en una transacción.                                | Garantizar formato, precisión y reglas de negocio de dinero. | Parte de `Payment` y `Transaction`.           |
+        | Entity   | Order      | Representa el servicio acordado entre cliente y técnico.                   | Conectar el servicio contratado con su pago.                 | Relación con `Customer` y `Worker`.           |
+
+        **Sub-capa Services**
+
+        | Tipo      | Nombre             | Descripción                                                     | Responsabilidad Principal                           | Relación con otros elementos            |
+        |-----------|--------------------|-----------------------------------------------------------------|----------------------------------------------------|-----------------------------------------|
+        | Service   | PaymentService     | Lógica de negocio para procesar pagos y actualizarlos.           | Ejecutar, confirmar o rechazar pagos.               | Usa `PaymentRepository`, `Transaction`. |
+        | Service   | RefundService      | Gestiona devoluciones de pagos.                                 | Permitir reembolsos y actualizar estados.           | Relación con `Payment`, `Order`.        |
+        | Service   | ValidationService  | Reglas de validación de datos en el proceso de pago.            | Validar montos, usuarios y métodos de pago.         | Usado por `PaymentService`.             |
+        
+      - **2.6.2.2. Interface Layer** <br>
+
+        **Sub-capa REST**
+        | Tipo     | Nombre             | Descripción                                               | Responsabilidad Principal                          | Relación con otros elementos      |
+        |----------|--------------------|-----------------------------------------------------------|---------------------------------------------------|-----------------------------------|
+        | Endpoint | POST /payments     | Endpoint para crear un nuevo pago.                        | Registrar un pago asociado a una orden.            | Llama a `PaymentService`.         |
+        | Endpoint | GET /payments/{id} | Obtiene detalles de un pago específico.                   | Consultar información del pago.                    | Usa `PaymentRepository`.           |
+        | Endpoint | POST /refunds      | Procesa una solicitud de reembolso.                       | Ejecutar lógica de devolución de dinero.           | Llama a `RefundService`.           |
+
+      - **2.6.2.3. Application Layer** <br>
+
+        **Sub-capa Internal**
+        | Tipo         | Nombre            | Descripción                                             | Responsabilidad Principal                          | Relación con otros elementos |
+        |--------------|-------------------|---------------------------------------------------------|---------------------------------------------------|--------------------------------|
+        | Use Case     | ProcessPayment    | Caso de uso para gestionar un pago desde inicio a fin.  | Coordinar servicios de validación y repositorio.   | `PaymentService`, `Transaction`.|
+        | Use Case     | IssueRefund       | Caso de uso para ejecutar devolución de dinero.         | Coordinar validación, ejecución y actualización.   | `RefundService`.               |
+
+        **Sub-capa External**
+        | Tipo       | Nombre             | Descripción                                             | Responsabilidad Principal                          | Relación con otros elementos |
+        |------------|--------------------|---------------------------------------------------------|---------------------------------------------------|--------------------------------|
+        | Gateway    | PaymentGateway     | Integración con pasarela de pago externa (ej. Stripe).  | Conectar con sistemas externos de cobro.          | Llamado por `PaymentService`.  |  
+
+      - **2.6.2.4. Infrastructure Layer**<br>
+
+        **Sub-capa Repository**
+        | Tipo         | Nombre               | Descripción                                             | Responsabilidad Principal                          | Relación con otros elementos |
+        |--------------|----------------------|---------------------------------------------------------|---------------------------------------------------|--------------------------------|
+        | Repository   | PaymentRepository    | Repositorio para CRUD de pagos.                        | Persistencia y consultas de la entidad `Payment`.  | Relación con `Database`.      |
+        | Repository   | TransactionRepository| Repositorio para registros de transacciones.           | Guardar y recuperar `Transaction`.                 | Relación con `Database`.      |
+
       - **2.6.2.5. Bounded Context Software Architecture Component Level Diagrams**
+        <img src="./feature/chapter02/Payments.png"/>
+
       - **2.6.2.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.2.6.1. Bounded Context Domain Layer Class Diagrams**
+        <img src="./feature/chapter02/Class_diagram_payments.png"/>
         - **2.6.2.6.2. Bounded Context Database Design Diagram**
+
+        <img src="./feature/chapter02/Datebase diagram payments.png"/>
+        
     - **2.6.3. Bounded Context: Alerts**
     
       - **2.6.3.1. Domain Layer**
