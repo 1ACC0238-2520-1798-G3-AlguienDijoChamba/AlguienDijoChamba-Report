@@ -116,7 +116,7 @@
       
 Con el propósito de identificar de manera más clara las necesidades, comportamientos y expectativas de nuestros usuarios potenciales, hemos elaborado un conjunto de entrevistas. Estas están enfocadas en evaluar la aceptación y el interés por los servicios que plantea Fix Now, tanto desde la perspectiva de los hogares que requieren asistencia como desde la de los técnicos que ofrecen su trabajo.
 
-**Preguntas para el segmento hogares #1: Fix Now (conexión con técnicos más monitoreo inteligente)**.
+**Preguntas para el segmento hogares #1: AlguienDijoChamba **.
 
 1. En tu casa, ¿cada cuánto tiempo sueles necesitar servicios de técnicos como fontaneros, electricistas o carpinteros?
 2. Cuando surge un problema en tu hogar, ¿cómo sueles encontrar a un técnico? (ejemplo: recomendaciones, redes sociales, directorios, etc.)
@@ -127,22 +127,22 @@ Con el propósito de identificar de manera más clara las necesidades, comportam
 7. Si una app ofreciera un sistema de niveles (Bronce, Plata, Oro) que te otorgue beneficios como descuentos, acceso a técnicos preferenciales o soporte prioritario, ¿qué tan atractivo te parecería?
 8. ¿Qué beneficios esperarías recibir para motivarte a subir de nivel en un sistema de gamificación como este?
 9. ¿Qué opinas de que los técnicos reciban el pago inmediatamente al finalizar el servicio? ¿Crees que eso aumentaría tu confianza como usuario?
-Pensando en una app como Fix Now, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
-10. Pensando en una app como Fix Now, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
+Pensando en una app como AlguienDijoChamba, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
+10. Pensando en una app como AlguienDijoChamba, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
 
-**Preguntas para el segmento Trabajadores #2: Fix Now (conexión con técnicos más monitoreo inteligente)**.
+**Preguntas para el segmento Trabajadores #2: AlguienDijoChamba**.
 
 1. ¿A qué oficio te dedicas actualmente? (fontanero, electricista, carpintero, etc.)
 2. ¿Cómo consigues hoy a tus clientes? (recomendaciones, redes sociales, volanteo, etc.)
 3. ¿Qué dificultades tienes al buscar nuevos clientes o mantener un flujo constante de trabajo?
 4. ¿Has usado antes una aplicación o plataforma digital para ofrecer tus servicios? ¿Qué tal fue tu experiencia?
-5. Si existiera una app como Fix Now, ¿qué herramientas te gustaría que incluya para facilitar tu trabajo? (agenda, cotizaciones, chat, pagos, etc.)
+5. Si existiera una app como AlguienDijoChamba, ¿qué herramientas te gustaría que incluya para facilitar tu trabajo? (agenda, cotizaciones, chat, pagos, etc.)
 6. ¿Qué tan importante sería para ti contar con un perfil verificado y calificaciones que destaquen tu experiencia?
 7. ¿Qué opinas de un sistema de gamificación con niveles (Bronce, Plata, Oro) que te dé beneficios como mayor visibilidad, prioridad en solicitudes o menos comisión? ¿Lo considerarías motivador?
 8. ¿Qué beneficios te gustaría recibir al subir de nivel en este sistema?
 9. ¿Qué tan atractivo te resulta que la app te pague de forma instantánea al terminar el servicio, sin esperar días o trámites adicionales?
 10. ¿Qué esperas de una plataforma como esta en términos de pagos, seguridad, comunicación con clientes y flexibilidad?
-11. ¿Qué valorarías más en una plataforma como Fix Now? (visibilidad, facilidad de pago, agenda organizada, historial de clientes, etc.)
+11. ¿Qué valorarías más en una plataforma como AlguienDijoChamba? (visibilidad, facilidad de pago, agenda organizada, historial de clientes, etc.)
 
    ### 2.2.2. Registro de entrevistas.
 **Entrevistas segmento 01: Tecnicos Profesionales**
@@ -204,7 +204,7 @@ Datos del entrevistado:
 Agregar Imagen 
 
 **Resumen de la entrevista:**
-Jarol percibe una aplicación como Fix Now como una alternativa confiable frente a redes sociales. Le atrae la idea de técnicos verificados, pagos transparentes y beneficios a través de niveles. Considera que la principal propuesta de valor debe ser la confianza y la rapidez en la atención.
+Jarol percibe una aplicación como AlguienDijoChamba como una alternativa confiable frente a redes sociales. Le atrae la idea de técnicos verificados, pagos transparentes y beneficios a través de niveles. Considera que la principal propuesta de valor debe ser la confianza y la rapidez en la atención.
 
 **Entrevista 2:**
 Datos del entrevistador:
@@ -219,7 +219,7 @@ Datos del entrevistado:
 Agregar Imagen
 
 **Resumen de la entrevista:**
-Leonardo identifica como problemas principales la informalidad y la falta de confianza al contratar técnicos por canales tradicionales. Percibe en Fix Now una solución viable gracias a la verificación de perfiles, la transparencia en costos y la facilidad de comunicación. Además, muestra interés en la gamificación y en sistemas de pago digital inmediato, lo cual refuerza la importancia de ofrecer seguridad, beneficios tangibles y una experiencia ágil para los usuarios.
+Leonardo identifica como problemas principales la informalidad y la falta de confianza al contratar técnicos por canales tradicionales. Percibe en AlguienDijoChamba una solución viable gracias a la verificación de perfiles, la transparencia en costos y la facilidad de comunicación. Además, muestra interés en la gamificación y en sistemas de pago digital inmediato, lo cual refuerza la importancia de ofrecer seguridad, beneficios tangibles y una experiencia ágil para los usuarios.
 
 **Entrevista 3:**
 Datos del entrevistador:
@@ -234,7 +234,7 @@ Datos del entrevistado:
 Agregar Imagen
 
 **Resumen de la entrevista:**
-Ángel ve a Fix Now como una oportunidad para resolver problemas de informalidad, costos inesperados y falta de garantías en los servicios técnicos. Considera que la verificación de técnicos, la transparencia en precios y los pagos digitales inmediatos son elementos esenciales. Además, valora la incorporación de un sistema de niveles con beneficios y la posibilidad de integrar monitoreo inteligente en el hogar, lo cual refuerza el atractivo de la plataforma.
+Ángel ve a AlguienDijoChamba como una oportunidad para resolver problemas de informalidad, costos inesperados y falta de garantías en los servicios técnicos. Considera que la verificación de técnicos, la transparencia en precios y los pagos digitales inmediatos son elementos esenciales. Además, valora la incorporación de un sistema de niveles con beneficios y la posibilidad de integrar monitoreo inteligente en el hogar, lo cual refuerza el atractivo de la plataforma.
 
 ### 2.2.3. Análisis de entrevistas.
 
@@ -246,12 +246,12 @@ Agregar Imagen
 Agregar Imaagen
 
 **Analisis segmento 02: Usuarios Clientes**
-Las entrevistas evidencian una necesidad común de confianza, transparencia y seguridad al contratar técnicos. La propuesta de Fix Now resulta atractiva al combinar verificación de perfiles, referencias confiables, cotizaciones claras y pagos digitales inmediatos. Además, la incorporación de gamificación y monitoreo inteligente refuerza la diferenciación de la plataforma, respondiendo tanto a las expectativas prácticas (costos, rapidez, calidad) como a la generación de valor agregado en el hogar
+Las entrevistas evidencian una necesidad común de confianza, transparencia y seguridad al contratar técnicos. La propuesta de AlguienDijoChamba resulta atractiva al combinar verificación de perfiles, referencias confiables, cotizaciones claras y pagos digitales inmediatos. Además, la incorporación de gamificación y monitoreo inteligente refuerza la diferenciación de la plataforma, respondiendo tanto a las expectativas prácticas (costos, rapidez, calidad) como a la generación de valor agregado en el hogar
 
 Agregar Imagen
 
 Conclusión
-En general, las entrevistas confirmaron que Fix Now responde a necesidades reales. Los clientes buscan seguridad, transparencia y facilidad. Los técnicos necesitan herramientas para crecer profesionalmente y llegar a más personas. Ambos segmentos mostraron interés en la propuesta y en las funcionalidades planteadas, lo cual refuerza el valor de la plataforma que estamos construyendo.
+En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesidades reales. Los clientes buscan seguridad, transparencia y facilidad. Los técnicos necesitan herramientas para crecer profesionalmente y llegar a más personas. Ambos segmentos mostraron interés en la propuesta y en las funcionalidades planteadas, lo cual refuerza el valor de la plataforma que estamos construyendo.
 
   - **2.3. Needfinding**
     - **2.3.1. User Personas**
@@ -531,6 +531,7 @@ En general, las entrevistas confirmaron que Fix Now responde a necesidades reale
       - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
         - **2.6.4.6.2. Bounded Context Database Design Diagram**
+
 
 
 
