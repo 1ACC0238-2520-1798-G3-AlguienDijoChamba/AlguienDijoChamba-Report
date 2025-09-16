@@ -113,6 +113,36 @@
       **Valor para técnicos:** Implementar pagos instantáneos al finalizar el servicio, eliminando esperas y motivando a los profesionales a preferir la plataforma.
   - **2.2. Entrevistas**
     - **2.2.1. Diseño de entrevistas**
+Con el propósito de identificar de manera más clara las necesidades, comportamientos y expectativas de nuestros usuarios potenciales, hemos elaborado un conjunto de entrevistas. Estas están enfocadas en evaluar la aceptación y el interés por los servicios que plantea Fix Now, tanto desde la perspectiva de los hogares que requieren asistencia como desde la de los técnicos que ofrecen su trabajo.
+
+**Preguntas para el segmento hogares #1: Fix Now (conexión con técnicos más monitoreo inteligente)**.
+
+1. En tu casa, ¿cada cuánto tiempo sueles necesitar servicios de técnicos como fontaneros, electricistas o carpinteros?
+2. Cuando surge un problema en tu hogar, ¿cómo sueles encontrar a un técnico? (ejemplo: recomendaciones, redes sociales, directorios, etc.)
+3. ¿Qué dificultades has tenido al buscar un técnico confiable para tu casa?
+4. ¿Qué tan importante es para ti conocer las referencias, calificaciones o experiencia de un técnico antes de contratarlo?
+5. ¿Alguna vez has usado una aplicación o página web para contratar un técnico? ¿Cómo fue tu experiencia?
+6. Si existiera una app que verificara la identidad y experiencia de los técnicos, ¿te daría más confianza contratar por ahí?
+7. Si una app ofreciera un sistema de niveles (Bronce, Plata, Oro) que te otorgue beneficios como descuentos, acceso a técnicos preferenciales o soporte prioritario, ¿qué tan atractivo te parecería?
+8. ¿Qué beneficios esperarías recibir para motivarte a subir de nivel en un sistema de gamificación como este?
+9. ¿Qué opinas de que los técnicos reciban el pago inmediatamente al finalizar el servicio? ¿Crees que eso aumentaría tu confianza como usuario?
+Pensando en una app como Fix Now, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
+10. Pensando en una app como Fix Now, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
+
+**Preguntas para el segmento Trabajadores #2: Fix Now (conexión con técnicos más monitoreo inteligente)**.
+
+1. ¿A qué oficio te dedicas actualmente? (fontanero, electricista, carpintero, etc.)
+2. ¿Cómo consigues hoy a tus clientes? (recomendaciones, redes sociales, volanteo, etc.)
+3. ¿Qué dificultades tienes al buscar nuevos clientes o mantener un flujo constante de trabajo?
+4. ¿Has usado antes una aplicación o plataforma digital para ofrecer tus servicios? ¿Qué tal fue tu experiencia?
+5. Si existiera una app como Fix Now, ¿qué herramientas te gustaría que incluya para facilitar tu trabajo? (agenda, cotizaciones, chat, pagos, etc.)
+6. ¿Qué tan importante sería para ti contar con un perfil verificado y calificaciones que destaquen tu experiencia?
+7. ¿Qué opinas de un sistema de gamificación con niveles (Bronce, Plata, Oro) que te dé beneficios como mayor visibilidad, prioridad en solicitudes o menos comisión? ¿Lo considerarías motivador?
+8. ¿Qué beneficios te gustaría recibir al subir de nivel en este sistema?
+9. ¿Qué tan atractivo te resulta que la app te pague de forma instantánea al terminar el servicio, sin esperar días o trámites adicionales?
+10. ¿Qué esperas de una plataforma como esta en términos de pagos, seguridad, comunicación con clientes y flexibilidad?
+11. ¿Qué valorarías más en una plataforma como Fix Now? (visibilidad, facilidad de pago, agenda organizada, historial de clientes, etc.)
+
     - **2.2.2. Registro de entrevistas**
     - **2.2.3. Análisis de entrevistas**
   - **2.3. Needfinding**
@@ -393,6 +423,7 @@
       - **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
         - **2.6.4.6.2. Bounded Context Database Design Diagram**
+
 
 
 
