@@ -3,12 +3,11 @@
   - **1.1. Startup Profile**<br>
   Esta sección incluye la descripción del Startup y los perfiles de los integrantes del equipo.
     - **1.1.1. Descripción de la Startup**<br>
-    En nuestra startup hemos creado AlguienDijoChamba, una plataforma que facilita la conexión entre usuarios y profesionales especializados en distintos oficios, como plomería, carpintería y otros servicios que suelen ser difíciles de localizar. Como valor diferencial, integramos un sistema de monitoreo en tiempo real del consumo de agua y electricidad, lo que permite identificar fugas o irregularidades de manera oportuna.<br><br>
-    Nuestro propósito es ofrecer soluciones tecnológicas accesibles que mejoren la calidad de vida, impulsen un uso eficiente de los recursos, ayuden a disminuir gastos y fomenten la sostenibilidad tanto en hogares como en organizaciones.<br>
+    En nuestra startup hemos creado AlguienDijoChamba que es una plataforma digital que conecta de forma rápida y segura a usuarios con técnicos especializados en oficios como fontanería, electricidad, carpintería, limpieza y otros servicios del hogar. A través de una aplicación y página web intuitiva, los clientes pueden encontrar profesionales confiables, recibir atención prioritaria y acceder a beneficios mediante un sistema de gamificación (niveles Bronce, Plata y Oro). Además, los técnicos reciben sus pagos de manera instantánea al culminar cada servicio, lo que genera confianza y compromiso en la comunidad.<br>
     
-    <p><strong>Misión:</strong> Ofrecer soluciones tecnológicas accesibles a través de AlguienDijoChamba, facilitando la conexión entre personas y profesionales especializados en oficios poco comunes. Además, integrar herramientas de monitoreo en tiempo real del consumo de agua y electricidad en los hogares, favoreciendo el uso responsable de los recursos, la detección temprana de fugas y la mejora de la calidad de vida de nuestros usuarios.</p>
+    <p><strong>Misión:</strong> Facilitar el acceso a servicios técnicos confiables y de calidad, conectando a usuarios con profesionales especializados mediante una plataforma eficiente, segura y transparente, que valore el trabajo de los técnicos y brinde beneficios prácticos a los clientes.</p>
 
-    <p><strong>Visión:</strong> Convertir a AlguienDijoChamba en la plataforma líder en Latinoamérica para vincular de manera eficiente a usuarios con profesionales especializados, incorporando tecnología inteligente que impulse la sostenibilidad en los hogares y consolidándonos como un referente en innovación social y cuidado ambiental.</p>
+    <p><strong>Visión:</strong> Convertirnos en la plataforma líder en Latinoamérica para la contratación de servicios técnicos del hogar, reconocida por la confianza, rapidez y sostenibilidad de nuestro modelo, generando oportunidades de trabajo dignas y una experiencia superior para los usuarios.</p>
 
     - **1.1.2. Perfiles de integrantes del equipo**
 
