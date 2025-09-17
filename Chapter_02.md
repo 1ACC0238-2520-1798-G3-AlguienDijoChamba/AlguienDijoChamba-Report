@@ -344,7 +344,7 @@
     | **Reward (Recompensa)** | Beneficio tangible o intangible otorgado a clientes o técnicos como resultado de su participación y logros en la plataforma. |
 
 
-  - **2.4.1. User Stories**
+    - **2.4.1. User Stories**
       ### Epic Story
       | **Epic ID** | **Título**                                    | **Descripción** |
       |-------------|-----------------------------------------------|-----------------|
@@ -354,8 +354,7 @@
       | EP04        | Gamificación y Beneficios                     | Como usuario, quiero subir de nivel (Bronce, Plata, Oro) según mi actividad en la plataforma para desbloquear beneficios como descuentos, técnicos preferenciales y soporte prioritario. |
       | EP05        | Gestión de Solicitudes y Contrataciones       | Como cliente, quiero gestionar mis solicitudes de servicio, ver el estado de las contrataciones y realizar pagos de forma segura a través de la app. Como profesional, quiero gestionar las solicitudes recibidas y confirmar los trabajos con pagos instantáneos. |
       | EP06        | Sistema de Calificaciones y Reseñas           | Como cliente, quiero calificar y dejar reseñas sobre los servicios o profesionales, y ver las calificaciones y reseñas de otros para tomar decisiones informadas. |
-    ### User Story
-
+    
       # User Stories
 
       | Story ID | User | Priority | Epic | Title | Description | Acceptance Criteria |
@@ -390,61 +389,74 @@
       | US28 | Cliente | Baja | EP06 | Reseñas Anónimas | Como cliente, quiero dejar reseñas de forma anónima. | 1. Dado que deseo privacidad, cuando publico una reseña, entonces la app oculta mi identidad al resto de usuarios.<br>2. Dado que elijo anonimato, cuando dejo reseña, entonces mi perfil no aparece vinculado a la evaluación. |
       | US29 | Cliente | Media | EP06 | Ver Reseñas de Otros Clientes | Como cliente, quiero ver reseñas de otros usuarios. | 1. Dado que quiero referencias, cuando ingreso al perfil del profesional, entonces puedo ver reseñas recientes y detalladas de otros clientes.<br>2. Dado que busco información específica, cuando filtro reseñas, entonces encuentro evaluaciones sobre aspectos particulares del servicio. |
       | US30 | Cliente | Baja | EP06 | Solicitar Actualización de Calificación | Como cliente, quiero actualizar mi calificación si cambio de opinión. | 1. Dado que quiero modificar mi reseña, cuando la edito, entonces la app actualiza la calificación y el comentario.<br>2. Dado que me equivoqué, cuando corrijo mi evaluación, entonces el profesional recibe la calificación actualizada. |
+      
+      # Technical Stories 
 
+
+      | **Story ID** | **User**               | **Priority** | **Epic** | **Title**                                       | **Description**                                                                                                                                                        | **Acceptance Criteria**                                                                                                                                                                                                          |
+      | ------------ | ---------------------- | ------------ | -------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | TS01         | Desarrollador Backend  | Alta         | EP01     | Visualizar Lista de Profesionales               | Como desarrollador backend, quiero crear una API que permita al usuario visualizar una lista de profesionales disponibles según la especialidad y ubicación.           | 1. La API debe permitir filtrar los profesionales por especialidad y ubicación. <br> 2. La respuesta debe incluir información mínima como nombre, especialidad, y calificación.                                                  |
+      | TS02         | Desarrollador Backend  | Alta         | EP01     | Registrar Nuevo Profesional                     | Como desarrollador backend, quiero implementar un servicio que permita registrar un nuevo profesional con todos sus datos relevantes.                                  | 1. Los datos deben ser validados y guardados en la base de datos. <br> 2. El profesional debe recibir confirmación de registro exitoso. <br> 3. La interfaz debe mostrar mensajes claros para los datos faltantes o incorrectos. |
+      | TS03         | Desarrollador Backend  | Alta         | EP01     | Actualizar Perfil del Profesional               | Como desarrollador, quiero crear un endpoint para que los profesionales puedan actualizar su perfil con nueva información.                                             | 1. Los cambios deben reflejarse correctamente en el perfil del profesional. <br> 2. Se debe comprobar la validez de la nueva información proporcionada.                                                                          |
+      | TS04         | Desarrollador Backend  | Alta         | EP05     | Notificación de Nueva Solicitud de Servicio     | Como desarrollador backend, quiero implementar un sistema de notificación que informe a los técnicos cuando reciban una nueva solicitud de servicio.                   | 1. El técnico debe recibir la notificación al instante con los detalles de la solicitud. <br> 2. La notificación debe aparecer en la interfaz del profesional y en su dispositivo móvil.                                         |
+      | TS05         | Desarrollador Backend  | Alta         | EP02     | Envío de Mensaje al Profesional                 | Como desarrollador backend, quiero permitir que los usuarios envíen mensajes a los profesionales directamente desde la plataforma.                                     | 1. Los mensajes enviados deben reflejarse en la conversación en tiempo real. <br> 2. Se debe garantizar la persistencia de los mensajes en la base de datos.                                                                     |
+      | TS06         | Desarrollador Frontend | Alta         | EP02     | Envío de Solicitud de Cotización                | Como desarrollador frontend, quiero crear una función que permita a los clientes solicitar cotizaciones a los técnicos.                                                | 1. El cliente debe poder agregar detalles de la solicitud junto con sus necesidades y preferencias. <br> 2. Los profesionales deben recibir la solicitud con toda la información proporcionada por el cliente.                   |
+      | TS07         | Desarrollador Frontend | Alta         | EP02     | Visualización de Perfil Detallado               | Como desarrollador frontend, quiero crear una vista detallada de los perfiles de los profesionales donde se pueda ver su experiencia, especialidades y calificaciones. | 1. La vista debe mostrar todos los detalles del profesional de manera organizada y clara. <br> 2. El perfil debe ser accesible y funcionar correctamente en diferentes dispositivos.                                             |
+      | TS08         | Desarrollador Backend  | Alta         | EP05     | Notificación de Solicitud de Servicio Aceptada  | Como desarrollador backend, quiero que el sistema notifique al cliente cuando un profesional acepte su solicitud de servicio.                                          | 1. El cliente debe recibir una notificación de aceptación con los detalles del servicio. <br> 2. El estado de la solicitud debe cambiar a "Aceptada" en el sistema.                                                              |
+      | TS09         | Desarrollador Backend  | Alta         | EP05     | Notificación de Solicitud de Servicio Rechazada | Como desarrollador backend, quiero notificar al cliente cuando un profesional rechace su solicitud de servicio.                                                        | 1. El cliente debe recibir una notificación que explique la razón del rechazo. <br> 2. El estado de la solicitud debe cambiar a "Rechazada".                                                                                     |
+      | TS10         | Desarrollador Backend  | Alta         | EP03     | Notificación de Disponibilidad Actualizada      | Como desarrollador backend, quiero que el sistema notifique a los clientes cuando los profesionales actualicen su disponibilidad.                                      | 1. Los clientes deben ser notificados de los cambios de disponibilidad de los profesionales. <br> 2. La disponibilidad debe reflejarse en tiempo real en la app.                                                                 |
 
 
     - **2.4.2. Impact Mapping**
     - **2.4.3. Product Backlog** 
-        <div align="center">
-    <table>
-      <thead>
-        <tr>
-          <th># Orden</th>
-          <th>User Story Id</th>
-          <th>Título</th>
-          <th>Story Points</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>1</td><td>US01</td><td>Registro de Nuevo Usuario (Cliente)</td><td>5</td></tr>
-        <tr><td>2</td><td>US02</td><td>Registro de Nuevo Profesional Técnico</td><td>5</td></tr>
-        <tr><td>3</td><td>US03</td><td>Editar Perfil de Usuario</td><td>5</td></tr>
-        <tr><td>4</td><td>US04</td><td>Buscar Profesionales por Especialidad y Ubicación</td><td>5</td></tr>
-        <tr><td>5</td><td>US05</td><td>Ver Perfil Detallado del Profesional</td><td>5</td></tr>
-        <tr><td>6</td><td>US06</td><td>Contactar al Profesional</td><td>5</td></tr>
-        <tr><td>7</td><td>US07</td><td>Configurar Perfil de Servicios</td><td>5</td></tr>
-        <tr><td>8</td><td>US08</td><td>Recibir y Gestionar Solicitudes de Servicio</td><td>5</td></tr>
-        <tr><td>9</td><td>US09</td><td>Gestionar Disponibilidad</td><td>5</td></tr>
-        <tr><td>10</td><td>US10</td><td>Visualizar Consumo de Agua y Electricidad</td><td>5</td></tr>
-        <tr><td>11</td><td>US11</td><td>Realizar Pago del Servicio</td><td>5</td></tr>
-        <tr><td>12</td><td>US12</td><td>Gestionar Solicitudes y Contrataciones</td><td>5</td></tr>
-        <tr><td>13</td><td>US13</td><td>Calificar y Dejar Reseña (Cliente)</td><td>4</td></tr>
-        <tr><td>14</td><td>US14</td><td>Ver Calificaciones y Reseñas de Profesionales</td><td>4</td></tr>
-        <tr><td>15</td><td>US15</td><td>Suscribirse al Plan Premium</td><td>3</td></tr>
-        <tr><td>16</td><td>US16</td><td>Configurar Dispositivo IoT</td><td>3</td></tr>
-        <tr><td>17</td><td>US17</td><td>Vincular Dispositivo IoT a la Cuenta</td><td>3</td></tr>
-        <tr><td>18</td><td>TS01</td><td>Visualizar Lista de Profesionales</td><td>3</td></tr>
-        <tr><td>19</td><td>TS02</td><td>Registrar Nuevo Profesional</td><td>3</td></tr>
-        <tr><td>20</td><td>TS03</td><td>Actualizar Perfil del Profesional</td><td>3</td></tr>
-        <tr><td>21</td><td>TS04</td><td>Notificación de Nueva Solicitud de Servicio</td><td>3</td></tr>
-        <tr><td>22</td><td>TS05</td><td>Envío de Mensaje al Profesional</td><td>3</td></tr>
-        <tr><td>23</td><td>TS06</td><td>Envío de Solicitud de Cotización</td><td>3</td></tr>
-        <tr><td>24</td><td>TS07</td><td>Visualización de Perfil Detallado</td><td>3</td></tr>
-        <tr><td>25</td><td>TS08</td><td>Notificación de Solicitud de Servicio Aceptada</td><td>3</td></tr>
-        <tr><td>26</td><td>TS09</td><td>Notificación de Solicitud de Servicio Rechazada</td><td>3</td></tr>
-        <tr><td>27</td><td>TS10</td><td>Notificación de Disponibilidad Actualizada</td><td>3</td></tr>
-        <tr><td>28</td><td>TS11</td><td>Visualización de Consumo en Tiempo Real</td><td>3</td></tr>
-        <tr><td>29</td><td>TS12</td><td>Notificación de Consumo Excesivo</td><td>3</td></tr>
-        <tr><td>30</td><td>TS13</td><td>Confirmación de Pago Exitoso</td><td>3</td></tr>
-        <tr><td>31</td><td>TS14</td><td>Confirmación de Pago Fallido</td><td>3</td></tr>
-        <tr><td>32</td><td>TS15</td><td>Visualización de Reseñas y Calificaciones</td><td>3</td></tr>
-        <tr><td>33</td><td>TS16</td><td>Procesamiento de Solicitudes de Pago</td><td>3</td></tr>
-        <tr><td>34</td><td>TS17</td><td>Suscripción a Plan Premium</td><td>3</td></tr>
-        <tr><td>35</td><td>TS18</td><td>Guía de Configuración de Dispositivo IoT</td><td>3</td></tr>
-        <tr><td>36</td><td>TS19</td><td>Vinculación Exitosa del Dispositivo IoT</td><td>3</td></tr>
-      </tbody>
-    </table>
-    </div>
+      | # Orden | User Story Id | Título                                                | Story Points (1 / 2 / 3 / 5 / 8) |
+      | ------- | ------------- | ----------------------------------------------------- | -------------------------------- |
+      | 1       | US30          | Registro de Nuevo Usuario en Landing Page             | 3                                |
+      | 2       | US31          | Registro de Nuevo Profesional Técnico en Landing Page | 3                                |
+      | 3       | US32          | Acceder a la Plataforma desde Landing Page            | 3                                |
+      | 4       | US33          | Ver Profesionales Destacados en Landing Page          | 5                                |
+      | 5       | US34          | Contactar a un Profesional desde Landing Page         | 5                                |
+      | 6       | US01          | Registro de Nuevo Usuario (Cliente)                   | 3                                |
+      | 7       | US02          | Registro de Nuevo Profesional Técnico                 | 3                                |
+      | 8       | US03          | Recuperación de Cuenta/Login                          | 2                                |
+      | 9       | US05          | Ver Perfil Detallado del Profesional                  | 5                                |
+      | 10      | US06          | Contactar al Profesional                              | 3                                |
+      | 11      | US07          | Buscar Profesionales por Especialidad y Ubicación     | 5                                |
+      | 12      | US08          | Solicitar Servicio al Profesional                     | 5                                |
+      | 13      | US09          | Crear y Actualizar Servicios Ofrecidos                | 5                                |
+      | 14      | US10          | Gestionar Disponibilidad                              | 5                                |
+      | 15      | US11          | Recibir Notificaciones de Solicitudes                 | 3                                |
+      | 16      | US12          | Aceptar o Rechazar Solicitudes                        | 3                                |
+      | 17      | US13          | Confirmar Finalización de Servicio                    | 3                                |
+      | 18      | US14          | Notificación de Respuesta del Profesional             | 2                                |
+      | 19      | US15          | Visualizar Progreso y Puntos Acumulados               | 3                                |
+      | 20      | US16          | Recibir Recompensas por Logros                        | 3                                |
+      | 21      | US17          | Crear Solicitud de Servicio                           | 3                                |
+      | 22      | US18          | Ver Estado de la Solicitud                            | 2                                |
+      | 23      | US19          | Realizar Pago del Servicio                            | 5                                |
+      | 24      | US20          | Solicitar Reembolso o Disputa                         | 5                                |
+      | 25      | US21          | Confirmación de Contratación por Profesional          | 3                                |
+      | 26      | US22          | Cancelar Solicitud de Servicio                        | 3                                |
+      | 27      | US23          | Notificación de Nueva Solicitud de Servicio           | 3                                |
+      | 28      | US24          | Abrir Reclamo/Ticket                                  | 2                                |
+      | 29      | US25          | Calificar a un Profesional                            | 2                                |
+      | 30      | US26          | Ver Calificaciones de Profesionales                   | 2                                |
+      | 31      | US27          | Calificación Promedio del Profesional                 | 2                                |
+      | 32      | US28          | Reseñas Anónimas                                      | 1                                |
+      | 33      | US29          | Ver Reseñas de Otros Clientes                         | 2                                |
+      | 34      | US30          | Solicitar Actualización de Calificación               | 1                                |
+      | 35      | TS01          | Visualizar Lista de Profesionales                     | 3                                |
+      | 36      | TS02          | Registrar Nuevo Profesional                           | 3                                |
+      | 37      | TS03          | Actualizar Perfil del Profesional                     | 3                                |
+      | 38      | TS04          | Notificación de Nueva Solicitud de Servicio           | 3                                |
+      | 39      | TS05          | Envío de Mensaje al Profesional                       | 3                                |
+      | 40      | TS06          | Envío de Solicitud de Cotización                      | 3                                |
+      | 41      | TS07          | Visualización de Perfil Detallado                     | 3                                |
+      | 42      | TS08          | Notificación de Solicitud de Servicio Aceptada        | 3                                |
+      | 43      | TS09          | Notificación de Solicitud de Servicio Rechazada       | 3                                |
+      | 44      | TS10          | Notificación de Disponibilidad Actualizada            | 3                                |
+
+    
   - **2.5. Strategic-Level Domain-Driven Design**
     - **2.5.1. EventStorming**
       - **2.5.1.1. Candidate Context Discovery**  
