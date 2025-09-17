@@ -307,14 +307,14 @@
         #### Fernando Silva
         ---    
           
-        ![Empaty Mapping Segmento 1](./feature/chapter02/Empaty_Mapping_Segmento_1.png)
+        ![Empaty Mapping Segmento 1](./feature/chapter02/as_is_1.jpeg)
 
         **Segmento Objetivo 2: Clientes**
 
         #### Christian Martinez
         --- 
         
-        ![Empaty Mapping Segmento 2](./feature/chapter02/Empaty_Mapping_Segmento_2.png)
+        ![Empaty Mapping Segmento 2](./feature/chapter02/as_is_2.jpeg)
     - **2.3.5. As-is Scenario Mapping**
         
         **Segmento Objetivo 1: Profesionales Tecnicos**
@@ -335,13 +335,14 @@
     | **Experience (Experiencia)** | Historial laboral de un trabajador técnico que respalda su trayectoria en distintos roles o empresas. |
     | **Review (Reseña)** | Calificación y comentario que un usuario emite sobre un servicio recibido o prestado. |
     | **Proposal (Propuesta)** | Oferta formal presentada por un trabajador técnico a un cliente. Contiene la descripción del trabajo, precio y tiempo estimado. |
-    | **Chat (Chat)** | Canal de comunicación directa entre cliente y trabajador para coordinar detalles del servicio. |
-    | **Message (Mensaje)** | Intercambio de comunicación individual dentro de un chat. |
     | **Sales Order Payment (Orden de Pago)** | Registro financiero de la transacción entre cliente y trabajador por los servicios acordados. |
-    | **Ticket (Reclamo)** | Registro formal de una queja o disputa entre cliente y trabajador que requiere intervención de la plataforma. |
     | **Hourly Rate (Tarifa por Hora)** | Monto que un trabajador técnico define como su costo por hora de servicio. |
     | **Field (Campo de Especialidad)** | Área técnica específica en la que un trabajador se desempeña profesionalmente. |
     | **Skills (Habilidades)** | Conjunto de competencias técnicas y conocimientos que posee un trabajador. |
+    | **Gamification (Gamificación)** | Sistema de incentivos basado en puntos, niveles (Bronce, Plata, Oro) y recompensas, diseñado para motivar la participación activa y la fidelización de clientes y técnicos. |
+    | **Level (Nivel)** | Categoría alcanzada dentro del sistema de gamificación (ej. Bronce, Plata, Oro) que refleja la participación, reputación y logros de un usuario en la plataforma. |
+    | **Reward (Recompensa)** | Beneficio tangible o intangible otorgado a clientes o técnicos como resultado de su participación y logros en la plataforma. |
+
 
   - **2.4.1. User Stories**
       ### Epic Story
@@ -714,6 +715,7 @@
   | worker_id          | int            | ID del Worker relacionado (FK)                      |
   | created_at         | datetime       | Fecha de creación de la solicitud                   |
   | updated_at         | datetime       | Fecha de última actualización de la solicitud       |
+
 
 
 
