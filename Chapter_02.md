@@ -528,11 +528,70 @@
 
       - **2.6.1.5. Bounded Context Software Architecture Component Level Diagrams**
       - **2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**
-        - **2.6.1.6.1. Bounded Context Domain Layer Class Diagrams**
-                  <img src="./feature/chapter02/Bounded_Context_Software_Architecture_Code_Level_Diagrams_Worker"/>
+        - **2.6.1.6.1. Bounded Context Domain Layer Class Diagrams**<br>
+        <br><br>
+          El diagrama de clases del bounded context Worker-Catalog modela el catálogo de trabajadores bajo principios de DDD y Clean Architecture. La entidad principal es WorkerProfile, como Aggregate Root, que concentra información profesional, contacto, habilidades, calificaciones y categoría, con trazabilidad mediante campos de auditoría.
 
-        - **2.6.1.6.2. Bounded Context Database Design Diagram**
-       
+          Los Value Objects (WorkerContact, WorkerSkill, WorkerRating) encapsulan datos inmutables, mientras que Category organiza a los trabajadores por especialidad. Los Commands y Queries representan casos de uso explícitos, y los Servicios (WorkerCatalogService, WorkerApiService) orquestan operaciones y comunicación con infraestructura, garantizando un diseño cohesivo, escalable y mantenible.<br> <br>
+                <div align="center">
+                  <img src="./feature/chapter02/Bounded_Context_Software_Architecture_Code_Level_Diagrams_Worker.jpeg"/>
+                </div>
+                <br>
+        - **2.6.1.6.2. Bounded Context Database Design Diagram** <br>
+                <div align="center">
+                  <img src="./feature/chapter02/Bounded_Context_Software_Architecture_Code_Level_Database_Worker.jpeg"/>
+                </div>
+                <br>
+
+
+        **Tabla: WorkerProfile**
+
+        | Campo        | Tipo         | Descripción                                     |
+          | ------------ | ------------ | --------------------------------------------- |
+          | id           | varchar(36)  | Identificador único del Worker (PK)           |
+          | name         | varchar(120) | Nombre del Worker                             |
+          | email        | varchar(120) | Correo electrónico del Worker                 |
+          | phone        | varchar(20)  | Número de teléfono del Worker                 |
+          | location     | varchar(150) | Ubicación aproximada del Worker               |
+          | experience   | text         | Experiencia o biografía profesional           |
+          | rating\_avg  | decimal(3,2) | Promedio de calificaciones recibidas          |
+          | status       | varchar(20)  | Estado del perfil (ACTIVE, INACTIVE, PENDING) |
+          | category\_id | int          | ID de la categoría asociada (FK)              |
+          | created\_at  | datetime     | Fecha de creación del perfil                  |
+          | updated\_at  | datetime     | Fecha de última actualización del perfil      |
+
+        **Tabla: WorkerSkill**
+
+        | Campo       | Tipo         | Descripción                                         |
+          | ----------- | ------------ | --------------------------------------------------- |
+          | id          | int          | Identificador único de la habilidad (PK)            |
+          | worker\_id  | varchar(36)  | ID del Worker al que pertenece la habilidad (FK)    |
+          | skill\_name | varchar(120) | Nombre de la habilidad (ej: plomería, electricidad) |
+
+        **Tabla: Category**
+        
+        | Campo       | Tipo         | Descripción                                            |
+          | ----------- | ------------ | ------------------------------------------------------ |
+          | id          | int          | Identificador único de la categoría (PK)               |
+          | name        | varchar(120) | Nombre de la categoría (ej: carpintería, electricidad) |
+          | description | varchar(250) | Descripción breve de la categoría                      |
+          | created\_at | datetime     | Fecha de creación del registro                         |
+          | updated\_at | datetime     | Fecha de última actualización del registro             |
+
+        **Tabla: WorkerRating**
+
+        | Campo        | Tipo         | Descripción                                      |
+          | ------------ | ------------ | ------------------------------------------------ |
+          | id           | int          | Identificador único de la calificación (PK).     |
+          | worker\_id   | varchar(36)  | ID del trabajador calificado (FK).               |
+          | customer\_id | varchar(36)  | ID del cliente que realizó la reseña.            |
+          | score        | int          | Puntaje asignado (1–5).                          |
+          | comment      | varchar(300) | Comentario escrito por el cliente.               |
+          | created\_at  | datetime     | Fecha y hora en que se registró la calificación. |
+        
+
+        
+
       - 
     - **2.6.2. Bounded Context: Payments**
       - **2.6.2.1. Domain Layer** <br>
@@ -797,6 +856,7 @@
 - **Bibliografía**
 
 - **Anexo**
+
 
 
 
