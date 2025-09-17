@@ -157,7 +157,7 @@
         
       Datos del entrevistado:
       - Nombre:Diego Fuentes
-      - Edad:21
+      - Edad: 21 años
       - Distrito de residencia: Santa Anita
       - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EQvJ8mqIztdPracfY_XiQbcBeGZMJcw0Al69nC8875vYnQ?e=DS22qD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
         <div style="text-align: center;">
@@ -1389,6 +1389,7 @@
 - **Bibliografía**
 
 - **Anexo**
+
 
 
 
