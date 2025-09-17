@@ -383,9 +383,7 @@
 
       | Title   | Registro de Nuevo Usuario |
       |---------|--------------------------|
-
-      | Description | Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales. |
-      |-------------|-----------------------------------------------------------------------------------------------------|
+      | ****Description**** | Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -403,9 +401,7 @@
 
       | Title   | Registro de Nuevo Profesional |
       |---------|------------------------------|
-
-      | Description | Como nuevo profesional técnico, quiero registrarme detallando mis especialidades, experiencia y contacto para ofrecer mis servicios. |
-      |-------------|-----------------------------------------------------------------------------------------------------------------------------------|
+      | **Description** | Como nuevo profesional técnico, quiero registrarme detallando mis especialidades, experiencia y contacto para ofrecer mis servicios. 
 
       | Acceptance Criteria |
       |---------------------|
@@ -423,9 +419,7 @@
 
       | Title   | Recuperación de Cuenta/Login |
       |---------|-----------------------------|
-
-      | Description | Como usuario, quiero recuperar mi cuenta o iniciar sesión mediante diferentes métodos. |
-      |-------------|----------------------------------------------------------------------------------------|
+      | **Description** | Como usuario, quiero recuperar mi cuenta o iniciar sesión mediante diferentes métodos. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -443,9 +437,8 @@
 
       | Title   | Editar Perfil de Usuario |
       |---------|-------------------------|
+      | **Description** | Como usuario registrado, quiero poder editar la información de mi perfil para mantenerla actualizada. |
 
-      | Description | Como usuario registrado, quiero poder editar la información de mi perfil para mantenerla actualizada. |
-      |-------------|------------------------------------------------------------------------------------------------------|
 
       | Acceptance Criteria |
       |---------------------|
@@ -462,9 +455,7 @@
 
       | Title   | Ver Perfil Detallado del Profesional |
       |---------|--------------------------------------|
-
-      | Description | Como cliente, quiero ver el perfil completo de un profesional con toda su información relevante. |
-      |-------------|-------------------------------------------------------------------------------------------------|
+      | **Description** | Como cliente, quiero ver el perfil completo de un profesional con toda su información relevante. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -482,9 +473,8 @@
 
       | Title   | Contactar al Profesional |
       |---------|-------------------------|
+      | **Description** | Como cliente, quiero contactar directamente a un profesional para coordinar un servicio. |
 
-      | Description | Como cliente, quiero contactar directamente a un profesional para coordinar un servicio. |
-      |-------------|-----------------------------------------------------------------------------------------|
 
       | Acceptance Criteria |
       |---------------------|
@@ -501,9 +491,8 @@
 
       | Title   | Buscar Profesionales por Especialidad y Ubicación |
       |---------|--------------------------------------------------|
+      | **Description** | Como cliente, quiero buscar profesionales filtrando por tipo de servicio y ubicación. |
 
-      | Description | Como cliente, quiero buscar profesionales filtrando por tipo de servicio y ubicación. |
-      |-------------|--------------------------------------------------------------------------------------|
 
       | Acceptance Criteria |
       |---------------------|
@@ -521,9 +510,7 @@
 
       | Title   | Solicitar Servicio al Profesional |
       |---------|-----------------------------------|
-
-      | Description | Como cliente, quiero contactar a un profesional y solicitar un servicio. |
-      |-------------|-------------------------------------------------------------------------|
+      | **Description** | Como cliente, quiero contactar a un profesional y solicitar un servicio. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -541,9 +528,7 @@
 
       | Title   | Crear y Actualizar Servicios Ofrecidos |
       |---------|----------------------------------------|
-
-      | Description | Como técnico, quiero gestionar mi lista de servicios ofrecidos. |
-      |-------------|-----------------------------------------------------------------|
+      | **Description** | Como técnico, quiero gestionar mi lista de servicios ofrecidos. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -560,9 +545,7 @@
 
       | Title   | Gestionar Disponibilidad |
       |---------|-------------------------|
-
-      | Description | Como técnico, quiero gestionar mi disponibilidad para solicitudes. |
-      |-------------|--------------------------------------------------------------------|
+      | **Description** | Como técnico, quiero gestionar mi disponibilidad para solicitudes. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -579,9 +562,7 @@
 
       | Title   | Recibir Notificaciones de Solicitudes |
       |---------|--------------------------------------|
-
-      | Description | Como técnico, quiero recibir notificaciones instantáneas sobre nuevas solicitudes. |
-      |-------------|-----------------------------------------------------------------------------------|
+      | **Description** | Como técnico, quiero recibir notificaciones instantáneas sobre nuevas solicitudes. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -599,9 +580,7 @@
 
       | Title   | Aceptar o Rechazar Solicitudes |
       |---------|-------------------------------|
-
-      | Description | Como técnico, quiero aceptar o rechazar solicitudes de trabajo. |
-      |-------------|-----------------------------------------------------------------|
+      | **Description** | Como técnico, quiero aceptar o rechazar solicitudes de trabajo. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -618,9 +597,7 @@
 
       | Title   | Confirmar Finalización de Servicio |
       |---------|------------------------------------|
-
-      | Description | Como técnico, quiero marcar un servicio como completado y registrar trabajo final, y recibir el pago instantáneo. |
-      |-------------|---------------------------------------------------------------------------------------------------------------|
+      | **Description** | Como técnico, quiero marcar un servicio como completado y registrar trabajo final, y recibir el pago instantáneo. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -637,9 +614,7 @@
 
       | Title   | Notificación de Respuesta del Profesional |
       |---------|-------------------------------------------|
-
-      | Description | Como cliente, quiero recibir notificaciones cuando un profesional acepta o rechaza mi solicitud. |
-      |-------------|--------------------------------------------------------------------------------------------------|
+      | **Description** | Como cliente, quiero recibir notificaciones cuando un profesional acepta o rechaza mi solicitud. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -656,9 +631,7 @@
 
       | Title   | Visualizar Progreso y Puntos Acumulados |
       |---------|-----------------------------------------|
-
-      | Description | Como usuario, quiero ver mi progreso y puntos acumulados en el sistema de gamificación. |
-      |-------------|----------------------------------------------------------------------------------------|
+      | **Description** | Como usuario, quiero ver mi progreso y puntos acumulados en el sistema de gamificación. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -675,9 +648,7 @@
 
       | Title   | Recibir Recompensas por Logros |
       |---------|-------------------------------|
-
-      | Description | Como usuario, quiero recibir recompensas al completar logros específicos en la plataforma. |
-      |-------------|------------------------------------------------------------------------------------------------|
+      | **Description** | Como usuario, quiero recibir recompensas al completar logros específicos en la plataforma. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -694,9 +665,7 @@
 
       | Title   | Crear Solicitud de Servicio |
       |---------|----------------------------|
-
-      | Description | Como cliente, quiero crear solicitud de servicio detallada. |
-      |-------------|-------------------------------------------------------------|
+      | **Description** | Como cliente, quiero crear solicitud de servicio detallada. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -714,9 +683,7 @@
 
       | Title   | Ver Estado de la Solicitud |
       |---------|---------------------------|
-
-      | Description | Como cliente, quiero ver el estado de mis solicitudes en tiempo real. |
-      |-------------|-----------------------------------------------------------------------|
+      | **Description** | Como cliente, quiero ver el estado de mis solicitudes en tiempo real. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -733,9 +700,7 @@
 
       | Title   | Realizar Pago del Servicio |
       |---------|---------------------------|
-
-      | Description | Como cliente, quiero pagar los servicios de forma segura. |
-      |-------------|-----------------------------------------------------------|
+      | **Description** | Como cliente, quiero pagar los servicios de forma segura. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -753,9 +718,7 @@
 
       | Title   | Solicitar Reembolso o Disputa |
       |---------|------------------------------|
-
-      | Description | Como cliente, quiero solicitar reembolso o iniciar disputa en caso de servicio no satisfactorio. |
-      |-------------|--------------------------------------------------------------------------------------------------|
+      | **Description** | Como cliente, quiero solicitar reembolso o iniciar disputa en caso de servicio no satisfactorio. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -772,9 +735,7 @@
 
       | Title   | Confirmación de Contratación por Profesional |
       |---------|---------------------------------------------|
-
-      | Description | Como técnico, quiero aceptar o rechazar solicitudes, y recibir pagos instantáneos. |
-      |-------------|------------------------------------------------------------------------------------|
+      | **Description** | Como técnico, quiero aceptar o rechazar solicitudes, y recibir pagos instantáneos. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -791,9 +752,7 @@
 
       | Title   | Cancelar Solicitud de Servicio |
       |---------|-------------------------------|
-
-      | Description | Como cliente, quiero cancelar una solicitud si no la necesito. |
-      |-------------|----------------------------------------------------------------|
+      | **Description** | Como cliente, quiero cancelar una solicitud si no la necesito. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -810,9 +769,7 @@
 
       | Title   | Notificación de Nueva Solicitud de Servicio |
       |---------|---------------------------------------------|
-
-      | Description | Como técnico, quiero recibir notificaciones de nuevas solicitudes. |
-      |-------------|--------------------------------------------------------------------|
+      | **Description** | Como técnico, quiero recibir notificaciones de nuevas solicitudes. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -829,9 +786,7 @@
 
       | Title   | Abrir Reclamo/Ticket |
       |---------|----------------------|
-
-      | Description | Como cliente, quiero abrir un reclamo si el servicio no fue satisfactorio, para que la plataforma lo gestione. |
-      |-------------|-------------------------------------------------------------------------------------------------------------|
+      | **Description** | Como cliente, quiero abrir un reclamo si el servicio no fue satisfactorio, para que la plataforma lo gestione. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -848,9 +803,7 @@
 
       | Title   | Calificar a un Profesional |
       |---------|---------------------------|
-
-      | Description | Como cliente, quiero calificar a un profesional tras el servicio. |
-      |-------------|-------------------------------------------------------------------|
+      | **Description** | Como cliente, quiero calificar a un profesional tras el servicio. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -867,9 +820,7 @@
 
       | Title   | Ver Calificaciones de Profesionales |
       |---------|------------------------------------|
-
-      | Description | Como cliente, quiero ver calificaciones y reseñas de otros usuarios. |
-      |-------------|---------------------------------------------------------------------|
+      | **Description** | Como cliente, quiero ver calificaciones y reseñas de otros usuarios. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -886,9 +837,7 @@
 
       | Title   | Calificación Promedio del Profesional |
       |---------|--------------------------------------|
-
-      | Description | Como cliente, quiero ver la calificación promedio del profesional. |
-      |-------------|--------------------------------------------------------------------|
+      | **Description** | Como cliente, quiero ver la calificación promedio del profesional. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -905,9 +854,7 @@
 
       | Title   | Reseñas Anónimas |
       |---------|------------------|
-
-      | Description | Como cliente, quiero dejar reseñas de forma anónima. |
-      |-------------|-----------------------------------------------------|
+      | **Description** | Como cliente, quiero dejar reseñas de forma anónima. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -924,9 +871,7 @@
 
       | Title   | Ver Reseñas de Otros Clientes |
       |---------|------------------------------|
-
-      | Description | Como cliente, quiero ver reseñas de otros usuarios. |
-      |-------------|-----------------------------------------------------|
+      | **Description** | Como cliente, quiero ver reseñas de otros usuarios. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -943,9 +888,7 @@
 
       | Title   | Solicitar Actualización de Calificación |
       |---------|----------------------------------------|
-
-      | Description | Como cliente, quiero actualizar mi calificación si cambio de opinión. |
-      |-------------|------------------------------------------------------------------------|
+      | **Description** | Como cliente, quiero actualizar mi calificación si cambio de opinión. |
 
       | Acceptance Criteria |
       |---------------------|
@@ -956,7 +899,7 @@
       ### Technical Stories 
 
 
-      | **Story ID** | **User**               | **Priority** | **Epic** | **Title**                                       | **Description**                                                                                                                                                        | **Acceptance Criteria**                                                                                                                                                                                                          |
+      | **Story ID** | **User**               | **Priority** | **Epic** | **Title**                                       | ****Description****                                                                                                                                                        | **Acceptance Criteria**                                                                                                                                                                                                          |
       | ------------ | ---------------------- | ------------ | -------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
       | TS01         | Desarrollador Backend  | Alta         | EP01     | Visualizar Lista de Profesionales               | Como desarrollador backend, quiero crear una API que permita al usuario visualizar una lista de profesionales disponibles según la especialidad y ubicación.           | 1. La API debe permitir filtrar los profesionales por especialidad y ubicación. <br> 2. La respuesta debe incluir información mínima como nombre, especialidad, y calificación.                                                  |
       | TS02         | Desarrollador Backend  | Alta         | EP01     | Registrar Nuevo Profesional                     | Como desarrollador backend, quiero implementar un servicio que permita registrar un nuevo profesional con todos sus datos relevantes.                                  | 1. Los datos deben ser validados y guardados en la base de datos. <br> 2. El profesional debe recibir confirmación de registro exitoso. <br> 3. La interfaz debe mostrar mensajes claros para los datos faltantes o incorrectos. |
@@ -1138,7 +1081,7 @@
           | ----------- | ------------ | ------------------------------------------------------ |
           | id          | int          | Identificador único de la categoría (PK)               |
           | name        | varchar(120) | Nombre de la categoría (ej: carpintería, electricidad) |
-          | description | varchar(250) | Descripción breve de la categoría                      |
+          | **Description** | varchar(250) | Descripción breve de la categoría                      |
           | created\_at | datetime     | Fecha de creación del registro                         |
           | updated\_at | datetime     | Fecha de última actualización del registro             |
 
@@ -1400,7 +1343,7 @@
   |--------------------|----------------|-----------------------------------------------------|
   | id                 | varchar(36)    | Identificador único de la solicitud (PK)            |
   | title              | varchar(120)   | Título de la solicitud de trabajo                   |
-  | description        | varchar(300)   | Detalle de la solicitud                             |
+  | **Description**        | varchar(300)   | Detalle de la solicitud                             |
   | date               | datetime       | Fecha en la que se realizará el servicio            |
   | time               | varchar(20)    | Hora programada del inicio del servicio             |
   | endTime            | varchar(20)    | Hora estimada de finalización                       |
@@ -1409,7 +1352,7 @@
   | mapImageUrl        | varchar(250)   | URL del mapa de referencia                          |
   | dayText            | varchar(20)    | Texto descriptivo del día (Hoy, Mañana, etc.)       |
   | finalAmount        | decimal(10,2)  | Monto final del servicio acordado                   |
-  | finalWorkDescription | varchar(250) | Descripción final del trabajo realizado             |
+  | finalWork**Description** | varchar(250) | Descripción final del trabajo realizado             |
   | status             | varchar(15)    | Estado de la solicitud (pending, accepted, etc.)    |
   | worker_id          | int            | ID del Worker relacionado (FK)                      |
   | created_at         | datetime       | Fecha de creación de la solicitud                   |
