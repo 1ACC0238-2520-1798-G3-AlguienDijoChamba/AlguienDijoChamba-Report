@@ -1101,52 +1101,49 @@
         ![User Journey Mapping Segmento 2](./feature/chapter02/ImpactMap_Clientes.png)
 
     - **2.4.3. Product Backlog** 
-      | # Orden | User Story Id | Título                                                | Story Points (1 / 2 / 3 / 5 / 8) |
-      | ------- | ------------- | ----------------------------------------------------- | -------------------------------- |
-      | 1       | US30          | Registro de Nuevo Usuario en Landing Page             | 3                                |
-      | 2       | US31          | Registro de Nuevo Profesional Técnico en Landing Page | 3                                |
-      | 3       | US32          | Acceder a la Plataforma desde Landing Page            | 3                                |
-      | 4       | US33          | Ver Profesionales Destacados en Landing Page          | 5                                |
-      | 5       | US34          | Contactar a un Profesional desde Landing Page         | 5                                |
-      | 6       | US01          | Registro de Nuevo Usuario (Cliente)                   | 3                                |
-      | 7       | US02          | Registro de Nuevo Profesional Técnico                 | 3                                |
-      | 8       | US03          | Recuperación de Cuenta/Login                          | 2                                |
-      | 9       | US05          | Ver Perfil Detallado del Profesional                  | 5                                |
-      | 10      | US06          | Contactar al Profesional                              | 3                                |
-      | 11      | US07          | Buscar Profesionales por Especialidad y Ubicación     | 5                                |
-      | 12      | US08          | Solicitar Servicio al Profesional                     | 5                                |
-      | 13      | US09          | Crear y Actualizar Servicios Ofrecidos                | 5                                |
-      | 14      | US10          | Gestionar Disponibilidad                              | 5                                |
-      | 15      | US11          | Recibir Notificaciones de Solicitudes                 | 3                                |
-      | 16      | US12          | Aceptar o Rechazar Solicitudes                        | 3                                |
-      | 17      | US13          | Confirmar Finalización de Servicio                    | 3                                |
-      | 18      | US14          | Notificación de Respuesta del Profesional             | 2                                |
-      | 19      | US15          | Visualizar Progreso y Puntos Acumulados               | 3                                |
-      | 20      | US16          | Recibir Recompensas por Logros                        | 3                                |
-      | 21      | US17          | Crear Solicitud de Servicio                           | 3                                |
-      | 22      | US18          | Ver Estado de la Solicitud                            | 2                                |
-      | 23      | US19          | Realizar Pago del Servicio                            | 5                                |
-      | 24      | US20          | Solicitar Reembolso o Disputa                         | 5                                |
-      | 25      | US21          | Confirmación de Contratación por Profesional          | 3                                |
-      | 26      | US22          | Cancelar Solicitud de Servicio                        | 3                                |
-      | 27      | US23          | Notificación de Nueva Solicitud de Servicio           | 3                                |
-      | 28      | US24          | Abrir Reclamo/Ticket                                  | 2                                |
-      | 29      | US25          | Calificar a un Profesional                            | 2                                |
-      | 30      | US26          | Ver Calificaciones de Profesionales                   | 2                                |
-      | 31      | US27          | Calificación Promedio del Profesional                 | 2                                |
-      | 32      | US28          | Reseñas Anónimas                                      | 1                                |
-      | 33      | US29          | Ver Reseñas de Otros Clientes                         | 2                                |
-      | 34      | US30          | Solicitar Actualización de Calificación               | 1                                |
-      | 35      | TS01          | Visualizar Lista de Profesionales                     | 3                                |
-      | 36      | TS02          | Registrar Nuevo Profesional                           | 3                                |
-      | 37      | TS03          | Actualizar Perfil del Profesional                     | 3                                |
-      | 38      | TS04          | Notificación de Nueva Solicitud de Servicio           | 3                                |
-      | 39      | TS05          | Envío de Mensaje al Profesional                       | 3                                |
-      | 40      | TS06          | Envío de Solicitud de Cotización                      | 3                                |
-      | 41      | TS07          | Visualización de Perfil Detallado                     | 3                                |
-      | 42      | TS08          | Notificación de Solicitud de Servicio Aceptada        | 3                                |
-      | 43      | TS09          | Notificación de Solicitud de Servicio Rechazada       | 3                                |
-      | 44      | TS10          | Notificación de Disponibilidad Actualizada            | 3                                |
+      | # Orden | User Story Id | Título | Story Points (1 / 2 / 3 / 5 / 8) |
+      |---|---|---|---|
+      | 1 | US01 | Registro de Nuevo Usuario | 3 |
+      | 2 | US02 | Registro de Nuevo Profesional | 5 |
+      | 3 | US03 | Recuperación de Cuenta/Login | 3 |
+      | 4 | US04 | Editar Perfil de Usuario | 2 |
+      | 5 | US05 | Ver Perfil Detallado del Profesional | 5 |
+      | 6 | US06 | Contactar al Profesional | 3 |
+      | 7 | US07 | Buscar Profesionales por Especialidad y Ubicación | 8 |
+      | 8 | US08 | Solicitar Servicio al Profesional | 5 |
+      | 9 | US09 | Crear y Actualizar Servicios Ofrecidos | 3 |
+      | 10 | US10 | Gestionar Disponibilidad | 3 |
+      | 11 | US11 | Recibir Notificaciones de Solicitudes | 5 |
+      | 12 | US12 | Aceptar o Rechazar Solicitudes | 2 |
+      | 13 | US13 | Confirmar Finalización de Servicio | 5 |
+      | 14 | US14 | Notificación de Respuesta del Profesional | 2 |
+      | 15 | US15 | Visualizar Progreso y Puntos Acumulados | 3 |
+      | 16 | US16 | Recibir Recompensas por Logros | 2 |
+      | 17 | US17 | Crear Solicitud de Servicio | 5 |
+      | 18 | US18 | Ver Estado de la Solicitud | 3 |
+      | 19 | US19 | Realizar Pago del Servicio | 8 |
+      | 20 | US20 | Solicitar Reembolso o Disputa | 3 |
+      | 21 | US21 | Confirmación de Contratación por Profesional | 5 |
+      | 22 | US22 | Cancelar Solicitud de Servicio | 2 |
+      | 23 | US23 | Notificación de Nueva Solicitud de Servicio | 3 |
+      | 24 | US24 | Abrir Reclamo/Ticket | 5 |
+      | 25 | US25 | Calificar a un Profesional | 3 |
+      | 26 | US26 | Ver Calificaciones de Profesionales | 2 |
+      | 27 | US27 | Calificación Promedio del Profesional | 2 |
+      | 28 | US28 | Reseñas Anónimas | 1 |
+      | 29 | US29 | Ver Reseñas de Otros Clientes | 3 |
+      | 30 | US30 | Solicitar Actualización de Calificación | 1 |
+      | 31 | TS01 | Crear API de Registro de Usuario | 5 |
+      | 32 | TS02 | Crear API para Editar Perfil de Usuario | 3 |
+      | 33 | TS03 | Crear API de Recuperación de Cuenta | 3 |
+      | 34 | TS04 | Crear API de Búsqueda de Profesionales | 5 |
+      | 35 | TS05 | Crear API para Contactar al Profesional | 3 |
+      | 36 | TS06 | Crear API para Gestión de Servicios | 5 |
+      | 37 | TS07 | Crear API de Notificaciones de Solicitudes | 5 |
+      | 38 | TS08 | Crear API para Gamificación y Niveles | 3 |
+      | 39 | TS09 | Crear API para Gestión de Solicitudes | 5 |
+      | 40 | TS10 | Crear API para Realizar Pagos | 8 |
+      | 41 | TS11 | Crear API para Calificaciones y Reseñas | 3 |
 
     
   - **2.5. Strategic-Level Domain-Driven Design**
