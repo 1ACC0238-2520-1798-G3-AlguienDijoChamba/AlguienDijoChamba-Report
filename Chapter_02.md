@@ -375,24 +375,19 @@
     
       ### User Stories
 
-
       | Story ID | User    | Priority | Epic  |
       |----------|---------|----------|-------|
       | US01     | Cliente | Alta     | EP01  |
 
-      ---
+      **Title:** Registro de Nuevo Usuario
 
-      | Title   | Registro de Nuevo Usuario |
-      |---------|--------------------------|
+      **Description:**  
+      Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales.
 
-      | Description | Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales. |
-      |-------------|-----------------------------------------------------------------------------------------------------|
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que soy un usuario nuevo, cuando ingreso correo válido y contraseña segura, entonces mi cuenta se crea exitosamente. |
-      | **Escenario 2:** Dado que ingreso datos inválidos, cuando intento registrarme, entonces la app muestra un mensaje de error indicando qué debo corregir. |
-      | **Escenario 3:** Dado que ya tengo una cuenta, cuando intento registrarme con el mismo correo, entonces la app indica que el correo ya está en uso. |
+      **Acceptance Criteria:**
+      - **Escenario 1:** Dado que soy un usuario nuevo, cuando ingreso correo válido y contraseña segura, entonces mi cuenta se crea exitosamente.
+      - **Escenario 2:** Dado que ingreso datos inválidos, cuando intento registrarme, entonces la app muestra un mensaje de error indicando qué debo corregir.
+      - **Escenario 3:** Dado que ya tengo una cuenta, cuando intento registrarme con el mismo correo, entonces la app indica que el correo ya está en uso.
 
       **---**
 
