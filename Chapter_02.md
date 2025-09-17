@@ -1091,7 +1091,13 @@
         | Repository | CategoryRepository      | Repositorio para Category      | Persistir categorías de Workers | Usado en capa Application    |
 
       - **2.6.1.5. Bounded Context Software Architecture Component Level Diagrams**
-      - **2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**
+        <br>
+        El flujo completo refleja una arquitectura cuidadosamente estructurada, donde cada capa tiene responsabilidades bien definidas: los controladores exponen los endpoints para la interacción externa, los servicios de aplicación gestionan la lógica de negocio y coordinan comandos y consultas, los comandos y consultas representan operaciones específicas sobre el dominio, los agregados y value objects encapsulan el comportamiento y los datos esenciales del dominio, y los repositorios se encargan de la persistencia e interacción con la base de datos. Este enfoque sigue los principios de Clean Architecture y Domain-Driven Design (DDD), garantizando un sistema modular, mantenible y fácilmente extensible.
+                <div align="center">
+                  <img src="./feature/chapter02/worker_domain.jpeg"/>
+                </div>
+                <br>
+      - **2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**      - **2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.1.6.1. Bounded Context Domain Layer Class Diagrams**<br>
         <br><br>
           El diagrama de clases del bounded context Worker-Catalog modela el catálogo de trabajadores bajo principios de DDD y Clean Architecture. La entidad principal es WorkerProfile, como Aggregate Root, que concentra información profesional, contacto, habilidades, calificaciones y categoría, con trazabilidad mediante campos de auditoría.
@@ -1420,6 +1426,7 @@
 - **Bibliografía**
 
 - **Anexo**
+
 
 
 
