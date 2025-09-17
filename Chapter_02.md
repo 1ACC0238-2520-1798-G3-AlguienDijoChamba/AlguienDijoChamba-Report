@@ -207,7 +207,7 @@
       - Distrito de residencia: San Miguel
       - Enlace: https: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EZFZqWNG6YxBkSdNJ7LHjeYBfHsrCofeJ4sZXGpIg7DKsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CUDdgk
         
-      ![Interview user1](./feature/chapter02/Entrevista user1.png)
+      <img src="feature/chapter02/Entrevista user1.png">
 
       **Resumen de la entrevista:**
 
@@ -791,6 +791,7 @@
   | worker_id          | int            | ID del Worker relacionado (FK)                      |
   | created_at         | datetime       | Fecha de creación de la solicitud                   |
   | updated_at         | datetime       | Fecha de última actualización de la solicitud       |
+
 
 
 
