@@ -468,15 +468,73 @@
       - **2.5.3.2. Software Architecture Container Level Diagrams**
       - **2.5.3.3. Software Architecture Deployment Diagrams**
   - **2.6. Tactical-Level Domain-Driven Design**
+
     - **2.6.1. Bounded Context: Worker-Catalog**
-      - **2.6.1.1. Domain Layer**
+      - **2.6.1.1. Domain Layer** <br>
+        **Sub-capa Model:**
+        | Tipo         | Nombre                           | Descripción                                                            | Responsabilidad Principal                                                                                  | Relación con otros elementos                           |
+        | ------------ | -------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+        | Aggregate    | WorkerProfile                    | Entidad que representa la información profesional de un Worker         | Ser el punto de entrada para gestionar la información profesional (nombre, skills, experiencia, categoría) | Relacionado con Tec-Section (para asignar solicitudes) |
+        | Value Object | WorkerContact                    | Datos de contacto (teléfono, email, ubicación aproximada)              | Mantener información de contacto inmutable                                                                 | Parte de WorkerProfile                                 |
+        | Value Object | WorkerSkill                      | Skill o habilidad específica de un Worker (ej: plomería, electricidad) | Representar de manera granular las competencias del Worker                                                 | Parte de WorkerProfile                                 |
+        | Value Object | WorkerRating                     | Puntaje y métricas agregadas del Worker                                | Calcular reputación y promedio de reseñas                                                                  | Relacionado con Alerts para notificar cambios          |
+        | Aggregate    | Category                         | Agrupación de Workers por área de especialidad                         | Organizar Workers en categorías (ej: electricidad, carpintería)                                            | Relacionado con WorkerProfile                          |
+        | Command      | RegisterWorkerCommand            | Comando para registrar un nuevo Worker en el catálogo                  | Encapsular datos iniciales de registro                                                                     | Usado al crear WorkerProfile                           |
+        | Command      | UpdateWorkerProfileCommand       | Comando para actualizar datos del perfil                               | Modificar nombre, contacto, skills, disponibilidad                                                         | Usado por Worker                                       |
+        | Command      | AddSkillToWorkerCommand          | Comando para añadir un skill a un Worker                               | Enriquecer el perfil profesional                                                                           | Usado por Worker                                       |
+        | Command      | RateWorkerCommand                | Comando para asignar calificación a un Worker                          | Agregar reseña/calificación del cliente                                                                    | Usado por Customer                                     |
+        | Query        | GetWorkerProfilesByCategoryQuery | Consulta para obtener Workers por categoría                            | Recuperar listado de Workers en una categoría específica                                                   | Usado en Worker-Catalog UI                             |
+        | Query        | GetWorkerProfileByIdQuery        | Consulta para obtener detalles de un Worker específico                 | Consultar perfil público completo                                                                          | Usado por Customers y Tec-Section                      |
+
+
+
+        **Sub-capa Service:**
+
+        | Tipo    | Nombre               | Descripción                                               | Responsabilidad Principal                    | Relación con otros elementos                             |
+        | ------- | -------------------- | --------------------------------------------------------- | -------------------------------------------- | -------------------------------------------------------- |
+        | Service | WorkerCatalogService | Servicio mock para listar y consultar perfiles de Workers | Simular catálogo de Workers en la aplicación | Usado en la capa Application                             |
+        | Service | WorkerApiService     | Servicio para integrar con el backend vía API REST        | Gestionar Workers y categorías en BD         | Se comunica con `/api/v1/workers` y `/api/v1/categories` |
+
+
       - **2.6.1.2. Interface Layer**
+        **Sub-capa Service:**
+        | Tipo       | Nombre                                          | Descripción                                                       | Responsabilidad Principal                                 | Relación con otros elementos     |
+        | ---------- | ----------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------- | -------------------------------- |
+        | Controller | WorkerProfileController                         | Exponer endpoints para registrar, actualizar y consultar perfiles | Gestionar WorkerProfile vía comandos/queries              | Usa recursos y assemblers        |
+        | Controller | CategoryController                              | Exponer endpoints para gestionar categorías de Workers            | Crear y listar categorías                                 | Usa CategoryResource             |
+        | Resource   | WorkerProfileResource                           | Representa petición de registro o actualización de Worker         | Recibir datos estructurados (skills, contacto, categoría) | Usado en WorkerProfileController |
+        | Resource   | WorkerProfileResponseResource                   | Respuesta con información completa del Worker                     | Exponer perfil público/profesional                        | Usado en WorkerProfileController |
+        | Resource   | CategoryResource                                | Representa petición/estructura de una categoría                   | Datos de categoría de Worker                              | Usado en CategoryController      |
+        | Resource   | CategoryResponseResource                        | Respuesta con detalles de una categoría                           | Mostrar lista de categorías disponibles                   | Usado en CategoryController      |
+        | Assembler  | RegisterWorkerCommandFromResourceAssembler      | Convierte recurso en RegisterWorkerCommand                        | Desacoplar REST de dominio                                | Usado en WorkerProfileController |
+        | Assembler  | UpdateWorkerProfileCommandFromResourceAssembler | Convierte recurso en UpdateWorkerProfileCommand                   | Igual que arriba                                          | Usado en WorkerProfileController |
+        | Assembler  | WorkerProfileResourceFromEntityAssembler        | Convierte entidad WorkerProfile en respuesta                      | Asegurar consistencia en API                              | Usado en WorkerProfileController |
+
+
       - **2.6.1.3. Application Layer**
+        **Sub-capa Internal:**
+        | Tipo           | Nombre                          | Descripción                                  | Responsabilidad Principal                            | Relación con otros elementos      |
+        | -------------- | ------------------------------- | -------------------------------------------- | ---------------------------------------------------- | --------------------------------- |
+        | CommandHandler | WorkerProfileCommandServiceImpl | Implementación de comandos de WorkerProfile  | Crear, actualizar, agregar skills, registrar reseñas | Usado por WorkerProfileController |
+        | QueryHandler   | WorkerProfileQueryServiceImpl   | Implementación de consultas de WorkerProfile | Consultar perfiles y categorías                      | Usado por WorkerProfileController |
+        | CommandHandler | CategoryCommandServiceImpl      | Implementación de comandos para categorías   | Crear/actualizar categorías                          | Usado por CategoryController      |
+        | QueryHandler   | CategoryQueryServiceImpl        | Implementación de consultas para categorías  | Listar categorías disponibles                        | Usado por CategoryController      |
+        
       - **2.6.1.4. Infrastructure Layer**
+        **Sub-capa Repository:**
+        | Tipo       | Nombre                  | Descripción                    | Responsabilidad Principal       | Relación con otros elementos |
+        | ---------- | ----------------------- | ------------------------------ | ------------------------------- | ---------------------------- |
+        | Repository | WorkerProfileRepository | Repositorio para WorkerProfile | Persistir perfiles y reseñas    | Usado en capa Application    |
+        | Repository | CategoryRepository      | Repositorio para Category      | Persistir categorías de Workers | Usado en capa Application    |
+
       - **2.6.1.5. Bounded Context Software Architecture Component Level Diagrams**
       - **2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.1.6.1. Bounded Context Domain Layer Class Diagrams**
+                  <img src="./feature/chapter02/Bounded_Context_Software_Architecture_Code_Level_Diagrams_Worker"/>
+
         - **2.6.1.6.2. Bounded Context Database Design Diagram**
+       
+      - 
     - **2.6.2. Bounded Context: Payments**
       - **2.6.2.1. Domain Layer** <br>
       
@@ -734,6 +792,8 @@
   | worker_id          | int            | ID del Worker relacionado (FK)                      |
   | created_at         | datetime       | Fecha de creación de la solicitud                   |
   | updated_at         | datetime       | Fecha de última actualización de la solicitud       |
+
+
 
 
 
