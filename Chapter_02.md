@@ -272,11 +272,9 @@
         ![User Persona Segmento 2](./feature/chapter02/User_Segmento_2.png)
     - **2.3.2. User Task Matrix** 
 
-       A continuación, se presenta una matriz de tareas enfocada en los segmentos principales de la plataforma **AlguienDijoChamba**:  
-       **Profesional Técnico independiente** (gasfitero, electricista, carpintero, etc.).  
-      - **Cliente** (hogar o pequeña empresa que requiere servicios de mantenimiento).  
-
-      Esta herramienta permite identificar y clasificar las actividades clave que realiza cada segmento, considerando la frecuencia con la que las llevan a cabo y el nivel de importancia que representan dentro de su interacción con la plataforma.
+       A continuación, se presenta una matriz de tareas enfocada en los segmentos principales de la plataforma **AlguienDijoChamba** 
+      
+        Esta herramienta permite identificar y clasificar las actividades clave que realiza cada segmento, considerando la frecuencia con la que las llevan a cabo y el nivel de importancia que representan dentro de su interacción con la plataforma.
 
       | Tarea | Profesionales Técnicos (Frecuencia / Importancia) | Clientes (Frecuencia / Importancia) |
       |-------|---------------------------------------------------|-------------------------------------|
@@ -345,14 +343,35 @@
 
     - **2.4.1. User Stories**
       ### Epic Story
-      | **Epic ID** | **Título**                                    | **Descripción** |
-      |-------------|-----------------------------------------------|-----------------|
-      | EP01        | Registro y Gestión de Perfil de Usuario       | Como usuario (cliente o técnico) de Alguien Dijo Chamba, quiero crear, visualizar, editar y gestionar mi perfil para tener mis datos actualizados y poder utilizar la plataforma correctamente. |
-      | EP02        | Búsqueda y Contacto de Profesionales          | Como cliente, quiero buscar profesionales por especialidad, ubicación y reputación, y contactarlos fácilmente para solicitar sus servicios. |
-      | EP03        | Gestión de Servicios Técnicos (para Profesionales) | Como profesional técnico, quiero gestionar mi perfil de servicios, disponibilidad y recibir solicitudes de trabajo a través de la app, asegurando que los pagos sean instantáneos al terminar el servicio. |
-      | EP04        | Gamificación y Beneficios                     | Como usuario, quiero subir de nivel (Bronce, Plata, Oro) según mi actividad en la plataforma para desbloquear beneficios como descuentos, técnicos preferenciales y soporte prioritario. |
-      | EP05        | Gestión de Solicitudes y Contrataciones       | Como cliente, quiero gestionar mis solicitudes de servicio, ver el estado de las contrataciones y realizar pagos de forma segura a través de la app. Como profesional, quiero gestionar las solicitudes recibidas y confirmar los trabajos con pagos instantáneos. |
-      | EP06        | Sistema de Calificaciones y Reseñas           | Como cliente, quiero calificar y dejar reseñas sobre los servicios o profesionales, y ver las calificaciones y reseñas de otros para tomar decisiones informadas. |
+      | Epic ID | Título |
+      |--------|--------|
+      | **EP01** | **Registro y Gestión de Perfil de Usuario** |
+      | | Como usuario (cliente o técnico) de Alguien Dijo Chamba, quiero crear, visualizar, editar y gestionar mi perfil para tener mis datos actualizados y poder utilizar la plataforma correctamente. |
+
+      | Epic ID | Título |
+      |--------|--------|
+      | **EP02** | **Búsqueda y Contacto de Profesionales** |
+      | | Como cliente, quiero buscar profesionales por especialidad, ubicación y reputación, y contactarlos fácilmente para solicitar sus servicios. |
+
+      | Epic ID | Título |
+      |--------|--------|
+      | **EP03** | **Gestión de Servicios Técnicos (para Profesionales)** |
+      | | Como profesional técnico, quiero gestionar mi perfil de servicios, disponibilidad y recibir solicitudes de trabajo a través de la app, asegurando que los pagos sean instantáneos al terminar el servicio. |
+
+      | Epic ID | Título |
+      |--------|--------|
+      | **EP04** | **Gamificación y Beneficios** |
+      | | Como usuario, quiero subir de nivel (Bronce, Plata, Oro) según mi actividad en la plataforma para desbloquear beneficios como descuentos, técnicos preferenciales y soporte prioritario. |
+
+      | Epic ID | Título |
+      |--------|--------|
+      | **EP05** | **Gestión de Solicitudes y Contrataciones** |
+      | | Como cliente, quiero gestionar mis solicitudes de servicio, ver el estado de las contrataciones y realizar pagos de forma segura a través de la app. Como profesional, quiero gestionar las solicitudes recibidas y confirmar los trabajos con pagos instantáneos. |
+
+      | Epic ID | Título |
+      |--------|--------|
+      | **EP06** | **Sistema de Calificaciones y Reseñas** |
+      | | Como cliente, quiero calificar y dejar reseñas sobre los servicios o profesionales, y ver las calificaciones y reseñas de otros para tomar decisiones informadas. |
     
       # User Stories
 
