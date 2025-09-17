@@ -122,20 +122,6 @@
 
         **Preguntas para el segmento Objetivo 1: Profesionales Tecnicos**
 
-      1. En tu casa, ¿cada cuánto tiempo sueles necesitar servicios de técnicos como fontaneros, electricistas o carpinteros?
-      2. Cuando surge un problema en tu hogar, ¿cómo sueles encontrar a un técnico? (ejemplo: recomendaciones, redes sociales, directorios, etc.)
-      3. ¿Qué dificultades has tenido al buscar un técnico confiable para tu casa?
-      4. ¿Qué tan importante es para ti conocer las referencias, calificaciones o experiencia de un técnico antes de contratarlo?
-      5. ¿Alguna vez has usado una aplicación o página web para contratar un técnico? ¿Cómo fue tu experiencia?
-      6. Si existiera una app que verificara la identidad y experiencia de los técnicos, ¿te daría más confianza contratar por ahí?
-      7. Si una app ofreciera un sistema de niveles (Bronce, Plata, Oro) que te otorgue beneficios como descuentos, acceso a técnicos preferenciales o soporte prioritario, ¿qué tan atractivo te parecería?
-      8. ¿Qué beneficios esperarías recibir para motivarte a subir de nivel en un sistema de gamificación como este?
-      9. ¿Qué opinas de que los técnicos reciban el pago inmediatamente al finalizar el servicio? ¿Crees que eso aumentaría tu confianza como usuario?
-      Pensando en una app como AlguienDijoChamba, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
-      10. Pensando en una app como AlguienDijoChamba, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
-
-        **Preguntas para el segmento Objetivo 2: Clientes**
-
         1. ¿A qué oficio te dedicas actualmente? (fontanero, electricista, carpintero, etc.)
         2. ¿Cómo consigues hoy a tus clientes? (recomendaciones, redes sociales, volanteo, etc.)
         3. ¿Qué dificultades tienes al buscar nuevos clientes o mantener un flujo constante de trabajo?
@@ -147,6 +133,19 @@
         9. ¿Qué tan atractivo te resulta que la app te pague de forma instantánea al terminar el servicio, sin esperar días o trámites adicionales?
         10. ¿Qué esperas de una plataforma como esta en términos de pagos, seguridad, comunicación con clientes y flexibilidad?
         11. ¿Qué valorarías más en una plataforma como AlguienDijoChamba? (visibilidad, facilidad de pago, agenda organizada, historial de clientes, etc.)
+
+        **Preguntas para el segmento Objetivo 2: Clientes**
+      1. En tu casa, ¿cada cuánto tiempo sueles necesitar servicios de técnicos como fontaneros, electricistas o carpinteros?
+      2. Cuando surge un problema en tu hogar, ¿cómo sueles encontrar a un técnico? (ejemplo: recomendaciones, redes sociales, directorios, etc.)
+      3. ¿Qué dificultades has tenido al buscar un técnico confiable para tu casa?
+      4. ¿Qué tan importante es para ti conocer las referencias, calificaciones o experiencia de un técnico antes de contratarlo?
+      5. ¿Alguna vez has usado una aplicación o página web para contratar un técnico? ¿Cómo fue tu experiencia?
+      6. Si existiera una app que verificara la identidad y experiencia de los técnicos, ¿te daría más confianza contratar por ahí?
+      7. Si una app ofreciera un sistema de niveles (Bronce, Plata, Oro) que te otorgue beneficios como descuentos, acceso a técnicos preferenciales o soporte prioritario, ¿qué tan atractivo te parecería?
+      8. ¿Qué beneficios esperarías recibir para motivarte a subir de nivel en un sistema de gamificación como este?
+      9. ¿Qué opinas de que los técnicos reciban el pago inmediatamente al finalizar el servicio? ¿Crees que eso aumentaría tu confianza como usuario?
+      Pensando en una app como AlguienDijoChamba, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
+      10. Pensando en una app como AlguienDijoChamba, ¿qué funciones te serían más útiles? (ejemplo: chat con técnicos, historial de servicios, alertas, cotización inmediata, pagos digitales, etc.)
 
   - **2.2.2. Registro de entrevistas**
 
@@ -198,17 +197,17 @@
 
       **Entrevistas Segmento Objetivo 2: Clientes**
 
-      **Entrevista 1:**
+     **Entrevista 1:**
       Datos del entrevistador:
       - Nombre: Percy Alonso Muñiz 
         
       Datos del entrevistado:
       - Nombre: Jarol Saquiray
-      - Edad: 18 años
-      - Distrito de residencia: Jesus Maria
-      - Enlace: https: link
+      - Edad: 20 años
+      - Distrito de residencia: San Miguel
+      - Enlace: https: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EZFZqWNG6YxBkSdNJ7LHjeYBfHsrCofeJ4sZXGpIg7DKsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CUDdgk
         
-      Agregar Imagen 
+      <img src="feature/chapter02/Entrevista user1.png">
 
       **Resumen de la entrevista:**
 
@@ -798,6 +797,8 @@
 - **Bibliografía**
 
 - **Anexo**
+
+
 
 
 
