@@ -296,6 +296,14 @@
 
 
     - **2.3.3. User Journey Mapping**
+
+         **Segmento Objetivo 1: Profesionales Tecnicos**
+
+        ![User Journey Mapping Segmento 1](./feature/chapter02/User_Journey_Mapping_tecnico.png)
+
+        **Segmento Objetivo 2: Clientes**
+
+        ![User Journey Mapping Segmento 2](./feature/chapter02/User_Journey_Mapping_Cliente.png)
     
     - **2.3.4. Empathy Mapping**
 
@@ -914,6 +922,16 @@
 
 
     - **2.4.2. Impact Mapping**
+
+         **Segmento Objetivo 1: Profesionales Tecnicos**
+
+          
+        ![User Journey Mapping Segmento 1](./feature/chapter02/ImpactMap_Tecnicos.png)
+
+        **Segmento Objetivo 2: Clientes**
+
+        ![User Journey Mapping Segmento 2](./feature/chapter02/ImpactMap_Clientes.png)
+
     - **2.4.3. Product Backlog** 
       | # Orden | User Story Id | Título                                                | Story Points (1 / 2 / 3 / 5 / 8) |
       | ------- | ------------- | ----------------------------------------------------- | -------------------------------- |
