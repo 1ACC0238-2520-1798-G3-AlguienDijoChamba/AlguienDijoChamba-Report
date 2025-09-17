@@ -160,10 +160,8 @@
       - Edad: 21 años
       - Distrito de residencia: Santa Anita
       - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EQvJ8mqIztdPracfY_XiQbcBeGZMJcw0Al69nC8875vYnQ?e=DS22qD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-        <div style="text-align: center;">
-         <img src="https://i.imgur.com/Pigepka.png" alt="Diego Fuentes Interview" width="80%" />
-       </div><br>
 
+         <img src="feature/chapter02/Diego.png">
       **Resumen de la entrevista:**
       Diego Fuentes considera que una aplicación como AlguienDijoChamba le ayudaría a expandirse un poco más y darse a conocer mejor como técnico, lo que le permitiría tener más trabajo disponible. Además, cree que las funcionalidades que se planean implementar son muy prácticas y diferenciarían esta aplicación de otras similares.
 
