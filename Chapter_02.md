@@ -3,104 +3,108 @@
 
     | Competidor| Descripción| Características| Logo
     |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|------|
-      | **Ayfix**     | Conecta a técnicos con usuarios para limpieza y reparaciones comunes, usando como canales principales apps móviles y páginas web. | Canal de distribución principal: Aplicaciones de descarga y paginas web                            |<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfQupxHnI-Nv3HXRk4g3yrOiJyiCWJt9SuBYKHbZyI1FhkSG8v8Yn9j1tG2ElMZ5z8vy-fMJ1CvezZGPVLwA8nb5o5_Qsx8WVNhej_TC1YXp_1RvBROBO2zFKa5lybz9T9snOGzRg?key=7rHwqlj_RdIsExdWTIYPrLCO" />|
-      | **Servicio Tecnico de empresas como sodimac o Maestro**        | Ofrecen mantenimiento del hogar, pero sin un sistema de monitoreo en tiempo real. | Canal de distribución principal: Página web, tienda física y atención telefónica. |<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfAk3n-xv8nhRYxZsWZm3wb_QYbbHg8fe9zXodXQVETc1OQTdQihFHRXWWt6ElvAi2wpAwbY98pOZXFSLkLcxlZsaD1y_X4RX6OR35ix_58EQbldSAmt7jF7D2DKb-dEi56HAeDbA?key=7rHwqlj_RdIsExdWTIYPrLCO"/>|
-      | **Sistemas de domótica (como Google Nest o Xiaomi Home)** | Ofrecen monitoreo inteligente, pero con instalación costosa y sin integración con técnicos. | Canal de distribución principal: Página web y tienda física. |<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdonNQaiL2E0e4X5_Uz6KIHTyCuVqdWzz0q550v4adqZF983mpBHpLrvdQB9ZO0WqiqdGk3w1N5lDZ36KeZ8ijedQdV4qTQCD5DnIyMLQNnM-urCB-A8xlJzLkQ5dvk7v7rngffsQ?key=7rHwqlj_RdIsExdWTIYPrLCO"/>|
+      | **Ayfix**     | Conecta a técnicos con usuarios para limpieza y reparaciones comunes, usando como canales principales apps móviles y páginas web. | Canal de distribución principal: Aplicaciones de descarga y páginas web | <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfQupxHnI-Nv3HXRk4g3yrOiJyiCWJt9SuBYKHbZyI1FhkSG8v8Yn9j1tG2ElMZ5z8vy-fMJ1CvezZGPVLwA8nb5o5_Qsx8WVNhej_TC1YXp_1RvBROBO2zFKa5lybz9T9snOGzRg?key=7rHwqlj_RdIsExdWTIYPrLCO" /> |
+      | **Servicio Técnico de empresas como Sodimac o Maestro** | Ofrecen mantenimiento del hogar, pero con procesos más tradicionales y menor flexibilidad en comparación con plataformas digitales. | Canal de distribución principal: Página web, tienda física y atención telefónica. | <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfAk3n-xv8nhRYxZsWZm3wb_QYbbHg8fe9zXodXQVETc1OQTdQihFHRXWWt6ElvAi2wpAwbY98pOZXFSLkLcxlZsaD1y_X4RX6OR35ix_58EQbldSAmt7jF7D2DKb-dEi56HAeDbA?key=7rHwqlj_RdIsExdWTIYPrLCO"/> |
+      | **Sistemas de domótica (como Google Nest o Xiaomi Home)** | Ofrecen soluciones inteligentes para el hogar, pero con costos elevados y sin conexión directa con técnicos locales. | Canal de distribución principal: Página web y tienda física. | <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdonNQaiL2E0e4X5_Uz6KIHTyCuVqdWzz0q550v4adqZF983mpBHpLrvdQB9ZO0WqiqdGk3w1N5lDZ36KeZ8ijedQdV4qTQCD5DnIyMLQNnM-urCB-A8xlJzLkQ5dvk7v7rngffsQ?key=7rHwqlj_RdIsExdWTIYPrLCO"/> |
 
     - **2.1.1. Análisis competitivo**
+      
         <table>
-          <tr>
-          <th colspan="2" align="center">¿Por qué llevar a cabo este análisis?</th>
-          <th colspan="5" align="center">Lo realizamos para comprender mejor a la competencia y así ajustar la estrategia de negocio para competir con mayor efectividad.</th>
-          </tr>
-          <tr>
-          <td colspan="2"></td>
-          <td align="center">AlguienDijoChamba</td>
-          <td align="center">Ayfix</td>
-          <td align="center">Sodimac/Maestro</td>
-          <td align="center">Nest/Xiaomi Home</td>
-          </tr>
-          <tr>
-          <td rowspan="2" align="center">Perfil</td>
-          <td align="center"><b>Overview</b></td>
-          <td align="center">Aplicación que conecta a usuarios con técnicos especializados (gasfiteros, carpinteros, etc.) e incorpora monitoreo en tiempo real de agua y electricidad.</td>
-          <td align="center">Plataforma que enlaza usuarios con técnicos para servicios del hogar, principalmente en limpieza, gasfitería y electricidad básica.</td>
-          <td align="center">Servicios técnicos como valor agregado en tiendas físicas y online, vinculados a la compra de productos.</td>
-          <td align="center">Sistemas inteligentes para el hogar: temperatura, consumo eléctrico, cámaras, asistentes de voz y más.</td>
-          </tr>
-          <tr>
-          <td align="center"><b>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</b></td>
-          <td align="center">Interfaz amigable y acceso rápido a técnicos verificados para distintas necesidades del hogar.</td>
-          <td align="center">Amplia red de técnicos de contacto rápido y económico.</td>
-          <td align="center">Marca reconocida con cobertura nacional y respaldo en infraestructura.</td>
-          <td align="center">Tecnología avanzada e integración con ecosistemas de domótica.</td>
-          </tr>
-          <tr>
-          <td rowspan="2" align="center">Perfil de Marketing</td>
-          <td align="center"><b>Mercado objetivo</b></td>
-          <td align="center">Hogares y usuarios que requieren servicios de mantenimiento y reparación.</td>
-          <td align="center">Usuarios urbanos que requieren soluciones rápidas y económicas para reparaciones básicas.</td>
-          <td align="center">Compradores frecuentes de productos para el hogar que necesitan instalación o mantenimiento.</td>
-          <td align="center">Consumidores con alto poder adquisitivo interesados en automatización del hogar.</td>
-          </tr>
-          <tr>
-          <td align="center"><b>Estrategias de marketing</b></td>
-          <td align="center">Presencia en redes sociales, alianzas con empresas de servicios y campañas digitales.</td>
-          <td align="center">Publicidad digital en redes, posicionamiento en tiendas de apps y promociones por servicio.</td>
-          <td align="center">Marketing cruzado en tiendas físicas, paquetes con productos y servicios.</td>
-          <td align="center">Marketing digital, presencia en retail y alianzas estratégicas con marcas tecnológicas.</td>
-          </tr>
-          <td rowspan="3" align="center">Perfil de producto</td>
-          <td align="center"><b>Productos o servicios</b></td>
-          <td align="center">Conexión con técnicos, gestión de solicitudes, seguimiento y pagos integrados.</td>
-          <td align="center">Servicios de reparaciones básicas, mantenimiento y limpieza.</td>
-          <td align="center">Instalación de productos, soporte técnico y servicios adicionales.</td>
-          <td align="center">Sensores, cámaras, medidores, asistentes de voz y soluciones de control inteligente.</td>
-          </tr>
-          <tr>
-          <td align="center"><b>Precios y costos</b></td>
-          <td align="center">Comisión por servicio y planes de suscripción para técnicos.</td>
-          <td align="center">Pago por servicio individual, sin suscripciones.</td>
-          <td align="center">Incluido con la compra de productos o con costo adicional.</td>
-          <td align="center">Alto costo por dispositivos y su instalación.</td>
-          </tr>
-          <tr>
-          <td align="center"><b>Canales de distribución<br>(web y/o móvil)</b></td>
-          <td align="center">Aplicación móvil, página web, redes sociales y convenios con técnicos.</td>
-          <td align="center">App móvil y página web.</td>
-          <td align="center">Tiendas físicas, página web y call center.</td>
-          <td align="center">Página web, e-commerce y tiendas físicas.</td>
-          </tr>
-          <tr>
-          <td rowspan="4" align="center"><b>Análisis SWOT</b></td>
-          <td align="center"><b>Fortalezas</b></td>
-          <td align="center">Acceso rápido a técnicos verificados y variedad de servicios.</td>
-          <td align="center">Fácil acceso y rapidez en la contratación de técnicos.</td>
-          <td align="center">Marca sólida y de confianza, infraestructura establecida.</td>
-          <td align="center">Tecnología avanzada con ecosistema integral de domótica.</td>
-          </tr>
-          <tr>
-          <td align="center"><b>Debilidades</b></td>
-          <td align="center">Requiere tiempo para consolidar la red de técnicos y ganar confianza del mercado.</td>
-          <td align="center">Limitados a servicios básicos, sin valor agregado tecnológico.</td>
-          <td align="center">Dependencia de terceros para servicios técnicos, sin monitoreo propio.</td>
-          <td align="center">Costoso, complejo para usuarios comunes, no ofrece mano de obra técnica.</td>
-          </tr>
-          <tr>
-          <td align="center"><b>Oportunidades</b></td>
-          <td align="center">Ampliar cobertura a oficinas, edificios y nuevos servicios.</td>
-          <td align="center">Escalar hacia servicios especializados.</td>
-          <td align="center">Integrar soluciones inteligentes y conectadas.</td>
-          <td align="center">Complementar con técnicos o incluir soporte humano.</td>
-          </tr>
-          <tr>
-          <td align="center"><b>Amenazas</b></td>
-          <td align="center">Que grandes competidores copien el modelo y lo escalen más rápido.</td>
-          <td align="center">Competencia creciente en apps similares.</td>
-          <td align="center">Riesgo de que plataformas digitales más ágiles los desplacen.</td>
-          <td align="center">Preferencia de usuarios por alternativas más simples y económicas.</td>
-          </tr>
+            <tr>
+            <th colspan="2" align="center">¿Por qué llevar a cabo este análisis?</th>
+            <th colspan="5" align="center">Lo realizamos para comprender mejor a la competencia y así ajustar la estrategia de negocio para competir con mayor efectividad.</th>
+            </tr>
+            <tr>
+            <td colspan="2"></td>
+            <td align="center">AlguienDijoChamba</td>
+            <td align="center">Ayfix</td>
+            <td align="center">Sodimac/Maestro</td>
+            <td align="center">Nest/Xiaomi Home</td>
+            </tr>
+            <tr>
+            <td rowspan="2" align="center">Perfil</td>
+            <td align="center"><b>Overview</b></td>
+            <td align="center">Aplicación que conecta a usuarios con técnicos especializados (gasfiteros, carpinteros, etc.) e incorpora un sistema de gamificación (niveles Bronce, Plata y Oro) para fidelizar clientes y motivar a los técnicos.</td>
+            <td align="center">Plataforma que enlaza usuarios con técnicos para servicios del hogar, principalmente en limpieza, gasfitería y electricidad básica.</td>
+            <td align="center">Servicios técnicos como valor agregado en tiendas físicas y online, vinculados a la compra de productos.</td>
+            <td align="center">Sistemas inteligentes para el hogar: temperatura, consumo eléctrico, cámaras, asistentes de voz y más.</td>
+            </tr>
+            <tr>
+            <td align="center"><b>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</b></td>
+            <td align="center">Interfaz amigable, acceso rápido a técnicos verificados y beneficios por gamificación que generan confianza y fidelidad.</td>
+            <td align="center">Amplia red de técnicos de contacto rápido y económico.</td>
+            <td align="center">Marca reconocida con cobertura nacional y respaldo en infraestructura.</td>
+            <td align="center">Tecnología avanzada e integración con ecosistemas de domótica.</td>
+            </tr>
+            <tr>
+            <td rowspan="2" align="center">Perfil de Marketing</td>
+            <td align="center"><b>Mercado objetivo</b></td>
+            <td align="center">Hogares y usuarios que requieren servicios de mantenimiento y reparación.</td>
+            <td align="center">Usuarios urbanos que requieren soluciones rápidas y económicas para reparaciones básicas.</td>
+            <td align="center">Compradores frecuentes de productos para el hogar que necesitan instalación o mantenimiento.</td>
+            <td align="center">Consumidores con alto poder adquisitivo interesados en automatización del hogar.</td>
+            </tr>
+            <tr>
+            <td align="center"><b>Estrategias de marketing</b></td>
+            <td align="center">Presencia en redes sociales, alianzas con empresas de servicios y campañas digitales.</td>
+            <td align="center">Publicidad digital en redes, posicionamiento en tiendas de apps y promociones por servicio.</td>
+            <td align="center">Marketing cruzado en tiendas físicas, paquetes con productos y servicios.</td>
+            <td align="center">Marketing digital, presencia en retail y alianzas estratégicas con marcas tecnológicas.</td>
+            </tr>
+            <td rowspan="3" align="center">Perfil de producto</td>
+            <td align="center"><b>Productos o servicios</b></td>
+            <td align="center">Conexión con técnicos, gestión de solicitudes, pagos inmediatos y sistema de gamificación.</td>
+            <td align="center">Servicios de reparaciones básicas, mantenimiento y limpieza.</td>
+            <td align="center">Instalación de productos, soporte técnico y servicios adicionales.</td>
+            <td align="center">Sensores, cámaras, medidores, asistentes de voz y soluciones de control inteligente.</td>
+            </tr>
+            <tr>
+            <td align="center"><b>Precios y costos</b></td>
+            <td align="center">Comisión por servicio y planes de suscripción para técnicos con beneficios adicionales.</td>
+            <td align="center">Pago por servicio individual, sin suscripciones.</td>
+            <td align="center">Incluido con la compra de productos o con costo adicional.</td>
+            <td align="center">Alto costo por dispositivos y su instalación.</td>
+            </tr>
+            <tr>
+            <td align="center"><b>Canales de distribución<br>(web y/o móvil)</b></td>
+            <td align="center">Aplicación móvil, página web, redes sociales y convenios con técnicos.</td>
+            <td align="center">App móvil y página web.</td>
+            <td align="center">Tiendas físicas, página web y call center.</td>
+            <td align="center">Página web, e-commerce y tiendas físicas.</td>
+            </tr>
+            <tr>
+            <td rowspan="4" align="center"><b>Análisis SWOT</b></td>
+            <td align="center"><b>Fortalezas</b></td>
+            <td align="center">Acceso rápido a técnicos verificados, variedad de servicios y motivación mediante gamificación.</td>
+            <td align="center">Fácil acceso y rapidez en la contratación de técnicos.</td>
+            <td align="center">Marca sólida y de confianza, infraestructura establecida.</td>
+            <td align="center">Tecnología avanzada con ecosistema integral de domótica.</td>
+            </tr>
+            <tr>
+            <td align="center"><b>Debilidades</b></td>
+            <td align="center">Requiere tiempo para consolidar la red de técnicos y ganar confianza del mercado.</td>
+            <td align="center">Limitados a servicios básicos, sin valor agregado.</td>
+            <td align="center">Dependencia de terceros para servicios técnicos.</td>
+            <td align="center">Costoso, complejo para usuarios comunes, no ofrece mano de obra técnica.</td>
+            </tr>
+            <tr>
+            <td align="center"><b>Oportunidades</b></td>
+            <td align="center">Ampliar cobertura a oficinas, edificios y nuevos servicios.</td>
+            <td align="center">Escalar hacia servicios especializados.</td>
+            <td align="center">Integrar soluciones digitales para mayor agilidad.</td>
+            <td align="center">Complementar con técnicos o incluir soporte humano.</td>
+            </tr>
+            <tr>
+            <td align="center"><b>Amenazas</b></td>
+            <td align="center">Que grandes competidores copien el modelo y lo escalen más rápido.</td>
+            <td align="center">Competencia creciente en apps similares.</td>
+            <td align="center">Riesgo de que plataformas digitales más ágiles los desplacen.</td>
+            <td align="center">Preferencia de usuarios por alternativas más simples y económicas.</td>
+            </tr>
         </table>
+
+
+
     - **2.1.2. Estrategias y tácticas frente a competidores**<br><br>
       **Propuesta de valor diferenciada:** Crear una plataforma que conecte de forma rápida y confiable a los usuarios con técnicos especializados (plomeros, electricistas, carpinteros, entre otros), destacándose por la facilidad de uso y tiempos de respuesta cortos.
 
@@ -706,6 +710,7 @@
   | worker_id          | int            | ID del Worker relacionado (FK)                      |
   | created_at         | datetime       | Fecha de creación de la solicitud                   |
   | updated_at         | datetime       | Fecha de última actualización de la solicitud       |
+
 
 
 
