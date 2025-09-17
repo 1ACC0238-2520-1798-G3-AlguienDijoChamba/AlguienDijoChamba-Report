@@ -903,22 +903,193 @@
       | Acceptance Criteria |
       |---------------------|
       | **Escenario 1:** Dado que quiero modificar mi reseña, cuando la edito, entonces la app actualiza la calificación y el comentario. |
-      | **Escenario 2:** Dado que me equivoqué, cuando corrijo mi evaluación, entonces el profesional recibe la calificación actualizada. |
-      
-      ### Technical Stories 
-| Story ID | User      | Priority | Epic | Title                                      | Description                                                                                                                                             | Acceptance Criteria                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| -------- | --------- | -------- | ---- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| TS01     | Developer | Alta     | EP01 | Crear API de Registro de Usuario           | Como desarrollador, quiero crear una API que gestione el registro de nuevos usuarios para que puedan registrarse en la plataforma.                      | **Escenario 1**: Dado que soy un nuevo usuario, cuando hago una solicitud POST a la API `/register`, entonces recibo una respuesta 201 (Created) con el usuario registrado. <br> **Escenario 2**: Dado que ingreso datos inválidos, cuando intento registrarme, entonces la respuesta debe ser un error 400 con un mensaje adecuado.                                                                                                          |
-| TS02     | Developer | Alta     | EP01 | Crear API para Editar Perfil de Usuario    | Como desarrollador, quiero crear una API que permita editar los datos del perfil del usuario para mantener su información actualizada.                  | **Escenario 1**: Dado que tengo un perfil existente, cuando hago una solicitud PUT a la API `/profile/{userId}`, entonces los datos deben ser actualizados correctamente en la base de datos. <br> **Escenario 2**: Dado que los datos de entrada son incorrectos, cuando intento actualizar el perfil, entonces la respuesta debe ser un error 400 con un mensaje de validación.                                                             |
-| TS03     | Developer | Media    | EP01 | Crear API de Recuperación de Cuenta        | Como desarrollador, quiero crear una API que permita a los usuarios recuperar su cuenta cuando olviden su contraseña.                                   | **Escenario 1**: Dado que he olvidado mi contraseña, cuando hago una solicitud POST a la API `/recover-password`, entonces recibo un correo con un enlace para restablecer mi contraseña. <br> **Escenario 2**: Dado que ingreso una dirección de correo incorrecta, cuando intento recuperar mi contraseña, entonces la respuesta debe ser un error 404 con un mensaje adecuado.                                                             |
-| TS04     | Developer | Alta     | EP02 | Crear API de Búsqueda de Profesionales     | Como desarrollador, quiero crear una API que permita a los clientes buscar profesionales según especialidad, ubicación y reputación.                    | **Escenario 1**: Dado que aplico filtros de especialidad y ubicación, cuando hago una solicitud GET a la API `/search-professionals`, entonces obtengo una lista de profesionales que cumplen con los filtros. <br> **Escenario 2**: Dado que no hay resultados para mi búsqueda, cuando hago la solicitud, entonces la respuesta debe ser un array vacío con el código de estado 200.                                                        |
-| TS05     | Developer | Media    | EP02 | Crear API para Contactar al Profesional    | Como desarrollador, quiero crear una API que permita a los clientes contactar a los profesionales directamente desde sus perfiles.                      | **Escenario 1**: Dado que quiero contactar a un profesional, cuando hago una solicitud POST a la API `/contact-professional`, entonces recibo una respuesta 201 (Created) indicando que el mensaje ha sido enviado correctamente. <br> **Escenario 2**: Dado que ingreso un mensaje vacío, cuando intento enviar el mensaje, entonces la respuesta debe ser un error 400 con un mensaje de error.                                             |
-| TS06     | Developer | Alta     | EP03 | Crear API para Gestión de Servicios        | Como desarrollador, quiero crear una API que permita a los profesionales gestionar sus servicios, tarifas y disponibilidad.                             | **Escenario 1**: Dado que quiero añadir un nuevo servicio, cuando hago una solicitud POST a la API `/services`, entonces mi servicio se guarda correctamente en la base de datos. <br> **Escenario 2**: Dado que quiero actualizar la disponibilidad, cuando hago una solicitud PUT a la API `/services/{serviceId}`, entonces la disponibilidad del servicio se actualiza correctamente.                                                     |
-| TS07     | Developer | Alta     | EP03 | Crear API de Notificaciones de Solicitudes | Como desarrollador, quiero crear una API que permita a los profesionales recibir notificaciones de nuevas solicitudes de trabajo.                       | **Escenario 1**: Dado que hay una nueva solicitud, cuando el cliente hace una solicitud POST a la API `/request-service`, entonces el profesional recibe una notificación en tiempo real. <br> **Escenario 2**: Dado que el profesional está desconectado, cuando vuelve a conectarse, entonces la notificación debe ser sincronizada correctamente.                                                                                          |
-| TS08     | Developer | Alta     | EP04 | Crear API para Gamificación y Niveles      | Como desarrollador, quiero crear una API que gestione los niveles de gamificación de los usuarios (Bronce, Plata, Oro) basados en su actividad.         | **Escenario 1**: Dado que un usuario ha completado ciertas acciones, cuando hago una solicitud POST a la API `/gamify/{userId}`, entonces el sistema debe asignar un nivel correspondiente (Bronce, Plata o Oro). <br> **Escenario 2**: Dado que el usuario no ha completado suficientes acciones, cuando intento asignar un nivel, entonces la respuesta debe ser un error 400 con un mensaje indicando que no se alcanzaron los requisitos. |
-| TS09     | Developer | Alta     | EP05 | Crear API para Gestión de Solicitudes      | Como desarrollador, quiero crear una API que permita a los clientes gestionar las solicitudes de servicio y a los profesionales confirmar sus trabajos. | **Escenario 1**: Dado que un cliente envía una solicitud, cuando hago una solicitud POST a la API `/create-request`, entonces el sistema guarda la solicitud en la base de datos. <br> **Escenario 2**: Dado que un profesional confirma una solicitud, cuando hace una solicitud PUT a la API `/confirm-request/{requestId}`, entonces la solicitud se marca como confirmada.                                                                |
-| TS10     | Developer | Alta     | EP05 | Crear API para Realizar Pagos              | Como desarrollador, quiero crear una API que permita a los clientes realizar pagos de manera segura y a los profesionales recibir pagos instantáneos.   | **Escenario 1**: Dado que un cliente realiza un pago, cuando hace una solicitud POST a la API `/payment`, entonces el pago se procesa correctamente y el cliente recibe una respuesta 200. <br> **Escenario 2**: Dado que el pago falla, cuando intento procesarlo, entonces la respuesta debe ser un error 402 con un mensaje adecuado.                                                                                                      |
-| TS11     | Developer | Media    | EP06 | Crear API para Calificaciones y Reseñas    | Como desarrollador, quiero crear una API que permita a los clientes calificar y dejar reseñas sobre los profesionales.                                  | **Escenario 1**: Dado que un cliente califica a un profesional, cuando hago una solicitud POST a la API `/rate-professional`, entonces la calificación se guarda correctamente. <br> **Escenario 2**: Dado que un cliente deja una reseña, cuando hago una solicitud POST a la API `/review-professional`, entonces la reseña se guarda y es visible en el perfil del profesional.                                                            |
+
+
+      ### Technical Stories
+      | Story ID | User      | Priority | Epic  |
+      |----------|-----------|----------|-------|
+      | TS01     | Developer | Alta     | EP01  |
+
+      ---
+
+      | Title   | Crear API de Registro de Usuario |
+      |---------|----------------------------------|
+      | **Description** | Como desarrollador, quiero crear una API que gestione el registro de nuevos usuarios para que puedan registrarse en la plataforma. |
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que soy un nuevo usuario, cuando hago una solicitud POST a la API `/register`, entonces recibo una respuesta 201 (Created) con el usuario registrado. |
+      | **Escenario 2:** Dado que ingreso datos inválidos, cuando intento registrarme, entonces la respuesta debe ser un error 400 con un mensaje adecuado. |
+
+      ---
+
+      | Story ID | User      | Priority | Epic  |
+      |----------|-----------|----------|-------|
+      | TS02     | Developer | Alta     | EP01  |
+
+      ---
+
+      | Title   | Crear API para Editar Perfil de Usuario |
+      |---------|-----------------------------------------|
+      | **Description** | Como desarrollador, quiero crear una API que permita editar los datos del perfil del usuario para mantener su información actualizada. |
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que tengo un perfil existente, cuando hago una solicitud PUT a la API `/profile/{userId}`, entonces los datos deben ser actualizados correctamente en la base de datos. |
+      | **Escenario 2:** Dado que los datos de entrada son incorrectos, cuando intento actualizar el perfil, entonces la respuesta debe ser un error 400 con un mensaje de validación. |
+
+      ---
+
+      | Story ID | User      | Priority | Epic  |
+      |----------|-----------|----------|-------|
+      | TS03     | Developer | Media    | EP01  |
+
+      ---
+
+      | Title   | Crear API de Recuperación de Cuenta |
+      |---------|-------------------------------------|
+      | **Description** | Como desarrollador, quiero crear una API que permita a los usuarios recuperar su cuenta cuando olviden su contraseña. |
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que he olvidado mi contraseña, cuando hago una solicitud POST a la API `/recover-password`, entonces recibo un correo con un enlace para restablecer mi contraseña. |
+      | **Escenario 2:** Dado que ingreso una dirección de correo incorrecta, cuando intento recuperar mi contraseña, entonces la respuesta debe ser un error 404 con un mensaje adecuado. |
+
+      ---
+
+      | Story ID | User      | Priority | Epic  |
+      |----------|-----------|----------|-------|
+      | TS04     | Developer | Alta     | EP02  |
+
+      ---
+
+      | Title   | Crear API de Búsqueda de Profesionales |
+      |---------|----------------------------------------|
+      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes buscar profesionales según especialidad, ubicación y reputación. |
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que aplico filtros de especialidad y ubicación, cuando hago una solicitud GET a la API `/search-professionals`, entonces obtengo una lista de profesionales que cumplen con los filtros. |
+      | **Escenario 2:** Dado que no hay resultados para mi búsqueda, cuando hago la solicitud, entonces la respuesta debe ser un array vacío con el código de estado 200. |
+
+      ---
+
+      | Story ID | User      | Priority | Epic  |
+      |----------|-----------|----------|-------|
+      | TS05     | Developer | Media    | EP02  |
+
+      ---
+
+      | Title   | Crear API para Contactar al Profesional |
+      |---------|-----------------------------------------|
+      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes contactar a los profesionales directamente desde sus perfiles. |
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que quiero contactar a un profesional, cuando hago una solicitud POST a la API `/contact-professional`, entonces recibo una respuesta 201 (Created) indicando que el mensaje ha sido enviado correctamente. |
+      | **Escenario 2:** Dado que ingreso un mensaje vacío, cuando intento enviar el mensaje, entonces la respuesta debe ser un error 400 con un mensaje de error. |
+
+      ---
+
+      | Story ID | User      | Priority | Epic  |
+      |----------|-----------|----------|-------|
+      | TS06     | Developer | Alta     | EP03  |
+
+      ---
+
+      | Title   | Crear API para Gestión de Servicios |
+      |---------|-------------------------------------|
+      | **Description** | Como desarrollador, quiero crear una API que permita a los profesionales gestionar sus servicios, tarifas y disponibilidad. |
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que quiero añadir un nuevo servicio, cuando hago una solicitud POST a la API `/services`, entonces mi servicio se guarda correctamente en la base de datos. |
+      | **Escenario 2:** Dado que quiero actualizar la disponibilidad, cuando hago una solicitud PUT a la API `/services/{serviceId}`, entonces la disponibilidad del servicio se actualiza correctamente. |
+
+      ---
+
+      | Story ID | User      | Priority | Epic  |
+      |----------|-----------|----------|-------|
+      | TS07     | Developer | Alta     | EP03  |
+
+      ---
+
+      | Title   | Crear API de Notificaciones de Solicitudes |
+      |---------|-------------------------------------------|
+      | **Description** | Como desarrollador, quiero crear una API que permita a los profesionales recibir notificaciones de nuevas solicitudes de trabajo. |
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que hay una nueva solicitud, cuando el cliente hace una solicitud POST a la API `/request-service`, entonces el profesional recibe una notificación en tiempo real. |
+      | **Escenario 2:** Dado que el profesional está desconectado, cuando vuelve a conectarse, entonces la notificación debe ser sincronizada correctamente. |
+
+      ---
+
+      | Story ID | User      | Priority | Epic  |
+      |----------|-----------|----------|-------|
+      | TS08     | Developer | Alta     | EP04  |
+
+      ---
+
+      | Title   | Crear API para Gamificación y Niveles |
+      |---------|---------------------------------------|
+      | **Description** | Como desarrollador, quiero crear una API que gestione los niveles de gamificación de los usuarios (Bronce, Plata, Oro) basados en su actividad. |
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que un usuario ha completado ciertas acciones, cuando hago una solicitud POST a la API `/gamify/{userId}`, entonces el sistema debe asignar un nivel correspondiente (Bronce, Plata o Oro). |
+      | **Escenario 2:** Dado que el usuario no ha completado suficientes acciones, cuando intento asignar un nivel, entonces la respuesta debe ser un error 400 con un mensaje indicando que no se alcanzaron los requisitos. |
+
+      ---
+
+      | Story ID | User      | Priority | Epic  |
+      |----------|-----------|----------|-------|
+      | TS09     | Developer | Alta     | EP05  |
+
+      ---
+
+      | Title   | Crear API para Gestión de Solicitudes |
+      |---------|--------------------------------------|
+      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes gestionar las solicitudes de servicio y a los profesionales confirmar sus trabajos. |
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que un cliente envía una solicitud, cuando hago una solicitud POST a la API `/create-request`, entonces el sistema guarda la solicitud en la base de datos. |
+      | **Escenario 2:** Dado que un profesional confirma una solicitud, cuando hace una solicitud PUT a la API `/confirm-request/{requestId}`, entonces la solicitud se marca como confirmada. |
+
+      ---
+
+      | Story ID | User      | Priority | Epic  |
+      |----------|-----------|----------|-------|
+      | TS10     | Developer | Alta     | EP05  |
+
+      ---
+
+      | Title   | Crear API para Realizar Pagos |
+      |---------|-------------------------------|
+      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes realizar pagos de manera segura y a los profesionales recibir pagos instantáneos. |
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que un cliente realiza un pago, cuando hace una solicitud POST a la API `/payment`, entonces el pago se procesa correctamente y el cliente recibe una respuesta 200. |
+      | **Escenario 2:** Dado que el pago falla, cuando intento procesarlo, entonces la respuesta debe ser un error 402 con un mensaje adecuado. |
+
+      ---
+
+      | Story ID | User      | Priority | Epic  |
+      |----------|-----------|----------|-------|
+      | TS11     | Developer | Media    | EP06  |
+
+      ---
+
+      | Title   | Crear API para Calificaciones y Reseñas |
+      |---------|-----------------------------------------|
+      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes calificar y dejar reseñas sobre los profesionales. |
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que un cliente califica a un profesional, cuando hago una solicitud POST a la API `/rate-professional`, entonces la calificación se guarda correctamente. |
+      | **Escenario 2:** Dado que un cliente deja una reseña, cuando hago una solicitud POST a la API `/review-professional`, entonces la reseña se guarda y es visible en el perfil del profesional. |
 
     - **2.4.2. Impact Mapping**
 
