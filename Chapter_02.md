@@ -793,8 +793,11 @@
   | created_at         | datetime       | Fecha de creación de la solicitud                   |
   | updated_at         | datetime       | Fecha de última actualización de la solicitud       |
 
+- **Conclusiones**
 
+- **Bibliografía**
 
+- **Anexo**
 
 
 
