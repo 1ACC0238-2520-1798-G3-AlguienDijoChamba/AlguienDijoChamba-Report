@@ -373,42 +373,588 @@
       | **EP06** | **Sistema de Calificaciones y Reseñas** |
       | | Como cliente, quiero calificar y dejar reseñas sobre los servicios o profesionales, y ver las calificaciones y reseñas de otros para tomar decisiones informadas. |
     
-      # User Stories
+      ### User Stories
 
-      | Story ID | User | Priority | Epic | Title | Description | Acceptance Criteria |
-      |----------|------|----------|------|-------|-------------|---------------------|
-      | US01 | Cliente | Alta | EP01 | Registro de Nuevo Usuario | Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales. | 1. Dado que soy un usuario nuevo, cuando ingreso correo válido y contraseña segura, entonces mi cuenta se crea exitosamente.<br>2. Dado que ingreso datos inválidos, cuando intento registrarme, entonces la app muestra un mensaje de error indicando qué debo corregir.<br>3. Dado que ya tengo una cuenta, cuando intento registrarme con el mismo correo, entonces la app indica que el correo ya está en uso. |
-      | US02 | Profesional Técnico | Alta | EP01 | Registro de Nuevo Profesional | Como nuevo profesional técnico, quiero registrarme detallando mis especialidades, experiencia y contacto para ofrecer mis servicios. | 1. Dado que completo todos los campos requeridos, cuando envío la información, entonces mi perfil se crea correctamente.<br>2. Dado que omito campos obligatorios, cuando intento registrar el perfil, entonces la app indica qué información falta.<br>3. Dado que ingreso datos incorrectos, cuando envío el registro, entonces la app muestra error indicando el formato correcto. |
-      | US03 | Usuario | Media | EP01 | Recuperación de Cuenta/Login | Como usuario, quiero recuperar mi cuenta o iniciar sesión mediante diferentes métodos. | 1. Dado que olvidé mi contraseña, cuando solicito restablecerla, entonces recibo un correo con enlace para crear nueva contraseña.<br>2. Dado que quiero acceder rápidamente, cuando uso inicio de sesión con Google, entonces me autentico sin necesidad de recordar contraseña.<br>3. Dado que ingreso credenciales incorrectas, cuando intento iniciar sesión, entonces la app muestra mensaje de error específico. |
-      | US04 | Usuario Registrado | Media | EP01 | Editar Perfil de Usuario | Como usuario registrado, quiero poder editar la información de mi perfil para mantenerla actualizada. | 1. Dado que quiero actualizar mis datos, cuando modifico y guardo la información, entonces la app actualiza correctamente mi perfil.<br>2. Dado que ingreso un número con formato incorrecto, cuando intento guardar, entonces la app muestra un mensaje de error. |
-      | US05 | Cliente | Alta | EP02 | Ver Perfil Detallado del Profesional | Como cliente, quiero ver el perfil completo de un profesional con toda su información relevante. | 1. Dado que quiero evaluar un profesional, cuando ingreso a su perfil, entonces puedo ver experiencia, especialidades, calificaciones, tarifas y disponibilidad.<br>2. Dado que hay varios profesionales, cuando comparo perfiles, entonces puedo ver diferencias en tarifas, calificaciones y disponibilidad.<br>3. Dado que necesito información específica, cuando visualizo el perfil, entonces puedo ver reseñas detalladas de otros clientes. |
-      | US06 | Cliente | Media | EP02 | Contactar al Profesional | Como cliente, quiero contactar directamente a un profesional para coordinar un servicio. | 1. Dado que quiero enviar un mensaje, cuando uso el perfil del profesional, entonces puedo enviarle un mensaje directo.<br>2. Dado que quiero solicitar cotización, cuando la pido desde su perfil, entonces el profesional recibe mi solicitud con todos los detalles. |
-      | US07 | Cliente | Alta | EP02 | Buscar Profesionales por Especialidad y Ubicación | Como cliente, quiero buscar profesionales filtrando por tipo de servicio y ubicación. | 1. Dado que busco un profesional, cuando aplico filtros de especialidad y ubicación, entonces la app muestra profesionales disponibles.<br>2. Dado que no hay profesionales en mi zona, cuando realizo la búsqueda, entonces la app muestra un mensaje "no se encontraron resultados".<br>3. Dado que quiero eficiencia, cuando uso filtros múltiples, entonces la app muestra resultados ordenados por reputación o cercanía. |
-      | US08 | Cliente | Alta | EP02 | Solicitar Servicio al Profesional | Como cliente, quiero contactar a un profesional y solicitar un servicio. | 1. Dado que quiero un servicio, cuando envío la solicitud desde el perfil del profesional, entonces puedo elegir fecha y hora y el profesional recibe la solicitud.<br>2. Dado que hay conflictos de horario, cuando selecciono fecha y hora, entonces la app alerta si hay disponibilidad del profesional.<br>3. Dado que necesito agregar detalles, cuando adjunto fotos o descripción adicional, entonces el profesional recibe toda la información completa. |
-      | US09 | Profesional Técnico | Alta | EP03 | Crear y Actualizar Servicios Ofrecidos | Como técnico, quiero gestionar mi lista de servicios ofrecidos. | 1. Dado que quiero añadir o modificar un servicio, cuando actualizo mi perfil, entonces la lista de servicios se refleja para los clientes.<br>2. Dado que quiero cambiar mis tarifas, cuando actualizo los precios, entonces los clientes ven las nuevas tarifas inmediatamente. |
-      | US10 | Profesional Técnico | Alta | EP03 | Gestionar Disponibilidad | Como técnico, quiero gestionar mi disponibilidad para solicitudes. | 1. Dado que quiero definir horarios, cuando actualizo disponibilidad, entonces la app muestra mis horas disponibles en tiempo real.<br>2. Dado que tengo un imprevisto, cuando modifico mi disponibilidad, entonces las solicitudes futuras se ajustan automáticamente. |
-      | US11 | Profesional Técnico | Alta | EP03 | Recibir Notificaciones de Solicitudes | Como técnico, quiero recibir notificaciones instantáneas sobre nuevas solicitudes. | 1. Dado que hay una nueva solicitud, cuando el cliente la envía, entonces recibo notificación con detalles de servicio y ubicación.<br>2. Dado que estoy fuera de línea, cuando la app sincroniza al conectarme, entonces recibo todas las notificaciones pendientes.<br>3. Dado que hay múltiples solicitudes, cuando llegan, entonces puedo ordenarlas por prioridad o cercanía. |
-      | US12 | Profesional Técnico | Alta | EP03 | Aceptar o Rechazar Solicitudes | Como técnico, quiero aceptar o rechazar solicitudes de trabajo. | 1. Dado que recibo una solicitud, cuando acepto o rechazo, entonces el cliente es notificado sobre mi decisión.<br>2. Dado que rechazo una solicitud, cuando proporciono una razón, entonces el cliente recibe feedback constructivo. |
-      | US13 | Profesional Técnico | Alta | EP03 | Confirmar Finalización de Servicio | Como técnico, quiero marcar un servicio como completado y registrar trabajo final, y recibir el pago instantáneo. | 1. Dado que finalizo un servicio, cuando lo marco como completado, entonces la app permite subir descripción final y fotos del trabajo.<br>2. Dado que el servicio está completado, cuando lo confirmo, entonces recibo mi pago instantáneamente sin demoras. |
-      | US14 | Cliente | Media | EP05 | Notificación de Respuesta del Profesional | Como cliente, quiero recibir notificaciones cuando un profesional acepta o rechaza mi solicitud. | 1. Dado que un profesional acepta mi solicitud, cuando confirma, entonces recibo notificación con los detalles de confirmación.<br>2. Dado que un profesional rechaza mi solicitud, cuando lo hace, entonces recibo notificación con la razón del rechazo. |
-      | US15 | Usuario | Media | EP04 | Visualizar Progreso y Puntos Acumulados | Como usuario, quiero ver mi progreso y puntos acumulados en el sistema de gamificación. | 1. Dado que completo actividades en la plataforma, cuando reviso mi perfil, entonces puedo ver mis puntos acumulados y progreso hacia el siguiente nivel.<br>2. Dado que quiero conocer mis beneficios, cuando accedo a mi dashboard, entonces veo los beneficios actuales y próximos disponibles. |
-      | US16 | Usuario | Media | EP04 | Recibir Recompensas por Logros | Como usuario, quiero recibir recompensas al completar logros específicos en la plataforma. | 1. Dado que completo un logro específico, cuando alcanzo el objetivo, entonces recibo notificación de recompensa y esta se aplica automáticamente.<br>2. Dado que subo de nivel, cuando alcanzo nuevo nivel, entonces desbloqueo nuevos beneficios y recompensas exclusivas. |
-      | US17 | Cliente | Alta | EP05 | Crear Solicitud de Servicio | Como cliente, quiero crear solicitud de servicio detallada. | 1. Dado que necesito un servicio, cuando creo la solicitud, entonces puedo agregar descripción, imágenes y fecha de servicio.<br>2. Dado que el profesional tiene tarifas variables, cuando creo la solicitud, entonces puedo ver un estimado de costo antes de enviarla.<br>3. Dado que quiero confirmar detalles, cuando envío la solicitud, entonces recibo un resumen y confirmación de registro. |
-      | US18 | Cliente | Media | EP05 | Ver Estado de la Solicitud | Como cliente, quiero ver el estado de mis solicitudes en tiempo real. | 1. Dado que tengo solicitudes, cuando ingreso a mis solicitudes, entonces puedo ver estado (pendiente, en progreso, completada) actualizado.<br>2. Dado que el estado cambia, cuando ocurre una actualización, entonces recibo notificación del cambio de estado. |
-      | US19 | Cliente | Alta | EP05 | Realizar Pago del Servicio | Como cliente, quiero pagar los servicios de forma segura. | 1. Dado que debo pagar, cuando uso tarjeta o transferencia, entonces la app confirma pago exitoso y entrega recibo.<br>2. Dado que el pago falla, cuando intento pagar, entonces la app notifica el error y sugiere solución.<br>3. Dado que quiero seguridad, cuando pago, entonces la transacción se registra y queda disponible en historial de pagos. |
-      | US20 | Cliente | Media | EP05 | Solicitar Reembolso o Disputa | Como cliente, quiero solicitar reembolso o iniciar disputa en caso de servicio no satisfactorio. | 1. Dado que el servicio no fue satisfactorio, cuando solicito reembolso, entonces la plataforma inicia proceso de revisión.<br>2. Dado que tengo una disputa, cuando presento evidencia, entonces el equipo de soporte revisa mi caso en un plazo definido. |
-      | US21 | Profesional Técnico | Alta | EP05 | Confirmación de Contratación por Profesional | Como técnico, quiero aceptar o rechazar solicitudes, y recibir pagos instantáneos. | 1. Dado que recibo solicitud, cuando acepto o rechazo, entonces la app notifica al cliente automáticamente.<br>2. Dado que finalizo el trabajo, cuando confirmo la finalización, entonces el pago se libera inmediatamente. |
-      | US22 | Cliente | Media | EP05 | Cancelar Solicitud de Servicio | Como cliente, quiero cancelar una solicitud si no la necesito. | 1. Dado que deseo cancelar, cuando lo hago desde la app, entonces la solicitud se elimina y el profesional es notificado.<br>2. Dado que cancelo a tiempo, cuando cumplo con políticas de cancelación, entonces recibo reembolso completo. |
-      | US23 | Profesional Técnico | Media | EP05 | Notificación de Nueva Solicitud de Servicio | Como técnico, quiero recibir notificaciones de nuevas solicitudes. | 1. Dado que hay una nueva solicitud, cuando el cliente la crea, entonces recibo notificación inmediata con detalles.<br>2. Dado que la solicitud es urgente, cuando el cliente marca prioridad alta, entonces recibo alerta especial. |
-      | US24 | Cliente | Alta | EP06 | Abrir Reclamo/Ticket | Como cliente, quiero abrir un reclamo si el servicio no fue satisfactorio, para que la plataforma lo gestione. | 1. Dado que el servicio no cumplió expectativas, cuando abro un reclamo, entonces especifico detalles y adjunto evidencias.<br>2. Dado que presento un reclamo, cuando lo envío, entonces recibo número de ticket y tiempo estimado de respuesta. |
-      | US25 | Cliente | Media | EP06 | Calificar a un Profesional | Como cliente, quiero calificar a un profesional tras el servicio. | 1. Dado que recibí un servicio, cuando doy una calificación de 1-5 estrellas y un comentario, entonces queda registrado en su perfil.<br>2. Dado que quiero ser objetivo, cuando califico, entonces puedo evaluar diferentes aspectos como puntualidad, calidad y profesionalismo. |
-      | US26 | Cliente | Media | EP06 | Ver Calificaciones de Profesionales | Como cliente, quiero ver calificaciones y reseñas de otros usuarios. | 1. Dado que quiero evaluar, cuando ingreso al perfil del profesional, entonces veo calificaciones y comentarios de otros clientes.<br>2. Dado que quiero información veraz, cuando leo reseñas, entonces puedo filtrar por calificación y fecha. |
-      | US27 | Cliente | Media | EP06 | Calificación Promedio del Profesional | Como cliente, quiero ver la calificación promedio del profesional. | 1. Dado que quiero referencia rápida, cuando ingreso al perfil, entonces la app muestra la calificación promedio actualizada.<br>2. Dado que comparo profesionales, cuando reviso sus perfiles, entonces veo calificación promedio destacada visiblemente. |
-      | US28 | Cliente | Baja | EP06 | Reseñas Anónimas | Como cliente, quiero dejar reseñas de forma anónima. | 1. Dado que deseo privacidad, cuando publico una reseña, entonces la app oculta mi identidad al resto de usuarios.<br>2. Dado que elijo anonimato, cuando dejo reseña, entonces mi perfil no aparece vinculado a la evaluación. |
-      | US29 | Cliente | Media | EP06 | Ver Reseñas de Otros Clientes | Como cliente, quiero ver reseñas de otros usuarios. | 1. Dado que quiero referencias, cuando ingreso al perfil del profesional, entonces puedo ver reseñas recientes y detalladas de otros clientes.<br>2. Dado que busco información específica, cuando filtro reseñas, entonces encuentro evaluaciones sobre aspectos particulares del servicio. |
-      | US30 | Cliente | Baja | EP06 | Solicitar Actualización de Calificación | Como cliente, quiero actualizar mi calificación si cambio de opinión. | 1. Dado que quiero modificar mi reseña, cuando la edito, entonces la app actualiza la calificación y el comentario.<br>2. Dado que me equivoqué, cuando corrijo mi evaluación, entonces el profesional recibe la calificación actualizada. |
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US01     | Cliente | Alta     | EP01  |
+
+      ---
+
+      | Title   | Registro de Nuevo Usuario |
+      |---------|--------------------------|
+
+      | Description | Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales. |
+      |-------------|-----------------------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que soy un usuario nuevo, cuando ingreso correo válido y contraseña segura, entonces mi cuenta se crea exitosamente. |
+      | **Escenario 2:** Dado que ingreso datos inválidos, cuando intento registrarme, entonces la app muestra un mensaje de error indicando qué debo corregir. |
+      | **Escenario 3:** Dado que ya tengo una cuenta, cuando intento registrarme con el mismo correo, entonces la app indica que el correo ya está en uso. |
+
+      **---**
+
+      | Story ID | User                | Priority | Epic  |
+      |----------|---------------------|----------|-------|
+      | US02     | Profesional Técnico | Alta     | EP01  |
+
+      ---
+
+      | Title   | Registro de Nuevo Profesional |
+      |---------|------------------------------|
+
+      | Description | Como nuevo profesional técnico, quiero registrarme detallando mis especialidades, experiencia y contacto para ofrecer mis servicios. |
+      |-------------|-----------------------------------------------------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que completo todos los campos requeridos, cuando envío la información, entonces mi perfil se crea correctamente. |
+      | **Escenario 2:** Dado que omito campos obligatorios, cuando intento registrar el perfil, entonces la app indica qué información falta. |
+      | **Escenario 3:** Dado que ingreso datos incorrectos, cuando envío el registro, entonces la app muestra error indicando el formato correcto. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US03     | Usuario | Media    | EP01  |
+
+      ---
+
+      | Title   | Recuperación de Cuenta/Login |
+      |---------|-----------------------------|
+
+      | Description | Como usuario, quiero recuperar mi cuenta o iniciar sesión mediante diferentes métodos. |
+      |-------------|----------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que olvidé mi contraseña, cuando solicito restablecerla, entonces recibo un correo con enlace para crear nueva contraseña. |
+      | **Escenario 2:** Dado que quiero acceder rápidamente, cuando uso inicio de sesión con Google, entonces me autentico sin necesidad de recordar contraseña. |
+      | **Escenario 3:** Dado que ingreso credenciales incorrectas, cuando intento iniciar sesión, entonces la app muestra mensaje de error específico. |
+
+      **---**
+
+      | Story ID | User              | Priority | Epic  |
+      |----------|-------------------|----------|-------|
+      | US04     | Usuario Registrado| Media    | EP01  |
+
+      ---
+
+      | Title   | Editar Perfil de Usuario |
+      |---------|-------------------------|
+
+      | Description | Como usuario registrado, quiero poder editar la información de mi perfil para mantenerla actualizada. |
+      |-------------|------------------------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que quiero actualizar mis datos, cuando modifico y guardo la información, entonces la app actualiza correctamente mi perfil. |
+      | **Escenario 2:** Dado que ingreso un número con formato incorrecto, cuando intento guardar, entonces la app muestra un mensaje de error. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US05     | Cliente | Alta     | EP02  |
+
+      ---
+
+      | Title   | Ver Perfil Detallado del Profesional |
+      |---------|--------------------------------------|
+
+      | Description | Como cliente, quiero ver el perfil completo de un profesional con toda su información relevante. |
+      |-------------|-------------------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que quiero evaluar un profesional, cuando ingreso a su perfil, entonces puedo ver experiencia, especialidades, calificaciones, tarifas y disponibilidad. |
+      | **Escenario 2:** Dado que hay varios profesionales, cuando comparo perfiles, entonces puedo ver diferencias en tarifas, calificaciones y disponibilidad. |
+      | **Escenario 3:** Dado que necesito información específica, cuando visualizo el perfil, entonces puedo ver reseñas detalladas de otros clientes. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US06     | Cliente | Media    | EP02  |
+
+      ---
+
+      | Title   | Contactar al Profesional |
+      |---------|-------------------------|
+
+      | Description | Como cliente, quiero contactar directamente a un profesional para coordinar un servicio. |
+      |-------------|-----------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que quiero enviar un mensaje, cuando uso el perfil del profesional, entonces puedo enviarle un mensaje directo. |
+      | **Escenario 2:** Dado que quiero solicitar cotización, cuando la pido desde su perfil, entonces el profesional recibe mi solicitud con todos los detalles. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US07     | Cliente | Alta     | EP02  |
+
+      ---
+
+      | Title   | Buscar Profesionales por Especialidad y Ubicación |
+      |---------|--------------------------------------------------|
+
+      | Description | Como cliente, quiero buscar profesionales filtrando por tipo de servicio y ubicación. |
+      |-------------|--------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que busco un profesional, cuando aplico filtros de especialidad y ubicación, entonces la app muestra profesionales disponibles. |
+      | **Escenario 2:** Dado que no hay profesionales en mi zona, cuando realizo la búsqueda, entonces la app muestra un mensaje "no se encontraron resultados". |
+      | **Escenario 3:** Dado que quiero eficiencia, cuando uso filtros múltiples, entonces la app muestra resultados ordenados por reputación o cercanía. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US08     | Cliente | Alta     | EP02  |
+
+      ---
+
+      | Title   | Solicitar Servicio al Profesional |
+      |---------|-----------------------------------|
+
+      | Description | Como cliente, quiero contactar a un profesional y solicitar un servicio. |
+      |-------------|-------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que quiero un servicio, cuando envío la solicitud desde el perfil del profesional, entonces puedo elegir fecha y hora y el profesional recibe la solicitud. |
+      | **Escenario 2:** Dado que hay conflictos de horario, cuando selecciono fecha y hora, entonces la app alerta si hay disponibilidad del profesional. |
+      | **Escenario 3:** Dado que necesito agregar detalles, cuando adjunto fotos o descripción adicional, entonces el profesional recibe toda la información completa. |
+
+      **---**
+
+      | Story ID | User                | Priority | Epic  |
+      |----------|---------------------|----------|-------|
+      | US09     | Profesional Técnico | Alta     | EP03  |
+
+      ---
+
+      | Title   | Crear y Actualizar Servicios Ofrecidos |
+      |---------|----------------------------------------|
+
+      | Description | Como técnico, quiero gestionar mi lista de servicios ofrecidos. |
+      |-------------|-----------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que quiero añadir o modificar un servicio, cuando actualizo mi perfil, entonces la lista de servicios se refleja para los clientes. |
+      | **Escenario 2:** Dado que quiero cambiar mis tarifas, cuando actualizo los precios, entonces los clientes ven las nuevas tarifas inmediatamente. |
+
+      **---**
+
+      | Story ID | User                | Priority | Epic  |
+      |----------|---------------------|----------|-------|
+      | US10     | Profesional Técnico | Alta     | EP03  |
+
+      ---
+
+      | Title   | Gestionar Disponibilidad |
+      |---------|-------------------------|
+
+      | Description | Como técnico, quiero gestionar mi disponibilidad para solicitudes. |
+      |-------------|--------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que quiero definir horarios, cuando actualizo disponibilidad, entonces la app muestra mis horas disponibles en tiempo real. |
+      | **Escenario 2:** Dado que tengo un imprevisto, cuando modifico mi disponibilidad, entonces las solicitudes futuras se ajustan automáticamente. |
+
+      **---**
+
+      | Story ID | User                | Priority | Epic  |
+      |----------|---------------------|----------|-------|
+      | US11     | Profesional Técnico | Alta     | EP03  |
+
+      ---
+
+      | Title   | Recibir Notificaciones de Solicitudes |
+      |---------|--------------------------------------|
+
+      | Description | Como técnico, quiero recibir notificaciones instantáneas sobre nuevas solicitudes. |
+      |-------------|-----------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que hay una nueva solicitud, cuando el cliente la envía, entonces recibo notificación con detalles de servicio y ubicación. |
+      | **Escenario 2:** Dado que estoy fuera de línea, cuando la app sincroniza al conectarme, entonces recibo todas las notificaciones pendientes. |
+      | **Escenario 3:** Dado que hay múltiples solicitudes, cuando llegan, entonces puedo ordenarlas por prioridad o cercanía. |
+
+      **---**
+
+      | Story ID | User                | Priority | Epic  |
+      |----------|---------------------|----------|-------|
+      | US12     | Profesional Técnico | Alta     | EP03  |
+
+      ---
+
+      | Title   | Aceptar o Rechazar Solicitudes |
+      |---------|-------------------------------|
+
+      | Description | Como técnico, quiero aceptar o rechazar solicitudes de trabajo. |
+      |-------------|-----------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que recibo una solicitud, cuando acepto o rechazo, entonces el cliente es notificado sobre mi decisión. |
+      | **Escenario 2:** Dado que rechazo una solicitud, cuando proporciono una razón, entonces el cliente recibe feedback constructivo. |
+
+      **---**
+
+      | Story ID | User                | Priority | Epic  |
+      |----------|---------------------|----------|-------|
+      | US13     | Profesional Técnico | Alta     | EP03  |
+
+      ---
+
+      | Title   | Confirmar Finalización de Servicio |
+      |---------|------------------------------------|
+
+      | Description | Como técnico, quiero marcar un servicio como completado y registrar trabajo final, y recibir el pago instantáneo. |
+      |-------------|---------------------------------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que finalizo un servicio, cuando lo marco como completado, entonces la app permite subir descripción final y fotos del trabajo. |
+      | **Escenario 2:** Dado que el servicio está completado, cuando lo confirmo, entonces recibo mi pago instantáneamente sin demoras. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US14     | Cliente | Media    | EP05  |
+
+      ---
+
+      | Title   | Notificación de Respuesta del Profesional |
+      |---------|-------------------------------------------|
+
+      | Description | Como cliente, quiero recibir notificaciones cuando un profesional acepta o rechaza mi solicitud. |
+      |-------------|--------------------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que un profesional acepta mi solicitud, cuando confirma, entonces recibo notificación con los detalles de confirmación. |
+      | **Escenario 2:** Dado que un profesional rechaza mi solicitud, cuando lo hace, entonces recibo notificación con la razón del rechazo. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US15     | Usuario | Media    | EP04  |
+
+      ---
+
+      | Title   | Visualizar Progreso y Puntos Acumulados |
+      |---------|-----------------------------------------|
+
+      | Description | Como usuario, quiero ver mi progreso y puntos acumulados en el sistema de gamificación. |
+      |-------------|----------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que completo actividades en la plataforma, cuando reviso mi perfil, entonces puedo ver mis puntos acumulados y progreso hacia el siguiente nivel. |
+      | **Escenario 2:** Dado que quiero conocer mis beneficios, cuando accedo a mi dashboard, entonces veo los beneficios actuales y próximos disponibles. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US16     | Usuario | Media    | EP04  |
+
+      ---
+
+      | Title   | Recibir Recompensas por Logros |
+      |---------|-------------------------------|
+
+      | Description | Como usuario, quiero recibir recompensas al completar logros específicos en la plataforma. |
+      |-------------|------------------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que completo un logro específico, cuando alcanzo el objetivo, entonces recibo notificación de recompensa y esta se aplica automáticamente. |
+      | **Escenario 2:** Dado que subo de nivel, cuando alcanzo nuevo nivel, entonces desbloqueo nuevos beneficios y recompensas exclusivas. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US17     | Cliente | Alta     | EP05  |
+
+      ---
+
+      | Title   | Crear Solicitud de Servicio |
+      |---------|----------------------------|
+
+      | Description | Como cliente, quiero crear solicitud de servicio detallada. |
+      |-------------|-------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que necesito un servicio, cuando creo la solicitud, entonces puedo agregar descripción, imágenes y fecha de servicio. |
+      | **Escenario 2:** Dado que el profesional tiene tarifas variables, cuando creo la solicitud, entonces puedo ver un estimado de costo antes de enviarla. |
+      | **Escenario 3:** Dado que quiero confirmar detalles, cuando envío la solicitud, entonces recibo un resumen y confirmación de registro. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US18     | Cliente | Media    | EP05  |
+
+      ---
+
+      | Title   | Ver Estado de la Solicitud |
+      |---------|---------------------------|
+
+      | Description | Como cliente, quiero ver el estado de mis solicitudes en tiempo real. |
+      |-------------|-----------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que tengo solicitudes, cuando ingreso a mis solicitudes, entonces puedo ver estado (pendiente, en progreso, completada) actualizado. |
+      | **Escenario 2:** Dado que el estado cambia, cuando ocurre una actualización, entonces recibo notificación del cambio de estado. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US19     | Cliente | Alta     | EP05  |
+
+      ---
+
+      | Title   | Realizar Pago del Servicio |
+      |---------|---------------------------|
+
+      | Description | Como cliente, quiero pagar los servicios de forma segura. |
+      |-------------|-----------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que debo pagar, cuando uso tarjeta o transferencia, entonces la app confirma pago exitoso y entrega recibo. |
+      | **Escenario 2:** Dado que el pago falla, cuando intento pagar, entonces la app notifica el error y sugiere solución. |
+      | **Escenario 3:** Dado que quiero seguridad, cuando pago, entonces la transacción se registra y queda disponible en historial de pagos. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US20     | Cliente | Media    | EP05  |
+
+      ---
+
+      | Title   | Solicitar Reembolso o Disputa |
+      |---------|------------------------------|
+
+      | Description | Como cliente, quiero solicitar reembolso o iniciar disputa en caso de servicio no satisfactorio. |
+      |-------------|--------------------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que el servicio no fue satisfactorio, cuando solicito reembolso, entonces la plataforma inicia proceso de revisión. |
+      | **Escenario 2:** Dado que tengo una disputa, cuando presento evidencia, entonces el equipo de soporte revisa mi caso en un plazo definido. |
+
+      **---**
+
+      | Story ID | User                | Priority | Epic  |
+      |----------|---------------------|----------|-------|
+      | US21     | Profesional Técnico | Alta     | EP05  |
+
+      ---
+
+      | Title   | Confirmación de Contratación por Profesional |
+      |---------|---------------------------------------------|
+
+      | Description | Como técnico, quiero aceptar o rechazar solicitudes, y recibir pagos instantáneos. |
+      |-------------|------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que recibo solicitud, cuando acepto o rechazo, entonces la app notifica al cliente automáticamente. |
+      | **Escenario 2:** Dado que finalizo el trabajo, cuando confirmo la finalización, entonces el pago se libera inmediatamente. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US22     | Cliente | Media    | EP05  |
+
+      ---
+
+      | Title   | Cancelar Solicitud de Servicio |
+      |---------|-------------------------------|
+
+      | Description | Como cliente, quiero cancelar una solicitud si no la necesito. |
+      |-------------|----------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que deseo cancelar, cuando lo hago desde la app, entonces la solicitud se elimina y el profesional es notificado. |
+      | **Escenario 2:** Dado que cancelo a tiempo, cuando cumplo con políticas de cancelación, entonces recibo reembolso completo. |
+
+      **---**
+
+      | Story ID | User                | Priority | Epic  |
+      |----------|---------------------|----------|-------|
+      | US23     | Profesional Técnico | Media    | EP05  |
+
+      ---
+
+      | Title   | Notificación de Nueva Solicitud de Servicio |
+      |---------|---------------------------------------------|
+
+      | Description | Como técnico, quiero recibir notificaciones de nuevas solicitudes. |
+      |-------------|--------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que hay una nueva solicitud, cuando el cliente la crea, entonces recibo notificación inmediata con detalles. |
+      | **Escenario 2:** Dado que la solicitud es urgente, cuando el cliente marca prioridad alta, entonces recibo alerta especial. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US24     | Cliente | Alta     | EP06  |
+
+      ---
+
+      | Title   | Abrir Reclamo/Ticket |
+      |---------|----------------------|
+
+      | Description | Como cliente, quiero abrir un reclamo si el servicio no fue satisfactorio, para que la plataforma lo gestione. |
+      |-------------|-------------------------------------------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que el servicio no cumplió expectativas, cuando abro un reclamo, entonces especifico detalles y adjunto evidencias. |
+      | **Escenario 2:** Dado que presento un reclamo, cuando lo envío, entonces recibo número de ticket y tiempo estimado de respuesta. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US25     | Cliente | Media    | EP06  |
+
+      ---
+
+      | Title   | Calificar a un Profesional |
+      |---------|---------------------------|
+
+      | Description | Como cliente, quiero calificar a un profesional tras el servicio. |
+      |-------------|-------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que recibí un servicio, cuando doy una calificación de 1-5 estrellas y un comentario, entonces queda registrado en su perfil. |
+      | **Escenario 2:** Dado que quiero ser objetivo, cuando califico, entonces puedo evaluar diferentes aspectos como puntualidad, calidad y profesionalismo. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US26     | Cliente | Media    | EP06  |
+
+      ---
+
+      | Title   | Ver Calificaciones de Profesionales |
+      |---------|------------------------------------|
+
+      | Description | Como cliente, quiero ver calificaciones y reseñas de otros usuarios. |
+      |-------------|---------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que quiero evaluar, cuando ingreso al perfil del profesional, entonces veo calificaciones y comentarios de otros clientes. |
+      | **Escenario 2:** Dado que quiero información veraz, cuando leo reseñas, entonces puedo filtrar por calificación y fecha. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US27     | Cliente | Media    | EP06  |
+
+      ---
+
+      | Title   | Calificación Promedio del Profesional |
+      |---------|--------------------------------------|
+
+      | Description | Como cliente, quiero ver la calificación promedio del profesional. |
+      |-------------|--------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que quiero referencia rápida, cuando ingreso al perfil, entonces la app muestra la calificación promedio actualizada. |
+      | **Escenario 2:** Dado que comparo profesionales, cuando reviso sus perfiles, entonces veo calificación promedio destacada visiblemente. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US28     | Cliente | Baja     | EP06  |
+
+      ---
+
+      | Title   | Reseñas Anónimas |
+      |---------|------------------|
+
+      | Description | Como cliente, quiero dejar reseñas de forma anónima. |
+      |-------------|-----------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que deseo privacidad, cuando publico una reseña, entonces la app oculta mi identidad al resto de usuarios. |
+      | **Escenario 2:** Dado que elijo anonimato, cuando dejo reseña, entonces mi perfil no aparece vinculado a la evaluación. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US29     | Cliente | Media    | EP06  |
+
+      ---
+
+      | Title   | Ver Reseñas de Otros Clientes |
+      |---------|------------------------------|
+
+      | Description | Como cliente, quiero ver reseñas de otros usuarios. |
+      |-------------|-----------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que quiero referencias, cuando ingreso al perfil del profesional, entonces puedo ver reseñas recientes y detalladas de otros clientes. |
+      | **Escenario 2:** Dado que busco información específica, cuando filtro reseñas, entonces encuentro evaluaciones sobre aspectos particulares del servicio. |
+
+      **---**
+
+      | Story ID | User    | Priority | Epic  |
+      |----------|---------|----------|-------|
+      | US30     | Cliente | Baja     | EP06  |
+
+      ---
+
+      | Title   | Solicitar Actualización de Calificación |
+      |---------|----------------------------------------|
+
+      | Description | Como cliente, quiero actualizar mi calificación si cambio de opinión. |
+      |-------------|------------------------------------------------------------------------|
+
+      | Acceptance Criteria |
+      |---------------------|
+      | **Escenario 1:** Dado que quiero modificar mi reseña, cuando la edito, entonces la app actualiza la calificación y el comentario. |
+      | **Escenario 2:** Dado que me equivoqué, cuando corrijo mi evaluación, entonces el profesional recibe la calificación actualizada. |
+       |
       
-      # Technical Stories 
+      ### Technical Stories 
 
 
       | **Story ID** | **User**               | **Priority** | **Epic** | **Title**                                       | **Description**                                                                                                                                                        | **Acceptance Criteria**                                                                                                                                                                                                          |
