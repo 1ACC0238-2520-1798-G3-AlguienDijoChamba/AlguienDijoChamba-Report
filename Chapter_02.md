@@ -518,6 +518,8 @@
       - **2.6.1.5. Bounded Context Software Architecture Component Level Diagrams**
       - **2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.1.6.1. Bounded Context Domain Layer Class Diagrams**
+                  <img src="./feature/chapter02/Bounded_Context_Software_Architecture_Code_Level_Diagrams_Worker"/>
+
         - **2.6.1.6.2. Bounded Context Database Design Diagram**
        
       - 
@@ -778,6 +780,7 @@
   | worker_id          | int            | ID del Worker relacionado (FK)                      |
   | created_at         | datetime       | Fecha de creación de la solicitud                   |
   | updated_at         | datetime       | Fecha de última actualización de la solicitud       |
+
 
 
 
