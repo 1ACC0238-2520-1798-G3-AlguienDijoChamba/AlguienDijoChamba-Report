@@ -273,29 +273,33 @@
         ![User Persona Segmento 2](./feature/chapter02/User_Segmento_2.png)
     - **2.3.2. User Task Matrix** 
 
-      **Segmento Objetivo 1: Profesionales Tecnicos**
+       A continuación, se presenta una matriz de tareas enfocada en los segmentos principales de la plataforma **AlguienDijoChamba**:  
+       **Profesional Técnico independiente** (gasfitero, electricista, carpintero, etc.).  
+      - **Cliente** (hogar o pequeña empresa que requiere servicios de mantenimiento).  
 
-      | Tarea principal | Frecuencia | Importancia |
-      |-----------------|------------|-------------|
-      | Registrarse como técnico en la plataforma | Una vez | Alta |
-      | Completar su perfil y subir certificaciones | Una vez | Alta |
-      | Recibir notificaciones de nuevos servicios | Frecuente | Alta |
-      | Aceptar o rechazar solicitudes de clientes | Frecuente | Alta |
+      Esta herramienta permite identificar y clasificar las actividades clave que realiza cada segmento, considerando la frecuencia con la que las llevan a cabo y el nivel de importancia que representan dentro de su interacción con la plataforma.
 
-      <br>
-      <br>
+      | Tarea | Profesionales Técnicos (Frecuencia / Importancia) | Clientes (Frecuencia / Importancia) |
+      |-------|---------------------------------------------------|-------------------------------------|
+      | Registrarse en la plataforma | Baja / Alta | Baja / Media |
+      | Completar perfil y certificaciones | Baja / Alta | - |
+      | Recibir notificaciones de servicios | Frecuente / Alta | - |
+      | Aceptar o rechazar solicitudes | Frecuente / Alta | - |
+      | Buscar técnicos según ubicación y oficio | - | Frecuente / Alta |
+      | Revisar perfiles y calificaciones | - | Frecuente / Alta |
+      | Agendar y confirmar servicio | - | Frecuente / Alta |
+      | Calificar al técnico | - | Frecuente / Alta |
+      | Participar en gamificación (niveles, puntos, recompensas) | Frecuente / Media | Frecuente / Media |
 
-      **Segmento Objetivo 2: Clientes**
+      Del análisis de esta matriz, se observa que:  
+      - Para los **técnicos**, las actividades más críticas son **recibir notificaciones** y **aceptar/rechazar solicitudes**, ya que determinan la generación de ingresos y la continuidad de su trabajo.  
+      - Para los **clientes**, las tareas más frecuentes y de mayor importancia están relacionadas con la **búsqueda, revisión de perfiles, agenda y calificación de técnicos**, lo que       refleja la necesidad de confianza y eficiencia en el proceso de contratación.  
+      - En ambos segmentos, la **gamificación** aparece como una oportunidad para mantener el compromiso, incentivar la participación y generar un ecosistema más dinámico.  
+      - Finalmente, tareas iniciales como el **registro** o completar el perfil, aunque se realizan una sola vez, tienen un peso alto en la experiencia inicial del usuario, por lo que deben diseñarse de forma simple e intuitiva.  
 
-      | Tarea principal | Frecuencia | Importancia |
-      |-----------------|------------|-------------|
-      | Buscar técnicos disponibles según ubicación y oficio | Frecuente | Alta |
-      | Revisar perfiles y calificaciones de técnicos | Frecuente | Alta |
-      | Recibir confirmación y agendar el servicio | Frecuente | Alta |
-      | Calificar al técnico luego del servicio | Frecuente | Alta |
-      | Monitorear consumo de agua y electricidad | Frecuente | Alta |
 
     - **2.3.3. User Journey Mapping**
+    
     - **2.3.4. Empathy Mapping**
 
          **Segmento Objetivo 1: Profesionales Tecnicos**
@@ -710,6 +714,7 @@
   | worker_id          | int            | ID del Worker relacionado (FK)                      |
   | created_at         | datetime       | Fecha de creación de la solicitud                   |
   | updated_at         | datetime       | Fecha de última actualización de la solicitud       |
+
 
 
 
