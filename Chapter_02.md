@@ -1453,10 +1453,11 @@
         <img src="./feature/chapter02/Payments.png"/>
 
       - **2.6.2.6. Bounded Context Software Architecture Code Level Diagrams**
-        - **2.6.2.6.1. Bounded Context Domain Layer Class Diagrams**
-        <img src="./feature/chapter02/Class_diagram_payments.png"/>
-        - **2.6.2.6.2. Bounded Context Database Design Diagram**
-        <img src="./feature/chapter02/Datebase diagram payments.png"/>
+      - **2.6.2.6.1. Bounded Context Domain Layer Class Diagrams**
+      <img src="./feature/chapter02/Class_diagram_payments.png"/>
+      
+      - **2.6.2.6.2. Bounded Context Database Design Diagram**
+      <img src="./feature/chapter02/Datebase diagram payments.png"/>
         
     - **2.6.3. Bounded Context: Alerts**
     
@@ -1807,6 +1808,7 @@
 - **Bibliografía**
 
 - **Anexo**
+
 
 
 
