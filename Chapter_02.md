@@ -1089,6 +1089,104 @@
       | **Escenario 1:** Dado que un cliente califica a un profesional, cuando hago una solicitud POST a la API `/rate-professional`, entonces la calificación se guarda correctamente. |
       | **Escenario 2:** Dado que un cliente deja una reseña, cuando hago una solicitud POST a la API `/review-professional`, entonces la reseña se guarda y es visible en el perfil del profesional. |
 
+      ### Spike Story
+
+       **Spike Story 1:**
+
+      | Story ID | User      | Priority | Epic |
+      | -------- | --------- | -------- | ---- |
+      | SP-01    | Developer | Alta     | EP01 |
+
+      **Title**: Investigar API para el Registro de Nuevo Usuario
+
+      **Description**:
+      Como desarrollador, quiero investigar las mejores prácticas y bibliotecas para gestionar el registro de nuevos usuarios en la plataforma.
+
+      **Acceptance Criteria**:
+
+      * **Dado** que se investiga sobre las API más seguras y eficientes para el registro,
+      * **Cuando** se evalúan las opciones disponibles,
+      * **Entonces** se presenta una recomendación sobre la API a utilizar y un prototipo funcional básico.
+
+      ---
+
+       **Spike Story 2:**
+
+      | Story ID | User      | Priority | Epic |
+      | -------- | --------- | -------- | ---- |
+      | SP-02    | Developer | Alta     | EP02 |
+
+      **Title**: Investigar API para Búsqueda de Profesionales
+
+      **Description**:
+      Como desarrollador, quiero investigar las mejores opciones para implementar la funcionalidad de búsqueda de profesionales por especialidad, ubicación y reputación.
+
+      **Acceptance Criteria**:
+
+      * **Dado** que se investigan APIs que permitan búsqueda avanzada,
+      * **Cuando** se comparan las opciones en términos de velocidad y facilidad de integración,
+      * **Entonces** se presenta una recomendación sobre la API a utilizar y un prototipo funcional básico.
+
+      ---
+
+       **Spike Story 3:**
+
+      | Story ID | User      | Priority | Epic |
+      | -------- | --------- | -------- | ---- |
+      | SP-03    | Developer | Media    | EP03 |
+
+      **Title**: Investigar API para la Gestión de Servicios
+
+      **Description**:
+      Como desarrollador, quiero investigar las opciones de API para gestionar los servicios, tarifas y disponibilidad de los profesionales técnicos.
+
+      **Acceptance Criteria**:
+
+      * **Dado** que se exploran diferentes APIs para la gestión de servicios,
+      * **Cuando** se evalúan criterios de flexibilidad y escalabilidad,
+      * **Entonces** se presenta una recomendación con un prototipo funcional.
+
+      ---
+
+       **Spike Story 4:**
+
+      | Story ID | User      | Priority | Epic |
+      | -------- | --------- | -------- | ---- |
+      | SP-04    | Developer | Alta     | EP05 |
+
+      **Title**: Investigar API para Gestión de Solicitudes
+
+      **Description**:
+      Como desarrollador, quiero investigar las opciones para implementar la gestión de solicitudes de servicio, y cómo facilitar la confirmación de trabajos a los profesionales.
+
+      **Acceptance Criteria**:
+
+      * **Dado** que se evalúan las APIs que permiten gestionar solicitudes,
+      * **Cuando** se comparan diferentes proveedores y sus características,
+      * **Entonces** se presenta una solución adecuada con un prototipo funcional.
+
+      ---
+
+       **Spike Story 5:**
+
+      | Story ID | User      | Priority | Epic |
+      | -------- | --------- | -------- | ---- |
+      | SP-05    | Developer | Alta     | EP06 |
+
+      **Title**: Investigar API para Calificaciones y Reseñas
+
+      **Description**:
+      Como desarrollador, quiero investigar las opciones para integrar un sistema de calificación y reseñas dentro de la plataforma.
+
+      **Acceptance Criteria**:
+
+      * **Dado** que se revisan las APIs de calificación y reseñas,
+      * **Cuando** se evalúan opciones por seguridad y facilidad de integración,
+      * **Entonces** se presenta una recomendación con un prototipo funcional básico.
+
+
+
+
     - **2.4.2. Impact Mapping**
 
          **Segmento Objetivo 1: Profesionales Tecnicos**
