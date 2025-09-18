@@ -1630,10 +1630,62 @@
 
     - **2.6.5.6. Bounded Context Software Architecture Code Level Diagrams**
    - **2.6.5.6.1. Bounded Context Domain Layer Class Diagrams**
-
+  <br><br>
+  <div align="center">
+  <img src="feature/chapter02/diagram_class_IAM.png">
+  </div>
+  <br>
+  
     - **2.6.5.6.2. Bounded Context Database Design Diagram**
+      
+  <br><br>
+  <div align="center">
+  <img src="feature/chapter02/diagram_database_IAM.png">
+  </div>
+  <br>
 
 
+
+  **Tabla: users**
+
+  
+  | Nombre          | Descripción                                                       |
+  | --------------- | ----------------------------------------------------------------- |
+  | id              | Identificador único del usuario (UUID), clave primaria.           |
+  | email           | Dirección de correo electrónico del usuario, único y obligatorio. |
+  | first\_name     | Primer nombre del usuario.                                        |
+  | last\_name      | Apellido del usuario.                                             |
+  | password\_hash  | Contraseña del usuario, almacenada de forma segura (encriptada).  |
+  | status          | Estado del usuario (ACTIVE, INACTIVE, SUSPENDED).                 |
+  | last\_login\_at | Fecha y hora del último inicio de sesión.                         |
+  | created\_at     | Fecha y hora en que se creó el registro.                          |
+  | updated\_at     | Fecha y hora de la última actualización del registro.             |
+
+  **Tabla: roles**
+  
+  | Nombre      | Descripción                                                     |
+  | ----------- | --------------------------------------------------------------- |
+  | id          | Identificador único del rol (UUID), clave primaria.             |
+  | name        | Nombre del rol, único y obligatorio (ej. ADMIN, USER, AUDITOR). |
+  | description | Descripción opcional del rol.                                   |
+
+  **Tabla: user_roles**
+
+  | Nombre                 | Descripción                                                        |
+  | ---------------------- | ------------------------------------------------------------------ |
+  | user\_id               | Identificador del usuario, clave foránea hacia `users`.            |
+  | role\_id               | Identificador del rol, clave foránea hacia `roles`.                |
+  | PK(user\_id, role\_id) | Llave primaria compuesta que asegura que un usuario no repita rol. |
+
+  **Tabla: audit_log**
+
+  | Nombre           | Descripción                                                                |
+  | ---------------- | -------------------------------------------------------------------------- |
+  | id               | Identificador único del evento (UUID), clave primaria.                     |
+  | user\_id         | Identificador del usuario asociado al evento, clave foránea hacia `users`. |
+  | event\_type      | Tipo de evento (REGISTERED, SIGNED\_IN, FAILED\_LOGIN).                    |
+  | event\_timestamp | Fecha y hora en que ocurrió el evento.                                     |
+  | details          | Detalles adicionales del evento (ej. IP, descripción del error, etc.).     |
 
 
 
@@ -1642,6 +1694,7 @@
 - **Bibliografía**
 
 - **Anexo**
+
 
 
 
