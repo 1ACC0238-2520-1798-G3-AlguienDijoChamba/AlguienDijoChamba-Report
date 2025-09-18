@@ -1249,6 +1249,32 @@
       - **2.5.1.1. Candidate Context Discovery**  
       - **2.5.1.2. Domain Message Flows Modeling**
       - **2.5.1.3. Bounded Context Canvases**
+      
+        El Bounded Context Canvas es una herramienta visual usada en Diseño Dirigido por el Dominio (DDD) para definir los límites y relaciones entre los Contextos Delimitados dentro de un sistema. Facilita la comprensión compartida del nombre, propósito, entidades y políticas de negocio de cada contexto.
+
+        A continuación, definiremos y desarrollaremos los Bounded Context Canvases de nuestros tres contextos delimitados.
+         <div align="center">
+                  <img src="./feature/chapter02/Iam.png"/>
+                </div>
+                <br>
+
+         <div align="center">
+                  <img src="./feature/chapter02/payment.png"/>
+                </div>
+          <br>
+          <div align="center">
+                  <img src="./feature/chapter02/worker-catalog.png"/>
+          </div>
+          <br>
+          <div align="center">
+                  <img src="./feature/chapter02/alerts.png"/>
+          </div>
+          <br>
+          <div align="center">
+                  <img src="./feature/chapter02/tec-section.png"/>
+          </div>
+          <br>
+
     - **2.5.2. Context Mapping**
     - **2.5.3. Software Architecture**
       - **2.5.3.1. Software Architecture Context Level Diagrams**
