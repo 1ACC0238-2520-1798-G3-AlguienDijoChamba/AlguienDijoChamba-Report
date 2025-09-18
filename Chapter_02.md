@@ -1911,12 +1911,30 @@
 
 - **Bibliografía**
 
+  1. Google. (s.f.). *Google HTML/CSS Style Guide*. Recuperado de [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)
+
+  2. Mendel, J. (s.f.). Seriously, what’s your (startup’s) problem? *Medium*. Recuperado de [https://medium.com/@jakemendel/seriously-whats-your-startup-s-problemb3a884c54ab4](https://medium.com/@jakemendel/seriously-whats-your-startup-s-problemb3a884c54ab4)
+
+  3. ProgresSA Lean. (s.f.). 5W+2H - Técnica de análisis de problemas. *ProgresSA Lean*. Recuperado de [https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/](https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/)
+
+  4. SpecFlow. (s.f.). *Gherkin Conventions for Readable Specifications*. Recuperado de [https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/](https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/)
+
+  5. Structurizr. (s.f.). *Embedding diagrams*. Recuperado de [https://docs.structurizr.com/cloud/embed](https://docs.structurizr.com/cloud/embed)
+
+  6. Tamim, N. (s.f.). How to use PlantUML with Markdown \[Gist]. *GitHub*. Recuperado de [https://gist.github.com/noamtamim/f11982b28602bd7e604c233fbe9d910f](https://gist.github.com/noamtamim/f11982b28602bd7e604c233fbe9d910f)
+
+  7. The Markdown Guide. (s.f.). *The Markdown Guide*. Recuperado de [https://www.markdownguide.org/](https://www.markdownguide.org/)
+
+  8. Tune, N. (s.f.). Domain-Driven Architecture Diagrams. *Medium*. Recuperado de [https://medium.com/nick-tune-tech-strategy-blog/domain-driven-architecture](https://medium.com/nick-tune-tech-strategy-blog/domain-driven-architecture)
+
+  9. W3Schools. (s.f.). *HTML Style Guide and Coding Conventions*. Recuperado de [https://www.w3schools.com/html/html5\_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)
   
 
 - **Anexo**
 
   Eventstorming https://acortar.link/cUUGdN<br>
   PPT del Proyecto https://acortar.link/8CJQm9
+
 
 
 
