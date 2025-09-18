@@ -1547,11 +1547,102 @@
   | created_at         | datetime       | Fecha de creación de la solicitud                   |
   | updated_at         | datetime       | Fecha de última actualización de la solicitud       |
 
+
+
+
+    - **2.6.5. Bounded Context: IAM**
+      - **2.6.5.1. Domain Layer**
+        **Sub-capa Model:**
+
+        | Tipo         | Nombre         | Descripción                                      | Responsabilidad Principal                                               | Relación con otros elementos                                 |
+         ------------ | -------------- | ------------------------------------------------ | ----------------------------------------------------------------------- | ------------------------------------------------------------ |
+        | Aggregate    | User           | Entidad que modela a un usuario en la aplicación | Gestionar la lógica de negocio del usuario y garantizar su consistencia | Relacionado con otros contextos, encapsula reglas de negocio |
+        | Command      | SignInCommand  | Comando para iniciar sesión                      | Encapsular los datos necesarios para autenticar a un usuario            | Usado por el servicio de autenticación                       |
+        | Command      | SignUpCommand  | Comando para registrar un nuevo usuario          | Encapsular los datos requeridos para crear un nuevo usuario             | Usado por el servicio de autenticación                       |
+        | Value Object | EmailAddress   | Value object dentro de User                      | Representa y valida el correo electrónico                               | Relacionado con User                                         |
+        | Value Object | PersonName     | Value object dentro de User                      | Encapsula el nombre completo y valida formato                           | Relacionado con User                                         |
+        | Domain Event | UserRegistered | Evento emitido al registrar un nuevo usuario     | Notificar a otros contextos sobre el registro de un usuario             | Usado por servicios de aplicación e infraestructura          |
+        | Domain Event | UserSignedIn   | Evento disparado al iniciar sesión un usuario    | Informar a otros sistemas sobre el inicio de sesión                     | Usado por servicios de aplicación e infraestructura          |
+        
+
+        **Sub-capa Service:**
+
+        | Tipo      | Nombre             | Descripción                         | Responsabilidad Principal                                | Relación con otros elementos                        |
+        | --------- | ------------------ | ----------------------------------- | -------------------------------------------------------- | --------------------------------------------------- |
+        | Interface | AuthCommandService | Interfaz para manejar autenticación | Establecer contrato para la lógica de autenticación      | Implementado en la capa de aplicación               |
+        | Interface | TokenService       | Interfaz para manejo de tokens      | Definir operaciones de generación y validación de tokens | Implementado en infraestructura como JwtServiceImpl |
+
+
+      - **2.6.5.2. Interface Layer**
+        **Sub-capa REST**
+        | Tipo       | Nombre                             | Descripción                                        | Responsabilidad Principal                                                | Relación con otros elementos                |
+        | ---------- | ---------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------- |
+        | Resource   | AuthRequestResource                | Estructura para solicitudes de autenticación       | Exponer los datos de autenticación de forma estructurada para el cliente | Usado por AuthController                    |
+        | Resource   | AuthResponseResource               | Estructura para respuestas de autenticación        | Proveer datos estructurados tras un inicio de sesión exitoso             | Usado por AuthController                    |
+        | Resource   | RegisterRequestResource            | Estructura para solicitudes de registro            | Representar los datos necesarios para registrar un usuario               | Usado por AuthController                    |
+        | Resource   | RegisterResponseResource           | Estructura para respuestas de registro             | Entregar datos estructurados tras un registro exitoso                    | Usado por AuthController                    |
+        | Resource   | ErrorResponseResource              | Estructura para manejar respuestas de error        | Estandarizar mensajes de error enviados al cliente                       | Usado por AuthController en caso de errores |
+        | Validator  | AuthRequestValidator               | Valida los datos de entrada de las solicitudes     | Garantizar que los datos recibidos cumplen con las reglas del dominio    | Usado por AuthController                    |
+        | Controller | AuthController                     | Gestiona las solicitudes HTTP de los clientes      | Recibir solicitudes, coordinar su procesamiento y devolver respuestas    | Usa recursos, validadores y ensambladores   |
+        | Assembler  | SignInCommandFromResourceAssembler | Convierte AuthRequestResource en SignInCommand     | Asegurar una transformación limpia entre recursos y comandos             | Usado por AuthController                    |
+        | Assembler  | SignUpCommandFromResourceAssembler | Convierte RegisterRequestResource en SignUpCommand | Prevenir inconsistencias al transformar datos de recursos a comandos     | Usado por AuthController                    |
+
+      - **2.6.5.3. Application Layer**
+        **Sub-capa Internal**
+        | Tipo           | Nombre               | Descripción                     | Responsabilidad Principal                           | Relación con otros elementos      |
+        | -------------- | -------------------- | ------------------------------- | --------------------------------------------------- | --------------------------------- |
+        | CommandHandler | SignInCommandHandler | Maneja el comando SignInCommand | Ejecutar la lógica de autenticación de un usuario   | Usa UserRepository y TokenService |
+        | CommandHandler | SignUpCommandHandler | Maneja el comando SignUpCommand | Ejecutar la lógica de registro de un usuario        | Usa UserRepository                |
+        | EventPublisher | DomainEventPublisher | Publica eventos de dominio      | Notificar cambios en el dominio a sistemas externos | Usado por CommandHandlers         |
+
+      - **2.6.5.4. Infrastructure Layer**
+        **Sub-capa Repository**
+        
+        | Tipo      | Nombre             | Descripción                                   | Responsabilidad Principal                                      | Relación con otros elementos           |
+        | --------- | ------------------ | --------------------------------------------- | -------------------------------------------------------------- | -------------------------------------- |
+        | Interface | UserRepository     | Interfaz para acceder a los datos del User    | Definir métodos para manipular datos del usuario               | Definida en dominio, implementada aquí |
+        | Class     | UserRepositoryImpl | Implementación del repositorio UserRepository | Conectar con la base de datos para operaciones de persistencia | Usado por CommandHandlers              |
+        
+        **Sub-capa Security**
+        
+        | Tipo   | Nombre         | Descripción                                 | Responsabilidad Principal                            | Relación con otros elementos |
+        | ------ | -------------- | ------------------------------------------- | ---------------------------------------------------- | ---------------------------- |
+        | Config | SecurityConfig | Configura reglas de autorización y permisos | Establecer políticas de seguridad para la aplicación | Aplicada globalmente         |
+        
+        **Sub-capa JWT**
+        | Tipo  | Nombre         | Descripción                                                     | Responsabilidad Principal                                                   | Relación con otros elementos                  |
+        | ----- | -------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------- |
+        | Class | JwtAuthFilter  | Filtro que valida tokens JWT en solicitudes HTTP                | Verificar la autenticidad de las solicitudes antes de llegar al controlador | Relacionado con la seguridad de la aplicación |
+        | Class | JwtServiceImpl | Gestiona la creación, validación y decodificación de tokens JWT | Encapsular toda la lógica relacionada con tokens JWT                        | Implementa TokenService                       |
+        
+        **Sub-capa Event Handling**
+        | Tipo         | Nombre                     | Descripción                      | Responsabilidad Principal                                               | Relación con otros elementos               |
+        | ------------ | -------------------------- | -------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------ |
+        | EventHandler | UserRegisteredEventHandler | Procesa el evento UserRegistered | Gestionar integraciones o notificaciones tras el registro de un usuario | Usa sistemas de mensajería o APIs externas |
+        
+        **Sub-capa Audit**
+        | Tipo    | Nombre       | Descripción                                       | Responsabilidad Principal                           | Relación con otros elementos              |
+        | ------- | ------------ | ------------------------------------------------- | --------------------------------------------------- | ----------------------------------------- |
+        | Service | AuditService | Registra eventos críticos (ej. intentos de login) | Mantener un registro de auditoría para trazabilidad | Usado por CommandHandlers o JwtAuthFilter |
+
+
+    - **2.6.5.5. Bounded Context Software Architecture Component Level Diagrams**
+
+    - **2.6.5.6. Bounded Context Software Architecture Code Level Diagrams**
+   - **2.6.5.6.1. Bounded Context Domain Layer Class Diagrams**
+
+    - **2.6.5.6.2. Bounded Context Database Design Diagram**
+
+
+
+
+
 - **Conclusiones**
 
 - **Bibliografía**
 
 - **Anexo**
+
 
 
 
