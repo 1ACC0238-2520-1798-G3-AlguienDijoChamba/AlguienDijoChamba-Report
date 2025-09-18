@@ -66,6 +66,15 @@
 
 # Project Report Collaboration Insights
 
+Link del repositorio : https://github.com/1ACC0238-2520-1798-G3-AlguienDijoChamba 
+
+<img src="feature/chapter01/insights1.png">
+
+<img src="feature/chapter01/insights2.png">
+
+<img src="feature/chapter01/insights3.png">
+
+
 
 # Contenido
 ## Tabla de contenidos
