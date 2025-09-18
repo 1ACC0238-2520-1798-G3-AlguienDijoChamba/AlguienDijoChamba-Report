@@ -183,17 +183,19 @@
 
       **Entrevista 3:**
       Datos del entrevistador:
-      - Nombre: --
+      - Nombre: Fabrisio Belahonia
         
       Datos del entrevistado:
-      - Nombre: --
-      - Edad: --
-      - Distrito de residencia: --
-      - Enlace: https:--
+      - Nombre: Cameron Bustamante
+      - Edad: 25
+      - Distrito de residencia: Monterrico
+      - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EQ1wTPGqAk1KhlSzP8q4l58BNbPwCwVP2EGV943OjiCKbQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=thTRJ2
 
-      colocar imagen
+        <img src="feature/chapter02/Entrevista tec 3.png">
+      
 
       **Resumen de la entrevista:**
+    La entrevistada se dedica a confección y arreglos de ropa. Actualmente consigue clientes por recomendaciones y Facebook, pero enfrenta temporadas bajas y contactos poco serios. Considera que una app como Fix Now le ayudaría con visibilidad, agenda de entregas, cotizaciones rápidas, pagos seguros e inmediatos, y comunicación directa con clientes. Valora mucho contar con un perfil verificado y un sistema de niveles que le brinde beneficios como mayor visibilidad y menores comisiones.
 
 
       **Entrevistas Segmento Objetivo 2: Clientes**
@@ -1857,6 +1859,7 @@ Los entrevistados coinciden en que la aplicación representa una propuesta innov
 - **Bibliografía**
 
 - **Anexo**
+
 
 
 
