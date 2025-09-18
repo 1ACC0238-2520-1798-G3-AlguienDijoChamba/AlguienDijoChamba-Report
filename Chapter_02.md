@@ -1154,8 +1154,20 @@
     - **2.5.2. Context Mapping**
     - **2.5.3. Software Architecture**
       - **2.5.3.1. Software Architecture Context Level Diagrams**
+                  <div align="center">
+                  <img src="./feature/chapter02/ContextDiagram.png"/>
+                </div>
+                <br>
       - **2.5.3.2. Software Architecture Container Level Diagrams**
+                <div align="center">
+                  <img src="./feature/chapter02/Container-Level-Diagrams.png"/>
+                </div>
+                <br>
       - **2.5.3.3. Software Architecture Deployment Diagrams**
+                  <div align="center">
+                  <img src="./feature/chapter02/DeployDiagram.png"/>
+                </div>
+                <br>
   - **2.6. Tactical-Level Domain-Driven Design**
 
     - **2.6.1. Bounded Context: Worker-Catalog**
