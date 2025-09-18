@@ -1249,6 +1249,52 @@ Los entrevistados coinciden en que la aplicación representa una propuesta innov
     
   - **2.5. Strategic-Level Domain-Driven Design**
     - **2.5.1. EventStorming**
+
+    Mediante la plataforma Miro, llevamos a cabo el proceso de EventStorming, lo que nos permitió identificar eventos, usuarios o agentes, comandos que desencadenan dichos eventos, agregados y bounded contexts.
+
+    Para facilitar la comprensión, la información se presenta en distintos “post-its” de la siguiente manera:
+
+    -Post-it anaranjado: Evento que ocurre.
+
+    -Post-it azul: Comando que provoca el evento que está a su derecha.
+
+    -Post-it amarillo: Usuario final que ejecuta el comando a su derecha.
+  
+    -Delimitaciones amarillas: Agrupan eventos y comandos relacionados a un mismo agregado.
+
+    -Delimitaciones negras: Agrupan uno o varios agregados relacionados a un bounded context.
+
+    -Flechas punteadas: Indican comandos que generan eventos en otros agregados o bounded contexts.
+
+
+    Proceso:
+
+      Identificación de eventos:
+  El primer paso consiste en identificar los eventos y organizarlos siguiendo una línea de tiempo imaginaria de izquierda a derecha. Algunos eventos pueden aparecer en la misma columna si no tienen un orden consecutivo. Los eventos se representan con post-its anaranjados.
+      <div align="center">
+      <img src="./feature/chapter02/Paso_1.jpeg"/>
+      </div>
+      <br>
+      Identificación de comandos:
+      A continuación, se reconocen los comandos que disparan o ejecutan cada evento, representados con post-its azules
+
+
+      <div align="center">
+      <img src="./feature/chapter02/Paso_2.jpeg"/>
+      </div>
+      <br>
+      
+      Identificación de agentes:
+      Después, se determinan los agentes o usuarios que realizan los comandos, representados con post-its amarillos.
+
+      <div align="center">
+      <img src="./feature/chapter02/Paso_3.jpeg"/>
+      </div>
+      <br>
+                
+      Agrupación por agregados y bounded contexts:
+      Finalmente, se relacionan los eventos entre sí mediante los agregados y entidades involucradas, agrupándolos en bounded contexts. También se trazan líneas punteadas para señalar la interacción de comandos con eventos en distintos bounded contexts.
+      
       - **2.5.1.1. Candidate Context Discovery**  
    
         La técnica Start-With-Value, de DDD y diseño centrado en el usuario, propone modelar el dominio empezando por el valor que debe entregar. La usamos para definir los eventos clave de nuestros bounded contexts y el valor que espera el usuario. 
@@ -1863,6 +1909,7 @@ Los entrevistados coinciden en que la aplicación representa una propuesta innov
 - **Bibliografía**
 
 - **Anexo**
+
 
 
 
