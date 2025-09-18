@@ -1248,6 +1248,18 @@ Los entrevistados coinciden en que la aplicación representa una propuesta innov
   - **2.5. Strategic-Level Domain-Driven Design**
     - **2.5.1. EventStorming**
       - **2.5.1.1. Candidate Context Discovery**  
+   
+        La técnica Start-With-Value, de DDD y diseño centrado en el usuario, propone modelar el dominio empezando por el valor que debe entregar. La usamos para definir los eventos clave de nuestros bounded contexts y el valor que espera el usuario. 
+
+        | **Bounded Context**                                      | **Valor esperado por el usuario**                                                                                         | **Eventos clave**                                                               |
+        | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+        | **IAM (Accesos)**                                         | Permitir que el usuario se registre, inicie sesión y gestione su perfil en la aplicación                                    | Usuario registrado, usuario autenticado, acceso al perfil de usuario             |
+        | **Alerts (Notificaciones)**                               | Enviar notificaciones relevantes sobre el estado de las solicitudes, servicios o cambios en la plataforma                   | Notificación de solicitud aceptada, notificación de cambio de estado, alerta de disponibilidad |
+        | **Payments (Pagos)**                                      | Realizar pagos de forma segura, confirmar transacciones y notificar al usuario sobre el estado de su pago                 | Pago realizado, pago fallido, confirmación de pago exitoso                       |
+        | **Worker Catalog (Catálogo de Profesionales)**            | Ver detalles de los profesionales y realizar solicitudes de servicios                                                     | Perfil profesional visualizado, solicitud de servicio enviada, perfil actualizado |
+        | **Tec-Section (Sección Técnica)**                         | Gestionar las solicitudes de servicio, la disponibilidad de los profesionales y confirmar la finalización de los trabajos  | Solicitud de servicio confirmada, disponibilidad actualizada, servicio completado |
+
+
       - **2.5.1.2. Domain Message Flows Modeling**
       - **2.5.1.3. Bounded Context Canvases**
       
@@ -1273,7 +1285,7 @@ Los entrevistados coinciden en que la aplicación representa una propuesta innov
                   <img src="./feature/chapter02/alerts.png"/>
           </div>
           <br>
-          
+
           <div align="center">
                   <img src="./feature/chapter02/tec-section.png"/>
           </div>
