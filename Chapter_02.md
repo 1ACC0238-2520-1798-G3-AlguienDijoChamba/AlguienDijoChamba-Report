@@ -1739,6 +1739,11 @@
     - **2.6.5.5. Bounded Context Software Architecture Component Level Diagrams**
       
      El diagrama muestra la estructura interna del contenedor IAM Application, que forma parte del bounded context de identidad y autenticación (IAM) del sistema. Este backend está construido siguiendo los principios de Clean Architecture y Domain-Driven Design (DDD)
+  <br><br>
+  <div align="center">
+  <img src="feature/chapter02/componet_IAM.png">
+  </div>
+  <br>
 
     - **2.6.5.6. Bounded Context Software Architecture Code Level Diagrams**
    - **2.6.5.6.1. Bounded Context Domain Layer Class Diagrams**
@@ -1808,6 +1813,7 @@
 - **Bibliografía**
 
 - **Anexo**
+
 
 
 
