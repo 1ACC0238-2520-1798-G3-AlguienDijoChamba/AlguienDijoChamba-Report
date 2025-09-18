@@ -1347,6 +1347,15 @@
           <br>
 
     - **2.5.2. Context Mapping**
+
+      Este Context Map ilustra las interacciones entre los Bounded Contexts de Alguien Dijo Chamba, aplicando patrones de DDD como Upstream/Downstream, ACLs y Conformist.
+
+        <div align="center">
+          <img src="./feature/chapter02/aaa.png"/>
+          </div>
+          <br>
+
+          
     - **2.5.3. Software Architecture**
       - **2.5.3.1. Software Architecture Context Level Diagrams**
                   <div align="center">
@@ -1934,6 +1943,7 @@
 
   Eventstorming https://acortar.link/cUUGdN<br>
   PPT del Proyecto https://acortar.link/8CJQm9
+
 
 
 
