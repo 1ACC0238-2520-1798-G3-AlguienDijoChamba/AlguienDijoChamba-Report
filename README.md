@@ -66,7 +66,7 @@
 
 # Project Report Collaboration Insights
 
-Link del repositorio : https://github.com/1ACC0238-2520-1798-G3-AlguienDijoChamba 
+Enlace de la organización para el reporte del proyecto: https://github.com/1ACC0238-2520-1798-G3-AlguienDijoChamba 
 
 <img src="feature/chapter01/insights1.png">
 
