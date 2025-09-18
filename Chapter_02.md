@@ -1263,14 +1263,17 @@ Los entrevistados coinciden en que la aplicación representa una propuesta innov
                   <img src="./feature/chapter02/payment.png"/>
                 </div>
           <br>
+
           <div align="center">
                   <img src="./feature/chapter02/worker-catalog.png"/>
           </div>
           <br>
+        
           <div align="center">
                   <img src="./feature/chapter02/alerts.png"/>
           </div>
           <br>
+          
           <div align="center">
                   <img src="./feature/chapter02/tec-section.png"/>
           </div>
