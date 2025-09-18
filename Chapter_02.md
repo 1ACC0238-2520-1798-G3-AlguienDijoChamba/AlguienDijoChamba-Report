@@ -1271,21 +1271,25 @@ Los entrevistados coinciden en que la aplicación representa una propuesta innov
           <img src="./feature/chapter02/Iam.png"/>
           </div>
           <br>
+          
         ## Payment:
          <div align="center">
           <img src="./feature/chapter02/payment.png"/>
           </div>
           <br>
+
         ## Worker-Catalog:
           <div align="center">
           <img src="./feature/chapter02/worker-catalog.png"/>
           </div>
           <br>
+
         ## Alerts:
           <div align="center">
           <img src="./feature/chapter02/alerts.png"/>
           </div>
           <br>
+
         ## Tec Section:
           <div align="center">
           <img src="./feature/chapter02/tec-section.png"/>
