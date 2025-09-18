@@ -159,10 +159,11 @@
       - Nombre:Diego Fuentes
       - Edad: 21 años
       - Distrito de residencia: Santa Anita
-      - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EQvJ8mqIztdPracfY_XiQbcBeGZMJcw0Al69nC8875vYnQ?e=DS22qD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+      - Enlace: https://acortar.link/lcWDjG
 
          <img src="feature/chapter02/Diego.png">
       **Resumen de la entrevista:**
+
       Diego Fuentes considera que una aplicación como AlguienDijoChamba le ayudaría a expandirse un poco más y darse a conocer mejor como técnico, lo que le permitiría tener más trabajo disponible. Además, cree que las funcionalidades que se planean implementar son muy prácticas y diferenciarían esta aplicación de otras similares.
 
 
@@ -174,12 +175,13 @@
       - Nombre: Humberto Garcia  
       - Edad: 50 años
       - Distrito de residencia: Jesus Maria
-      - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EYkAuYbdXTNOvUcGV6oBPtEBckImbOiZVcLdhoBMOs9k-A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=A4nPEL
+      - Enlace: https://acortar.link/qrirRT
         
       <img src="feature/chapter02/TEC 2.png">
 
       **Resumen de la entrevista:**
- Humberto García, electricista, mostró gran interés en la aplicación presentada, destacando que le parece una propuesta innovadora y con gran potencial. Señaló que la herramienta le sería de gran ayuda para llegar a más personas, ampliar su alcance profesional y facilitar la conexión con clientes que requieran sus servicios.
+
+      Humberto García, electricista, mostró gran interés en la aplicación presentada, destacando que le parece una propuesta innovadora y con gran potencial. Señaló que la herramienta le sería de gran ayuda para llegar a más personas, ampliar su alcance profesional y facilitar la conexión con clientes que requieran sus servicios.
 
       **Entrevista 3:**
       Datos del entrevistador:
@@ -189,13 +191,14 @@
       - Nombre: Cameron Bustamante
       - Edad: 25
       - Distrito de residencia: Monterrico
-      - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EQ1wTPGqAk1KhlSzP8q4l58BNbPwCwVP2EGV943OjiCKbQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=thTRJ2
+      - Enlace: https://acortar.link/nlnyYy
 
         <img src="feature/chapter02/Entrevista tec 3.png">
       
 
       **Resumen de la entrevista:**
-    La entrevistada se dedica a confección y arreglos de ropa. Actualmente consigue clientes por recomendaciones y Facebook, pero enfrenta temporadas bajas y contactos poco serios. Considera que una app como Fix Now le ayudaría con visibilidad, agenda de entregas, cotizaciones rápidas, pagos seguros e inmediatos, y comunicación directa con clientes. Valora mucho contar con un perfil verificado y un sistema de niveles que le brinde beneficios como mayor visibilidad y menores comisiones.
+
+      La entrevistada se dedica a confección y arreglos de ropa. Actualmente consigue clientes por recomendaciones y Facebook, pero enfrenta temporadas bajas y contactos poco serios. Considera que una app como Fix Now le ayudaría con visibilidad, agenda de entregas, cotizaciones rápidas, pagos seguros e inmediatos, y comunicación directa con clientes. Valora mucho contar con un perfil verificado y un sistema de niveles que le brinde beneficios como mayor visibilidad y menores comisiones.
 
 
       **Entrevistas Segmento Objetivo 2: Clientes**
@@ -208,7 +211,7 @@
       - Nombre: Jarol Saquiray
       - Edad: 20 años
       - Distrito de residencia: San Miguel
-      - Enlace: https: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EZFZqWNG6YxBkSdNJ7LHjeYBfHsrCofeJ4sZXGpIg7DKsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CUDdgk
+      - Enlace: https: https://acortar.link/PMdjl9
         
       <img src="feature/chapter02/Entrevista user1.png">
 
@@ -224,7 +227,7 @@
       - Nombre: Juan Pablo Yataco
       - Edad: 20 años
       - Distrito de residencia: Jesus Maria
-      - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EaptK7Z0DXpCgQr66Z50U6MBPB_n5OjTQYS0CoXrXSDgRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CpjH6y
+      - Enlace: https://acortar.link/gCUwR5
         
       <img src="feature/chapter02/Entrevista user 2 .png">
 
@@ -240,7 +243,7 @@
       - Nombre: Dilanh Garcua
       - Edad: 19 años
       - Distrito de residencia: Surco
-      - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EeBywM8FpltKrmb2uSd7CK8B3AC_liv_UlFUGCYzZBgcAw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=u2l3eu
+      - Enlace: https://acortar.link/cJmZsA
         
       <img src="feature/chapter02/Entrevista user 3.png">
 
@@ -250,17 +253,16 @@
 
    - **2.2.3. Análisis de entrevistas**
 
-      **Análisis Segmento Objetivo 1: Profesionales Tecnicos**   
-Los entrevistados coinciden en que la aplicación representa una propuesta innovadora que les ayudaría a ampliar su alcance profesional, generar más oportunidades de trabajo y facilitar la conexión con potenciales clientes. Además, valoran las funcionalidades diferenciadoras que aportarían practicidad y competitividad frente a otras alternativas del mercado.
+      **Análisis Segmento Objetivo 1: Profesionales Tecnicos**
+
+      Los entrevistados coinciden en que la aplicación representa una propuesta innovadora que les ayudaría a ampliar su alcance profesional, generar más oportunidades de trabajo y facilitar la conexión con potenciales clientes. Además, valoran las funcionalidades diferenciadoras que aportarían practicidad y competitividad frente a otras alternativas del mercado.
 
 
       **Analisis Segmento Objetivo 2: Clientes**
 
       Las entrevistas evidencian una necesidad común de confianza, transparencia y seguridad al contratar técnicos. La propuesta de AlguienDijoChamba resulta atractiva al combinar verificación de perfiles, referencias confiables, cotizaciones claras y pagos digitales inmediatos. Además, la incorporación de gamificación y monitoreo inteligente refuerza la diferenciación de la plataforma, respondiendo tanto a las expectativas prácticas (costos, rapidez, calidad) como a la generación de valor agregado en el hogar
 
-      Agregar Imagen
-
-      Conclusión
+      ### Conclusión
       En general, las entrevistas confirmaron que AlguienDijoChamba responde a necesidades reales. Los clientes buscan seguridad, transparencia y facilidad. Los técnicos necesitan herramientas para crecer profesionalmente y llegar a más personas. Ambos segmentos mostraron interés en la propuesta y en las funcionalidades planteadas, lo cual refuerza el valor de la plataforma que estamos construyendo.
 
   - **2.3. Needfinding**
@@ -1904,12 +1906,17 @@ Los entrevistados coinciden en que la aplicación representa una propuesta innov
 
 
 - **Conclusiones**
+
   En este primer entregable, el equipo de Thedraws ha logrado cumplir con los objetivos planteados, elaborando un informe detallado que refleja los avances del proyecto. Gracias a un enfoque cuidadoso y bien organizado, se ha conseguido comunicar de manera efectiva los beneficios de la app “Alguien dijo Chamba” a los usuarios, estableciendo una base sólida para las etapas futuras del proyecto. Este primer paso garantiza que la estructura y visión de Thedraws se transmitan con claridad, facilitando la transición hacia fases más complejas del desarrollo.
 
 - **Bibliografía**
 
+  
+
 - **Anexo**
 
+  Eventstorming https://acortar.link/cUUGdN<br>
+  PPT del Proyecto https://acortar.link/8CJQm9
 
 
 
