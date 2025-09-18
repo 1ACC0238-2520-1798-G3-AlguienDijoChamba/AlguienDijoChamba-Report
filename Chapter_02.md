@@ -168,17 +168,18 @@
 
       **Entrevista 2:**
       Datos del entrevistador:
-      - Nombre: ---
+      - Nombre: Percy Alonso Muñiz 
         
       Datos del entrevistado:
-      - Nombre: --
-      - Edad: ---
-      - Distrito de residencia: ---
-      - Enlace: ---
+      - Nombre: Humberto Garcia  
+      - Edad: 50 años
+      - Distrito de residencia: Jesus Maria
+      - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EYkAuYbdXTNOvUcGV6oBPtEBckImbOiZVcLdhoBMOs9k-A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=A4nPEL
         
-      Colocar imageen
+      <img src="feature/chapter02/TEC 2.png">
 
       **Resumen de la entrevista:**
+ Humberto García, electricista, mostró gran interés en la aplicación presentada, destacando que le parece una propuesta innovadora y con gran potencial. Señaló que la herramienta le sería de gran ayuda para llegar a más personas, ampliar su alcance profesional y facilitar la conexión con clientes que requieran sus servicios.
 
       **Entrevista 3:**
       Datos del entrevistador:
@@ -218,12 +219,12 @@
       - Nombre: Percy Alonso Muñiz Huayanca
         
       Datos del entrevistado:
-      - Nombre: Leonardo Caballa
+      - Nombre: Juan Pablo Yataco
       - Edad: 20 años
       - Distrito de residencia: Jesus Maria
-      - Enlace:
+      - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EaptK7Z0DXpCgQr66Z50U6MBPB_n5OjTQYS0CoXrXSDgRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CpjH6y
         
-      Agregar Imagen
+      <img src="feature/chapter02/Entrevista user 2 .png">
 
       **Resumen de la entrevista:**
 
@@ -234,12 +235,12 @@
       - Nombre: Percy Alonso Muñiz 
         
       Datos del entrevistado:
-      - Nombre: Angel Garcia
-      - Edad: 21 años
+      - Nombre: Dilanh Garcua
+      - Edad: 19 años
       - Distrito de residencia: Surco
-      - Enlace: 
+      - Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319563_upc_edu_pe/EeBywM8FpltKrmb2uSd7CK8B3AC_liv_UlFUGCYzZBgcAw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=u2l3eu
         
-      Agregar Imagen
+      <img src="feature/chapter02/Entrevista user 3.png">
 
       **Resumen de la entrevista:**
 
@@ -247,9 +248,9 @@
 
    - **2.2.3. Análisis de entrevistas**
 
-      **Análisis Segmento Objetivo 1: Profesionales Tecnicos**
+      **Análisis Segmento Objetivo 1: Profesionales Tecnicos**   
+Los entrevistados coinciden en que la aplicación representa una propuesta innovadora que les ayudaría a ampliar su alcance profesional, generar más oportunidades de trabajo y facilitar la conexión con potenciales clientes. Además, valoran las funcionalidades diferenciadoras que aportarían practicidad y competitividad frente a otras alternativas del mercado.
 
-      Agregar Imaagen
 
       **Analisis Segmento Objetivo 2: Clientes**
 
@@ -1479,10 +1480,11 @@
         <img src="./feature/chapter02/Payments.png"/>
 
       - **2.6.2.6. Bounded Context Software Architecture Code Level Diagrams**
-        - **2.6.2.6.1. Bounded Context Domain Layer Class Diagrams**
-        <img src="./feature/chapter02/Class_diagram_payments.png"/>
-        - **2.6.2.6.2. Bounded Context Database Design Diagram**
-        <img src="./feature/chapter02/Datebase diagram payments.png"/>
+      - **2.6.2.6.1. Bounded Context Domain Layer Class Diagrams**
+      <img src="./feature/chapter02/Class_diagram_payments.png"/>
+      
+      - **2.6.2.6.2. Bounded Context Database Design Diagram**
+      <img src="./feature/chapter02/Datebase diagram payments.png"/>
         
     - **2.6.3. Bounded Context: Alerts**
     
@@ -1764,6 +1766,11 @@
     - **2.6.5.5. Bounded Context Software Architecture Component Level Diagrams**
       
      El diagrama muestra la estructura interna del contenedor IAM Application, que forma parte del bounded context de identidad y autenticación (IAM) del sistema. Este backend está construido siguiendo los principios de Clean Architecture y Domain-Driven Design (DDD)
+  <br><br>
+  <div align="center">
+  <img src="feature/chapter02/componet_IAM.png">
+  </div>
+  <br>
 
     - **2.6.5.6. Bounded Context Software Architecture Code Level Diagrams**
    - **2.6.5.6.1. Bounded Context Domain Layer Class Diagrams**
@@ -1829,14 +1836,11 @@
 
 
 - **Conclusiones**
+  En este primer entregable, el equipo de Thedraws ha logrado cumplir con los objetivos planteados, elaborando un informe detallado que refleja los avances del proyecto. Gracias a un enfoque cuidadoso y bien organizado, se ha conseguido comunicar de manera efectiva los beneficios de la app “Alguien dijo Chamba” a los usuarios, estableciendo una base sólida para las etapas futuras del proyecto. Este primer paso garantiza que la estructura y visión de Thedraws se transmitan con claridad, facilitando la transición hacia fases más complejas del desarrollo.
 
 - **Bibliografía**
 
 - **Anexo**
-
-
-
-
 
 
 
