@@ -1324,7 +1324,7 @@
           
         ## Payment:
          <div align="center">
-          <img src="./feature/chapter02/payment.png"/>
+          <img src="./feature/chapter02/Payment.png"/>
           </div>
           <br>
 
@@ -1336,7 +1336,7 @@
 
         ## Alerts:
           <div align="center">
-          <img src="./feature/chapter02/alerts.png"/>
+          <img src="./feature/chapter02/Alerts.png"/>
           </div>
           <br>
 
@@ -1943,6 +1943,7 @@
 
   Eventstorming https://acortar.link/cUUGdN<br>
   PPT del Proyecto https://acortar.link/8CJQm9
+
 
 
 
