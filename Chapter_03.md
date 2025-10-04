@@ -87,9 +87,23 @@
         <br><br>**Accesibilidad y Usabilidad:** La aplicación está diseñada con Responsive Design, lo que asegura que se adapte correctamente a distintos tamaños de pantalla dentro del ecosistema móvil.
     - **3.1.3. Landing Page UI Design**
       - **3.1.3.1. Landing Page Wireframe**
+      <br>
+      **Enlace al Figma de la Landing Page:** https://www.figma.com/design/ZcdFsusLeG4RP5GM0TwIpB/Landing-Page?node-id=0-1&t=e2lefX3uya8tLLM5-1
+        <br>A continuación, se muestra la landing page tal como se visualiza desde un navegador web.<br><br>
+        ![imagesWireframe1](./feature/chapter3/Landing_Wireframe.png)
+
       - **3.1.3.2. Landing Page Mock-up**
+        <br>
+        **Enlace al Figma de la Landing Page:** https://www.figma.com/design/ZcdFsusLeG4RP5GM0TwIpB/Landing-Page?node-id=0-1&t=e2lefX3uya8tLLM5-1
+        <br>El wireframe para desktop guió la disposición de los elementos, y el mock-up finalizo con las secciones propuestas.<br><br>
+        ![imagesWireframe1](./feature/chapter3/Landing_Mock_Ups.png)
+      
     - **3.1.4. Mobile Applications UX/UI Design**
       - **3.1.4.1. Mobile Applications Wireframes**
+        <br>
+        **Enlace al Figma de la Web Application versión Desktop:** https://www.figma.com/design/PeLAC5bn6HtSfybmA78rXe/Wireframes?t=e2lefX3uya8tLLM5-1
+        <br><br>
+        **Seleccionar tipo de usuario**
       - **3.1.4.2. Mobile Applications Wireflow Diagrams**
       - **3.1.4.3. Mobile Applications Mock-ups**
       - **3.1.4.4. Mobile Applications User Flow Diagrams**
