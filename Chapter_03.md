@@ -28,10 +28,63 @@
 
     - **3.1.2. Information Architecture**
       - **3.1.2.1. Organization Systems**
+      Vamos a implementar diversos sistemas de organización según el tipo de contenido que se presente, con el objetivo de facilitar la comprensión, la navegación y la forma que interactue el usuario con nuestro app mobil.
+      <br><br> **Organización visual del contenido**<br>
+        - **Jerárquica(Visual Hierarchy):**<br>
+          Usamos la jerarquía visual para destacar el mensaje más importante, que aparece en este encabezado. La información se organiza de manera que primero llame la atención lo principal y luego los detalles secundarios, como textos explicativos o botones, para guiar al usuario de forma clara.
+          <br><br>
+        - **List Vertical(List View):**<br>
+          Aplicaremos una organización en lista vertical cuando queramos mostrar elementos en orden secuencial, como mensajes, tareas o historial de acciones. Esto permite al usuario recorrer la información de manera lineal y enfocarse en cada Tecnico uno a la vez, facilitando la lectura y la navegación dentro de la app.
+          <br>
+      <br> **Esquemas de categorización de contenido**<br>
+        -  **Por topicos:** Se utilizará cuando el contenido pueda organizarse en categorías o temas específicos, facilitando que el usuario encuentre información relacionada o explore áreas de interés de manera lógica.
+        - **Secuencial:** Se aplicará cuando el contenido deba presentarse en un orden cronológico o lógico, guiando al usuario a través de procesos, instrucciones o tutoriales de manera estructurada.
+        - **Relevancia:** Se usará para destacar el contenido que ha recibido mayor interacción, vistas o valoración, permitiendo al usuario acceder primero a lo más relevante o buscado.
+        - **Tags:** Se empleará cuando el contenido pueda asociarse con palabras clave o etiquetas, facilitando la búsqueda y el filtrado según intereses específicos del usuario.
+        - **Cronológico:** Se aplicará cuando sea importante mostrar el contenido en función de fechas o eventos, permitiendo que el usuario siga la evolución o historia de manera temporal.
       - **3.1.2.2. Labelling Systems**
+        <br>La interfaz de nuestra aplicación está diseñada para ser intuitiva y fácil de usar, utilizando palabras clave que resulten familiares para nuestros usuarios. Por esta razón, las etiquetas de navegación explican de manera concisa la función de cada sección. A continuación, presentamos las etiquetas principales para los dos roles de la aplicación: Cliente y Técnico.
+        <br>**Client**<br>
+        - **Home:** Página principal con vistas rápidas, notificaciones y accesos directos a todas las funciones importantes de la app.
+        - **Search:** Buscar técnicos disponibles según tipo de trabajo , con filtros por ubicación, calificación y disponibilidad.
+        - **Process:** Seguimiento de las solicitudes de servicios enviadas, con detalles del técnico asignado, estado del trabajo y fecha programada.
+        - **Rewards:** Beneficios y recompensas por contratar servicios a través de la app.
+        - **Profile:** Gestión de información personal y datos de contacto.
+    
+        <br>**Tecnico**<br>
+        - **Home:** Página principal con vistas rápidas, notificaciones de nuevos trabajos y accesos directos a todas las funciones importantes de la app.
+        - **Request:** Visualizar, aceptar o rechazar solicitudes de trabajo de clientes, con información del tipo de servicio y ubicación.
+        - **Calendar:** Calendario de trabajos programados, mostrando fecha, hora y dirección de cada servicio asignado.
+        - **Payments:** Registrar pagos recibidos por los trabajos realizados y consultar historial de ingresos.
+        - **Profile:** Gestionar informacion personal.
       - **3.1.2.3. SEO Tags and Meta Tags**
+        <br> Tenemos lo que es Optimización SEO para Mayor Visibilidad en Plataformas Móviles,  donde se han implementado estrategias de posicionamiento en tiendas de aplicaciones (ASO – App Store Optimization), utilizando títulos, descripciones y palabras clave relevantes para que AlguienDijoChamba sea fácilmente encontrada por clientes que buscan contratar técnicos de diferentes especialidades, así como por técnicos que deseen ofrecer sus servicios.<br>
+        - **Titulo:** “AlguienDijoChamba – Encuentra técnicos confiables cerca de ti”
+        - **Descripción de la App:** “Conecta con técnicos especializados en plomería, carpintería, electricidad y más. Solicita servicios desde tu móvil, agenda citas y gestiona pagos de manera rápida y segura.”
+        - **Palabras Clave:**: “contratar técnicos, servicios a domicilio, plomero, carpintero, electricista, app de servicios, AlguienDijoChamba”
       - **3.1.2.4. Searching Systems**
+        En nuestra app movil tendremos diversidad de tecnicos registrados, por lo cual nos ha resultado crucial brindar herramientas de busqueda para que ayuden a los Clientes en encontrar al tecnico mas adecuado para su caso.
+        <br><br>
+        **Búsqueda por palabra clave:**
+        El usuario puede ingresar directamente lo que necesita, como “electricista”, “plomero” o “arreglar fuga de agua”. El sistema mostrará técnicos y servicios relacionados de inmediato.
+        <br><br>
+        **Filtros por especialidad y ubicación:**<br>
+        Además del buscador, se incluyen filtros desplegables para seleccionar el tipo de oficio. Esto ayuda a acotar resultados de manera eficiente.
+        <br><br>
+        **Filtros por calificación y experiencia:**<br>
+        Los usuarios pueden ordenar a los técnicos según su valoración promedio, años de experiencia o número de servicios completados, facilitando la elección del más confiable.
+        <br><br>
+      **Busqueda por problema en el hogar:**<br>
+        Si el usuario no sabe exactamente qué tipo de técnico necesita, podrá escribir el problema directamente y el sistema sugerirá automáticamente al especialista adecuado.
       - **3.1.2.5. Navigation Systems**
+        <br> En AlguienDijoChamba buscamos ofrecer la mejor experiencia a nuestros usuarios, garantizando que la interfaz sea clara, simple y funcional. Por ello, hemos definido las siguientes decisiones de diseño de interfaz (UI):
+        <br> **Landing Page (promoción de la app):**<br>
+        - La navegación de la Landing Page hará uso del scroll vertical, ya que es la forma más intuitiva y natural para los usuarios en páginas informativas.
+        - La página contará con una barra de menú superior fija, que se mantiene visible mientras el usuario navega hacia abajo. Esta barra tendrá enlaces a las secciones: Inicio, Producto, Servicio, Testimonio y Contactos.
+          <br> <br>**Aplicación Móvil:**<br>
+        - La aplicación contará con un menú de navegación inferior (bottom navbar) con accesos rápidos a las secciones principales: Home, Search, Process, Rewards, ProfileClients y Home, Requests, Calendar, Payments, ProfileTechnique.
+        - En la navegación entre pantallas, se incluirá siempre una opción para volver atrás, asegurando que el usuario tenga control total de su recorrido dentro de la app.
+        <br><br>**Accesibilidad y Usabilidad:** La aplicación está diseñada con Responsive Design, lo que asegura que se adapte correctamente a distintos tamaños de pantalla dentro del ecosistema móvil.
     - **3.1.3. Landing Page UI Design**
       - **3.1.3.1. Landing Page Wireframe**
       - **3.1.3.2. Landing Page Mock-up**
