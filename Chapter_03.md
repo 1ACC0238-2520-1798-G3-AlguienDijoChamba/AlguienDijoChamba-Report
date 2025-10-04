@@ -97,15 +97,238 @@
         **Enlace al Figma de la Landing Page:** https://www.figma.com/design/ZcdFsusLeG4RP5GM0TwIpB/Landing-Page?node-id=0-1&t=e2lefX3uya8tLLM5-1
         <br>El wireframe para desktop guió la disposición de los elementos, y el mock-up finalizo con las secciones propuestas.<br><br>
         ![imagesWireframe1](./feature/chapter3/Landing_Mock_Ups.png)
-      
+        <br><br>
     - **3.1.4. Mobile Applications UX/UI Design**
       - **3.1.4.1. Mobile Applications Wireframes**
         <br>
-        **Enlace al Figma de la Web Application versión Desktop:** https://www.figma.com/design/PeLAC5bn6HtSfybmA78rXe/Wireframes?t=e2lefX3uya8tLLM5-1
-        <br><br>
-        **Seleccionar tipo de usuario**
+        **Enlace al Figma del Mobil Application Wireframes:** https://www.figma.com/design/PeLAC5bn6HtSfybmA78rXe/Wireframes?t=e2lefX3uya8tLLM5-1
+      
+        ### **Users**
+        **Inicio de Sesion Cliente**<br>
+        ![imagesWireframeMobileApplication1](./feature/chapter3/Mobile_Applications_Wireframes/Users/Inicio_Client.png)
+        <br>
+        <br>**Registro Cliente**<br>
+        ![imagesWireframeMobileApplication2](./feature/chapter3/Mobile_Applications_Wireframes/Users/Registro_Client.png)
+        <br>
+        ![imagesWireframeMobileApplication3](./feature/chapter3/Mobile_Applications_Wireframes/Users/Registros_Client_2.png)
+        <br>
+        <br>**Main**<br>
+        ![imagesWireframeMobileApplication4](./feature/chapter3/Mobile_Applications_Wireframes/Users/Main_Client.png)
+        <br>
+        <br>**Rewards Section**<br>
+        ![imagesWireframeMobileApplication5](./feature/chapter3/Mobile_Applications_Wireframes/Users/Rewards_Clients.png)
+        <br>
+        <br>**Search Section**<br>
+        ![imagesWireframeMobileApplication6](./feature/chapter3/Mobile_Applications_Wireframes/Users/Search_CLient.png)
+        <br>
+        ### **Technician**
+        **Inicio de Sesion**<br>
+        ![imagesWireframeMobileApplication7](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Inicio_Tecnician.png)
+        <br>
+        ![imagesWireframeMobileApplication8](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Inicio_Tecnician_2.png)
+        <br>
+        <br>**Registro**<br>
+        ![imagesWireframeMobileApplication8](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Register_Tecnician_1.png)
+        <br>
+        ![imagesWireframeMobileApplication9](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Register_Tecnician_2.png)
+        <br>
+        <br>**Main**<br>
+        ![imagesWireframeMobileApplication10](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Main_Tecnician.png)
+        <br>
+        ![imagesWireframeMobileApplication11](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Main_Tecnician_2.png)
+        <br>
+        ![imagesWireframeMobileApplication12](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Main_Tecnician_3.png)
+        <br>
+        <br>**Payments Section**<br>
+        ![imagesWireframeMobileApplication13](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Paymenter_Tecnician_1.png)
+        <br>
+        ![imagesWireframeMobileApplication14](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Payments_Tecnician_2.png)
+        <br>
+        ![imagesWireframeMobileApplication15](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Payments_Tecnician_3.png)
+        <br>
+        <br>**Gamification Section**<br>
+        ![imagesWireframeMobileApplication16](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Gamification_Tecnician_1.png)
+        <br>
+        ![imagesWireframeMobileApplication17](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Gamification_Tecnician_2.png)
+        <br>
+        ![imagesWireframeMobileApplication18](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Gamification_Tecnician_3.png)
+        <br>
+        <br>**Availability Section**<br>
+        ![imagesWireframeMobileApplication19](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Avalibility_Tecnician.png)
+        <br>
+        ![imagesWireframeMobileApplication20](./feature/chapter3/Mobile_Applications_Wireframes/Technician/Avalibility_Tecnician_2.png)
+        <br> <br>
       - **3.1.4.2. Mobile Applications Wireflow Diagrams**
+        <br>
+        **Enlace al LucidShart del Mobile Applications User Flow Diagrams:** https://lucid.app/lucidchart/d428fcd4-907b-46e0-b414-33d3837168e1/edit?viewport_loc=-6752%2C-1346%2C11674%2C8944%2C0_0&invitationId=inv_0fbb098a-87f0-470f-a144-5961d011abb1
+        <br>
+        ### **User**
+        **Register**<br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_Wireflow_Diagrams/User/1.png)
+        <br>
+        <br>**Search Configuration**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_Wireflow_Diagrams/User/2.png)
+        <br>
+        <br>**Rewards Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_Wireflow_Diagrams/User/3.png)
+        <br>
+        ### **Technician**
+        **Register**<br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_Wireflow_Diagrams/Technician/1.png)
+        <br>
+        <br>**Home Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_Wireflow_Diagrams/Technician/2.png)
+        <br>
+        <br>**Payments Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_Wireflow_Diagrams/Technician/3.png)
+        <br>
+        <br>**Calendar Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_Wireflow_Diagrams/Technician/4.png)
+        <br>
+        <br>**Gamification Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_Wireflow_Diagrams/Technician/5.png)
+        <br> <br>
+      
       - **3.1.4.3. Mobile Applications Mock-ups**
+        <br>
+        **Enlace al Figma del Mobile Applications Mock-ups:** https://www.figma.com/design/gixtO1KKFxurOMzcb4xiw6/Mock-UP?node-id=9-2217&t=e2lefX3uya8tLLM5-1
+        <br>
+        <br>**Inicio al abrir la app**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/presentacion_1.png)
+        <br>
+        ![imagesMockUpsMobileApplication2](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/Tipo_usuario.png)
+        <br>
+        ### **Users**
+        **Inicio User**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/2_Inicio_USER_2.png)
+        <br>
+        <br>**Register**<br>
+        <br>
+        ![imagesMockUpsMobileApplication3](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/1_register/registro1.png)
+        <br>
+        ![imagesMockUpsMobileApplication4](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/1_register/registro2.png)
+        <br>
+        <br>**Home**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/2_Home/home.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/2_Home/home_profile.png)
+        <br>
+        <br>**Search Section**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/3_search/buscar_tecnicos.png)
+        <br>
+        <br>**Process Section**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/4_process/process_1.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/4_process/process_2.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/4_process/process_3.png)
+        <br>
+        <br>**Rewards Section**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/5_rewards/gamificion.png)
+        <br>
+        <br>**Profile Section**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/6_profile/profile_user_1.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/6_profile/profile_user_2.png)
+        <br>
+        <br>**Chat Section**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/7_chat/chat_1.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Users/7_chat/chat_2.png)
+        <br>
+      
+        ### **Technician**
+        **Register**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/1_register/register_1.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/1_register/register_2.png)
+        <br>
+        <br>**Main**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/2_main/main_1.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/2_main/main_2.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/2_main/main_3.png)
+        <br>
+        <br>**Calendar**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/3_calendar/Calendar_1.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/3_calendar/Calendar_2.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/3_calendar/Calendar_3.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/3_calendar/Calendar_4.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/3_calendar/Availability_1.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/3_calendar/Availability_2.png)
+        <br>
+        <br>**Payments**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/4_payments/pages_1.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/4_payments/pages_2.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/4_payments/pages_3.png)
+        <br>
+        <br>**Profile**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/5_profile/profile_1.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/5_profile/profile_2.png)
+        <br>
+        <br>**Gamification**<br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/6_gamification/gamification_1.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/6_gamification/gamification_2.png)
+        <br>
+        ![imagesMockUpsMobileApplication1](./feature/chapter3/Mobile_Applications_Mock_Ups/Technician/6_gamification/gamification_3.png)
+        <br> <br>
       - **3.1.4.4. Mobile Applications User Flow Diagrams**
+        <br>
+        **Enlace al LucidShart del Mobile Applications User Flow Diagrams:** https://lucid.app/lucidchart/d428fcd4-907b-46e0-b414-33d3837168e1/edit?viewport_loc=-6752%2C-1346%2C11674%2C8944%2C0_0&invitationId=inv_0fbb098a-87f0-470f-a144-5961d011abb1
+        <br>
+        ### **User**
+        **Register**<br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/1_user/1.png)
+        <br>
+        <br>**Profile Configuration**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/1_user/2.png)
+        <br>
+        <br>**Search Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/1_user/3.png)
+        <br>
+        <br>**Process Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/1_user/4.png)
+        <br>
+        <br>**Rewards Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/1_user/5.png)
+        <br>
+        <br>**Chat Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/1_user/6.png)
+        <br>
+        <br>**Edit Profile Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/1_user/7.png)
+        <br>
+        ### **Technician**
+        **Register**<br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/2_technician/1.png)
+        <br>
+        <br>**Home Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/2_technician/2.png)
+        <br>
+        <br>**Payments Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/2_technician/3.png)
+        <br>
+        <br>**Calendar Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/2_technician/4.png)
+        <br>
+        <br>**Calendar Configuration Block Days Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/2_technician/5.png)
+        <br>
+        <br>**Profile Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/2_technician/6.png)
+        <br>
+        <br>**Gamification Section**<br>
+        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/2_technician/7.png)
+        <br> <br>
       - **3.1.4.5. Mobile Applications Prototyping**
 
