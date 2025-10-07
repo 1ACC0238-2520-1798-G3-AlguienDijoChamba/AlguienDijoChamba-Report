@@ -8,20 +8,25 @@
         
         <br >**Nombre y logotipo** <br> <br>
         El nombre de la aplicación, es FIX IT, transmite innovación, profesionalismo y un enfoque claro en la gestión de servicios de reparación y mantenimiento del hogar. El logotipo de FIX IT está compuesto por 3 llaves inglesas que se alinean mostrando el funcionamiento de esta misma. Este símbolo representa de forma clara y directa la especialización en servicios técnicos. El diseño limpio y geométrico asegura una fácil identificación y recordatorio de la marca.
+        <br>
         ![Logo](feature/chapter3/Logo_FIX_IT.png)
         <br><br>**Tono de comunicación** <br> <br>
         El tono de comunicación será profesional y accesible, transmitiendo confianza sin perder la cercanía ni la calidez. Se evitará el uso de tecnicismos innecesarios y se privilegiará un lenguaje claro y sencillo que facilite la comprensión. La aplicación se expresará como un asistente confiable y siempre dispuesto a colaborar, ofreciendo ayuda de manera oportuna pero sin resultar invasiva.
         <br><br>**Colors** <br> <br>
         La paleta de colores se basa principalmente en tonos de azul, que transmiten confianza, profesionalismo y seguridad. Estos se complementan con acentos en naranja y amarillos cálidos, que aportan energía, dinamismo y cercanía, generando un contraste vibrante y atractivo. Como colores secundarios se utilizan blanco, negro y gris, que equilibran la composición, mejoran la legibilidad y refuerzan una estética limpia y moderna. Esta combinación proyecta una imagen clara, ordenada y a la vez amigable y dinámica, logrando un balance entre seriedad profesional y calidez accesible para los usuarios.
+        <br>
         ![Color](feature/chapter3/Colors.png)
         <br><br>**Typography** <br> <br>
-        La tipografía principal utilizada es Arimo, elegida por su legibilidad, estilo moderno y versatilidad en entornos digitales. Se aplican diferentes tamaños para jerarquizar la información: los títulos emplean un tamaño grande y peso seminegrita para destacar, los subtítulos utilizan un tamaño medio con peso regular o medio, y el texto normal mantiene un tamaño cómodo para la lectura continua, con un peso regular.        
+        La tipografía principal utilizada es Arimo, elegida por su legibilidad, estilo moderno y versatilidad en entornos digitales. Se aplican diferentes tamaños para jerarquizar la información: los títulos emplean un tamaño grande y peso seminegrita para destacar, los subtítulos utilizan un tamaño medio con peso regular o medio, y el texto normal mantiene un tamaño cómodo para la lectura continua, con un peso regular.      
+        <br>
         ![Typography](feature/chapter3/Typography.png)
         <br><br>**Spacing** <br> <br>
         En nuestra app móvil aplicamos un sistema de spacing consistente para mantener una estructura visual ordenada y accesible. Se utilizan márgenes de 19.5px entre secciones principales, un padding interno de 18px en botones y componentes, y un interlineado de 1.5x en los textos largos para optimizar la lectura. El layout se organiza en una rejilla de 4 columnas, con alineación centrada, un ancho de columna de 78px y un gutter de 16px entre ellas. Esta configuración asegura equilibrio, claridad y consistencia en toda la interfaz.
+        <br>
         ![Spacing](feature/chapter3/Spacing.png)
         <br><br>**Iconos de aplicación** <br> <br>
         La aplicación emplea un conjunto de íconos minimalistas y uniformes, seleccionados para potenciar la experiencia del usuario y mantener una coherencia visual en toda la interfaz. Cada ícono tiene un propósito definido y se integra de manera consistente con la identidad de la marca, reforzando claridad y armonía en el diseño.
+        <br>
         ![Spacing](feature/chapter3/Iconography.png)
         <br><br>**Lenguaje Aplicado** <br> <br>
         En el desarrollo de la aplicación móvil “FIX IT” y de su landing page se ha definido un lenguaje formal, claro y cercano, alineado con el propósito y los objetivos del producto. Tanto en el diseño como en la construcción de la app y la página de aterrizaje, se han aplicado los principios fundamentales del diseño visual, asegurando coherencia, consistencia y una comunicación efectiva.
@@ -321,14 +326,147 @@
         <br>**Calendar Section**<br>
         ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/2_technician/4.png)
         <br>
-        <br>**Calendar Configuration Block Days Section**<br>
-        ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/2_technician/5.png)
-        <br>
         <br>**Profile Section**<br>
         ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/2_technician/6.png)
         <br>
         <br>**Gamification Section**<br>
         ![imagesUserFlowDiagramsApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/2_technician/7.png)
-        <br> <br>
+        <br> 
+        ### **User Stories**
+        <br>**US01**<br>
+        Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US01.png)
+        <br>
+        <br>**US02**<br>
+        Como nuevo profesional técnico, quiero registrarme detallando mis especialidades, experiencia y contacto para ofrecer mis servicios.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US02.png)
+        <br>
+        <br>**US03**<br>
+        Como usuario, quiero recuperar mi cuenta o iniciar sesión mediante diferentes métodos.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US03.png)
+        <br>
+        <br>**US04**<br>
+        Como usuario registrado, quiero poder editar la información de mi perfil para mantenerla actualizada.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US04.png)
+        <br>
+        <br>**US05**<br>
+        Como cliente, quiero ver el perfil completo de un profesional con toda su información relevante.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US05.png)
+        <br>
+        <br>**US06**<br>
+        Como cliente, quiero contactar directamente a un profesional para coordinar un servicio.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US06.png)
+        <br>
+        <br>**US07**<br>
+        Como cliente, quiero buscar profesionales filtrando por tipo de servicio y ubicación.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US07.png)
+        <br>
+        <br>**US08**<br>
+        Como cliente, quiero contactar a un profesional y solicitar un servicio.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US08.png)
+        <br>
+        <br>**US09**<br>
+        Como técnico, quiero gestionar mi lista de servicios ofrecidos.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US09.png)
+        <br>
+        <br>**US10**<br>
+        Como técnico, quiero gestionar mi disponibilidad para solicitudes.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US10.png)
+        <br>
+        <br>**US11**<br>
+        Como técnico, quiero recibir notificaciones instantáneas sobre nuevas solicitudes.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US11.png)
+        <br>
+        <br>**US12**<br>
+        Como técnico, quiero aceptar o rechazar solicitudes de trabajo.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US12.png)
+        <br>
+        <br>**US13**<br>
+        Como técnico, quiero marcar un servicio como completado y registrar trabajo final, y recibir el pago instantáneo.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US13.png)
+        <br>
+        <br>**US14**<br>
+        Como cliente, quiero recibir notificaciones cuando un profesional acepta o rechaza mi solicitud.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US14.png)
+        <br>
+        <br>**US15**<br>
+        Como usuario, quiero ver mi progreso y puntos acumulados en el sistema de gamificación.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US15.png)
+        <br>
+        <br>**US16**<br>
+        Como usuario, quiero recibir recompensas al completar logros específicos en la plataforma.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US16.png)
+        <br>
+        <br>**US17**<br>
+        Como cliente, quiero crear solicitud de servicio detallada.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US17.png)
+        <br>
+        <br>**US18**<br>
+        Como cliente, quiero ver el estado de mis solicitudes en tiempo real.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US18.png)
+        <br>
+        <br>**US19**<br>
+        Como cliente, quiero pagar los servicios de forma segura.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US19.png)
+        <br>
+        <br>**US20**<br>
+        Como cliente, quiero solicitar reembolso o iniciar disputa en caso de servicio no satisfactorio.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US20.png)
+        <br>
+        <br>**US21**<br>
+        Como técnico, quiero aceptar o rechazar solicitudes, y recibir pagos instantáneos.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US21.png)
+        <br>
+        <br>**US22**<br>
+        Como cliente, quiero cancelar una solicitud si no la necesito.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US22.png)
+        <br>
+        <br>**US23**<br>
+        Como técnico, quiero recibir notificaciones de nuevas solicitudes.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US23.png)
+        <br>
+        <br>**US24**<br>
+        Como cliente, quiero abrir un reclamo si el servicio no fue satisfactorio, para que la plataforma lo gestione.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US24.png)
+        <br>
+        <br>**US25**<br>
+        Como cliente, quiero calificar a un profesional tras el servicio.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US25.png)
+        <br>
+        <br>**US26**<br>
+        Como cliente, quiero ver calificaciones y reseñas de otros usuarios.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US26.png)
+        <br>
+        <br>**US27**<br>
+        Como cliente, quiero ver la calificación promedio del profesional.
+        <br>
+        ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US27.png)
+        <br>
       - **3.1.4.5. Mobile Applications Prototyping**
 
