@@ -494,8 +494,6 @@
       <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Landing_Page/LPS07.png" alt="Footer">
       </div>
 
-      Link del video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETTS5TFSJflCtVMagVMxwzABd6sCGM1x2e_0wQepDUw8oA?e=ZPhQTR">Video </a>
-
       ### MOBILE APPLICATION:
 
       A continuación, se muestran las evidencias de la ejecución de la aplicación móvil desarrollada en Android Studio.
@@ -949,16 +947,38 @@
           <img src="feature/chapter04/Team_Collaboration_Insights_during_Sprint_3.png" alt="Technician notifications">
           </div>
     
-
-  - **4.3. Validation Interviews**
-    - **4.3.1. Diseño de Entrevistas**
-    - **4.3.1. Registro de Entrevistas**
-    - **4.3.1. Evaluaciones según heurísticas**
 ## **Conclusiones**
-## **Conclusiones y recomendaciones**
-## **Video App Validation**
-## **Video About the product**
-## **Video About the team**
-## **Glosario**
+  En este primer entregable, el equipo de Thedraws ha logrado cumplir con los objetivos planteados, elaborando un informe detallado que refleja los avances del proyecto. Gracias a un enfoque cuidadoso y bien organizado, se ha conseguido comunicar de manera efectiva los beneficios de la app “Alguien dijo Chamba” a los usuarios, estableciendo una base sólida para las etapas futuras del proyecto. Este primer paso garantiza que la estructura y visión de Thedraws se transmitan con claridad, facilitando la transición hacia fases más complejas del desarrollo.
 ## **Bibliografía**
+  1. Google. (s.f.). *Google HTML/CSS Style Guide*. Recuperado de [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)
+
+  1. Mendel, J. (s.f.). Seriously, what’s your (startup’s) problem? *Medium*. Recuperado de [https://medium.com/@jakemendel/seriously-whats-your-startup-s-problemb3a884c54ab4](https://medium.com/@jakemendel/seriously-whats-your-startup-s-problemb3a884c54ab4)
+
+  1. ProgresSA Lean. (s.f.). 5W+2H - Técnica de análisis de problemas. *ProgresSA Lean*. Recuperado de [https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/](https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/)
+
+  1. SpecFlow. (s.f.). *Gherkin Conventions for Readable Specifications*. Recuperado de [https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/](https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/)
+
+  1. Structurizr. (s.f.). *Embedding diagrams*. Recuperado de [https://docs.structurizr.com/cloud/embed](https://docs.structurizr.com/cloud/embed)
+
+  1. Tamim, N. (s.f.). How to use PlantUML with Markdown \[Gist]. *GitHub*. Recuperado de [https://gist.github.com/noamtamim/f11982b28602bd7e604c233fbe9d910f](https://gist.github.com/noamtamim/f11982b28602bd7e604c233fbe9d910f)
+
+  1. The Markdown Guide. (s.f.). *The Markdown Guide*. Recuperado de [https://www.markdownguide.org/](https://www.markdownguide.org/)
+
+  1. Tune, N. (s.f.). Domain-Driven Architecture Diagrams. *Medium*. Recuperado de [https://medium.com/nick-tune-tech-strategy-blog/domain-driven-architecture](https://medium.com/nick-tune-tech-strategy-blog/domain-driven-architecture)
+
+  1. W3Schools. (s.f.). *HTML Style Guide and Coding Conventions*. Recuperado de [https://www.w3schools.com/html/html5\_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)
+
+  1. Instituto Nacional de Estadística e Informática. (2023). Empleo informal en el Perú: Reporte técnico trimestral. Recuperado de [https://m.inei.gob.pe/biblioteca-virtual/boletines/informe-de-empleo/1/#lista](https://m.inei.gob.pe/biblioteca-virtual/boletines/informe-de-empleo/1/#lista)
+
+  1. Osiptel. (2024). Informe sobre el estado de la conectividad móvil en el Perú 2023. Recuperado de [https://www.osiptel.gob.pe/portal-del-usuario/noticias/peru-mercado-movil-crecio-3-28-al-cierre-de-2024-y-alcanzo-las-42-70-millones-de-lineas/](https://www.osiptel.gob.pe/portal-del-usuario/noticias/peru-mercado-movil-crecio-3-28-al-cierre-de-2024-y-alcanzo-las-42-70-millones-de-lineas/)
+
+  1. Pujol, M. (2022). Freemium models in digital startups: Conversion strategies and user retention. Journal of Business and Innovation, 15(2), 45–60. Recuperado de [https://www.sciencedirect.com/science/article/pii/S2405844024011800#:~:text=Freemium%20models%20increase%20a%20company's,effects%20to%20increase%20user%20size.](https://www.sciencedirect.com/science/article/pii/S2405844024011800#:~:text=Freemium%20models%20increase%20a%20company's,effects%20to%20increase%20user%20size.)
+
+  1. Statista. (2024). Home services app usage in Latin America. Recuperado de [https://www.technavio.com/report/online-on-demand-home-services-market-industry-in-latin-america-analysis#:~:text=Latin%20America%20%2D%20Online%20On%2Ddemand%20Home%20Services%20Market%202024%2D,for%20all%20the%20mentioned%20segments.](https://www.technavio.com/report/online-on-demand-home-services-market-industry-in-latin-america-analysis#:~:text=Latin%20America%20%2D%20Online%20On%2Ddemand%20Home%20Services%20Market%202024%2D,for%20all%20the%20mentioned%20segments.)
+
+  1. Werbach, K., & Hunter, D. (2020). For the Win: How Game Thinking Can Revolutionize Your Business. Wharton Digital Press. Recuperado de
+[https://www.researchgate.net/publication/273946893_For_the_Win_How_Game_Thinking_can_Revolutionize_your_Business](https://www.researchgate.net/publication/273946893_For_the_Win_How_Game_Thinking_can_Revolutionize_your_Business)
+
 ## **Anexos**
+  **Eventstorming:** [https://acortar.link/cUUGdN](https://acortar.link/cUUGdN)<br>
+  **PPT del Proyecto:** ^[https://acortar.link/8CJQm9](https://acortar.link/8CJQm9) 
