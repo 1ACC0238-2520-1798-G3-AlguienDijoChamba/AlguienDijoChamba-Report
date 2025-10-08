@@ -396,6 +396,166 @@
     
       ### User Stories
           
+
+
+
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US01</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Registro de Nuevo Usuario</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que soy un usuario nuevo, cuando ingreso correo válido y contraseña segura, entonces mi cuenta se crea exitosamente.</li>
+              <li><strong>Escenario 2:</strong> Dado que ingreso datos inválidos, cuando intento registrarme, entonces la app muestra un mensaje de error indicando qué debo corregir.</li>
+              <li><strong>Escenario 3:</strong> Dado que ya tengo una cuenta, cuando intento registrarme con el mismo correo, entonces la app indica que el correo ya está en uso.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US02</td>
+          <td>Profesional Técnico</td>
+          <td>Alta</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Registro de Nuevo Profesional</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como nuevo profesional técnico, quiero registrarme detallando mis especialidades, experiencia y contacto para ofrecer mis servicios.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que completo todos los campos requeridos, cuando envío la información, entonces mi perfil se crea correctamente.</li>
+              <li><strong>Escenario 2:</strong> Dado que omito campos obligatorios, cuando intento registrar el perfil, entonces la app indica qué información falta.</li>
+              <li><strong>Escenario 3:</strong> Dado que ingreso datos incorrectos, cuando envío el registro, entonces la app muestra error indicando el formato correcto.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US03</td>
+          <td>Usuario</td>
+          <td>Media</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Recuperación de Cuenta/Login</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como usuario, quiero recuperar mi cuenta o iniciar sesión mediante diferentes métodos para acceder fácilmente a la plataforma.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que olvidé mi contraseña, cuando solicito restablecerla, entonces recibo un correo con enlace para crear nueva contraseña.</li>
+              <li><strong>Escenario 2:</strong> Dado que quiero acceder rápidamente, cuando uso inicio de sesión con Google, entonces me autentico sin necesidad de recordar contraseña.</li>
+              <li><strong>Escenario 3:</strong> Dado que ingreso credenciales incorrectas, cuando intento iniciar sesión, entonces la app muestra mensaje de error específico.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US04</td>
+          <td>Usuario Registrado</td>
+          <td>Media</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Editar Perfil de Usuario</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como usuario registrado, quiero poder editar la información de mi perfil para mantenerla actualizada.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero actualizar mis datos, cuando modifico y guardo la información, entonces la app actualiza correctamente mi perfil.</li>
+              <li><strong>Escenario 2:</strong> Dado que ingreso un número con formato incorrecto, cuando intento guardar, entonces la app muestra un mensaje de error.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      ---
       <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
         <tr>
           <th>Story ID</th>
@@ -407,7 +567,7 @@
           <td>US05</td>
           <td>Cliente</td>
           <td>Alta</td>
-          <td>EP06</td>
+          <td>EP02</td>
         </tr>
         <tr>
           <th colspan="4" align="center">Title</th>
@@ -435,531 +595,773 @@
         </tr>
       </table>
 
-
-
-
-
-
-
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US01     | Cliente | Alta     | EP01  |
-
-      ---
-
-      | Title   | Registro de Nuevo Usuario |
-      |---------|--------------------------|
-      | ****Description**** | Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que soy un usuario nuevo, cuando ingreso correo válido y contraseña segura, entonces mi cuenta se crea exitosamente. |
-      | **Escenario 2:** Dado que ingreso datos inválidos, cuando intento registrarme, entonces la app muestra un mensaje de error indicando qué debo corregir. |
-      | **Escenario 3:** Dado que ya tengo una cuenta, cuando intento registrarme con el mismo correo, entonces la app indica que el correo ya está en uso. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US02     | Profesional Técnico | Alta     | EP01  |
-
-      ---
-
-      | Title   | Registro de Nuevo Profesional |
-      |---------|------------------------------|
-      | **Description** | Como nuevo profesional técnico, quiero registrarme detallando mis especialidades, experiencia y contacto para ofrecer mis servicios. 
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que completo todos los campos requeridos, cuando envío la información, entonces mi perfil se crea correctamente. |
-      | **Escenario 2:** Dado que omito campos obligatorios, cuando intento registrar el perfil, entonces la app indica qué información falta. |
-      | **Escenario 3:** Dado que ingreso datos incorrectos, cuando envío el registro, entonces la app muestra error indicando el formato correcto. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US03     | Usuario | Media    | EP01  |
-
-      ---
-
-      | Title   | Recuperación de Cuenta/Login |
-      |---------|-----------------------------|
-      | **Description** | Como usuario, quiero recuperar mi cuenta o iniciar sesión mediante diferentes métodos. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que olvidé mi contraseña, cuando solicito restablecerla, entonces recibo un correo con enlace para crear nueva contraseña. |
-      | **Escenario 2:** Dado que quiero acceder rápidamente, cuando uso inicio de sesión con Google, entonces me autentico sin necesidad de recordar contraseña. |
-      | **Escenario 3:** Dado que ingreso credenciales incorrectas, cuando intento iniciar sesión, entonces la app muestra mensaje de error específico. |
-
-      **---**
-
-      | Story ID | User              | Priority | Epic  |
-      |----------|-------------------|----------|-------|
-      | US04     | Usuario Registrado| Media    | EP01  |
-
-      ---
-
-      | Title   | Editar Perfil de Usuario |
-      |---------|-------------------------|
-      | **Description** | Como usuario registrado, quiero poder editar la información de mi perfil para mantenerla actualizada. |
-
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero actualizar mis datos, cuando modifico y guardo la información, entonces la app actualiza correctamente mi perfil. |
-      | **Escenario 2:** Dado que ingreso un número con formato incorrecto, cuando intento guardar, entonces la app muestra un mensaje de error. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US05     | Cliente | Alta     | EP02  |
-
-      ---
-
-      | Title   | Ver Perfil Detallado del Profesional |
-      |---------|--------------------------------------|
-      | **Description** | Como cliente, quiero ver el perfil completo de un profesional con toda su información relevante. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero evaluar un profesional, cuando ingreso a su perfil, entonces puedo ver experiencia, especialidades, calificaciones, tarifas y disponibilidad. |
-      | **Escenario 2:** Dado que hay varios profesionales, cuando comparo perfiles, entonces puedo ver diferencias en tarifas, calificaciones y disponibilidad. |
-      | **Escenario 3:** Dado que necesito información específica, cuando visualizo el perfil, entonces puedo ver reseñas detalladas de otros clientes. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US06     | Cliente | Media    | EP02  |
-
-      ---
-
-      | Title   | Contactar al Profesional |
-      |---------|-------------------------|
-      | **Description** | Como cliente, quiero contactar directamente a un profesional para coordinar un servicio. |
-
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero enviar un mensaje, cuando uso el perfil del profesional, entonces puedo enviarle un mensaje directo. |
-      | **Escenario 2:** Dado que quiero solicitar cotización, cuando la pido desde su perfil, entonces el profesional recibe mi solicitud con todos los detalles. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US07     | Cliente | Alta     | EP02  |
-
-      ---
-
-      | Title   | Buscar Profesionales por Especialidad y Ubicación |
-      |---------|--------------------------------------------------|
-      | **Description** | Como cliente, quiero buscar profesionales filtrando por tipo de servicio y ubicación. |
-
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que busco un profesional, cuando aplico filtros de especialidad y ubicación, entonces la app muestra profesionales disponibles. |
-      | **Escenario 2:** Dado que no hay profesionales en mi zona, cuando realizo la búsqueda, entonces la app muestra un mensaje "no se encontraron resultados". |
-      | **Escenario 3:** Dado que quiero eficiencia, cuando uso filtros múltiples, entonces la app muestra resultados ordenados por reputación o cercanía. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US08     | Cliente | Alta     | EP02  |
-
-      ---
-
-      | Title   | Solicitar Servicio al Profesional |
-      |---------|-----------------------------------|
-      | **Description** | Como cliente, quiero contactar a un profesional y solicitar un servicio. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero un servicio, cuando envío la solicitud desde el perfil del profesional, entonces puedo elegir fecha y hora y el profesional recibe la solicitud. |
-      | **Escenario 2:** Dado que hay conflictos de horario, cuando selecciono fecha y hora, entonces la app alerta si hay disponibilidad del profesional. |
-      | **Escenario 3:** Dado que necesito agregar detalles, cuando adjunto fotos o descripción adicional, entonces el profesional recibe toda la información completa. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US09     | Profesional Técnico | Alta     | EP03  |
-
-      ---
-
-      | Title   | Crear y Actualizar Servicios Ofrecidos |
-      |---------|----------------------------------------|
-      | **Description** | Como técnico, quiero gestionar mi lista de servicios ofrecidos. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero añadir o modificar un servicio, cuando actualizo mi perfil, entonces la lista de servicios se refleja para los clientes. |
-      | **Escenario 2:** Dado que quiero cambiar mis tarifas, cuando actualizo los precios, entonces los clientes ven las nuevas tarifas inmediatamente. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US10     | Profesional Técnico | Alta     | EP03  |
-
-      ---
-
-      | Title   | Gestionar Disponibilidad |
-      |---------|-------------------------|
-      | **Description** | Como técnico, quiero gestionar mi disponibilidad para solicitudes. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero definir horarios, cuando actualizo disponibilidad, entonces la app muestra mis horas disponibles en tiempo real. |
-      | **Escenario 2:** Dado que tengo un imprevisto, cuando modifico mi disponibilidad, entonces las solicitudes futuras se ajustan automáticamente. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US11     | Profesional Técnico | Alta     | EP03  |
-
-      ---
-
-      | Title   | Recibir Notificaciones de Solicitudes |
-      |---------|--------------------------------------|
-      | **Description** | Como técnico, quiero recibir notificaciones instantáneas sobre nuevas solicitudes. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que hay una nueva solicitud, cuando el cliente la envía, entonces recibo notificación con detalles de servicio y ubicación. |
-      | **Escenario 2:** Dado que estoy fuera de línea, cuando la app sincroniza al conectarme, entonces recibo todas las notificaciones pendientes. |
-      | **Escenario 3:** Dado que hay múltiples solicitudes, cuando llegan, entonces puedo ordenarlas por prioridad o cercanía. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US12     | Profesional Técnico | Alta     | EP03  |
-
-      ---
-
-      | Title   | Aceptar o Rechazar Solicitudes |
-      |---------|-------------------------------|
-      | **Description** | Como técnico, quiero aceptar o rechazar solicitudes de trabajo. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que recibo una solicitud, cuando acepto o rechazo, entonces el cliente es notificado sobre mi decisión. |
-      | **Escenario 2:** Dado que rechazo una solicitud, cuando proporciono una razón, entonces el cliente recibe feedback constructivo. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US13     | Profesional Técnico | Alta     | EP03  |
-
-      ---
-
-      | Title   | Confirmar Finalización de Servicio |
-      |---------|------------------------------------|
-      | **Description** | Como técnico, quiero marcar un servicio como completado y registrar trabajo final, y recibir el pago instantáneo. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que finalizo un servicio, cuando lo marco como completado, entonces la app permite subir descripción final y fotos del trabajo. |
-      | **Escenario 2:** Dado que el servicio está completado, cuando lo confirmo, entonces recibo mi pago instantáneamente sin demoras. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US14     | Cliente | Media    | EP05  |
-
-      ---
-
-      | Title   | Notificación de Respuesta del Profesional |
-      |---------|-------------------------------------------|
-      | **Description** | Como cliente, quiero recibir notificaciones cuando un profesional acepta o rechaza mi solicitud. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que un profesional acepta mi solicitud, cuando confirma, entonces recibo notificación con los detalles de confirmación. |
-      | **Escenario 2:** Dado que un profesional rechaza mi solicitud, cuando lo hace, entonces recibo notificación con la razón del rechazo. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US15     | Usuario | Media    | EP04  |
-
-      ---
-
-      | Title   | Visualizar Progreso y Puntos Acumulados |
-      |---------|-----------------------------------------|
-      | **Description** | Como usuario, quiero ver mi progreso y puntos acumulados en el sistema de gamificación. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que completo actividades en la plataforma, cuando reviso mi perfil, entonces puedo ver mis puntos acumulados y progreso hacia el siguiente nivel. |
-      | **Escenario 2:** Dado que quiero conocer mis beneficios, cuando accedo a mi dashboard, entonces veo los beneficios actuales y próximos disponibles. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US16     | Usuario | Media    | EP04  |
-
-      ---
-
-      | Title   | Recibir Recompensas por Logros |
-      |---------|-------------------------------|
-      | **Description** | Como usuario, quiero recibir recompensas al completar logros específicos en la plataforma. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que completo un logro específico, cuando alcanzo el objetivo, entonces recibo notificación de recompensa y esta se aplica automáticamente. |
-      | **Escenario 2:** Dado que subo de nivel, cuando alcanzo nuevo nivel, entonces desbloqueo nuevos beneficios y recompensas exclusivas. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US17     | Cliente | Alta     | EP05  |
-
-      ---
-
-      | Title   | Crear Solicitud de Servicio |
-      |---------|----------------------------|
-      | **Description** | Como cliente, quiero crear solicitud de servicio detallada. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que necesito un servicio, cuando creo la solicitud, entonces puedo agregar descripción, imágenes y fecha de servicio. |
-      | **Escenario 2:** Dado que el profesional tiene tarifas variables, cuando creo la solicitud, entonces puedo ver un estimado de costo antes de enviarla. |
-      | **Escenario 3:** Dado que quiero confirmar detalles, cuando envío la solicitud, entonces recibo un resumen y confirmación de registro. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US18     | Cliente | Media    | EP05  |
-
-      ---
-
-      | Title   | Ver Estado de la Solicitud |
-      |---------|---------------------------|
-      | **Description** | Como cliente, quiero ver el estado de mis solicitudes en tiempo real. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que tengo solicitudes, cuando ingreso a mis solicitudes, entonces puedo ver estado (pendiente, en progreso, completada) actualizado. |
-      | **Escenario 2:** Dado que el estado cambia, cuando ocurre una actualización, entonces recibo notificación del cambio de estado. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US19     | Cliente | Alta     | EP05  |
-
-      ---
-
-      | Title   | Realizar Pago del Servicio |
-      |---------|---------------------------|
-      | **Description** | Como cliente, quiero pagar los servicios de forma segura. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que debo pagar, cuando uso tarjeta o transferencia, entonces la app confirma pago exitoso y entrega recibo. |
-      | **Escenario 2:** Dado que el pago falla, cuando intento pagar, entonces la app notifica el error y sugiere solución. |
-      | **Escenario 3:** Dado que quiero seguridad, cuando pago, entonces la transacción se registra y queda disponible en historial de pagos. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US20     | Cliente | Media    | EP05  |
-
-      ---
-
-      | Title   | Solicitar Reembolso o Disputa |
-      |---------|------------------------------|
-      | **Description** | Como cliente, quiero solicitar reembolso o iniciar disputa en caso de servicio no satisfactorio. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que el servicio no fue satisfactorio, cuando solicito reembolso, entonces la plataforma inicia proceso de revisión. |
-      | **Escenario 2:** Dado que tengo una disputa, cuando presento evidencia, entonces el equipo de soporte revisa mi caso en un plazo definido. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US21     | Profesional Técnico | Alta     | EP05  |
-
-      ---
-
-      | Title   | Confirmación de Contratación por Profesional |
-      |---------|---------------------------------------------|
-      | **Description** | Como técnico, quiero aceptar o rechazar solicitudes, y recibir pagos instantáneos. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que recibo solicitud, cuando acepto o rechazo, entonces la app notifica al cliente automáticamente. |
-      | **Escenario 2:** Dado que finalizo el trabajo, cuando confirmo la finalización, entonces el pago se libera inmediatamente. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US22     | Cliente | Media    | EP05  |
-
-      ---
-
-      | Title   | Cancelar Solicitud de Servicio |
-      |---------|-------------------------------|
-      | **Description** | Como cliente, quiero cancelar una solicitud si no la necesito. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que deseo cancelar, cuando lo hago desde la app, entonces la solicitud se elimina y el profesional es notificado. |
-      | **Escenario 2:** Dado que cancelo a tiempo, cuando cumplo con políticas de cancelación, entonces recibo reembolso completo. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US23     | Profesional Técnico | Media    | EP05  |
-
-      ---
-
-      | Title   | Notificación de Nueva Solicitud de Servicio |
-      |---------|---------------------------------------------|
-      | **Description** | Como técnico, quiero recibir notificaciones de nuevas solicitudes. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que hay una nueva solicitud, cuando el cliente la crea, entonces recibo notificación inmediata con detalles. |
-      | **Escenario 2:** Dado que la solicitud es urgente, cuando el cliente marca prioridad alta, entonces recibo alerta especial. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US24     | Cliente | Alta     | EP06  |
-
-      ---
-
-      | Title   | Abrir Reclamo/Ticket |
-      |---------|----------------------|
-      | **Description** | Como cliente, quiero abrir un reclamo si el servicio no fue satisfactorio, para que la plataforma lo gestione. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que el servicio no cumplió expectativas, cuando abro un reclamo, entonces especifico detalles y adjunto evidencias. |
-      | **Escenario 2:** Dado que presento un reclamo, cuando lo envío, entonces recibo número de ticket y tiempo estimado de respuesta. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US25     | Cliente | Media    | EP06  |
-
-      ---
-
-      | Title   | Calificar a un Profesional |
-      |---------|---------------------------|
-      | **Description** | Como cliente, quiero calificar a un profesional tras el servicio. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que recibí un servicio, cuando doy una calificación de 1-5 estrellas y un comentario, entonces queda registrado en su perfil. |
-      | **Escenario 2:** Dado que quiero ser objetivo, cuando califico, entonces puedo evaluar diferentes aspectos como puntualidad, calidad y profesionalismo. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US26     | Cliente | Media    | EP06  |
-
-      ---
-
-      | Title   | Ver Calificaciones de Profesionales |
-      |---------|------------------------------------|
-      | **Description** | Como cliente, quiero ver calificaciones y reseñas de otros usuarios. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero evaluar, cuando ingreso al perfil del profesional, entonces veo calificaciones y comentarios de otros clientes. |
-      | **Escenario 2:** Dado que quiero información veraz, cuando leo reseñas, entonces puedo filtrar por calificación y fecha. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US27     | Cliente | Media    | EP06  |
-
-      ---
-
-      | Title   | Calificación Promedio del Profesional |
-      |---------|--------------------------------------|
-      | **Description** | Como cliente, quiero ver la calificación promedio del profesional. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero referencia rápida, cuando ingreso al perfil, entonces la app muestra la calificación promedio actualizada. |
-      | **Escenario 2:** Dado que comparo profesionales, cuando reviso sus perfiles, entonces veo calificación promedio destacada visiblemente. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US28     | Cliente | Baja     | EP06  |
-
-      ---
-
-      | Title   | Reseñas Anónimas |
-      |---------|------------------|
-      | **Description** | Como cliente, quiero dejar reseñas de forma anónima. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que deseo privacidad, cuando publico una reseña, entonces la app oculta mi identidad al resto de usuarios. |
-      | **Escenario 2:** Dado que elijo anonimato, cuando dejo reseña, entonces mi perfil no aparece vinculado a la evaluación. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US29     | Cliente | Media    | EP06  |
-
-      ---
-
-      | Title   | Ver Reseñas de Otros Clientes |
-      |---------|------------------------------|
-      | **Description** | Como cliente, quiero ver reseñas de otros usuarios. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero referencias, cuando ingreso al perfil del profesional, entonces puedo ver reseñas recientes y detalladas de otros clientes. |
-      | **Escenario 2:** Dado que busco información específica, cuando filtro reseñas, entonces encuentro evaluaciones sobre aspectos particulares del servicio. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US30     | Cliente | Baja     | EP06  |
-
-      ---
-
-      | Title   | Solicitar Actualización de Calificación |
-      |---------|----------------------------------------|
-      | **Description** | Como cliente, quiero actualizar mi calificación si cambio de opinión. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero modificar mi reseña, cuando la edito, entonces la app actualiza la calificación y el comentario. |
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US06</td>
+          <td>Cliente</td>
+          <td>Media</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Contactar al Profesional</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero contactar directamente a un profesional para coordinar un servicio.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero enviar un mensaje, cuando uso el perfil del profesional, entonces puedo enviarle un mensaje directo.</li>
+              <li><strong>Escenario 2:</strong> Dado que quiero solicitar cotización, cuando la pido desde su perfil, entonces el profesional recibe mi solicitud con todos los detalles.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US07</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Buscar Profesionales por Especialidad y Ubicación</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero buscar profesionales filtrando por tipo de servicio y ubicación para encontrar opciones adecuadas.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que busco un profesional, cuando aplico filtros de especialidad y ubicación, entonces la app muestra profesionales disponibles.</li>
+              <li><strong>Escenario 2:</strong> Dado que no hay profesionales en mi zona, cuando realizo la búsqueda, entonces la app muestra un mensaje "no se encontraron resultados".</li>
+              <li><strong>Escenario 3:</strong> Dado que quiero eficiencia, cuando uso filtros múltiples, entonces la app muestra resultados ordenados por reputación o cercanía.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US08</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Solicitar Servicio al Profesional</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero contactar a un profesional y solicitar un servicio desde su perfil.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero un servicio, cuando envío la solicitud desde el perfil del profesional, entonces puedo elegir fecha y hora, y el profesional recibe la solicitud.</li>
+              <li><strong>Escenario 2:</strong> Dado que hay conflictos de horario, cuando selecciono fecha y hora, entonces la app alerta si hay disponibilidad del profesional.</li>
+              <li><strong>Escenario 3:</strong> Dado que necesito agregar detalles, cuando incluyo información adicional, entonces el profesional recibe toda la información completa.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US09</td>
+          <td>Profesional Técnico</td>
+          <td>Alta</td>
+          <td>EP03</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear y Actualizar Servicios Ofrecidos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como técnico, quiero gestionar mi lista de servicios ofrecidos para mantenerla actualizada.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero añadir o modificar un servicio, cuando actualizo mi perfil, entonces la lista de servicios se refleja para los clientes.</li>
+              <li><strong>Escenario 2:</strong> Dado que quiero cambiar mis tarifas, cuando actualizo los precios, entonces los clientes ven las nuevas tarifas inmediatamente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US10</td>
+          <td>Profesional Técnico</td>
+          <td>Alta</td>
+          <td>EP03</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Gestionar Disponibilidad</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como técnico, quiero gestionar mi disponibilidad para solicitudes y poder indicar mis horarios de trabajo.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero definir horarios, cuando actualizo disponibilidad, entonces la app muestra mis horas disponibles en tiempo real.</li>
+              <li><strong>Escenario 2:</strong> Dado que tengo un imprevisto, cuando modifico mi disponibilidad, entonces las solicitudes futuras se ajustan automáticamente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US11</td>
+          <td>Profesional Técnico</td>
+          <td>Alta</td>
+          <td>EP03</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Recibir y Gestionar Solicitudes de Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como profesional, quiero recibir, aceptar o rechazar solicitudes de trabajo de los clientes para organizar mi agenda.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que recibo una solicitud, cuando la reviso, entonces puedo aceptarla o rechazarla con un comentario opcional.</li>
+              <li><strong>Escenario 2:</strong> Dado que acepto una solicitud, cuando confirmo el servicio, entonces el cliente recibe una notificación de aceptación.</li>
+              <li><strong>Escenario 3:</strong> Dado que rechazo una solicitud, cuando la rechazo, entonces el cliente recibe un mensaje explicando la razón.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US12</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Gestionar Solicitudes Enviadas</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero ver y gestionar las solicitudes de servicios que he enviado para hacer seguimiento al estado.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que tengo solicitudes activas, cuando ingreso a mi panel, entonces puedo ver su estado (pendiente, aceptada o rechazada).</li>
+              <li><strong>Escenario 2:</strong> Dado que quiero cancelar una solicitud, cuando aún no fue aceptada, entonces puedo eliminarla sin penalización.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US13</td>
+          <td>Profesional Técnico</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Confirmar Finalización del Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como técnico, quiero confirmar la finalización de un servicio para recibir el pago de forma automática.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que he completado un servicio, cuando lo marco como finalizado, entonces el sistema procesa el pago instantáneo.</li>
+              <li><strong>Escenario 2:</strong> Dado que el cliente no confirma el servicio, cuando pasan 24 horas, entonces el pago se libera automáticamente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US14</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Realizar Pago Seguro del Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero realizar el pago del servicio de forma segura dentro de la aplicación para garantizar protección en la transacción.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero pagar un servicio, cuando selecciono el método de pago, entonces la app procesa el pago de manera segura.</li>
+              <li><strong>Escenario 2:</strong> Dado que hubo un error, cuando el pago no se procesa, entonces se muestra un mensaje con opciones de reintento.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US15</td>
+          <td>Cliente</td>
+          <td>Media</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Ver Historial de Servicios Contratados</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero ver el historial de mis servicios pasados para consultar fechas, profesionales y montos pagados.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero revisar mi historial, cuando ingreso al apartado de servicios anteriores, entonces se muestran todos los servicios finalizados con detalles.</li>
+              <li><strong>Escenario 2:</strong> Dado que necesito comprobante, cuando selecciono un servicio específico, entonces puedo ver su recibo o factura.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US16</td>
+          <td>Usuario</td>
+          <td>Media</td>
+          <td>EP04</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Recibir Recompensas por Logros</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como usuario, quiero recibir recompensas cuando cumplo logros o subo de nivel para mantenerme motivado en la plataforma.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que completo un logro, cuando alcanzo el objetivo, entonces recibo una notificación y la recompensa se aplica automáticamente.</li>
+              <li><strong>Escenario 2:</strong> Dado que subo de nivel, cuando alcanzo un nuevo rango, entonces desbloqueo beneficios y recompensas exclusivas.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US17</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear Solicitud de Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero crear una solicitud de servicio detallada para que los profesionales puedan atender mi necesidad adecuadamente.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que necesito un servicio, cuando creo la solicitud, entonces puedo agregar una descripción, fecha y hora deseadas.</li>
+              <li><strong>Escenario 2:</strong> Dado que el profesional tiene horarios limitados, cuando selecciono una fecha no disponible, entonces la app alerta sobre la falta de disponibilidad.</li>
+              <li><strong>Escenario 3:</strong> Dado que quiero confirmar detalles, cuando envío la solicitud, entonces recibo un resumen de la información registrada.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US18</td>
+          <td>Cliente</td>
+          <td>Media</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Ver Estado de la Solicitud</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero ver el estado de mis solicitudes en tiempo real para saber si fueron aceptadas o completadas.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que tengo solicitudes activas, cuando ingreso a mis solicitudes, entonces puedo ver su estado actualizado (pendiente, en progreso, completada).</li>
+              <li><strong>Escenario 2:</strong> Dado que el estado cambia, cuando ocurre una actualización, entonces recibo una notificación automática del cambio.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US19</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Realizar Pago del Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero pagar los servicios de forma segura dentro de la aplicación para confirmar el trabajo realizado.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que el servicio fue completado, cuando realizo el pago, entonces la app confirma la transacción y emite un comprobante.</li>
+              <li><strong>Escenario 2:</strong> Dado que el pago falla, cuando ocurre un error, entonces la app muestra un mensaje indicando el motivo del fallo.</li>
+              <li><strong>Escenario 3:</strong> Dado que quiero seguridad, cuando realizo el pago, entonces la transacción se almacena en el historial de pagos.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US20</td>
+          <td>Cliente</td>
+          <td>Media</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Solicitar Reembolso o Disputa</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero solicitar un reembolso o iniciar una disputa si el servicio no fue satisfactorio.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que el servicio no cumplió con lo esperado, cuando solicito reembolso, entonces la plataforma inicia el proceso de revisión.</li>
+              <li><strong>Escenario 2:</strong> Dado que presento una disputa, cuando envío evidencias, entonces el soporte analiza mi caso dentro del tiempo establecido.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US21</td>
+          <td>—</td>
+          <td>—</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Confirmación de Contratación por Profesional</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como técnico, quiero aceptar o rechazar solicitudes y confirmar la finalización del trabajo para que el pago se libere automáticamente.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que recibo una solicitud, cuando la acepto o rechazo, entonces la app notifica al cliente de inmediato.</li>
+              <li><strong>Escenario 2:</strong> Dado que finalizo un trabajo, cuando confirmo la finalización, entonces el pago se libera instantáneamente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US22</td>
+          <td>Cliente</td>
+          <td>Media</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Cancelar Solicitud de Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero cancelar una solicitud antes de su ejecución para evitar cargos innecesarios y liberar al profesional.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que deseo cancelar, cuando lo hago desde la app, entonces la solicitud se elimina y el profesional es notificado.</li>
+              <li><strong>Escenario 2:</strong> Dado que cancelo dentro del tiempo permitido, cuando cumplo las políticas de cancelación, entonces recibo el reembolso correspondiente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US23</td>
+          <td>—</td>
+          <td>—</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Notificación de Nueva Solicitud de Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como técnico, quiero recibir notificaciones de nuevas solicitudes de servicio para atenderlas oportunamente.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que un cliente crea una nueva solicitud, cuando se envía, entonces recibo una notificación inmediata con los detalles del servicio.</li>
+              <li><strong>Escenario 2:</strong> Dado que la solicitud tiene prioridad alta, cuando llega, entonces recibo una alerta destacada indicando su urgencia.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US24</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP06</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Abrir Reclamo o Ticket</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero abrir un reclamo si el servicio no fue satisfactorio para que la plataforma gestione una solución adecuada.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que el servicio no cumplió mis expectativas, cuando abro un reclamo, entonces puedo detallar el problema y adjuntar evidencias.</li>
+              <li><strong>Escenario 2:</strong> Dado que presento el reclamo, cuando lo envío, entonces recibo un número de ticket y un tiempo estimado de respuesta.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US25</td>
+          <td>Cliente</td>
+          <td>Media</td>
+          <td>EP06</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Calificar a un Profesional</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero calificar a un profesional después del servicio para reflejar mi satisfacción y ayudar a otros usuarios a decidir.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que recibí un servicio, cuando doy una calificación y un comentario, entonces la información queda registrada en su perfil.</li>
+              <li><strong>Escenario 2:</strong> Dado que quiero ser objetivo, cuando califico, entonces puedo evaluar aspectos como puntualidad, calidad y profesionalismo, filtrando reseñas por fecha o tipo de servicio.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      
 
 
       ### Technical Stories
@@ -1965,6 +2367,7 @@
   | event\_type      | Tipo de evento (REGISTERED, SIGNED\_IN, FAILED\_LOGIN).                    |
   | event\_timestamp | Fecha y hora en que ocurrió el evento.                                     |
   | details          | Detalles adicionales del evento (ej. IP, descripción del error, etc.).     |
+
 
 
 
