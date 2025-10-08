@@ -324,7 +324,7 @@
         #### Christian Martinez
         --- 
         
-        ![Empaty Mapping Segmento 2](./feature/chapter02/as_is_2.jpeg)
+        ![Empaty Mapping Segmento 2](./feature/chapter02/Empaty_Mapping_Segmento_2.png)
   - **2.4. Ubiquitous Language**<br>
 
     | Término en Inglés (Español) | Definición |
