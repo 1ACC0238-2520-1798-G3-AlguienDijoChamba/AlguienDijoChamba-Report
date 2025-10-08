@@ -235,10 +235,10 @@
       | *LPS06* | Contact                             | Desarrollo de la sección "Contact", donde se mostrara la forma en que los usuarios puedan contactar con el equipo detras de AlguienDijoChamba.                                  | 2                      | *Bastidas Bastidas, Diego Martin*    | Done                                    |
       | *LPS07* | Footer                              | Desarrollo de la seccion "Footer", donde se msotrar la forma en que los usuarios puedan redirigirse a cualquier seccion de la pagina y acceder a las redes sociales del equipo. | 2                      | *Bastidas Bastidas, Diego Martin*    | Done                                    |
     
-      - *4.2.1.3. Development Evidence for Sprint Review*<br>
-
+      - *4.2.1.3. Development Evidence for Sprint Review*<br><br>
+      
         | *Repository*                                                             | *Branch*      | *Commit Id*                               | *Commit Message*                                                                                                                         | *Committed By*    | *Committed On* |
-                 |--------------------------------------------------------------------------|---------------|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|-------------------|----------------|
+        |--------------------------------------------------------------------------|---------------|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|-------------------|----------------|
         | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-1     | e24070bfb6eee873f1f838c2e65c913c7ab8028b  | Initial commit                                                                                                                           | ghostnotfound404  | Sep 08, 2025   |
         | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-1     | e4daaa743de9a29709041949cb8dc0188e81163e  | Feat: update readme                                                                                                                      | ghostnotfound404  | Sep 08, 2025   |
         | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-1     | bda5d55e80d7ed66115d24f6c54cb0be793af8f8  | feat: update point of the report                                                                                                         | ghostnotfound404  | Sep 08, 2025   |
