@@ -395,6 +395,52 @@
       | | Como cliente, quiero calificar y dejar reseñas sobre los servicios o profesionales, y ver las calificaciones y reseñas de otros para tomar decisiones informadas. |
     
       ### User Stories
+          
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US05</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP06</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Ver Perfil Detallado del Profesional</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero ver el perfil completo de un profesional con toda su información relevante.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero evaluar un profesional, cuando ingreso a su perfil, entonces puedo ver experiencia, especialidades, calificaciones, tarifas y disponibilidad.</li>
+              <li><strong>Escenario 2:</strong> Dado que hay varios profesionales, cuando comparo perfiles, entonces puedo ver diferencias en tarifas, calificaciones y disponibilidad.</li>
+              <li><strong>Escenario 3:</strong> Dado que necesito información específica, cuando visualizo el perfil, entonces puedo ver reseñas detalladas de otros clientes.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+
+
+
+
+
+
 
       | Story ID | User    | Priority | Epic  |
       |----------|---------|----------|-------|
@@ -1919,6 +1965,7 @@
   | event\_type      | Tipo de evento (REGISTERED, SIGNED\_IN, FAILED\_LOGIN).                    |
   | event\_timestamp | Fecha y hora en que ocurrió el evento.                                     |
   | details          | Detalles adicionales del evento (ej. IP, descripción del error, etc.).     |
+
 
 
 
