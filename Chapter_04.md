@@ -44,8 +44,7 @@
         <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/android-studio-icon.png" width="150">
         </div>
         <br>
-
-
+    
       #### Software Deployment
 
         - **Git**
@@ -211,24 +210,746 @@
           </tr>
           <tr>
             <td style="font-weight: bold;"> Sprint 1 Goal </td>
-            <td></td>
+            <td>Nuestro objetivo es crear una landing page que muestre de manera clara y atractiva todas las funcionalidades y ventajas de AlguienDijoChamba, ofreciendo a los visitantes una primera impresión sólida de la plataforma y su propuesta de valor. La página permitirá que los usuarios exploren las distintas secciones y comprendan cómo nuestra solución conecta de manera efectiva a empresas y profesionales. Paralelamente, queremos resaltar la app móvil, que ofrece una experiencia práctica y accesible, permitiendo a los usuarios interactuar con la plataforma desde cualquier lugar. Este enfoque integral se validará observando cómo los visitantes navegan por la landing page y aprovechan la conexión fluida con la app móvil.</td>
           </tr>
           <tr>
             <td style="font-weight: bold;"> Sprint 1 Velocity </td>
-            <td></td>
+            <td>20</td>
           </tr>
           <tr>
             <td style="font-weight: bold;"> Sum of Story Points </td>
-            <td>  </td>
+            <td>  20</td>
           </tr>
         </table>
       - **4.2.1.2. Sprint Backlog 1**
-      - **4.2.1.3. Development Evidence for Sprint Review**
+        <br> En el primer sprint, el equipo enfocó su trabajo en crear una landing page que fuera tanto funcional como atractiva, asignando las tareas en el tablero de Sprint según las habilidades de cada miembro.
+
+      | *id*    | *Title*                             | *Description*                                                                                                                                                                   | *Estimations(Hours)*   | *Assigned To*                        | *Status(To-do/InProcess/ToReview/Done)* |
+        |---------|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|--------------------------------------|-----------------------------------------|
+        | *LPS01* | Navigation                          | Implementación de la barra de navegación con enlaces a "¿Cómo funciona?", "Casos de éxito", "Planes" y "Contactos".                                                             | 4                      | *Bastidas Bastidas, Diego Martin*    | Done                                    |
+      | *LPS01* | Hero Section                        | Implementacion de "Hero Section", donde se buscara llamar la atencion del usuarios sobre nuestra app movil.                                                                     | 2                      | *Bastidas Bastidas, Diego Martin*    | Done                                    |
+      | *LPS02* | About the product                   | Desarrollo de la seccion "About the product", donde se describira brevemente nuestro productos y sus beneficios.                                                                | 2                      | *Bastidas Bastidas, Diego Martin*    | Done                                    |
+      | *LPS03* | Services and Technicals Workers     | Desarrollo de la sección "Services and Technicals Workers", donde se mostrara los servicios que ofrecen nuestros tecnicos calificados.                                          | 3                      | *Bastidas Bastidas, Diego Martin*    | Done                                    |
+      | *LPS04* | Gamification                        | Desarrollo de la sección "Gamification", donde se mostrara los Sistemas de nivel de los Usuarios y la forma en la que se pueda subir de nivel.                                  | 3                      | *Bastidas Bastidas, Diego Martin*    | Done                                    |
+      | *LPS05* | Testimonials                        | Desarrollo de la seccion "Testimonials", donde se mostrara los testimonios de usuarios que usaron nuestra app.                                                                  | 3                      | *Bastidas Bastidas, Diego Martin*    | Done                                    |
+      | *LPS06* | Contact                             | Desarrollo de la sección "Contact", donde se mostrara la forma en que los usuarios puedan contactar con el equipo detras de AlguienDijoChamba.                                  | 2                      | *Bastidas Bastidas, Diego Martin*    | Done                                    |
+      | *LPS07* | Footer                              | Desarrollo de la seccion "Footer", donde se msotrar la forma en que los usuarios puedan redirigirse a cualquier seccion de la pagina y acceder a las redes sociales del equipo. | 2                      | *Bastidas Bastidas, Diego Martin*    | Done                                    |
+    
+      - *4.2.1.3. Development Evidence for Sprint Review*<br>
+
+        | *Repository*                                                             | *Branch*      | *Commit Id*                               | *Commit Message*                                                                                                                         | *Committed By*    | *Committed On* |
+                 |--------------------------------------------------------------------------|---------------|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|-------------------|----------------|
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-1     | e24070bfb6eee873f1f838c2e65c913c7ab8028b  | Initial commit                                                                                                                           | ghostnotfound404  | Sep 08, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-1     | e4daaa743de9a29709041949cb8dc0188e81163e  | Feat: update readme                                                                                                                      | ghostnotfound404  | Sep 08, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-1     | bda5d55e80d7ed66115d24f6c54cb0be793af8f8  | feat: update point of the report                                                                                                         | ghostnotfound404  | Sep 08, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-1     | 014a60dc712fad3715fde318a76df9fa40285825  | feat: chapter 01                                                                                                                         | ghostnotfound404  | Sep 08, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-1     | 8519a69634e435e92cc45b197619d2b81f812b39  | feat: perfil de integrante Rafael                                                                                                        | radv2005          | Sep 09, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | ab9513074d7ee0cf4776a956764822d0d13c9930  | feat: update chapter 2 lack User Journey Mapping                                                                                         | ghostnotfound404  | Sep 11, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 91c494577672f203916155d0a1f2e8a02306e3f2  | docs(domain): add Alert tables Model and Service in Domain Layer                                                                         | radv2005          | Sep 13, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | b85dc2d271ba6a40520b9ed93fa6a303eb196adf  | docs(BoundedAlert): add Alert tables REST resources, controller and assemblers                                                           | radv2005          | Sep 13, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 236dbdb8d3e87ce68686acc68346d9c427430fef  | docs(BoundedAlert): add AlertCommandServiceImpl and AlertQueryServiceImpl tables                                                         | radv2005          | Sep 13, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 247c483d062d63b6ed8e4b0e5c26465d1ffda5cc  | docs(BoundedAlert): add AlertRepository table in Infrastructure Layer                                                                    | radv2005          | Sep 13, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 83197eee233610241796c191e998d89a488321e9  | docs(BoundedAlert): add AlertComponent Diagram                                                                                           | radv2005          | Sep 13, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 9ed556c03dde8aed35bccef39cdb92f298c2dfb0  | docs(BoundedAlert): add Architecture Code Level Diagram                                                                                  | radv2005          | Sep 13, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 4bec31847f00b82d0fe6c1e284a1b15c665a8bb9  | docs(BoundedAlert): add Database Design Diagram                                                                                          | radv2005          | Sep 14, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 7c9007e5e797782b49a5acbe308e6cb53297ddda  | docs(BoundedAlert): fix images                                                                                                           | radv2005          | Sep 14, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 0995e54433c9a38cf8c64e7201496a5c466e8dfb  | feat : add user stories                                                                                                                  | sebasepe          | Sep 15, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 8ba16fc9e71c45045b7ba6a3c7df7ce173d94c2d  | feat : add user stories                                                                                                                  | sebasepe          | Sep 15, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 343182df99841e690972dc17d58a663a522c1b67  | feat : change position for points                                                                                                        | sebasepe          | Sep 15, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 599ce3159f040307b7146be1b38386b99c41e221  | feat : add Chapter_02.md                                                                                                                 | sebasepe          | Sep 15, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 12afce992f9abdff4f7566ee06c0ceb52e6f20f2  | Update Chapter_02.md                                                                                                                     | sebasepe          | Sep 15, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 31cf019964b0ed502e667ccc9a283a5ec385f719  | feat : add product backlog                                                                                                               | sebasepe          | Sep 15, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 0ad35c2850f46de4d9b21340c2770d961209a901  | feat: added Diseño de entrevistas                                                                                                        | alomsoo           | Sep 15, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 2073f4050c0681323bce08049ac7c3f3f9439564  | feat: sinttaxys fixed                                                                                                                    | alomsoo           | Sep 15, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 6b8f4fb1c8aaa779bf785e54fa7000bb97495296  | feat: Registro de entrevistas added                                                                                                      | alomsoo           | Sep 15, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 7dcc7174c024b135fef6cbd9ac05ad820f62a29e  | feat: fixed sintaxys                                                                                                                     | alomsoo           | Sep 15, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | d4ccdc77bee9e634a011d8c39e9d602737a3dd45  | feat: added Domain Layer tec section                                                                                                     | alomsoo           | Sep 15, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | bd2a5c8a07681040de0381923c4ef2663550326d  | feat: added dinterace layer                                                                                                              | alomsoo           | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 74ae8af597d3402bad6953613a1b56f90ad7bbfb  | feat: added Application and Infrastuucture Layer                                                                                         | alomsoo           | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 061e4fc4f6414a203e3479c30dc2ab15258a6b7d  | Tec SectionComponent                                                                                                                     | alomsoo           | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 0acd75e27d9c6773698045b078430e70ec93c0ba  | feat: added c4 diagram                                                                                                                   | alomsoo           | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 2c8be7b7207ef16722910d66ffd18dd3f9559e7f  | Add files via upload                                                                                                                     | alomsoo           | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | be6c29455cddbb4c104641edddd727e54b9a94f9  | feat: added Diagrama_de_Datos_Bounded_TecSection                                                                                         | alomsoo           | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 6acbb3a5cfcdb95174153a406586d4082d9c089e  | Add files via upload                                                                                                                     | alomsoo           | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 840c31ebd8304863233c3a15d906e46021811eaa  | feat: added Bounded Context Database Design Diagram                                                                                      | alomsoo           | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 6a7c0c18dee24fec1fc9fd5aa372938243400bdc  | Delete feature/Diagrama_de_Datos_Bounded_TecSection_Diagrama_Base_Datos.jpg                                                              | alomsoo           | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 185cf80169fc738b94bea91468aa38eea4d197da  | Add files via upload                                                                                                                     | alomsoo           | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | e3e4f44acc7c5ba500f857ac7ffed6d88a37fe9a  | feat: sintaxys fixed                                                                                                                     | alomsoo           | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 081855d92ccfd64c7989db73c67653a039040300  | Feat: add payments                                                                                                                       | ghostnotfound404  | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 03304d2938fd3294f0135f67814e9bc1124bb532  | Merge branch 'feat/chapter-2' of https://github.com/1ACC0238-2520-1798-G3/AlguienDijoChamba-Report into feat/chapter-2                   | ghostnotfound404  | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 815bb5d4152608c1c8d79ee682827c9b2fd9c3ce  | feat: update of payments                                                                                                                 | ghostnotfound404  | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-1     | 311a1e8001b35c63523a2f5b083441698403f140  | feat update chapter 1                                                                                                                    | ghostnotfound404  | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-1     | 9a96eea57f0ec5a8d78a438d781ec779c23e483f  | Merge branch 'feat/chapter-1' of https://github.com/1ACC0238-2520-1798-G3/AlguienDijoChamba-Report into feat/chapter-1                   | ghostnotfound404  | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 9b1598ff721bc44b2ec6c79fe0836dab42d894b1  | feat : add user stories                                                                                                                  | sebasepe          | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 12f467be3bb803951189c39a6a71da32c83ee5a8  | Merge branch 'feat/chapter-2' of https://github.com/1ACC0238-2520-1798-G3/AlguienDijoChamba-Report into feat/chapter-2                   | sebasepe          | Sep 16, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-1     | 191bc669d272502c370c7ddbeef03a799bc41396  | docs: add Solution Profile, Lean UX Assumptions and Hypothesis Statements                                                                | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 191bc669d272502c370c7ddbeef03a799bc41396  | docs: add Solution Profile, Lean UX Assumptions and Hypothesis Statements                                                                | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 3c5a2afb58bddf1a832ae31ad4de14636f6a2107  | docs: edit document                                                                                                                      | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | db4b61034172881ac02f9bd16c1b2d06d65f8360  | docs(competition): edit user task matrix                                                                                                 | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 973a1dec4848c591fa5c9d3a06768571ef73d6d4  | Add files via upload                                                                                                                     | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 5847090aaab422373aa158be59896fb08dc67d27  | docs: update ubiquitous language with gamification terms                                                                                 | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 1d9be11a354337419d3bd76590145094167b7895  | feat : add change user stories                                                                                                           | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 312ad8bcce7c6ab17adefa498f6b5685498ff0ec  | Merge branch 'feat/chapter-2' of https://github.com/1ACC0238-2520-1798-G3/AlguienDijoChamba-Report into feat/chapter-2                   | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 20099d39c2813c33cb605c34b0ca226799ecae8b  | docs: add bounded context Worker-Catalog                                                                                                 | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 3f0f2937ede1210a949af16715b8514d4785dd0a  | Add files via upload                                                                                                                     | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 4b7d61dfcf07631ab7ba08f40936c27967b78910  | Docs: put img                                                                                                                            | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 3902666c069d5b9414f4aabb9945eea5d76d36f7  | Merge pull request #1 from 1ACC0238-2520-1798-G3-AlguienDijoChamba/feat/chapter-1                                                        | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | d32913fbc1cc23246d9f8b1bb4042b28477b7021  | feat : add product backlog                                                                                                               | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | bbc86c52ee30cb6d877d4b489a7e5b4b3662a867  | Merge branch 'feat/chapter-2' of https://github.com/1ACC0238-2520-1798-G3/AlguienDijoChamba-Report into feat/chapter-2                   | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 8f6060a87ab048d8c95ad372032d0af4708d876e  | Add files via upload                                                                                                                     | alomsoo           | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | adc6183a0b58a443b54e3c9f918de7f2bb84e0d3  | Rename Entrevista user 1 .png to Entrevista user1 .png                                                                                   | alomsoo           | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | d7d317fd286e967c66835c6d32a10971f097d906  | Rename Entrevista user1 .png to Entrevista user1.png                                                                                     | alomsoo           | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 9bb7278ed271179ea59a490aaccb2b9fc7863ed8  | feat: added interview                                                                                                                    | alomsoo           | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 1fe3f41d000deed25454e66c33f2b23ffbd1a1a3  | Update Chapter_02.md                                                                                                                     | alomsoo           | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | f2f35e2a21a6078068d05d1a8bfdda9e3e1f17c8  | feat : add conclusiones ,blibliografia and anexo                                                                                         | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | ed7a594ee50dbd5fcdfd1d085e1f98e816acf92a  | Merge branch 'feat/chapter-2' of https://github.com/1ACC0238-2520-1798-G3/AlguienDijoChamba-Report into feat/chapter-2                   | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | b9c173389547806d699f3a514412882a7c916961  | docs: add WorkerProfile database diagram                                                                                                 | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 92448be2216db0451149eb7d1ea348c62c37a0ba  | feat: update Project Report                                                                                                              | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 7ddca8a9b7a58cd1dfb7b09f68c8d643dd697e0b  | Update format Epic Story                                                                                                                 | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 47c9e3acce2e54a6991fe56b78ff249079f907ab  | feat: reorganize and expand user stories                                                                                                 | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 5d6c6ea0b9866aa1cf43be54aa647e573b91359f  | feat: improve user story formatting for registration process                                                                             | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 653eb3edd49340565459933954d07579acd4fd81  | Add files via upload                                                                                                                     | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 987e771ccffafb3349d586bdfcdb41be7419d8ac  | feat: enhance user story formatting for new user registration                                                                            | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | cc472cc301eecfe04de19d756e243682f1f090a2  | docs: put Bounded Context Software Architecture Component Level Diagrams                                                                 | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | c536f98f339f348f6a8183e1e31a753fee1148ab  | feat: standardize description formatting in user stories                                                                                 | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 0174bade8717b125e0ca76f5af6949fb6b746a19  | Merge branch 'feat/chapter-2' of https://github.com/1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report into feat/chapter-2 | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | d485157399116be70d73e48cb93cc2159720d3a3  | feat: enhance Student Outcome section with detailed contributions from team members                                                      | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | ab187d57f01845908c90b6cb9bb81bd97c262f2f  | feat: refactor code structure for improved readability and maintainability                                                               | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | e52da2f62a2791a468e8efbb766d875e91d6ff5f  | feat : add interview                                                                                                                     | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | a5a44ebaff2ebbf798dfc39fe70860967f78478c  | feat : add name for interview                                                                                                            | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | d61e7ee076c50d932d2b19b9a269957a9f41422a  | feat : add change Chapter_02.md                                                                                                          | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 350f65836a6ae2fa034df6f1a7920299c1815afc  | feat : add technical stories                                                                                                             | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 06672b1ff2bc8e34fefd4194ad380513b8d006dc  | feat : add technicla stories                                                                                                             | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 87002f97db11de471c6b3a5b6d099d39377f3f2d  | feat : add images                                                                                                                        | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | c788fb8e92b6b792c773f470fea6a0d756b45a65  | feat: update technical stories section                                                                                                   | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 526a833df68c0619da3d625a35444baf4b4e3055  | Merge branch 'feat/chapter-2' of https://github.com/1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report into feat/chapter-2 | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 5ecb6af3447183bb6c9dcbdff3eeaa0607de6932  | feat: add product backlog                                                                                                                | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 31f1a8566188fadce78472ca27e7eae36e390ea0  | docs(iam): add domain, interface, app and infra layers                                                                                   | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 3601b23f0722a99ae7daad502b77b855a769d212  | Add files via upload                                                                                                                     | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 8de654a528154734b40ab480b082af91b261c356  | docs(readme): add database design diagram for IAM bounded context                                                                        | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | bda3d10866272ee56654406563a8c8e10fb8b4b1  | docs: add description of IAM Application component diagram                                                                               | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 8f2ad4fd88eceefa94caf380aa6ede982fe0f632  | feat : add c4                                                                                                                            | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | a7bcc831132faf78297548797802bfe89e266225  | Merge branch 'feat/chapter-2' of https://github.com/1ACC0238-2520-1798-G3/AlguienDijoChamba-Report into feat/chapter-2                   | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 772dd5e632ea3f754bc3129127b973c1ad122947  | feat : add spiker story                                                                                                                  | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | f56142d479ff53bd112481d5dc9b217ef490d355  | fe                                                                                                                                       | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 87e1b263edaf21df1660672382d837a9e425c9ef  | feat : add bounded context                                                                                                               | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | b3b17920955d2de28734a98563d240a0c49b3447  | Add files via upload                                                                                                                     | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | ac192f8f7bd57d5d18647b96eaa30b95c9952877  | eat: update IAM System DSL                                                                                                               | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 1d8a5fa004c1b8bb3bad8db01b40a5c7ced5f040  | doc: put conclusion                                                                                                                      | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | dae2d27538c4e28c396e32c5704be5d8d33df19e  | Add files via upload                                                                                                                     | alomsoo           | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | b26b8982c2a6114a56bce65460cd34703476b659  | Rename TEC 1.png to TEC 2.png                                                                                                            | alomsoo           | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 750a416aaa6eb7eefbcd31523c3f9a13ed0633af  | feat: added lasts interviews                                                                                                             | alomsoo           | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 87eb24e2a7bfbaaa66ef283b7936414dd458c78a  | feat : add Bounded Context Canvases                                                                                                      | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | f53efd8afd1f340c81533659188da71a02cc52c7  | Merge branch 'feat/chapter-2' of https://github.com/1ACC0238-2520-1798-G3/AlguienDijoChamba-Report into feat/chapter-2                   | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 60f6c6e16f25dcf551ce2c75148ad4e426a16686  | feat : add evenstorming                                                                                                                  | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 56f654c9af9d30808ed11e57aade2a890b73c510  | feat: add Bounded Context IAM                                                                                                            | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | f27f804deb04a145495a941fdea6a08966f232ca  | feat : add candidate context discovery                                                                                                   | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | c12c4e79f9e12878b80e3ecb5d2928c0ac3be278  | Add files via upload                                                                                                                     | alomsoo           | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 4a37ee9a4d846191a2f9a5e79e08a1352dfa3b26  | feat : order images                                                                                                                      | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 6c55f82171b1f014e2e8b1f3394cba3575e63ace  | Merge branch 'feat/chapter-2' of https://github.com/1ACC0238-2520-1798-G3/AlguienDijoChamba-Report into feat/chapter-2                   | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | d70ab914ec011a0f1327bd23275e90c09da690f7  | feat : add order                                                                                                                         | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 560ec5a24f76441cdc7bf02f5cb10c0bac6ab930  | feat: added last interview                                                                                                               | alomsoo           | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 5239ff84f4a2dcc63c5feff251cc9054337ab72e  | Merge branch 'feat/chapter-2' of https://github.com/1ACC0238-2520-1798-G3/AlguienDijoChamba-Report into feat/chapter-2                   | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 6dbea3fa78d4f41e0e453d421bb34bb93ecfcb20  | feat: add image                                                                                                                          | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | a45c8a25262eba0eaa6c0cb7f1f0aa19c5ce8e71  | doc:put eventstorming                                                                                                                    | devfab17          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 7747e0e912b985063e63f5cad7461ff2745a6172  | feat: add anexo                                                                                                                          | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 8d61af3f0f9ad6a50efc2698e3d76a65c1e5e837  | feat : add git fecth                                                                                                                     | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 746e84c012c9667e10f9d608ae1b80831a8aeecb  | Merge branch 'feat/chapter-2' of https://github.com/1ACC0238-2520-1798-G3/AlguienDijoChamba-Report into feat/chapter-2                   | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 5df72b4afbf5372330787b599a4305a553202540  | feat: bibliografia                                                                                                                       | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 393237d22fd3182e9d2a40b47a8e6c8dc1b39a59  | Update Chapter_02.md                                                                                                                     | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 8aa50cc824e2fce0d9dbbcc146c124a35be2c876  | Update Chapter_02.md                                                                                                                     | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 9ae7b42e5ea8a049e81502228003b1df8bdc2a46  | feat : add insights1                                                                                                                     | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 8a38b453cafe729112fb907241d1116d35382ae9  | Merge branch 'develop' of https://github.com/1ACC0238-2520-1798-G3/AlguienDijoChamba-Report into develop                                 | sebasepe          | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | e49d97561578f1c6957d3e5c701359b503a0884a  | fix: update wording for project report link in README                                                                                    | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 55490a021b4fa6b7f6ca6e64dbd2538f8a8359ec  | Merge develop into feat/chapter-2                                                                                                        | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | faddbdf4627593a8f890274ad0ed3d4ec89466b6  | Merge pull request #3 from 1ACC0238-2520-1798-G3-AlguienDijoChamba/feat/chapter-2                                                        | ghostnotfound404  | Sep 17, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | b6f1e1812334d5c120ce9f428675b2b5c53c1d03  | Merge branch 'main' into develop                                                                                                         | ghostnotfound404  | Sep 18, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-2     | 2f2d5fd82db3ca04117555d3d34400ab1aba2a62  | feat: expand project report structure with detailed chapter outlines                                                                     | ghostnotfound404  | Sep 18, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-4     | 2577dac1529bad6ba064d171b5b7acaa075dffd5  | feat: update Chapter IV to reflect Product Implementation & Validation                                                                   | ghostnotfound404  | Oct 01, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-3     | 742a863132607593202b99c1b78dfc5793c3c379  | feat: upadte changes                                                                                                                     | ghostnotfound404  | Oct 01, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-3     | 06f1bbd5ee8bdd4c7d278d2cd979fe3d8d6880d4  | feat: add General Styles Guidelines                                                                                                      | radv2005          | Oct 02, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-3     | d8252f1727e040d31eadf726c2f3f6af1d5cecdb  | feat: add Information Architecture for Style Guidelines                                                                                  | radv2005          | Oct 03, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-3     | 6175d90c379618a4d15f0f17881a318952c9f2a6  | feat: add Landing Page UI Design                                                                                                         | radv2005          | Oct 04, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-3     | 9f42266aabd9f302c95d4c6a9225ef8617b06043  | feat: add Landing Page UI Design 2                                                                                                       | radv2005          | Oct 04, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-3     | 06836cf1397c50efaccf424b7b791b2a179ce9d3  | feat: add Landing Page UI Design 3                                                                                                       | radv2005          | Oct 06, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-4     | 761a11c6d009d6ce9f2f6b7a9b8578b2284c4ee4  | feat: add General Style Guidelines images                                                                                                | radv2005          | Oct 07, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Report         | chapter-4     | 9c1d1b2700238615c036a54ccc956f0e6d0c1d6a  | Refactor code structure and remove redundant sections for improved readability and maintainability                                       | ghostnotfound404  | Apr 26, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Landing_Page | main          | 292b99c39849529de0612ce0197e330a4188ba55  | Initial commit from Create Next App                                                                                                      | ghostnotfound404  | Oct 01, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Landing_Page | main          | 7fbc1ad6bc968a17aea6ad4b4838958d1dcb4f7f  | feat: landing page AlguienDijoChamba                                                                                                     | ghostnotfound404  | Oct 03, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Landing_Page | main          | 54bb3cb39ca18eebde06cc32e4b1af8f098d45e7  | fix: update text encoding for special characters in Contact and Testimonials components                                                  | ghostnotfound404  | Oct 03, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Landing_Page | main          | 6859a65b180aa35d80d854e3576e74f453e27be8  | feat: Add next export for Netlify deployment                                                                                             | radv2005          | Oct 03, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Landing_Page | main          | f518aa742bd90baaf86caf70af03708e915575bb  | Fix: build script for Next.js                                                                                                            | radv2005          | Oct 03, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Fronted      | main          | 73623acf9f02be313db1bfecbbb62386c297eabd  | Primer commit: proyecto inicial                                                                                                          | sebasepe          | Oct 06, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Fronted      | main          | 73623acf9f02be313db1bfecbbb62386c297eabd  | feat : delete comments                                                                                                                   | sebasepe          | Oct 06, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Fronted      | technicians   | 73623acf9f02be313db1bfecbbb62386c297eabd  | Primer commit: proyecto inicial                                                                                                          | sebasepe          | Oct 06, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Fronted      | technicians   | 42d42ade19edc2a21e3d79ecd6c7627cbb8ec3d3  | feat : delete comments                                                                                                                   | sebasepe          | Oct 06, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Fronted      | technicians   | 40d9bd8cb5f5a22efbbb463271080aab786c272c  | feat : add comments                                                                                                                      | sebasepe          | Oct 06, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Fronted      | technicians   | 8eb8b49ff916112849d89b5075523a132415f4c3  | feat : add core                                                                                                                          | sebasepe          | Oct 06, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Fronted      | technicians   | 23770dd4599e2597766abd4278292465299e395c  | feat :add signin                                                                                                                         | sebasepe          | Oct 06, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Fronted      | mainStructure | 38dd1421f6c51d468b8b15a70494d93e494a47a9  | Initialize project structure                                                                                                             | radv2005          | Oct 07, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Fronted      | mainStructure | 46bc5faeb496454b7346ff0306b1035e34b1c20d  | feat: initialize main project structure and dependencies                                                                                 | radv2005          | Oct 07, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Fronted      | mainStructure | c9a2e89ff9a2c39053714129890cbcea687401a8  | feat: initialize main project structure and dependencies                                                                                 | radv2005          | Oct 07, 2025   |
+        | 1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba---Fronted      | mainStructure | 7a5a7026a6babf7346d619441a17208911a05339  | feat(auth): add login and register screens with navigation                                                                               | radv2005          | Oct 07, 2025   |
+
       - **4.2.1.4. Testing Suite Evidence for Sprint Review**
-      - **4.2.1.5. Execution Evidence for Sprint Review**
+      
+        <br> En este primer Sprint, veremos los archivos .feature relacionados a los user tasks que hemos desarrollado, subidos en el repositorio.
+      
+        <table><thead>
+        <tr>
+          <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+          <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+          <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+          <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+          <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+          <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+        </tr></thead>
+        <tbody>
+        <tr>
+        <td rowspan="10"><a href="https://github.com/1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Features" target="_blank" rel="noopener noreferrer">https://github.com/1ACC0238-2520-1798-G3-AlguienDijoChamba/AlguienDijoChamba-Features</a></td>
+          <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+          <td>&nbsp;&nbsp;&nbsp;<br>a094e59</td>
+          <td>&nbsp;&nbsp;&nbsp;<br>docs: updating report and add new files .feature of EPIC 06</td>
+          <td>&nbsp;&nbsp;&nbsp;<br>updating report and add new files .feature of EPIC 06</td>
+          <td>&nbsp;&nbsp;&nbsp;<br>14/05/2025</td>
+        </tr>
+
+        <tr>
+          <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+          <td>&nbsp;&nbsp;&nbsp;<br>9987165</td>
+          <td>&nbsp;&nbsp;&nbsp;<br>docs: updating features files from Epic 01</td>
+          <td>&nbsp;&nbsp;&nbsp;<br>updating features files from Epic 01</td>
+          <td>&nbsp;&nbsp;&nbsp;<br>14/05/2025</td>
+        </tr>
+
+        <tr>
+          <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+          <td>&nbsp;&nbsp;&nbsp;<br>60164f9</td>
+          <td>&nbsp;&nbsp;&nbsp;<br>docs: updating features files from Epic 03</td>
+          <td>&nbsp;&nbsp;&nbsp;<br>updating features files from Epic 03</td>
+          <td>&nbsp;&nbsp;&nbsp;<br>14/05/2025</td>
+        </tr>
+
+        </tbody></table>
+
+    - **4.2.1.5. Execution Evidence for Sprint Review**
+    
+      ### LANDING PAGE:
+
+      A continuación, se muestran las evidencias de la ejecución de la landing page hecha en HTML, CSS y JS usando la biblioteca Bootstrap.
+
+      #### LPS 01:
+
+      Ver Hero Section
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Landing_Page/LPS01.png" alt="Hero Section">
+      </div>
+
+      #### LPS 02:
+
+      Ver sección sobre el producto
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Landing_Page/LPS02.png" alt="About us">
+      </div>
+
+      #### LPS 03:
+
+      Ver sección de servicios y características
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Landing_Page/LPS03.png" alt="Services">
+      </div>
+
+      #### LPS 04:
+
+      Consultar gamificacion y beneficios
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Landing_Page/LPS04.png" alt="Gamification">
+      </div>
+      
+      #### LPS 05:
+
+      Ver testimonios de usuarios
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Landing_Page/LPS05.png" alt="Testimonials">
+      </div>
+
+      #### LPS 06:
+
+      Acceder a sección de contacto
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Landing_Page/LPS06.png" alt="Contacts">
+      </div>
+
+      #### LPS 07:
+
+      Ver sección Footer con enlaces útiles
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Landing_Page/LPS07.png" alt="Footer">
+      </div>
+
+      Link del video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETTS5TFSJflCtVMagVMxwzABd6sCGM1x2e_0wQepDUw8oA?e=ZPhQTR">Video </a>
+
+      ### MOBILE APPLICATION:
+
+      A continuación, se muestran las evidencias de la ejecución de la aplicación móvil desarrollada en Android Studio.
+
+      #### US 01:
+
+      Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US01.png" alt="Register client">
+      </div>
+
+      #### US 02:
+
+      Como nuevo profesional técnico, quiero registrarme detallando mis especialidades, experiencia y contacto para ofrecer mis servicios.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US02.png" alt="Register technician">
+      </div>
+
+      #### US 03:
+
+      Como usuario, quiero recuperar mi cuenta o iniciar sesión mediante diferentes métodos.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US03.png" alt="Client password">
+      </div>
+
+      #### US 04:
+
+      Como usuario registrado, quiero poder editar la información de mi perfil para mantenerla actualizada.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US04.png" alt="Client perfil">
+      </div>
+
+      #### US 05:
+
+      Como cliente, quiero ver el perfil completo de un profesional con toda su información relevante.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US05.png" alt="Client view technician perfil">
+      </div>
+
+      #### US 06:
+
+      Como cliente, quiero contactar directamente a un profesional para coordinar un servicio.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US06.png" alt="Client contact technician">
+      </div>
+
+      #### US07:
+
+      Como cliente, quiero buscar profesionales filtrando por tipo de servicio y ubicación.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US07.png" alt="Client seach with tags a technician">
+      </div>
+
+      #### US08:
+
+      Como cliente, quiero contactar a un profesional y solicitar un servicio.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US08.png" alt="Client filter technician with services and ubication">
+      </div>
+
+      #### US09:
+
+      Como técnico, quiero gestionar mi lista de servicios ofrecidos.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US09.png" alt="technician availability service ">
+      </div>
+
+      #### US10:
+
+      Como técnico, quiero gestionar mi disponibilidad para solicitudes.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US10.png" alt="Technician availability">
+      </div>
+
+      #### US11:
+
+      Como técnico, quiero recibir notificaciones instantáneas sobre nuevas solicitudes.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US11.png" alt="Technician notifications">
+      </div>
+
+      #### US12:
+
+      Como técnico, quiero aceptar o rechazar solicitudes de trabajo.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US12.png" alt="Technician notification">
+      </div>
+
+      #### US13:
+
+      Como técnico, quiero marcar un servicio como completado y registrar trabajo final, y recibir el pago instantáneo.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US13.png" alt="Technician service register and page">
+      </div>
+
+      #### US14:
+
+      Como cliente, quiero recibir notificaciones cuando un profesional acepta o rechaza mi solicitud.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US14.png" alt="Client notifications with Technician">
+      </div>
+
+      #### US15:
+
+      Como usuario, quiero ver mi progreso y puntos acumulados en el sistema de gamificación.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US15.png" alt="Client gamification">
+      </div>
+
+      #### US16:
+
+      Como usuario, quiero recibir recompensas al completar logros específicos en la plataforma.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US16.png" alt="Client gamifications rewards">
+      </div>
+
+      #### US17:
+
+      Como cliente, quiero crear solicitud de servicio detallada.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US17.png" alt="Client service solicitud">
+      </div>
+
+      #### US18:
+
+      Como cliente, quiero ver el estado de mis solicitudes en tiempo real.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/U18.png" alt="Client solicitud in real time">
+      </div>
+
+      #### US19:
+
+      Como cliente, quiero pagar los servicios de forma segura.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US19.png" alt="Clien page services">
+      </div>
+
+      #### US20:
+
+      Como cliente, quiero solicitar reembolso o iniciar disputa en caso de servicio no satisfactorio.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US20.png" alt="Cliente refund">
+      </div>
+
+      #### US21:
+
+      Como técnico, quiero aceptar o rechazar solicitudes, y recibir pagos instantáneos.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US21.png" alt="Technician solicitud">
+      </div>
+
+      #### US22:
+
+      Como cliente, quiero cancelar una solicitud si no la necesito.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US22.png" alt="Client cancel solicitud">
+      </div>
+
+      #### US23:
+
+      Como técnico, quiero recibir notificaciones de nuevas solicitudes.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US23.png" alt="Technician notifications">
+      </div>
+
+      #### US24:
+
+      Como cliente, quiero abrir un reclamo si el servicio no fue satisfactorio, para que la plataforma lo gestione.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US24.png" alt="Client reclame with services">
+      </div>
+
+      #### US25:
+
+      Como cliente, quiero calificar a un profesional tras el servicio.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US25.png" alt="Client clasificate Technician">
+      </div>
+
+      #### US26:
+
+      Como cliente, quiero ver calificaciones y reseñas de otros usuarios.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US26.png" alt="Client calificate view Technician">
+      </div>
+
+      #### US27:
+
+      Como cliente, quiero ver la calificación promedio del profesional.
+
+      <div align="center">
+      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US27.png" alt="Client view calificate promr Technician">
+      </div>
+      
+      Link del video: <a href="">Video </a>
+
       - **4.2.1.6. Services Documentation Evidence for Sprint Review**
+       <br> En este Sprint se logró documentar con OpenAPI los endpoints correspondientes a las funcionalidades implementadas. La documentación incluye detalles técnicos de los servicios consumidos por la aplicación móvil, como los verbos HTTP, parámetros de entrada y respuestas esperadas, permitiendo una mejor comprensión e integración de la app con la API.    - **4.2.1.7. Software Deployment Evidence for Sprint Review**
+      
+     | *Endpoint*                          | *Accion*                            | *Verbo HTTP* | *Sintaxis de llamada*              | *Parámetros o Peticiones*                                                                                                                            | *Ejemplo de Response*                                                                                                                                                                             | *URL de Documentacion*                                   |
+    |-------------------------------------|-------------------------------------|--------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------| 
+    | /api/auth/login                     | Autenticación                       | POST         | api/auth/login                     | {"email": "string", "password": "string"}                                                                                                            | {"accessToken": "string", "refreshToken": "string"}                                                                                                                                               | http://localhost:8080/api/auth/login                     |
+    | /api/auth/register                  | Registro de usuario                 | POST         | api/auth/register                  | {"email": "string", "firstName": "string", "lastName": "string", "password": "string"}                                                               | {"userId": "string", "message": "Usuario registrado exitosamente"}                                                                                                                                | http://localhost:8080/api/auth/register                  |
+    | /api/v1/workers                     | Registrar Worker                    | POST         | api/v1/workers                     | {"name": "string", "email": "string", "phone": "string", "location": "string", "experience": "string", "categoryId": "integer", "skills": ["string"]} | {"workerId": "string", "message": "Worker registrado"}                                                                                                                                            | http://localhost:8080/api/v1/workers                     |
+    | /api/v1/workers/{id}                | Actualizar perfil de Worker         | PUT          | api/v1/workers/{id}                | {"name": "string", "email": "string", "phone": "string", "location": "string", "experience": "string"}                                               | {"workerId": "string", "message": "Perfil actualizado"}                                                                                                                                           | http://localhost:8080/api/v1/workers/{id}                |
+    | /api/v1/workers/{id}                | Obtener perfil de Worker por ID     | GET          | api/v1/workers/{id}                | none                                                                                                                                                 | {"name": "string", "email": "string", "phone": "string", "location": "string", "experience": "string", "ratingAvg": "decimal", "status": "string", "skills": ["string"], "categoryId": "integer"} | http://localhost:8080/api/v1/workers/{id}                |
+    | /api/v1/workers                     | Obtener Workers por categoría       | GET          | api/v1/workers                     | none (query params: ?category=string)                                                                                                                | [{"workerId": "string", "name": "string", "ratingAvg": "decimal", "skills": ["string"]}]                                                                                                          | http://localhost:8080/api/v1/workers                     |
+    | /api/v1/workers/{id}/skills         | Añadir skill a Worker               | POST         | api/v1/workers/{id}/skills         | {"skillName": "string"}                                                                                                                              | {"message": "Skill añadido"}                                                                                                                                                                      | http://localhost:8080/api/v1/workers/{id}/skills         |
+    | /api/v1/workers/{id}/ratings        | Calificar Worker                    | POST         | api/v1/workers/{id}/ratings        | {"score": "integer", "comment": "string"}                                                                                                            | {"message": "Calificación registrada"}                                                                                                                                                            | http://localhost:8080/api/v1/workers/{id}/ratings        |
+    | /api/v1/categories                  | Crear categoría                     | POST         | api/v1/categories                  | {"name": "string", "description": "string"}                                                                                                          | {"categoryId": "integer", "message": "Categoría creada"}                                                                                                                                          | http://localhost:8080/api/v1/categories                  |
+    | /api/v1/categories                  | Listar categorías                   | GET          | api/v1/categories                  | none                                                                                                                                                 | [{"categoryId": "integer", "name": "string", "description": "string"}]                                                                                                                            | http://localhost:8080/api/v1/categories                  |
+    | /api/v1/categories/{id}             | Obtener categoría por ID            | GET          | api/v1/categories/{id}             | none                                                                                                                                                 | {"categoryId": "integer", "name": "string", "description": "string"}                                                                                                                              | http://localhost:8080/api/v1/categories/{id}             |
+    | /api/v1/payments                    | Crear pago                          | POST         | api/v1/payments                    | {"orderId": "string", "amount": "decimal", "method": "string"}                                                                                       | {"paymentId": "string", "status": "string"}                                                                                                                                                       | http://localhost:8080/api/v1/payments                    |
+    | /api/v1/payments/{id}               | Obtener pago por ID                 | GET          | api/v1/payments/{id}               | none                                                                                                                                                 | {"paymentId": "string", "amount": "decimal", "status": "string", "date": "datetime"}                                                                                                              | http://localhost:8080/api/v1/payments/{id}               |
+    | /api/v1/refunds                     | Solicitar reembolso                 | POST         | api/v1/refunds                     | {"paymentId": "string", "reason": "string"}                                                                                                          | {"refundId": "string", "status": "string"}                                                                                                                                                        | http://localhost:8080/api/v1/refunds                     |
+    | /api/v1/alerts                      | Crear alerta                        | POST         | api/v1/alerts                      | {"type": "string", "title": "string", "message": "string", "customerId": "integer", "workerId": "integer"}                                           | {"alertId": "integer", "message": "Alerta creada"}                                                                                                                                                | http://localhost:8080/api/v1/alerts                      |
+    | /api/v1/alerts/{id}                 | Eliminar alerta                     | DELETE       | api/v1/alerts/{id}                 | none                                                                                                                                                 | {"message": "Alerta eliminada"}                                                                                                                                                                   | http://localhost:8080/api/v1/alerts/{id}                 |
+    | /api/v1/alerts/{id}/accept          | Aceptar alerta                      | PUT          | api/v1/alerts/{id}/accept          | none                                                                                                                                                 | {"message": "Alerta aceptada"}                                                                                                                                                                    | http://localhost:8080/api/v1/alerts/{id}/accept          |
+    | /api/v1/alerts/{id}/decline         | Rechazar alerta                     | PUT          | api/v1/alerts/{id}/decline         | none                                                                                                                                                 | {"message": "Alerta rechazada"}                                                                                                                                                                   | http://localhost:8080/api/v1/alerts/{id}/decline         |
+    | /api/v1/alerts                      | Obtener alertas por Customer        | GET          | api/v1/alerts                      | none (query params: ?customerId=integer)                                                                                                             | [{"alertId": "integer", "type": "string", "title": "string", "message": "string"}]                                                                                                                | http://localhost:8080/api/v1/alerts                      |
+    | /api/v1/alerts                      | Obtener alertas por Worker          | GET          | api/v1/alerts                      | none (query params: ?workerId=integer)                                                                                                               | [{"alertId": "integer", "type": "string", "title": "string", "message": "string"}]                                                                                                                | http://localhost:8080/api/v1/alerts                      |
+    | /api/v1/work-requests               | Crear solicitud de trabajo          | POST         | api/v1/work-requests               | {"title": "string", "description": "string", "date": "datetime", "time": "string", "address": "string", "category": "string"}                        | {"requestId": "string", "message": "Solicitud creada"}                                                                                                                                            | http://localhost:8080/api/v1/work-requests               |
+    | /api/v1/work-requests/{id}          | Actualizar solicitud de trabajo     | PUT          | api/v1/work-requests/{id}          | {"title": "string", "description": "string", "date": "datetime", "time": "string", "address": "string"}                                              | {"requestId": "string", "message": "Solicitud actualizada"}                                                                                                                                       | http://localhost:8080/api/v1/work-requests/{id}          |
+    | /api/v1/work-requests/{id}/accept   | Aceptar solicitud de trabajo        | PUT          | api/v1/work-requests/{id}/accept   | none                                                                                                                                                 | {"message": "Solicitud aceptada"}                                                                                                                                                                 | http://localhost:8080/api/v1/work-requests/{id}/accept   |
+    | /api/v1/work-requests/{id}/complete | Completar solicitud de trabajo      | PUT          | api/v1/work-requests/{id}/complete | {"finalAmount": "decimal", "finalWorkDescription": "string"}                                                                                         | {"message": "Solicitud completada"}                                                                                                                                                               | http://localhost:8080/api/v1/work-requests/{id}/complete |
+    | /api/v1/work-requests               | Obtener solicitudes por Worker      | GET          | api/v1/work-requests               | none (query params: ?workerId=integer)                                                                                                               | [{"requestId": "string", "title": "string", "status": "string"}]                                                                                                                                  | http://localhost:8080/api/v1/work-requests               |
+    | /api/v1/work-requests               | Obtener solicitudes por Customer    | GET          | api/v1/work-requests               | none (query params: ?customerId=integer)                                                                                                             | [{"requestId": "string", "title": "string", "status": "string"}]                                                                                                                                  | http://localhost:8080/api/v1/work-requests               |
+    | /api/v1/work-requests/{id}          | Obtener solicitud de trabajo por ID | GET          | api/v1/work-requests/{id}          | none                                                                                                                                                 | {"title": "string", "description": "string", "date": "datetime", "status": "string", "workerId": "integer"}                                                                                       | http://localhost:8080/api/v1/work-requests/{id}          |
+
       - **4.2.1.7. Software Deployment Evidence for Sprint Review**
-      - **4.2.1.8. Team Collaboration Insights during Sprint**
+
+        ### LANDING PAGE:
+
+          A continuación, se muestran las evidencias del despliegue del landing page hecha en HTML, CSS y JS usando la biblioteca Bootstrap usando funcionalidades de GitHubPage.
+    
+          #### Hero Section:
+    
+          Vista representativa que busca llamar la atencion al usuario
+    
+          <div align="center">
+          <img src="feature/chapter04/Software_Deployment_Evidence_for_Sprint_Review/Landing_Page/LPS01.png" alt="Hero Section">
+          </div>
+    
+          #### About The Product:
+    
+          Ver seccion donde describimos nuestro producto
+    
+          <div align="center">
+          <img src="feature/chapter04/Software_Deployment_Evidence_for_Sprint_Review/Landing_Page/LPS02.png" alt="About us">
+          </div>
+    
+          #### SERVICES:
+    
+          Seccion donde se veran los servicios que ofrecen nuestros tecnicos cualificados
+    
+          <div align="center">
+          <img src="feature/chapter04/Software_Deployment_Evidence_for_Sprint_Review/Landing_Page/LPS03.png" alt="Services">
+          </div>
+    
+          #### GAMIFICATION:
+    
+          Seccion donde se veran la gamificacion y los diferentes niveles de esta, a su vez la explicacion de como conseguir puntos
+    
+          <div align="center">
+          <img src="feature/chapter04/Software_Deployment_Evidence_for_Sprint_Review/Landing_Page/LPS04.png" alt="Gamification">
+          </div>
+          
+          #### TESTIMONIALS:
+    
+          Seccion donde se veran testimonios de usuarios reales
+    
+          <div align="center">
+          <img src="feature/chapter04/Software_Deployment_Evidence_for_Sprint_Review/Landing_Page/LPS05.png" alt="Testimonials">
+          </div>
+    
+          #### CONTACT:
+    
+          Seccion en la cual el usuario puede contactar con el equipo de AlguienDijoChamba
+    
+          <div align="center">
+          <img src="feature/chapter04/Software_Deployment_Evidence_for_Sprint_Review/Landing_Page/LPS06.png" alt="Contacts">
+          </div>
+    
+          #### FOOTER:
+    
+          Seccion donde se veran enlaces rapidos y redes sociales
+    
+          <div align="center">
+          <img src="feature/chapter04/Software_Deployment_Evidence_for_Sprint_Review/Landing_Page/LPS07.png" alt="Footer">
+          </div>
+  
+        ### MOBILE APPLICATION:
+        A continuación, se muestran las evidencias de la ejecución de la aplicación móvil desarrollada en Android Studio.
+
+        #### Client
+    
+        ##### Client Register:
+
+        Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales.
+
+          <div align="center">
+          <img src="feature/chapter04/Software_Deployment_Evidence_for_Sprint_Review/Movil_Application/US01.png" alt="Register client">
+          </div>
+    
+        ##### Client Register:
+    
+        Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales.
+    
+          <div align="center">
+          <img src="feature/chapter04/Software_Deployment_Evidence_for_Sprint_Review/Movil_Application/US01.png" alt="Register client">
+          </div>
+
+        ##### Client Edit Perfil:
+    
+        Como usuario registrado, quiero poder editar la información de mi perfil para mantenerla actualizada.
+    
+          <div align="center">
+          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US04.png" alt="Client perfil">
+          </div>
+    
+        ##### Client view Technician perfil:
+    
+        Como cliente, quiero ver el perfil completo de un profesional con toda su información relevante.
+    
+          <div align="center">
+          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US05.png" alt="Client view technician perfil">
+          </div>
+    
+        ##### Client chat Technician:
+    
+        Como cliente, quiero contactar directamente a un profesional para coordinar un servicio.
+    
+          <div align="center">
+          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US06.png" alt="Client contact technician">
+          </div>
+    
+        ##### Client search Technician:
+    
+        Como cliente, quiero buscar profesionales filtrando por tipo de servicio y ubicación.
+    
+          <div align="center">
+          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US07.png" alt="Client seach with tags a technician">
+          </div>
+    
+        ##### Client contract Technician:
+    
+        Como cliente, quiero contactar a un profesional y solicitar un servicio.
+    
+          <div align="center">
+          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US08.png" alt="Client filter technician with services and ubication">
+          </div>
+
+        ##### Client Gamification:
+
+        Como client, quiero ver mi progreso y puntos acumulados en el sistema de gamificación.
+
+          <div align="center">
+          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US15.png" alt="Client gamification">
+          </div>
+    
+        #### Technician
+
+        ##### Technician Register:
+    
+        Como nuevo profesional técnico, quiero registrarme detallando mis especialidades, experiencia y contacto para ofrecer mis servicios.
+    
+          <div align="center">
+          <img src="feature/chapter04/Software_Deployment_Evidence_for_Sprint_Review/Movil_Application/US02.png" alt="Register technician">
+          </div>
+    
+        ##### Technician Services:
+    
+        Como técnico, quiero gestionar mi lista de servicios ofrecidos.
+    
+          <div align="center">
+          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US09.png" alt="technician availability service ">
+          </div>
+    
+        ##### Technician Notifications:
+    
+        Como técnico, quiero recibir notificaciones instantáneas sobre nuevas solicitudes.
+    
+          <div align="center">
+          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US11.png" alt="Technician notifications">
+          </div>
+    
+        ##### Technician Requests:
+    
+        Como técnico, quiero aceptar o rechazar solicitudes de trabajo.
+    
+          <div align="center">
+          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US12.png" alt="Technician notification">
+          </div>
+    
+        ##### Technician Notifications:
+    
+        Como técnico, quiero recibir notificaciones de nuevas solicitudes.
+    
+          <div align="center">
+          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US23.png" alt="Technician notifications">
+          </div>
+
+    - **4.2.1.8. Team Collaboration Insights during Sprint**
+
+      | *Alumno*                            | *Actividad*                                |
+      |-------------------------------------|--------------------------------------------|
+      | Bastidas Bastidas, Diego Martin     | Landing Page Deployment, Backend           |
+      | Belahonia Miranda, Fabrisio         | Figma Design, Prototyping, Frontend        |
+      | Dominguez Vargas, Rafael Alexander  | iam(Login,Signup), Figma Design, Frontend  |
+      | Escobar Palomino, Sebastian Matias  | Frontend                                   |
+      | Muñiz Huayanca, Percy Alonso        | Backend                                    |
+
+      ## Report:
+      <div align="center">
+          <img src="feature/chapter04/Team_Collaboration_Insights_during_Sprint_1.png" alt="Technician notifications">
+          </div>
+
+      ## Landing Page:
+      <div align="center">
+          <img src="feature/chapter04/Team_Collaboration_Insights_during_Sprint_2.png" alt="Technician notifications">
+          </div>
+      
+      ## Mobile Application:
+      <div align="center">
+          <img src="feature/chapter04/Team_Collaboration_Insights_during_Sprint_3.png" alt="Technician notifications">
+          </div>
+    
+
   - **4.3. Validation Interviews**
     - **4.3.1. Diseño de Entrevistas**
     - **4.3.1. Registro de Entrevistas**
