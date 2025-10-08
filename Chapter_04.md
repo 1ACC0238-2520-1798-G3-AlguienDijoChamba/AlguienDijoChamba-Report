@@ -717,7 +717,7 @@
       Link del video: <a href="">Video </a>
 
       - **4.2.1.6. Services Documentation Evidence for Sprint Review**
-       <br> En este Sprint se logró documentar con OpenAPI los endpoints correspondientes a las funcionalidades implementadas. La documentación incluye detalles técnicos de los servicios consumidos por la aplicación móvil, como los verbos HTTP, parámetros de entrada y respuestas esperadas, permitiendo una mejor comprensión e integración de la app con la API.    - **4.2.1.7. Software Deployment Evidence for Sprint Review**
+       <br> En este Sprint se logró documentar con OpenAPI los endpoints correspondientes a las funcionalidades implementadas. La documentación incluye detalles técnicos de los servicios consumidos por la aplicación móvil, como los verbos HTTP, parámetros de entrada y respuestas esperadas, permitiendo una mejor comprensión e integración de la app con la API.   
       
      | *Endpoint*                          | *Accion*                            | *Verbo HTTP* | *Sintaxis de llamada*              | *Parámetros o Peticiones*                                                                                                                            | *Ejemplo de Response*                                                                                                                                                                             | *URL de Documentacion*                                   |
     |-------------------------------------|-------------------------------------|--------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------| 
@@ -981,4 +981,5 @@
 
 ## **Anexos**
   **Eventstorming:** [https://acortar.link/cUUGdN](https://acortar.link/cUUGdN)<br>
+
   **PPT del Proyecto:** ^[https://acortar.link/8CJQm9](https://acortar.link/8CJQm9) 
