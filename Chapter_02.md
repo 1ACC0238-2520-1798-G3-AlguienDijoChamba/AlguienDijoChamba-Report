@@ -393,6 +393,11 @@
       |--------|--------|
       | **EP06** | **Sistema de Calificaciones y Reseñas** |
       | | Como cliente, quiero calificar y dejar reseñas sobre los servicios o profesionales, y ver las calificaciones y reseñas de otros para tomar decisiones informadas. |
+      | Epic ID | Título |
+      |----------|---------|
+      | **EP07** | **Landing Page y Experiencia del Visitante** |
+      |  | Como visitante, quiero acceder a una landing page informativa y atractiva que me permita conocer los servicios, productos, niveles, testimonios y contactar fácilmente con FixNow. |
+
     
       ### User Stories
           
@@ -1361,7 +1366,376 @@
         </tr>
       </table>
 
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US26</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Sección de Inicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero visualizar una sección principal con el mensaje y propósito de FixNow para entender de inmediato el servicio que ofrece.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que ingreso al sitio, cuando la página carga, entonces debo ver un título principal, un texto descriptivo y un botón de descarga visible.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
       
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US27</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Sección de Servicios</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero ver las categorías de servicios disponibles (electricidad, gasfitería, pintura, carpintería, etc.) para identificar el que necesito.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que navego hacia la sección de servicios, entonces debo ver tarjetas o íconos con los nombres y descripciones de cada servicio.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US28</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Sección de Producto IoT</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero conocer el producto IoT de FixNow para entender cómo ayuda a detectar fallas o fugas en el hogar.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que llego a la sección de producto, entonces debo ver información sobre funciones, beneficios y un botón “Ver más”.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US29</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Sistema de Niveles de Usuario</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero visualizar los diferentes niveles de usuario (Bronce, Plata, Oro) y sus beneficios para entender las ventajas del sistema de gamificación.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que accedo a la sección de niveles, entonces debo ver los niveles con descripciones, beneficios y diferencias visuales claras.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US30</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Sección de Testimonios</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero leer testimonios de otros usuarios para confiar en la calidad de los servicios ofrecidos por FixNow.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que navego hacia la sección de testimonios, entonces debo ver reseñas con nombre, ubicación y calificación en estrellas.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US31</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Sección de Contacto</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero ver información de contacto (correo, teléfono, dirección) para comunicarme fácilmente con FixNow.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que estoy en la sección de contacto, entonces debo visualizar los datos válidos y legibles de FixNow.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US32</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Formulario de Contacto</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero poder enviar un formulario con mis datos para recibir más información o asistencia personalizada.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que estoy en la sección del formulario, cuando completo los campos y presiono “Enviar”, entonces debo recibir una confirmación o mensaje de error.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US33</td>
+          <td>Visitante</td>
+          <td>Media</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Botón de Descarga de la App</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero ver un botón visible para descargar la aplicación desde la landing page.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que estoy en la página principal, cuando visualizo la sección de descarga, entonces debe haber un botón que redirija a Google Play o App Store.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US34</td>
+          <td>Visitante</td>
+          <td>Media</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Footer Informativo</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero visualizar información adicional en el pie de página para acceder a redes sociales y derechos de autor.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que llego al final de la página, entonces debo ver información de copyright y enlaces a redes sociales.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US35</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Navegación General</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero acceder a un menú principal para moverme fácilmente entre las secciones de la landing page.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que estoy en la landing, cuando hago clic en “Servicios”, “Producto”, “Testimonios” o “Contacto”, entonces la vista se desplaza suavemente hacia la sección correspondiente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
 
 
       ### Technical Stories
@@ -2367,6 +2741,7 @@
   | event\_type      | Tipo de evento (REGISTERED, SIGNED\_IN, FAILED\_LOGIN).                    |
   | event\_timestamp | Fecha y hora en que ocurrió el evento.                                     |
   | details          | Detalles adicionales del evento (ej. IP, descripción del error, etc.).     |
+
 
 
 
