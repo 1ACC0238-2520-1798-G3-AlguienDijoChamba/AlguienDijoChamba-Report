@@ -469,6 +469,8 @@
         ![imagesUserFlowDiagramsMobileApplication1](./feature/chapter3/Mobile_Applications_User_Flow_Diagrams/3_User_Stories/US27.png)
         <br>
       - **3.1.4.5. Mobile Applications Prototyping**
+      -   https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_edu_pe/EciqPmDFUihCogDjFt9cKa0BhRGdzIc73tPf1ZuHBwkBnA?e=GSS7hW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 
       **Link del video:** [https://acortar.link/rnHeKG](https://acortar.link/rnHeKG)
 
