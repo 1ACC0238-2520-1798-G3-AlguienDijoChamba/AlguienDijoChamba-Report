@@ -349,7 +349,7 @@
       | **Account (Cuenta)** | Identidad digital de un usuario dentro de la plataforma. Incluye credenciales de acceso y estado de la cuenta. |
       | **User (Usuario)** | Entidad básica que representa a una persona registrada en la plataforma. Contiene información personal esencial. |
       | **Customer (Cliente)** | Usuario que solicita servicios técnicos o profesionales a través de la plataforma. |
-      | **Worker (Trabajador Técnico)** | Profesional que ofrece servicios en la plataforma. Posee experiencia validada, habilidades técnicas y certificaciones. |
+      | **Technician (Trabajador Técnico)** | Profesional que ofrece servicios en la plataforma. Posee experiencia validada, habilidades técnicas y certificaciones. |
       | **Experience (Experiencia)** | Historial laboral de un trabajador técnico que respalda su trayectoria en distintos roles o empresas. |
       | **Review (Reseña)** | Calificación y comentario que un usuario emite sobre un servicio recibido o prestado. |
       | **Proposal (Propuesta)** | Oferta formal presentada por un trabajador técnico a un cliente. Contiene la descripción del trabajo, precio y tiempo estimado. |
@@ -2658,50 +2658,90 @@
 
         ![User Journey Mapping Segmento 2](./feature/chapter02/ImpactMap_Clientes.png)
 
-    - **2.4.3. Product Backlog** 
-      | # Orden | User Story Id | Título | Story Points (1 / 2 / 3 / 5 / 8) |
-      |---|---|---|---|
-      | 1 | US01 | Registro de Nuevo Usuario | 3 |
-      | 2 | US02 | Registro de Nuevo Profesional | 5 |
-      | 3 | US03 | Recuperación de Cuenta/Login | 3 |
-      | 4 | US04 | Editar Perfil de Usuario | 2 |
-      | 5 | US05 | Ver Perfil Detallado del Profesional | 5 |
-      | 6 | US06 | Contactar al Profesional | 3 |
-      | 7 | US07 | Buscar Profesionales por Especialidad y Ubicación | 8 |
-      | 8 | US08 | Solicitar Servicio al Profesional | 5 |
-      | 9 | US09 | Crear y Actualizar Servicios Ofrecidos | 3 |
-      | 10 | US10 | Gestionar Disponibilidad | 3 |
-      | 11 | US11 | Recibir Notificaciones de Solicitudes | 5 |
-      | 12 | US12 | Aceptar o Rechazar Solicitudes | 2 |
-      | 13 | US13 | Confirmar Finalización de Servicio | 5 |
-      | 14 | US14 | Notificación de Respuesta del Profesional | 2 |
-      | 15 | US15 | Visualizar Progreso y Puntos Acumulados | 3 |
-      | 16 | US16 | Recibir Recompensas por Logros | 2 |
-      | 17 | US17 | Crear Solicitud de Servicio | 5 |
-      | 18 | US18 | Ver Estado de la Solicitud | 3 |
-      | 19 | US19 | Realizar Pago del Servicio | 8 |
-      | 20 | US20 | Solicitar Reembolso o Disputa | 3 |
-      | 21 | US21 | Confirmación de Contratación por Profesional | 5 |
-      | 22 | US22 | Cancelar Solicitud de Servicio | 2 |
-      | 23 | US23 | Notificación de Nueva Solicitud de Servicio | 3 |
-      | 24 | US24 | Abrir Reclamo/Ticket | 5 |
-      | 25 | US25 | Calificar a un Profesional | 3 |
-      | 26 | US26 | Ver Calificaciones de Profesionales | 2 |
-      | 27 | US27 | Calificación Promedio del Profesional | 2 |
-      | 28 | US28 | Reseñas Anónimas | 1 |
-      | 29 | US29 | Ver Reseñas de Otros Clientes | 3 |
-      | 30 | US30 | Solicitar Actualización de Calificación | 1 |
-      | 31 | TS01 | Crear API de Registro de Usuario | 5 |
-      | 32 | TS02 | Crear API para Editar Perfil de Usuario | 3 |
-      | 33 | TS03 | Crear API de Recuperación de Cuenta | 3 |
-      | 34 | TS04 | Crear API de Búsqueda de Profesionales | 5 |
-      | 35 | TS05 | Crear API para Contactar al Profesional | 3 |
-      | 36 | TS06 | Crear API para Gestión de Servicios | 5 |
-      | 37 | TS07 | Crear API de Notificaciones de Solicitudes | 5 |
-      | 38 | TS08 | Crear API para Gamificación y Niveles | 3 |
-      | 39 | TS09 | Crear API para Gestión de Solicitudes | 5 |
-      | 40 | TS10 | Crear API para Realizar Pagos | 8 |
-      | 41 | TS11 | Crear API para Calificaciones y Reseñas | 3 |
+    - **2.4.3. Product Backlog**
+   
+
+      <table>
+        <tr>
+          <th>#</th>
+          <th>Story ID</th>
+          <th>Título</th>
+          <th>Story Points</th>
+        </tr>
+        <tr><td>1</td><td>US01</td><td>Registro de Nuevo Usuario</td><td>3</td></tr>
+        <tr><td>2</td><td>US02</td><td>Registro de Nuevo Profesional</td><td>5</td></tr>
+        <tr><td>3</td><td>US03</td><td>Recuperación de Cuenta/Login</td><td>3</td></tr>
+        <tr><td>4</td><td>US04</td><td>Editar Perfil de Usuario</td><td>2</td></tr>
+        <tr><td>5</td><td>US05</td><td>Ver Perfil Detallado del Profesional</td><td>5</td></tr>
+        <tr><td>6</td><td>US06</td><td>Contactar al Profesional</td><td>3</td></tr>
+        <tr><td>7</td><td>US07</td><td>Buscar Profesionales por Especialidad y Ubicación</td><td>8</td></tr>
+        <tr><td>8</td><td>US08</td><td>Solicitar Servicio al Profesional</td><td>5</td></tr>
+        <tr><td>9</td><td>US09</td><td>Crear y Actualizar Servicios Ofrecidos</td><td>3</td></tr>
+        <tr><td>10</td><td>US10</td><td>Gestionar Disponibilidad</td><td>3</td></tr>
+        <tr><td>11</td><td>US11</td><td>Recibir Notificaciones de Solicitudes</td><td>5</td></tr>
+        <tr><td>12</td><td>US12</td><td>Aceptar o Rechazar Solicitudes</td><td>2</td></tr>
+        <tr><td>13</td><td>US13</td><td>Confirmar Finalización de Servicio</td><td>5</td></tr>
+        <tr><td>14</td><td>US14</td><td>Notificación de Respuesta del Profesional</td><td>2</td></tr>
+        <tr><td>15</td><td>US15</td><td>Visualizar Progreso y Puntos Acumulados</td><td>3</td></tr>
+        <tr><td>16</td><td>US16</td><td>Recibir Recompensas por Logros</td><td>2</td></tr>
+        <tr><td>17</td><td>US17</td><td>Crear Solicitud de Servicio</td><td>5</td></tr>
+        <tr><td>18</td><td>US18</td><td>Ver Estado de la Solicitud</td><td>3</td></tr>
+        <tr><td>19</td><td>US19</td><td>Realizar Pago del Servicio</td><td>8</td></tr>
+        <tr><td>20</td><td>US20</td><td>Solicitar Reembolso o Disputa</td><td>3</td></tr>
+        <tr><td>21</td><td>US21</td><td>Confirmación de Contratación por Profesional</td><td>5</td></tr>
+        <tr><td>22</td><td>US22</td><td>Cancelar Solicitud de Servicio</td><td>2</td></tr>
+        <tr><td>23</td><td>US23</td><td>Notificación de Nueva Solicitud de Servicio</td><td>3</td></tr>
+        <tr><td>24</td><td>US24</td><td>Abrir Reclamo/Ticket</td><td>5</td></tr>
+        <tr><td>25</td><td>US25</td><td>Calificar a un Profesional</td><td>3</td></tr>
+        <tr><td>26</td><td>US26</td><td>Ver Calificaciones de Profesionales</td><td>2</td></tr>
+        <tr><td>27</td><td>US27</td><td>Calificación Promedio del Profesional</td><td>2</td></tr>
+        <tr><td>28</td><td>US28</td><td>Reseñas Anónimas</td><td>1</td></tr>
+        <tr><td>29</td><td>US29</td><td>Ver Reseñas de Otros Clientes</td><td>3</td></tr>
+        <tr><td>30</td><td>US30</td><td>Solicitar Actualización de Calificación</td><td>1</td></tr>
+      </table>
+      
+      <h2>Technical Stories</h2>
+      <table>
+        <tr>
+          <th>#</th>
+          <th>Story ID</th>
+          <th>Título</th>
+          <th>Story Points</th>
+        </tr>
+        <tr><td>31</td><td>TS01</td><td>Crear API de Registro de Usuario</td><td>5</td></tr>
+        <tr><td>32</td><td>TS02</td><td>Crear API para Editar Perfil de Usuario</td><td>3</td></tr>
+        <tr><td>33</td><td>TS03</td><td>Crear API de Recuperación de Cuenta</td><td>3</td></tr>
+        <tr><td>34</td><td>TS04</td><td>Crear API de Búsqueda de Profesionales</td><td>5</td></tr>
+        <tr><td>35</td><td>TS05</td><td>Crear API para Contactar al Profesional</td><td>3</td></tr>
+        <tr><td>36</td><td>TS06</td><td>Crear API para Gestión de Servicios</td><td>5</td></tr>
+        <tr><td>37</td><td>TS07</td><td>Crear API de Notificaciones de Solicitudes</td><td>5</td></tr>
+        <tr><td>38</td><td>TS08</td><td>Crear API para Gamificación y Niveles</td><td>3</td></tr>
+        <tr><td>39</td><td>TS09</td><td>Crear API para Gestión de Solicitudes</td><td>5</td></tr>
+        <tr><td>40</td><td>TS10</td><td>Crear API para Realizar Pagos</td><td>8</td></tr>
+        <tr><td>41</td><td>TS11</td><td>Crear API para Calificaciones y Reseñas</td><td>3</td></tr>
+      </table>
+      
+      <h2>Spike Stories</h2>
+      <table>
+        <tr>
+          <th>#</th>
+          <th>Story ID</th>
+          <th>Título</th>
+          <th>Story Points</th>
+        </tr>
+        <tr><td>42</td><td>SP-01</td><td>Investigar Registro de Usuarios y Autenticación</td><td>5</td></tr>
+        <tr><td>43</td><td>SP-02</td><td>Investigar Búsqueda y Contacto de Técnicos</td><td>5</td></tr>
+        <tr><td>44</td><td>SP-03</td><td>Investigar Gestión de Servicios y Disponibilidad de Técnicos</td><td>5</td></tr>
+        <tr><td>45</td><td>SP-04</td><td>Investigar Gestión de Solicitudes y Pagos</td><td>5</td></tr>
+        <tr><td>46</td><td>SP-05</td><td>Investigar Gamificación y Niveles de Usuario</td><td>3</td></tr>
+        <tr><td>47</td><td>SP-06</td><td>Investigar Calificaciones y Reseñas de Técnicos</td><td>3</td></tr>
+        <tr><td>48</td><td>SP-07</td><td>Investigar Notificaciones de Nueva Solicitud</td><td>5</td></tr>
+      </table>
+
+
+
+
+    
 
     
   - **2.5. Strategic-Level Domain-Driven Design**
@@ -3366,6 +3406,7 @@
   | event\_type      | Tipo de evento (REGISTERED, SIGNED\_IN, FAILED\_LOGIN).                    |
   | event\_timestamp | Fecha y hora en que ocurrió el evento.                                     |
   | details          | Detalles adicionales del evento (ej. IP, descripción del error, etc.).     |
+
 
 
 
