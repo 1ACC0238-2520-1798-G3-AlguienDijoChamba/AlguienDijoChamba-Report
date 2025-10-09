@@ -2769,7 +2769,8 @@
       Identificación de eventos:
   El primer paso consiste en identificar los eventos y organizarlos siguiendo una línea de tiempo imaginaria de izquierda a derecha. Algunos eventos pueden aparecer en la misma columna si no tienen un orden consecutivo. Los eventos se representan con post-its anaranjados.
       <div align="center">
-      <img src="./feature/chapter02/Paso_1.jpeg"/>
+      <img src="./feature/chapter02/event1.jpeg"/>
+
       </div>
       <br>
       Identificación de comandos:
@@ -2777,7 +2778,9 @@
 
 
       <div align="center">
-      <img src="./feature/chapter02/Paso_2.jpeg"/>
+      <img src="./feature/chapter02/event2.jpeg"/>
+      <img src="./feature/chapter02/event3.jpeg"/>
+
       </div>
       <br>
       
@@ -2785,12 +2788,18 @@
       Después, se determinan los agentes o usuarios que realizan los comandos, representados con post-its amarillos.
 
       <div align="center">
-      <img src="./feature/chapter02/Paso_3.jpeg"/>
+      <img src="./feature/chapter02/event4.jpeg"/>
+      <img src="./feature/chapter02/event5.jpeg"/>
       </div>
       <br>
                 
       Agrupación por agregados y bounded contexts:
       Finalmente, se relacionan los eventos entre sí mediante los agregados y entidades involucradas, agrupándolos en bounded contexts. También se trazan líneas punteadas para señalar la interacción de comandos con eventos en distintos bounded contexts.
+    
+      <div align="center">
+      <img src="./feature/chapter02/event6.jpeg"/>
+      </div>
+      <br>
       
       - **2.5.1.1. Candidate Context Discovery**  
    
@@ -2813,31 +2822,31 @@
         A continuación, definiremos y desarrollaremos los Bounded Context Canvases de nuestros tres contextos delimitados.
         ## IAM:
          <div align="center">
-          <img src="./feature/chapter02/Iam.png"/>
+          <img src="./feature/chapter02/Canvases1.jpeg"/>
           </div>
           <br>
           
         ## Payment:
          <div align="center">
-          <img src="./feature/chapter02/Payment.png"/>
+          <img src="./feature/chapter02/Canvases3.jpeg"/>
           </div>
           <br>
 
         ## Technician-Catalog:
           <div align="center">
-          <img src="./feature/chapter02/worker-catalog.png"/>
+          <img src="./feature/chapter02/Canvases5.jpeg"/>
           </div>
           <br>
 
         ## Alerts:
           <div align="center">
-          <img src="./feature/chapter02/Alerts.png"/>
+          <img src="./feature/chapter02/Canvases2.jpeg"/>
           </div>
           <br>
 
         ## Tec Section:
           <div align="center">
-          <img src="./feature/chapter02/tec-section.png"/>
+          <img src="./feature/chapter02/Canvases5.jpeg"/>
           </div>
           <br>
 
@@ -3406,6 +3415,7 @@
   | event\_type      | Tipo de evento (REGISTERED, SIGNED\_IN, FAILED\_LOGIN).                    |
   | event\_timestamp | Fecha y hora en que ocurrió el evento.                                     |
   | details          | Detalles adicionales del evento (ej. IP, descripción del error, etc.).     |
+
 
 
 
