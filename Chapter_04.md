@@ -495,224 +495,37 @@
       </div>
 
       ### MOBILE APPLICATION:
-
-      A continuación, se muestran las evidencias de la ejecución de la aplicación móvil desarrollada en Android Studio.
-
-      #### US 01:
-
-      Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales.
+      <div align="center">
+      <img src="https://i.imgur.com/2kYOCzS.png">
+       </div>
 
       <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US01.png" alt="Register client">
+       <img src="https://i.imgur.com/PZzxKOo.png">
       </div>
-
-      #### US 02:
-
-      Como nuevo profesional técnico, quiero registrarme detallando mis especialidades, experiencia y contacto para ofrecer mis servicios.
 
       <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US02.png" alt="Register technician">
-      </div>
-
-      #### US 03:
-
-      Como usuario, quiero recuperar mi cuenta o iniciar sesión mediante diferentes métodos.
+      <img src="https://i.imgur.com/irSNAxw.png">
+       </div>
 
       <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US03.png" alt="Client password">
+      <img src="https://i.imgur.com/byVncR9.png">
       </div>
-
-      #### US 04:
-
-      Como usuario registrado, quiero poder editar la información de mi perfil para mantenerla actualizada.
 
       <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US04.png" alt="Client perfil">
+       <img src="https://i.imgur.com/cZ5hQLM.png">
       </div>
-
-      #### US 05:
-
-      Como cliente, quiero ver el perfil completo de un profesional con toda su información relevante.
 
       <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US05.png" alt="Client view technician perfil">
-      </div>
-
-      #### US 06:
-
-      Como cliente, quiero contactar directamente a un profesional para coordinar un servicio.
+       <img src="https://i.imgur.com/Vgltnuj.png">
+       </div>
 
       <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US06.png" alt="Client contact technician">
+      <img src="https://i.imgur.com/AKQgRgd.png">
       </div>
 
-      #### US07:
-
-      Como cliente, quiero buscar profesionales filtrando por tipo de servicio y ubicación.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US07.png" alt="Client seach with tags a technician">
-      </div>
-
-      #### US08:
-
-      Como cliente, quiero contactar a un profesional y solicitar un servicio.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US08.png" alt="Client filter technician with services and ubication">
-      </div>
-
-      #### US09:
-
-      Como técnico, quiero gestionar mi lista de servicios ofrecidos.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US09.png" alt="technician availability service ">
-      </div>
-
-      #### US10:
-
-      Como técnico, quiero gestionar mi disponibilidad para solicitudes.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US10.png" alt="Technician availability">
-      </div>
-
-      #### US11:
-
-      Como técnico, quiero recibir notificaciones instantáneas sobre nuevas solicitudes.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US11.png" alt="Technician notifications">
-      </div>
-
-      #### US12:
-
-      Como técnico, quiero aceptar o rechazar solicitudes de trabajo.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US12.png" alt="Technician notification">
-      </div>
-
-      #### US13:
-
-      Como técnico, quiero marcar un servicio como completado y registrar trabajo final, y recibir el pago instantáneo.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US13.png" alt="Technician service register and page">
-      </div>
-
-      #### US14:
-
-      Como cliente, quiero recibir notificaciones cuando un profesional acepta o rechaza mi solicitud.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US14.png" alt="Client notifications with Technician">
-      </div>
-
-      #### US15:
-
-      Como usuario, quiero ver mi progreso y puntos acumulados en el sistema de gamificación.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US15.png" alt="Client gamification">
-      </div>
-
-      #### US16:
-
-      Como usuario, quiero recibir recompensas al completar logros específicos en la plataforma.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US16.png" alt="Client gamifications rewards">
-      </div>
-
-      #### US17:
-
-      Como cliente, quiero crear solicitud de servicio detallada.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US17.png" alt="Client service solicitud">
-      </div>
-
-      #### US18:
-
-      Como cliente, quiero ver el estado de mis solicitudes en tiempo real.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/U18.png" alt="Client solicitud in real time">
-      </div>
-
-      #### US19:
-
-      Como cliente, quiero pagar los servicios de forma segura.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US19.png" alt="Clien page services">
-      </div>
-
-      #### US20:
-
-      Como cliente, quiero solicitar reembolso o iniciar disputa en caso de servicio no satisfactorio.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US20.png" alt="Cliente refund">
-      </div>
-
-      #### US21:
-
-      Como técnico, quiero aceptar o rechazar solicitudes, y recibir pagos instantáneos.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US21.png" alt="Technician solicitud">
-      </div>
-
-      #### US22:
-
-      Como cliente, quiero cancelar una solicitud si no la necesito.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US22.png" alt="Client cancel solicitud">
-      </div>
-
-      #### US23:
-
-      Como técnico, quiero recibir notificaciones de nuevas solicitudes.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US23.png" alt="Technician notifications">
-      </div>
-
-      #### US24:
-
-      Como cliente, quiero abrir un reclamo si el servicio no fue satisfactorio, para que la plataforma lo gestione.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US24.png" alt="Client reclame with services">
-      </div>
-
-      #### US25:
-
-      Como cliente, quiero calificar a un profesional tras el servicio.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US25.png" alt="Client clasificate Technician">
-      </div>
-
-      #### US26:
-
-      Como cliente, quiero ver calificaciones y reseñas de otros usuarios.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US26.png" alt="Client calificate view Technician">
-      </div>
-
-      #### US27:
-
-      Como cliente, quiero ver la calificación promedio del profesional.
-
-      <div align="center">
-      <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US27.png" alt="Client view calificate promr Technician">
-      </div>
+       <div align="center">
+      <img src="https://i.imgur.com/YqhFr0I.png">
+       </div>
       
       Link del video: <a href="">Video </a>
 
@@ -813,113 +626,37 @@
   
         ### MOBILE APPLICATION:
         A continuación, se muestran las evidencias de la ejecución de la aplicación móvil desarrollada en Android Studio.
-
-        #### Client
-    
-        ##### Client Register:
-
-        Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales.
-
-          <div align="center">
-          <img src="feature/chapter04/Software_Deployment_Evidence_for_Sprint_Review/Movil_Application/US01.png" alt="Register client">
-          </div>
-    
-        ##### Client Register:
-    
-        Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales.
     
           <div align="center">
-          <img src="feature/chapter04/Software_Deployment_Evidence_for_Sprint_Review/Movil_Application/US01.png" alt="Register client">
+          <img src="https://i.imgur.com/2kYOCzS.png">
           </div>
 
-        ##### Client Edit Perfil:
-    
-        Como usuario registrado, quiero poder editar la información de mi perfil para mantenerla actualizada.
-    
           <div align="center">
-          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US04.png" alt="Client perfil">
-          </div>
-    
-        ##### Client view Technician perfil:
-    
-        Como cliente, quiero ver el perfil completo de un profesional con toda su información relevante.
-    
-          <div align="center">
-          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US05.png" alt="Client view technician perfil">
-          </div>
-    
-        ##### Client chat Technician:
-    
-        Como cliente, quiero contactar directamente a un profesional para coordinar un servicio.
-    
-          <div align="center">
-          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US06.png" alt="Client contact technician">
-          </div>
-    
-        ##### Client search Technician:
-    
-        Como cliente, quiero buscar profesionales filtrando por tipo de servicio y ubicación.
-    
-          <div align="center">
-          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US07.png" alt="Client seach with tags a technician">
-          </div>
-    
-        ##### Client contract Technician:
-    
-        Como cliente, quiero contactar a un profesional y solicitar un servicio.
-    
-          <div align="center">
-          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US08.png" alt="Client filter technician with services and ubication">
+          <img src="https://i.imgur.com/PZzxKOo.png">
           </div>
 
-        ##### Client Gamification:
+          <div align="center">
+          <img src="https://i.imgur.com/irSNAxw.png">
+          </div>
 
-        Como client, quiero ver mi progreso y puntos acumulados en el sistema de gamificación.
+          <div align="center">
+          <img src="https://i.imgur.com/byVncR9.png">
+          </div>
 
           <div align="center">
-          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US15.png" alt="Client gamification">
+          <img src="https://i.imgur.com/cZ5hQLM.png">
           </div>
-    
-        #### Technician
 
-        ##### Technician Register:
-    
-        Como nuevo profesional técnico, quiero registrarme detallando mis especialidades, experiencia y contacto para ofrecer mis servicios.
-    
           <div align="center">
-          <img src="feature/chapter04/Software_Deployment_Evidence_for_Sprint_Review/Movil_Application/US02.png" alt="Register technician">
+          <img src="https://i.imgur.com/Vgltnuj.png">
           </div>
-    
-        ##### Technician Services:
-    
-        Como técnico, quiero gestionar mi lista de servicios ofrecidos.
-    
+
           <div align="center">
-          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US09.png" alt="technician availability service ">
+          <img src="https://i.imgur.com/AKQgRgd.png">
           </div>
-    
-        ##### Technician Notifications:
-    
-        Como técnico, quiero recibir notificaciones instantáneas sobre nuevas solicitudes.
-    
+
           <div align="center">
-          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US11.png" alt="Technician notifications">
-          </div>
-    
-        ##### Technician Requests:
-    
-        Como técnico, quiero aceptar o rechazar solicitudes de trabajo.
-    
-          <div align="center">
-          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US12.png" alt="Technician notification">
-          </div>
-    
-        ##### Technician Notifications:
-    
-        Como técnico, quiero recibir notificaciones de nuevas solicitudes.
-    
-          <div align="center">
-          <img src="feature/chapter04/Execution_Evidence_for_Sprint_Review/Movil_Application/US23.png" alt="Technician notifications">
+          <img src="https://i.imgur.com/YqhFr0I.png">
           </div>
 
     - **4.2.1.8. Team Collaboration Insights during Sprint**
@@ -933,20 +670,47 @@
       | Muñiz Huayanca, Percy Alonso        | Backend                                    |
 
       ## Report:
+
       <div align="center">
-          <img src="feature/chapter04/Team_Collaboration_Insights_during_Sprint_1.png" alt="Technician notifications">
+          <img src="https://i.imgur.com/JnLEci8.png">
+          </div>
+
+      <div align="center">
+          <img src="https://i.imgur.com/cabd8vi.png">
+          </div>
+
+      <div align="center">
+          <img src="https://i.imgur.com/oYhcXFF.png">
           </div>
 
       ## Landing Page:
+
       <div align="center">
-          <img src="feature/chapter04/Team_Collaboration_Insights_during_Sprint_2.png" alt="Technician notifications">
+          <img src="https://i.imgur.com/3Wf3qsl.png">
+          </div>
+
+      <div align="center">
+          <img src="https://i.imgur.com/tXwNX4x.png">
+          </div>
+
+      <div align="center">
+          <img src="https://i.imgur.com/sVE6dqN.png">
           </div>
       
       ## Mobile Application:
+
       <div align="center">
-          <img src="feature/chapter04/Team_Collaboration_Insights_during_Sprint_3.png" alt="Technician notifications">
+          <img src="https://i.imgur.com/ePu6gMc.png">
           </div>
-    
+
+      <div align="center">
+          <img src="https://i.imgur.com/bHigClA.png">
+          </div>
+
+      <div align="center">
+          <img src="https://i.imgur.com/BgP5Wvp.png">
+          </div>
+
 ## **Conclusiones**
   En este primer entregable, el equipo de Thedraws ha logrado cumplir con los objetivos planteados, elaborando un informe detallado que refleja los avances del proyecto. Gracias a un enfoque cuidadoso y bien organizado, se ha conseguido comunicar de manera efectiva los beneficios de la app “Alguien dijo Chamba” a los usuarios, estableciendo una base sólida para las etapas futuras del proyecto. Este primer paso garantiza que la estructura y visión de Thedraws se transmitan con claridad, facilitando la transición hacia fases más complejas del desarrollo.
 ## **Bibliografía**
