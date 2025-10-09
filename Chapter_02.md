@@ -1738,289 +1738,914 @@
 
 
 
+
+
+
+
       ### Technical Stories
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS01     | Developer | Alta     | EP01  |
 
-      ---
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS01</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API de Registro de Usuario</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que gestione el registro de nuevos usuarios para que puedan registrarse en la plataforma.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /register → 201 (Created) con usuario registrado.</li>
+              <li><strong>Escenario 2:</strong> POST /register con datos inválidos → 400 con mensaje de error.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
 
-      | Title   | Crear API de Registro de Usuario |
-      |---------|----------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que gestione el registro de nuevos usuarios para que puedan registrarse en la plataforma. |
 
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que soy un nuevo usuario, cuando hago una solicitud POST a la API `/register`, entonces recibo una respuesta 201 (Created) con el usuario registrado. |
-      | **Escenario 2:** Dado que ingreso datos inválidos, cuando intento registrarme, entonces la respuesta debe ser un error 400 con un mensaje adecuado. |
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS02</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Editar Perfil de Usuario</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita editar los datos del perfil del usuario para mantener su información actualizada.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> PUT /profile/{userId} → datos actualizados correctamente.</li>
+              <li><strong>Escenario 2:</strong> PUT /profile/{userId} con datos inválidos → 400 con mensaje de validación.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
 
-      ---
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS03</td>
+          <td>Developer</td>
+          <td>Media</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API de Recuperación de Cuenta</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los usuarios recuperar su cuenta cuando olviden su contraseña.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /recover-password → envío de correo con enlace de restablecimiento.</li>
+              <li><strong>Escenario 2:</strong> POST /recover-password con correo inexistente → 404 con mensaje adecuado.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
 
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS02     | Developer | Alta     | EP01  |
 
-      ---
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS04</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API de Búsqueda de Técnicos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los clientes buscar técnicos según especialidad, ubicación y reputación.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> GET /search-technicians con filtros → devuelve lista de técnicos.</li>
+              <li><strong>Escenario 2:</strong> GET /search-technicians sin resultados → array vacío, status 200.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS05</td>
+          <td>Developer</td>
+          <td>Media</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Contactar a Técnicos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los clientes contactar a los técnicos directamente desde sus perfiles.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /contact-technician → 201 con confirmación de envío.</li>
+              <li><strong>Escenario 2:</strong> POST /contact-technician con mensaje vacío → 400 con mensaje de error.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS06</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API de Filtrado Avanzado de Técnicos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita filtrar técnicos por múltiples criterios y ordenar por reputación o cercanía.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> GET /search-technicians con filtros múltiples → devuelve lista ordenada.</li>
+              <li><strong>Escenario 2:</strong> GET /search-technicians sin coincidencias → array vacío, status 200.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS07</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP03</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Gestión de Servicios</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los técnicos gestionar sus servicios, tarifas y disponibilidad.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /services → guarda servicio en DB.</li>
+              <li><strong>Escenario 2:</strong> PUT /services/{serviceId} → actualiza disponibilidad correctamente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
 
-      | Title   | Crear API para Editar Perfil de Usuario |
-      |---------|-----------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita editar los datos del perfil del usuario para mantener su información actualizada. |
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS08</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP03</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API de Notificaciones de Solicitudes</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los técnicos recibir notificaciones de nuevas solicitudes de trabajo.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /request-service → notificación en tiempo real al técnico.</li>
+              <li><strong>Escenario 2:</strong> Técnico desconectado → notificación sincronizada al reconectarse.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS09</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Gestión de Solicitudes</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los clientes gestionar las solicitudes de servicio y a los técnicos confirmar sus trabajos.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /create-request → guarda solicitud en DB.</li>
+              <li><strong>Escenario 2:</strong> PUT /confirm-request/{requestId} → marca solicitud como confirmada.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS10</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Realizar Pagos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los clientes realizar pagos de manera segura y a los técnicos recibir pagos instantáneos.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /payment → pago procesado y respuesta 200.</li>
+              <li><strong>Escenario 2:</strong> POST /payment con error → 402 con mensaje adecuado.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS11</td>
+          <td>Developer</td>
+          <td>Media</td>
+          <td>EP06</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Calificaciones y Reseñas</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los clientes calificar y dejar reseñas sobre los técnicos.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /rate-technician → calificación registrada.</li>
+              <li><strong>Escenario 2:</strong> POST /review-technician → reseña guardada y visible.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS12</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP04</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Gamificación y Niveles</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que gestione los niveles de gamificación de los usuarios (Bronce, Plata, Oro) basados en su actividad.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /gamify/{userId} → asigna nivel correspondiente.</li>
+              <li><strong>Escenario 2:</strong> Usuario no cumple requisitos → 400 con mensaje indicando insuficiencia.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS13</td>
+          <td>Developer</td>
+          <td>Media</td>
+          <td>EP04</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Notificación de Logros</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero notificar automáticamente al usuario cuando alcanza logros o sube de nivel.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Usuario alcanza logro → recibe notificación y recompensa aplicada.</li>
+              <li><strong>Escenario 2:</strong> Usuario sube de nivel → desbloqueo de beneficios y notificaciones.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS14</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP06</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Reclamos y Tickets</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero que los clientes puedan abrir reclamos y generar tickets de soporte.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /ticket → crea ticket con descripción y evidencias.</li>
+              <li><strong>Escenario 2:</strong> Ticket enviado → devuelve número de ticket y tiempo estimado de respuesta.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
 
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que tengo un perfil existente, cuando hago una solicitud PUT a la API `/profile/{userId}`, entonces los datos deben ser actualizados correctamente en la base de datos. |
-      | **Escenario 2:** Dado que los datos de entrada son incorrectos, cuando intento actualizar el perfil, entonces la respuesta debe ser un error 400 con un mensaje de validación. |
 
-      ---
 
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS03     | Developer | Media    | EP01  |
 
-      ---
 
-      | Title   | Crear API de Recuperación de Cuenta |
-      |---------|-------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los usuarios recuperar su cuenta cuando olviden su contraseña. |
 
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que he olvidado mi contraseña, cuando hago una solicitud POST a la API `/recover-password`, entonces recibo un correo con un enlace para restablecer mi contraseña. |
-      | **Escenario 2:** Dado que ingreso una dirección de correo incorrecta, cuando intento recuperar mi contraseña, entonces la respuesta debe ser un error 404 con un mensaje adecuado. |
 
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS04     | Developer | Alta     | EP02  |
-
-      ---
-
-      | Title   | Crear API de Búsqueda de Profesionales |
-      |---------|----------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes buscar profesionales según especialidad, ubicación y reputación. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que aplico filtros de especialidad y ubicación, cuando hago una solicitud GET a la API `/search-professionals`, entonces obtengo una lista de profesionales que cumplen con los filtros. |
-      | **Escenario 2:** Dado que no hay resultados para mi búsqueda, cuando hago la solicitud, entonces la respuesta debe ser un array vacío con el código de estado 200. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS05     | Developer | Media    | EP02  |
-
-      ---
-
-      | Title   | Crear API para Contactar al Profesional |
-      |---------|-----------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes contactar a los profesionales directamente desde sus perfiles. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero contactar a un profesional, cuando hago una solicitud POST a la API `/contact-professional`, entonces recibo una respuesta 201 (Created) indicando que el mensaje ha sido enviado correctamente. |
-      | **Escenario 2:** Dado que ingreso un mensaje vacío, cuando intento enviar el mensaje, entonces la respuesta debe ser un error 400 con un mensaje de error. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS06     | Developer | Alta     | EP03  |
-
-      ---
-
-      | Title   | Crear API para Gestión de Servicios |
-      |---------|-------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los profesionales gestionar sus servicios, tarifas y disponibilidad. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero añadir un nuevo servicio, cuando hago una solicitud POST a la API `/services`, entonces mi servicio se guarda correctamente en la base de datos. |
-      | **Escenario 2:** Dado que quiero actualizar la disponibilidad, cuando hago una solicitud PUT a la API `/services/{serviceId}`, entonces la disponibilidad del servicio se actualiza correctamente. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS07     | Developer | Alta     | EP03  |
-
-      ---
-
-      | Title   | Crear API de Notificaciones de Solicitudes |
-      |---------|-------------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los profesionales recibir notificaciones de nuevas solicitudes de trabajo. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que hay una nueva solicitud, cuando el cliente hace una solicitud POST a la API `/request-service`, entonces el profesional recibe una notificación en tiempo real. |
-      | **Escenario 2:** Dado que el profesional está desconectado, cuando vuelve a conectarse, entonces la notificación debe ser sincronizada correctamente. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS08     | Developer | Alta     | EP04  |
-
-      ---
-
-      | Title   | Crear API para Gamificación y Niveles |
-      |---------|---------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que gestione los niveles de gamificación de los usuarios (Bronce, Plata, Oro) basados en su actividad. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que un usuario ha completado ciertas acciones, cuando hago una solicitud POST a la API `/gamify/{userId}`, entonces el sistema debe asignar un nivel correspondiente (Bronce, Plata o Oro). |
-      | **Escenario 2:** Dado que el usuario no ha completado suficientes acciones, cuando intento asignar un nivel, entonces la respuesta debe ser un error 400 con un mensaje indicando que no se alcanzaron los requisitos. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS09     | Developer | Alta     | EP05  |
-
-      ---
-
-      | Title   | Crear API para Gestión de Solicitudes |
-      |---------|--------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes gestionar las solicitudes de servicio y a los profesionales confirmar sus trabajos. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que un cliente envía una solicitud, cuando hago una solicitud POST a la API `/create-request`, entonces el sistema guarda la solicitud en la base de datos. |
-      | **Escenario 2:** Dado que un profesional confirma una solicitud, cuando hace una solicitud PUT a la API `/confirm-request/{requestId}`, entonces la solicitud se marca como confirmada. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS10     | Developer | Alta     | EP05  |
-
-      ---
-
-      | Title   | Crear API para Realizar Pagos |
-      |---------|-------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes realizar pagos de manera segura y a los profesionales recibir pagos instantáneos. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que un cliente realiza un pago, cuando hace una solicitud POST a la API `/payment`, entonces el pago se procesa correctamente y el cliente recibe una respuesta 200. |
-      | **Escenario 2:** Dado que el pago falla, cuando intento procesarlo, entonces la respuesta debe ser un error 402 con un mensaje adecuado. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS11     | Developer | Media    | EP06  |
-
-      ---
-
-      | Title   | Crear API para Calificaciones y Reseñas |
-      |---------|-----------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes calificar y dejar reseñas sobre los profesionales. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que un cliente califica a un profesional, cuando hago una solicitud POST a la API `/rate-professional`, entonces la calificación se guarda correctamente. |
-      | **Escenario 2:** Dado que un cliente deja una reseña, cuando hago una solicitud POST a la API `/review-professional`, entonces la reseña se guarda y es visible en el perfil del profesional. |
 
       ### Spike Story
 
-       **Spike Story 1:**
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-01</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Registro de Usuarios y Autenticación</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            La aplicación móvil Android Studio y backend .NET 9 requieren un sistema de registro seguro y escalable para clientes y técnicos. Se investigarán patrones de autenticación, hashing de contraseñas, validaciones y sincronización móvil-backend.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, quiero investigar y prototipar la creación y validación de usuarios para identificar riesgos, compatibilidad y esfuerzo técnico antes de implementar la funcionalidad completa.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Given</strong> la necesidad de registrar usuarios, <strong>When</strong> se evalúan librerías de autenticación en Android y .NET 9, <strong>Then</strong> se documenta la opción más segura y escalable.</li>
+              <li><strong>Given</strong> la aplicación móvil, <strong>When</strong> se prototipa la creación de usuarios con validación de campos y hashing de contraseña, <strong>Then</strong> el prototipo funciona correctamente y se documenta.</li>
+              <li><strong>Given</strong> el backend .NET 9, <strong>When</strong> se implementa un endpoint de prueba para registrar usuarios, <strong>Then</strong> se registran correctamente los datos y se retornan códigos de estado adecuados.</li>
+              <li>Se documentan riesgos de seguridad y mitigaciones.</li>
+              <li>Se estima esfuerzo de implementación completa.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-02</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Búsqueda y Contacto de Técnicos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Se requiere investigar y prototipar APIs de búsqueda por especialidad, ubicación y reputación y mensajería directa para Android y .NET 9, considerando rendimiento, filtros y notificaciones push.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, queremos explorar cómo realizar búsquedas eficientes y contactabilidad segura de técnicos, para identificar riesgos y compatibilidad antes de desarrollar.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li>Prototipar búsqueda filtrada en backend .NET 9 con criterios de especialidad y ubicación.</li>
+              <li>Prototipo móvil Android para visualizar resultados de búsqueda y enviar mensajes.</li>
+              <li>Evaluar rendimiento de filtros y latencia de mensajes.</li>
+              <li>Documentar riesgos de concurrencia y seguridad.</li>
+              <li>Prototipo funcional mínimo y estimación de esfuerzo de desarrollo.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-03</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP03</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Gestión de Servicios y Disponibilidad de Técnicos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Se investigará cómo manejar la creación, edición y disponibilidad de servicios de los técnicos, sincronización entre móvil y backend .NET 9, y almacenamiento seguro de datos.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, queremos prototipar la gestión de servicios y disponibilidad para evaluar riesgos técnicos y estimar esfuerzo antes de implementar.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li>Prototipo backend .NET 9 para crear/editar servicios y disponibilidad.</li>
+              <li>Prototipo móvil Android para reflejar cambios en tiempo real.</li>
+              <li>Evaluar sincronización y posibles conflictos de datos.</li>
+              <li>Documentar riesgos de seguridad y escalabilidad.</li>
+              <li>Estimación de esfuerzo y prototipo funcional mínimo.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-04</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Gestión de Solicitudes y Pagos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Se investigará cómo gestionar solicitudes de servicios, confirmaciones de trabajos, pagos seguros y notificaciones en Android Studio y backend .NET 9, incluyendo flujos de aceptación, rechazo y liberación automática de pagos.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, queremos prototipar la gestión de solicitudes y pagos para identificar riesgos técnicos, validar la integración móvil-backend y estimar esfuerzo antes de implementar la funcionalidad completa.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li>Prototipo backend .NET 9 para crear, actualizar y confirmar solicitudes.</li>
+              <li>Prototipo Android para enviar solicitudes, recibir notificaciones y visualizar estado en tiempo real.</li>
+              <li>Prototipo de flujo de pagos seguro usando librerías .NET 9, incluyendo liberación automática tras confirmación.</li>
+              <li>Documentar riesgos de seguridad, manejo de errores y sincronización de estados.</li>
+              <li>Estimar esfuerzo de desarrollo completo y entregar un prototipo funcional mínimo.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-05</td>
+          <td>Developer</td>
+          <td>Media</td>
+          <td>EP04</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Gamificación y Niveles de Usuario</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Se investigará cómo implementar niveles de gamificación (Bronce, Plata, Oro) en la app Android y backend .NET 9, incluyendo criterios de progresión, recompensas automáticas y notificaciones de logros.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, queremos prototipar niveles y recompensas para usuarios, evaluar riesgos técnicos y confirmar compatibilidad móvil-backend antes de desarrollar la funcionalidad completa.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li>Prototipo backend .NET 9 para almacenar y calcular niveles de usuario según actividad.</li>
+              <li>Prototipo Android que muestre niveles, progreso y recompensas en la interfaz de usuario.</li>
+              <li>Evaluar sincronización en tiempo real entre móvil y backend.</li>
+              <li>Documentar riesgos de escalabilidad y seguridad de los datos de usuario.</li>
+              <li>Entregar un prototipo funcional mínimo con estimación de esfuerzo para la implementación completa.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-06</td>
+          <td>Developer</td>
+          <td>Media</td>
+          <td>EP06</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Calificaciones y Reseñas de Técnicos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Se investigará cómo almacenar y mostrar calificaciones y reseñas de técnicos, considerando seguridad de datos, escalabilidad, filtros y compatibilidad entre Android Studio y .NET 9.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, queremos prototipar la funcionalidad de calificaciones y reseñas para evaluar riesgos y definir el flujo técnico antes de desarrollar.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li>Prototipo backend .NET 9 para almacenar calificaciones y reseñas, con endpoints seguros.</li>
+              <li>Prototipo Android para enviar y visualizar reseñas filtradas.</li>
+              <li>Documentar riesgos de integridad de datos y rendimiento.</li>
+              <li>Prototipo funcional mínimo y estimación de esfuerzo completo.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-07</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Notificaciones de Nueva Solicitud</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Se investigará cómo enviar notificaciones push y alertas en Android Studio cuando un cliente crea una nueva solicitud, asegurando compatibilidad con backend .NET 9, rendimiento y escalabilidad.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, queremos prototipar notificaciones de nuevas solicitudes para identificar riesgos, compatibilidad y estimar esfuerzo antes de implementar la funcionalidad completa.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li>Prototipo backend .NET 9 para enviar eventos de nueva solicitud a dispositivos Android.</li>
+              <li>Prototipo Android que reciba y muestre notificaciones en tiempo real.</li>
+              <li>Documentar riesgos de latencia, escalabilidad y seguridad.</li>
+              <li>Prototipo funcional mínimo con estimación de esfuerzo de desarrollo completo.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
 
-      | Story ID | User      | Priority | Epic |
-      | -------- | --------- | -------- | ---- |
-      | SP-01    | Developer | Alta     | EP01 |
-
-      **Title**: Investigar API para el Registro de Nuevo Usuario
-
-      **Description**:
-      Como desarrollador, quiero investigar las mejores prácticas y bibliotecas para gestionar el registro de nuevos usuarios en la plataforma.
-
-      **Acceptance Criteria**:
-
-      * **Dado** que se investiga sobre las API más seguras y eficientes para el registro,
-      * **Cuando** se evalúan las opciones disponibles,
-      * **Entonces** se presenta una recomendación sobre la API a utilizar y un prototipo funcional básico.
-
-      ---
-
-       **Spike Story 2:**
-
-      | Story ID | User      | Priority | Epic |
-      | -------- | --------- | -------- | ---- |
-      | SP-02    | Developer | Alta     | EP02 |
-
-      **Title**: Investigar API para Búsqueda de Profesionales
-
-      **Description**:
-      Como desarrollador, quiero investigar las mejores opciones para implementar la funcionalidad de búsqueda de profesionales por especialidad, ubicación y reputación.
-
-      **Acceptance Criteria**:
-
-      * **Dado** que se investigan APIs que permitan búsqueda avanzada,
-      * **Cuando** se comparan las opciones en términos de velocidad y facilidad de integración,
-      * **Entonces** se presenta una recomendación sobre la API a utilizar y un prototipo funcional básico.
-
-      ---
-
-       **Spike Story 3:**
-
-      | Story ID | User      | Priority | Epic |
-      | -------- | --------- | -------- | ---- |
-      | SP-03    | Developer | Media    | EP03 |
-
-      **Title**: Investigar API para la Gestión de Servicios
-
-      **Description**:
-      Como desarrollador, quiero investigar las opciones de API para gestionar los servicios, tarifas y disponibilidad de los profesionales técnicos.
-
-      **Acceptance Criteria**:
-
-      * **Dado** que se exploran diferentes APIs para la gestión de servicios,
-      * **Cuando** se evalúan criterios de flexibilidad y escalabilidad,
-      * **Entonces** se presenta una recomendación con un prototipo funcional.
-
-      ---
-
-       **Spike Story 4:**
-
-      | Story ID | User      | Priority | Epic |
-      | -------- | --------- | -------- | ---- |
-      | SP-04    | Developer | Alta     | EP05 |
-
-      **Title**: Investigar API para Gestión de Solicitudes
-
-      **Description**:
-      Como desarrollador, quiero investigar las opciones para implementar la gestión de solicitudes de servicio, y cómo facilitar la confirmación de trabajos a los profesionales.
-
-      **Acceptance Criteria**:
-
-      * **Dado** que se evalúan las APIs que permiten gestionar solicitudes,
-      * **Cuando** se comparan diferentes proveedores y sus características,
-      * **Entonces** se presenta una solución adecuada con un prototipo funcional.
-
-      ---
-
-       **Spike Story 5:**
-
-      | Story ID | User      | Priority | Epic |
-      | -------- | --------- | -------- | ---- |
-      | SP-05    | Developer | Alta     | EP06 |
-
-      **Title**: Investigar API para Calificaciones y Reseñas
-
-      **Description**:
-      Como desarrollador, quiero investigar las opciones para integrar un sistema de calificación y reseñas dentro de la plataforma.
-
-      **Acceptance Criteria**:
-
-      * **Dado** que se revisan las APIs de calificación y reseñas,
-      * **Cuando** se evalúan opciones por seguridad y facilidad de integración,
-      * **Entonces** se presenta una recomendación con un prototipo funcional básico.
 
 
-
+     
 
     - **2.4.2. Impact Mapping**
 
@@ -2741,6 +3366,7 @@
   | event\_type      | Tipo de evento (REGISTERED, SIGNED\_IN, FAILED\_LOGIN).                    |
   | event\_timestamp | Fecha y hora en que ocurrió el evento.                                     |
   | details          | Detalles adicionales del evento (ej. IP, descripción del error, etc.).     |
+
 
 
 
