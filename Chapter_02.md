@@ -317,23 +317,14 @@
         #### Fernando Silva
         ---    
           
-        ![Empaty Mapping Segmento 1](./feature/chapter02/as_is_1.jpeg)
+        ![Empaty Mapping Segmento 1](./feature/chapter02/Empaty_Mapping_Segmento_1.png)
 
         **Segmento Objetivo 2: Clientes**
 
         #### Christian Martinez
         --- 
         
-        ![Empaty Mapping Segmento 2](./feature/chapter02/as_is_2.jpeg)
-    - **2.3.5. As-is Scenario Mapping**
-        
-        **Segmento Objetivo 1: Profesionales Tecnicos**
-
-        ![Mapping Segmento 1](./feature/chapter02/Mapping_Segmento_1.jpg)
-
-        **Segmento Objetivo 2: Clientes**
-        
-        ![Mapping Segmento 2](./feature/chapter02/Mapping_Segmento_2.jpg)
+        ![Empaty Mapping Segmento 2](./feature/chapter02/Empaty_Mapping_Segmento_2.png)
   - **2.4. Ubiquitous Language**<br>
 
     | Término en Inglés (Español) | Definición |
@@ -341,7 +332,7 @@
     | **Account (Cuenta)** | Identidad digital de un usuario dentro de la plataforma. Incluye credenciales de acceso y estado de la cuenta. |
     | **User (Usuario)** | Entidad básica que representa a una persona registrada en la plataforma. Contiene información personal esencial. |
     | **Customer (Cliente)** | Usuario que solicita servicios técnicos o profesionales a través de la plataforma. |
-    | **Worker (Trabajador Técnico)** | Profesional que ofrece servicios en la plataforma. Posee experiencia validada, habilidades técnicas y certificaciones. |
+    | **Technician (Trabajador Técnico)** | Profesional que ofrece servicios en la plataforma. Posee experiencia validada, habilidades técnicas ycertificaciones. |
     | **Experience (Experiencia)** | Historial laboral de un trabajador técnico que respalda su trayectoria en distintos roles o empresas. |
     | **Review (Reseña)** | Calificación y comentario que un usuario emite sobre un servicio recibido o prestado. |
     | **Proposal (Propuesta)** | Oferta formal presentada por un trabajador técnico a un cliente. Contiene la descripción del trabajo, precio y tiempo estimado. |
@@ -353,13 +344,30 @@
     | **Level (Nivel)** | Categoría alcanzada dentro del sistema de gamificación (ej. Bronce, Plata, Oro) que refleja la participación, reputación y logros de un usuario en la plataforma. |
     | **Reward (Recompensa)** | Beneficio tangible o intangible otorgado a clientes o técnicos como resultado de su participación y logros en la plataforma. |
 
+      | Término en Inglés (Español) | Definición |
+      |-----------------------------|------------|
+      | **Account (Cuenta)** | Identidad digital de un usuario dentro de la plataforma. Incluye credenciales de acceso y estado de la cuenta. |
+      | **User (Usuario)** | Entidad básica que representa a una persona registrada en la plataforma. Contiene información personal esencial. |
+      | **Customer (Cliente)** | Usuario que solicita servicios técnicos o profesionales a través de la plataforma. |
+      | **Technician (Trabajador Técnico)** | Profesional que ofrece servicios en la plataforma. Posee experiencia validada, habilidades técnicas y certificaciones. |
+      | **Experience (Experiencia)** | Historial laboral de un trabajador técnico que respalda su trayectoria en distintos roles o empresas. |
+      | **Review (Reseña)** | Calificación y comentario que un usuario emite sobre un servicio recibido o prestado. |
+      | **Proposal (Propuesta)** | Oferta formal presentada por un trabajador técnico a un cliente. Contiene la descripción del trabajo, precio y tiempo estimado. |
+      | **Sales Order Payment (Orden de Pago)** | Registro financiero de la transacción entre cliente y trabajador por los servicios acordados. |
+      | **Hourly Rate (Tarifa por Hora)** | Monto que un trabajador técnico define como su costo por hora de servicio. |
+      | **Field (Campo de Especialidad)** | Área técnica específica en la que un trabajador se desempeña profesionalmente. |
+      | **Skills (Habilidades)** | Conjunto de competencias técnicas y conocimientos que posee un trabajador. |
+      | **Gamification (Gamificación)** | Sistema de incentivos basado en puntos, niveles (Bronce, Plata, Oro) y recompensas, diseñado para motivar la participación activa y la fidelización de clientes y técnicos. |
+      | **Level (Nivel)** | Categoría alcanzada dentro del sistema de gamificación (ej. Bronce, Plata, Oro) que refleja la participación, reputación y logros de un usuario en la plataforma. |
+      | **Reward (Recompensa)** | Beneficio tangible o intangible otorgado a clientes o técnicos como resultado de su participación y logros en la plataforma. |
 
+  - **2.4. Requirements specification**
     - **2.4.1. User Stories**
       ### Epic Story
       | Epic ID | Título |
       |--------|--------|
       | **EP01** | **Registro y Gestión de Perfil de Usuario** |
-      | | Como usuario (cliente o técnico) de Alguien Dijo Chamba, quiero crear, visualizar, editar y gestionar mi perfil para tener mis datos actualizados y poder utilizar la plataforma correctamente. |
+      | | Como usuario (cliente o técnico), quiero crear, visualizar, editar y gestionar mi perfil para tener mis datos actualizados y poder utilizar la plataforma correctamente. |
 
       | Epic ID | Título |
       |--------|--------|
@@ -385,812 +393,2259 @@
       |--------|--------|
       | **EP06** | **Sistema de Calificaciones y Reseñas** |
       | | Como cliente, quiero calificar y dejar reseñas sobre los servicios o profesionales, y ver las calificaciones y reseñas de otros para tomar decisiones informadas. |
+      | Epic ID | Título |
+      |----------|---------|
+      | **EP07** | **Landing Page y Experiencia del Visitante** |
+      |  | Como visitante, quiero acceder a una landing page informativa y atractiva que me permita conocer los servicios, productos, niveles, testimonios y contactar fácilmente con FixNow. |
+
     
       ### User Stories
+          
 
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US01     | Cliente | Alta     | EP01  |
 
+
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US01</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Registro de Nuevo Usuario</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que soy un usuario nuevo, cuando ingreso correo válido y contraseña segura, entonces mi cuenta se crea exitosamente.</li>
+              <li><strong>Escenario 2:</strong> Dado que ingreso datos inválidos, cuando intento registrarme, entonces la app muestra un mensaje de error indicando qué debo corregir.</li>
+              <li><strong>Escenario 3:</strong> Dado que ya tengo una cuenta, cuando intento registrarme con el mismo correo, entonces la app indica que el correo ya está en uso.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US02</td>
+          <td>Profesional Técnico</td>
+          <td>Alta</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Registro de Nuevo Profesional</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como nuevo profesional técnico, quiero registrarme detallando mis especialidades, experiencia y contacto para ofrecer mis servicios.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que completo todos los campos requeridos, cuando envío la información, entonces mi perfil se crea correctamente.</li>
+              <li><strong>Escenario 2:</strong> Dado que omito campos obligatorios, cuando intento registrar el perfil, entonces la app indica qué información falta.</li>
+              <li><strong>Escenario 3:</strong> Dado que ingreso datos incorrectos, cuando envío el registro, entonces la app muestra error indicando el formato correcto.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US03</td>
+          <td>Usuario</td>
+          <td>Media</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Recuperación de Cuenta/Login</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como usuario, quiero recuperar mi cuenta o iniciar sesión mediante diferentes métodos para acceder fácilmente a la plataforma.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que olvidé mi contraseña, cuando solicito restablecerla, entonces recibo un correo con enlace para crear nueva contraseña.</li>
+              <li><strong>Escenario 2:</strong> Dado que quiero acceder rápidamente, cuando uso inicio de sesión con Google, entonces me autentico sin necesidad de recordar contraseña.</li>
+              <li><strong>Escenario 3:</strong> Dado que ingreso credenciales incorrectas, cuando intento iniciar sesión, entonces la app muestra mensaje de error específico.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US04</td>
+          <td>Usuario Registrado</td>
+          <td>Media</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Editar Perfil de Usuario</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como usuario registrado, quiero poder editar la información de mi perfil para mantenerla actualizada.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero actualizar mis datos, cuando modifico y guardo la información, entonces la app actualiza correctamente mi perfil.</li>
+              <li><strong>Escenario 2:</strong> Dado que ingreso un número con formato incorrecto, cuando intento guardar, entonces la app muestra un mensaje de error.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
       ---
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US05</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Ver Perfil Detallado del Profesional</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero ver el perfil completo de un profesional con toda su información relevante.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero evaluar un profesional, cuando ingreso a su perfil, entonces puedo ver experiencia, especialidades, calificaciones, tarifas y disponibilidad.</li>
+              <li><strong>Escenario 2:</strong> Dado que hay varios profesionales, cuando comparo perfiles, entonces puedo ver diferencias en tarifas, calificaciones y disponibilidad.</li>
+              <li><strong>Escenario 3:</strong> Dado que necesito información específica, cuando visualizo el perfil, entonces puedo ver reseñas detalladas de otros clientes.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US06</td>
+          <td>Cliente</td>
+          <td>Media</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Contactar al Profesional</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero contactar directamente a un profesional para coordinar un servicio.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero enviar un mensaje, cuando uso el perfil del profesional, entonces puedo enviarle un mensaje directo.</li>
+              <li><strong>Escenario 2:</strong> Dado que quiero solicitar cotización, cuando la pido desde su perfil, entonces el profesional recibe mi solicitud con todos los detalles.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US07</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Buscar Profesionales por Especialidad y Ubicación</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero buscar profesionales filtrando por tipo de servicio y ubicación para encontrar opciones adecuadas.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que busco un profesional, cuando aplico filtros de especialidad y ubicación, entonces la app muestra profesionales disponibles.</li>
+              <li><strong>Escenario 2:</strong> Dado que no hay profesionales en mi zona, cuando realizo la búsqueda, entonces la app muestra un mensaje "no se encontraron resultados".</li>
+              <li><strong>Escenario 3:</strong> Dado que quiero eficiencia, cuando uso filtros múltiples, entonces la app muestra resultados ordenados por reputación o cercanía.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US08</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Solicitar Servicio al Profesional</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero contactar a un profesional y solicitar un servicio desde su perfil.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero un servicio, cuando envío la solicitud desde el perfil del profesional, entonces puedo elegir fecha y hora, y el profesional recibe la solicitud.</li>
+              <li><strong>Escenario 2:</strong> Dado que hay conflictos de horario, cuando selecciono fecha y hora, entonces la app alerta si hay disponibilidad del profesional.</li>
+              <li><strong>Escenario 3:</strong> Dado que necesito agregar detalles, cuando incluyo información adicional, entonces el profesional recibe toda la información completa.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US09</td>
+          <td>Profesional Técnico</td>
+          <td>Alta</td>
+          <td>EP03</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear y Actualizar Servicios Ofrecidos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como técnico, quiero gestionar mi lista de servicios ofrecidos para mantenerla actualizada.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero añadir o modificar un servicio, cuando actualizo mi perfil, entonces la lista de servicios se refleja para los clientes.</li>
+              <li><strong>Escenario 2:</strong> Dado que quiero cambiar mis tarifas, cuando actualizo los precios, entonces los clientes ven las nuevas tarifas inmediatamente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US10</td>
+          <td>Profesional Técnico</td>
+          <td>Alta</td>
+          <td>EP03</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Gestionar Disponibilidad</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como técnico, quiero gestionar mi disponibilidad para solicitudes y poder indicar mis horarios de trabajo.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero definir horarios, cuando actualizo disponibilidad, entonces la app muestra mis horas disponibles en tiempo real.</li>
+              <li><strong>Escenario 2:</strong> Dado que tengo un imprevisto, cuando modifico mi disponibilidad, entonces las solicitudes futuras se ajustan automáticamente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US11</td>
+          <td>Profesional Técnico</td>
+          <td>Alta</td>
+          <td>EP03</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Recibir y Gestionar Solicitudes de Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como profesional, quiero recibir, aceptar o rechazar solicitudes de trabajo de los clientes para organizar mi agenda.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que recibo una solicitud, cuando la reviso, entonces puedo aceptarla o rechazarla con un comentario opcional.</li>
+              <li><strong>Escenario 2:</strong> Dado que acepto una solicitud, cuando confirmo el servicio, entonces el cliente recibe una notificación de aceptación.</li>
+              <li><strong>Escenario 3:</strong> Dado que rechazo una solicitud, cuando la rechazo, entonces el cliente recibe un mensaje explicando la razón.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US12</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Gestionar Solicitudes Enviadas</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero ver y gestionar las solicitudes de servicios que he enviado para hacer seguimiento al estado.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que tengo solicitudes activas, cuando ingreso a mi panel, entonces puedo ver su estado (pendiente, aceptada o rechazada).</li>
+              <li><strong>Escenario 2:</strong> Dado que quiero cancelar una solicitud, cuando aún no fue aceptada, entonces puedo eliminarla sin penalización.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US13</td>
+          <td>Profesional Técnico</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Confirmar Finalización del Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como técnico, quiero confirmar la finalización de un servicio para recibir el pago de forma automática.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que he completado un servicio, cuando lo marco como finalizado, entonces el sistema procesa el pago instantáneo.</li>
+              <li><strong>Escenario 2:</strong> Dado que el cliente no confirma el servicio, cuando pasan 24 horas, entonces el pago se libera automáticamente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US14</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Realizar Pago Seguro del Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero realizar el pago del servicio de forma segura dentro de la aplicación para garantizar protección en la transacción.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero pagar un servicio, cuando selecciono el método de pago, entonces la app procesa el pago de manera segura.</li>
+              <li><strong>Escenario 2:</strong> Dado que hubo un error, cuando el pago no se procesa, entonces se muestra un mensaje con opciones de reintento.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US15</td>
+          <td>Cliente</td>
+          <td>Media</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Ver Historial de Servicios Contratados</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero ver el historial de mis servicios pasados para consultar fechas, profesionales y montos pagados.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que quiero revisar mi historial, cuando ingreso al apartado de servicios anteriores, entonces se muestran todos los servicios finalizados con detalles.</li>
+              <li><strong>Escenario 2:</strong> Dado que necesito comprobante, cuando selecciono un servicio específico, entonces puedo ver su recibo o factura.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US16</td>
+          <td>Usuario</td>
+          <td>Media</td>
+          <td>EP04</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Recibir Recompensas por Logros</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como usuario, quiero recibir recompensas cuando cumplo logros o subo de nivel para mantenerme motivado en la plataforma.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que completo un logro, cuando alcanzo el objetivo, entonces recibo una notificación y la recompensa se aplica automáticamente.</li>
+              <li><strong>Escenario 2:</strong> Dado que subo de nivel, cuando alcanzo un nuevo rango, entonces desbloqueo beneficios y recompensas exclusivas.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US17</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear Solicitud de Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero crear una solicitud de servicio detallada para que los profesionales puedan atender mi necesidad adecuadamente.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que necesito un servicio, cuando creo la solicitud, entonces puedo agregar una descripción, fecha y hora deseadas.</li>
+              <li><strong>Escenario 2:</strong> Dado que el profesional tiene horarios limitados, cuando selecciono una fecha no disponible, entonces la app alerta sobre la falta de disponibilidad.</li>
+              <li><strong>Escenario 3:</strong> Dado que quiero confirmar detalles, cuando envío la solicitud, entonces recibo un resumen de la información registrada.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US18</td>
+          <td>Cliente</td>
+          <td>Media</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Ver Estado de la Solicitud</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero ver el estado de mis solicitudes en tiempo real para saber si fueron aceptadas o completadas.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que tengo solicitudes activas, cuando ingreso a mis solicitudes, entonces puedo ver su estado actualizado (pendiente, en progreso, completada).</li>
+              <li><strong>Escenario 2:</strong> Dado que el estado cambia, cuando ocurre una actualización, entonces recibo una notificación automática del cambio.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US19</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Realizar Pago del Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero pagar los servicios de forma segura dentro de la aplicación para confirmar el trabajo realizado.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que el servicio fue completado, cuando realizo el pago, entonces la app confirma la transacción y emite un comprobante.</li>
+              <li><strong>Escenario 2:</strong> Dado que el pago falla, cuando ocurre un error, entonces la app muestra un mensaje indicando el motivo del fallo.</li>
+              <li><strong>Escenario 3:</strong> Dado que quiero seguridad, cuando realizo el pago, entonces la transacción se almacena en el historial de pagos.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US20</td>
+          <td>Cliente</td>
+          <td>Media</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Solicitar Reembolso o Disputa</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero solicitar un reembolso o iniciar una disputa si el servicio no fue satisfactorio.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que el servicio no cumplió con lo esperado, cuando solicito reembolso, entonces la plataforma inicia el proceso de revisión.</li>
+              <li><strong>Escenario 2:</strong> Dado que presento una disputa, cuando envío evidencias, entonces el soporte analiza mi caso dentro del tiempo establecido.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US21</td>
+          <td>—</td>
+          <td>—</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Confirmación de Contratación por Profesional</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como técnico, quiero aceptar o rechazar solicitudes y confirmar la finalización del trabajo para que el pago se libere automáticamente.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que recibo una solicitud, cuando la acepto o rechazo, entonces la app notifica al cliente de inmediato.</li>
+              <li><strong>Escenario 2:</strong> Dado que finalizo un trabajo, cuando confirmo la finalización, entonces el pago se libera instantáneamente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US22</td>
+          <td>Cliente</td>
+          <td>Media</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Cancelar Solicitud de Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero cancelar una solicitud antes de su ejecución para evitar cargos innecesarios y liberar al profesional.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que deseo cancelar, cuando lo hago desde la app, entonces la solicitud se elimina y el profesional es notificado.</li>
+              <li><strong>Escenario 2:</strong> Dado que cancelo dentro del tiempo permitido, cuando cumplo las políticas de cancelación, entonces recibo el reembolso correspondiente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US23</td>
+          <td>—</td>
+          <td>—</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Notificación de Nueva Solicitud de Servicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como técnico, quiero recibir notificaciones de nuevas solicitudes de servicio para atenderlas oportunamente.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que un cliente crea una nueva solicitud, cuando se envía, entonces recibo una notificación inmediata con los detalles del servicio.</li>
+              <li><strong>Escenario 2:</strong> Dado que la solicitud tiene prioridad alta, cuando llega, entonces recibo una alerta destacada indicando su urgencia.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US24</td>
+          <td>Cliente</td>
+          <td>Alta</td>
+          <td>EP06</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Abrir Reclamo o Ticket</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero abrir un reclamo si el servicio no fue satisfactorio para que la plataforma gestione una solución adecuada.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que el servicio no cumplió mis expectativas, cuando abro un reclamo, entonces puedo detallar el problema y adjuntar evidencias.</li>
+              <li><strong>Escenario 2:</strong> Dado que presento el reclamo, cuando lo envío, entonces recibo un número de ticket y un tiempo estimado de respuesta.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US25</td>
+          <td>Cliente</td>
+          <td>Media</td>
+          <td>EP06</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Calificar a un Profesional</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como cliente, quiero calificar a un profesional después del servicio para reflejar mi satisfacción y ayudar a otros usuarios a decidir.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que recibí un servicio, cuando doy una calificación y un comentario, entonces la información queda registrada en su perfil.</li>
+              <li><strong>Escenario 2:</strong> Dado que quiero ser objetivo, cuando califico, entonces puedo evaluar aspectos como puntualidad, calidad y profesionalismo, filtrando reseñas por fecha o tipo de servicio.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US26</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Sección de Inicio</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero visualizar una sección principal con el mensaje y propósito de FixNow para entender de inmediato el servicio que ofrece.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que ingreso al sitio, cuando la página carga, entonces debo ver un título principal, un texto descriptivo y un botón de descarga visible.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US27</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Sección de Servicios</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero ver las categorías de servicios disponibles (electricidad, gasfitería, pintura, carpintería, etc.) para identificar el que necesito.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que navego hacia la sección de servicios, entonces debo ver tarjetas o íconos con los nombres y descripciones de cada servicio.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US28</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Sección de Producto IoT</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero conocer el producto IoT de FixNow para entender cómo ayuda a detectar fallas o fugas en el hogar.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que llego a la sección de producto, entonces debo ver información sobre funciones, beneficios y un botón “Ver más”.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US29</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Sistema de Niveles de Usuario</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero visualizar los diferentes niveles de usuario (Bronce, Plata, Oro) y sus beneficios para entender las ventajas del sistema de gamificación.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que accedo a la sección de niveles, entonces debo ver los niveles con descripciones, beneficios y diferencias visuales claras.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US30</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Sección de Testimonios</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero leer testimonios de otros usuarios para confiar en la calidad de los servicios ofrecidos por FixNow.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que navego hacia la sección de testimonios, entonces debo ver reseñas con nombre, ubicación y calificación en estrellas.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US31</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Sección de Contacto</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero ver información de contacto (correo, teléfono, dirección) para comunicarme fácilmente con FixNow.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que estoy en la sección de contacto, entonces debo visualizar los datos válidos y legibles de FixNow.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US32</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Formulario de Contacto</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero poder enviar un formulario con mis datos para recibir más información o asistencia personalizada.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que estoy en la sección del formulario, cuando completo los campos y presiono “Enviar”, entonces debo recibir una confirmación o mensaje de error.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US33</td>
+          <td>Visitante</td>
+          <td>Media</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Botón de Descarga de la App</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero ver un botón visible para descargar la aplicación desde la landing page.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que estoy en la página principal, cuando visualizo la sección de descarga, entonces debe haber un botón que redirija a Google Play o App Store.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US34</td>
+          <td>Visitante</td>
+          <td>Media</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Footer Informativo</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero visualizar información adicional en el pie de página para acceder a redes sociales y derechos de autor.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que llego al final de la página, entonces debo ver información de copyright y enlaces a redes sociales.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>US35</td>
+          <td>Visitante</td>
+          <td>Alta</td>
+          <td>EP07</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Navegación General</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como visitante, quiero acceder a un menú principal para moverme fácilmente entre las secciones de la landing page.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Dado que estoy en la landing, cuando hago clic en “Servicios”, “Producto”, “Testimonios” o “Contacto”, entonces la vista se desplaza suavemente hacia la sección correspondiente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
 
-      | Title   | Registro de Nuevo Usuario |
-      |---------|--------------------------|
-      | ****Description**** | Como nuevo cliente, quiero registrarme en la plataforma para poder buscar y contratar profesionales. |
 
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que soy un usuario nuevo, cuando ingreso correo válido y contraseña segura, entonces mi cuenta se crea exitosamente. |
-      | **Escenario 2:** Dado que ingreso datos inválidos, cuando intento registrarme, entonces la app muestra un mensaje de error indicando qué debo corregir. |
-      | **Escenario 3:** Dado que ya tengo una cuenta, cuando intento registrarme con el mismo correo, entonces la app indica que el correo ya está en uso. |
 
-      **---**
 
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US02     | Profesional Técnico | Alta     | EP01  |
 
-      ---
-
-      | Title   | Registro de Nuevo Profesional |
-      |---------|------------------------------|
-      | **Description** | Como nuevo profesional técnico, quiero registrarme detallando mis especialidades, experiencia y contacto para ofrecer mis servicios. 
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que completo todos los campos requeridos, cuando envío la información, entonces mi perfil se crea correctamente. |
-      | **Escenario 2:** Dado que omito campos obligatorios, cuando intento registrar el perfil, entonces la app indica qué información falta. |
-      | **Escenario 3:** Dado que ingreso datos incorrectos, cuando envío el registro, entonces la app muestra error indicando el formato correcto. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US03     | Usuario | Media    | EP01  |
-
-      ---
-
-      | Title   | Recuperación de Cuenta/Login |
-      |---------|-----------------------------|
-      | **Description** | Como usuario, quiero recuperar mi cuenta o iniciar sesión mediante diferentes métodos. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que olvidé mi contraseña, cuando solicito restablecerla, entonces recibo un correo con enlace para crear nueva contraseña. |
-      | **Escenario 2:** Dado que quiero acceder rápidamente, cuando uso inicio de sesión con Google, entonces me autentico sin necesidad de recordar contraseña. |
-      | **Escenario 3:** Dado que ingreso credenciales incorrectas, cuando intento iniciar sesión, entonces la app muestra mensaje de error específico. |
-
-      **---**
-
-      | Story ID | User              | Priority | Epic  |
-      |----------|-------------------|----------|-------|
-      | US04     | Usuario Registrado| Media    | EP01  |
-
-      ---
-
-      | Title   | Editar Perfil de Usuario |
-      |---------|-------------------------|
-      | **Description** | Como usuario registrado, quiero poder editar la información de mi perfil para mantenerla actualizada. |
-
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero actualizar mis datos, cuando modifico y guardo la información, entonces la app actualiza correctamente mi perfil. |
-      | **Escenario 2:** Dado que ingreso un número con formato incorrecto, cuando intento guardar, entonces la app muestra un mensaje de error. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US05     | Cliente | Alta     | EP02  |
-
-      ---
-
-      | Title   | Ver Perfil Detallado del Profesional |
-      |---------|--------------------------------------|
-      | **Description** | Como cliente, quiero ver el perfil completo de un profesional con toda su información relevante. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero evaluar un profesional, cuando ingreso a su perfil, entonces puedo ver experiencia, especialidades, calificaciones, tarifas y disponibilidad. |
-      | **Escenario 2:** Dado que hay varios profesionales, cuando comparo perfiles, entonces puedo ver diferencias en tarifas, calificaciones y disponibilidad. |
-      | **Escenario 3:** Dado que necesito información específica, cuando visualizo el perfil, entonces puedo ver reseñas detalladas de otros clientes. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US06     | Cliente | Media    | EP02  |
-
-      ---
-
-      | Title   | Contactar al Profesional |
-      |---------|-------------------------|
-      | **Description** | Como cliente, quiero contactar directamente a un profesional para coordinar un servicio. |
-
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero enviar un mensaje, cuando uso el perfil del profesional, entonces puedo enviarle un mensaje directo. |
-      | **Escenario 2:** Dado que quiero solicitar cotización, cuando la pido desde su perfil, entonces el profesional recibe mi solicitud con todos los detalles. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US07     | Cliente | Alta     | EP02  |
-
-      ---
-
-      | Title   | Buscar Profesionales por Especialidad y Ubicación |
-      |---------|--------------------------------------------------|
-      | **Description** | Como cliente, quiero buscar profesionales filtrando por tipo de servicio y ubicación. |
-
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que busco un profesional, cuando aplico filtros de especialidad y ubicación, entonces la app muestra profesionales disponibles. |
-      | **Escenario 2:** Dado que no hay profesionales en mi zona, cuando realizo la búsqueda, entonces la app muestra un mensaje "no se encontraron resultados". |
-      | **Escenario 3:** Dado que quiero eficiencia, cuando uso filtros múltiples, entonces la app muestra resultados ordenados por reputación o cercanía. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US08     | Cliente | Alta     | EP02  |
-
-      ---
-
-      | Title   | Solicitar Servicio al Profesional |
-      |---------|-----------------------------------|
-      | **Description** | Como cliente, quiero contactar a un profesional y solicitar un servicio. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero un servicio, cuando envío la solicitud desde el perfil del profesional, entonces puedo elegir fecha y hora y el profesional recibe la solicitud. |
-      | **Escenario 2:** Dado que hay conflictos de horario, cuando selecciono fecha y hora, entonces la app alerta si hay disponibilidad del profesional. |
-      | **Escenario 3:** Dado que necesito agregar detalles, cuando adjunto fotos o descripción adicional, entonces el profesional recibe toda la información completa. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US09     | Profesional Técnico | Alta     | EP03  |
-
-      ---
-
-      | Title   | Crear y Actualizar Servicios Ofrecidos |
-      |---------|----------------------------------------|
-      | **Description** | Como técnico, quiero gestionar mi lista de servicios ofrecidos. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero añadir o modificar un servicio, cuando actualizo mi perfil, entonces la lista de servicios se refleja para los clientes. |
-      | **Escenario 2:** Dado que quiero cambiar mis tarifas, cuando actualizo los precios, entonces los clientes ven las nuevas tarifas inmediatamente. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US10     | Profesional Técnico | Alta     | EP03  |
-
-      ---
-
-      | Title   | Gestionar Disponibilidad |
-      |---------|-------------------------|
-      | **Description** | Como técnico, quiero gestionar mi disponibilidad para solicitudes. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero definir horarios, cuando actualizo disponibilidad, entonces la app muestra mis horas disponibles en tiempo real. |
-      | **Escenario 2:** Dado que tengo un imprevisto, cuando modifico mi disponibilidad, entonces las solicitudes futuras se ajustan automáticamente. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US11     | Profesional Técnico | Alta     | EP03  |
-
-      ---
-
-      | Title   | Recibir Notificaciones de Solicitudes |
-      |---------|--------------------------------------|
-      | **Description** | Como técnico, quiero recibir notificaciones instantáneas sobre nuevas solicitudes. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que hay una nueva solicitud, cuando el cliente la envía, entonces recibo notificación con detalles de servicio y ubicación. |
-      | **Escenario 2:** Dado que estoy fuera de línea, cuando la app sincroniza al conectarme, entonces recibo todas las notificaciones pendientes. |
-      | **Escenario 3:** Dado que hay múltiples solicitudes, cuando llegan, entonces puedo ordenarlas por prioridad o cercanía. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US12     | Profesional Técnico | Alta     | EP03  |
-
-      ---
-
-      | Title   | Aceptar o Rechazar Solicitudes |
-      |---------|-------------------------------|
-      | **Description** | Como técnico, quiero aceptar o rechazar solicitudes de trabajo. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que recibo una solicitud, cuando acepto o rechazo, entonces el cliente es notificado sobre mi decisión. |
-      | **Escenario 2:** Dado que rechazo una solicitud, cuando proporciono una razón, entonces el cliente recibe feedback constructivo. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US13     | Profesional Técnico | Alta     | EP03  |
-
-      ---
-
-      | Title   | Confirmar Finalización de Servicio |
-      |---------|------------------------------------|
-      | **Description** | Como técnico, quiero marcar un servicio como completado y registrar trabajo final, y recibir el pago instantáneo. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que finalizo un servicio, cuando lo marco como completado, entonces la app permite subir descripción final y fotos del trabajo. |
-      | **Escenario 2:** Dado que el servicio está completado, cuando lo confirmo, entonces recibo mi pago instantáneamente sin demoras. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US14     | Cliente | Media    | EP05  |
-
-      ---
-
-      | Title   | Notificación de Respuesta del Profesional |
-      |---------|-------------------------------------------|
-      | **Description** | Como cliente, quiero recibir notificaciones cuando un profesional acepta o rechaza mi solicitud. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que un profesional acepta mi solicitud, cuando confirma, entonces recibo notificación con los detalles de confirmación. |
-      | **Escenario 2:** Dado que un profesional rechaza mi solicitud, cuando lo hace, entonces recibo notificación con la razón del rechazo. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US15     | Usuario | Media    | EP04  |
-
-      ---
-
-      | Title   | Visualizar Progreso y Puntos Acumulados |
-      |---------|-----------------------------------------|
-      | **Description** | Como usuario, quiero ver mi progreso y puntos acumulados en el sistema de gamificación. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que completo actividades en la plataforma, cuando reviso mi perfil, entonces puedo ver mis puntos acumulados y progreso hacia el siguiente nivel. |
-      | **Escenario 2:** Dado que quiero conocer mis beneficios, cuando accedo a mi dashboard, entonces veo los beneficios actuales y próximos disponibles. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US16     | Usuario | Media    | EP04  |
-
-      ---
-
-      | Title   | Recibir Recompensas por Logros |
-      |---------|-------------------------------|
-      | **Description** | Como usuario, quiero recibir recompensas al completar logros específicos en la plataforma. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que completo un logro específico, cuando alcanzo el objetivo, entonces recibo notificación de recompensa y esta se aplica automáticamente. |
-      | **Escenario 2:** Dado que subo de nivel, cuando alcanzo nuevo nivel, entonces desbloqueo nuevos beneficios y recompensas exclusivas. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US17     | Cliente | Alta     | EP05  |
-
-      ---
-
-      | Title   | Crear Solicitud de Servicio |
-      |---------|----------------------------|
-      | **Description** | Como cliente, quiero crear solicitud de servicio detallada. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que necesito un servicio, cuando creo la solicitud, entonces puedo agregar descripción, imágenes y fecha de servicio. |
-      | **Escenario 2:** Dado que el profesional tiene tarifas variables, cuando creo la solicitud, entonces puedo ver un estimado de costo antes de enviarla. |
-      | **Escenario 3:** Dado que quiero confirmar detalles, cuando envío la solicitud, entonces recibo un resumen y confirmación de registro. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US18     | Cliente | Media    | EP05  |
-
-      ---
-
-      | Title   | Ver Estado de la Solicitud |
-      |---------|---------------------------|
-      | **Description** | Como cliente, quiero ver el estado de mis solicitudes en tiempo real. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que tengo solicitudes, cuando ingreso a mis solicitudes, entonces puedo ver estado (pendiente, en progreso, completada) actualizado. |
-      | **Escenario 2:** Dado que el estado cambia, cuando ocurre una actualización, entonces recibo notificación del cambio de estado. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US19     | Cliente | Alta     | EP05  |
-
-      ---
-
-      | Title   | Realizar Pago del Servicio |
-      |---------|---------------------------|
-      | **Description** | Como cliente, quiero pagar los servicios de forma segura. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que debo pagar, cuando uso tarjeta o transferencia, entonces la app confirma pago exitoso y entrega recibo. |
-      | **Escenario 2:** Dado que el pago falla, cuando intento pagar, entonces la app notifica el error y sugiere solución. |
-      | **Escenario 3:** Dado que quiero seguridad, cuando pago, entonces la transacción se registra y queda disponible en historial de pagos. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US20     | Cliente | Media    | EP05  |
-
-      ---
-
-      | Title   | Solicitar Reembolso o Disputa |
-      |---------|------------------------------|
-      | **Description** | Como cliente, quiero solicitar reembolso o iniciar disputa en caso de servicio no satisfactorio. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que el servicio no fue satisfactorio, cuando solicito reembolso, entonces la plataforma inicia proceso de revisión. |
-      | **Escenario 2:** Dado que tengo una disputa, cuando presento evidencia, entonces el equipo de soporte revisa mi caso en un plazo definido. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US21     | Profesional Técnico | Alta     | EP05  |
-
-      ---
-
-      | Title   | Confirmación de Contratación por Profesional |
-      |---------|---------------------------------------------|
-      | **Description** | Como técnico, quiero aceptar o rechazar solicitudes, y recibir pagos instantáneos. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que recibo solicitud, cuando acepto o rechazo, entonces la app notifica al cliente automáticamente. |
-      | **Escenario 2:** Dado que finalizo el trabajo, cuando confirmo la finalización, entonces el pago se libera inmediatamente. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US22     | Cliente | Media    | EP05  |
-
-      ---
-
-      | Title   | Cancelar Solicitud de Servicio |
-      |---------|-------------------------------|
-      | **Description** | Como cliente, quiero cancelar una solicitud si no la necesito. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que deseo cancelar, cuando lo hago desde la app, entonces la solicitud se elimina y el profesional es notificado. |
-      | **Escenario 2:** Dado que cancelo a tiempo, cuando cumplo con políticas de cancelación, entonces recibo reembolso completo. |
-
-      **---**
-
-      | Story ID | User                | Priority | Epic  |
-      |----------|---------------------|----------|-------|
-      | US23     | Profesional Técnico | Media    | EP05  |
-
-      ---
-
-      | Title   | Notificación de Nueva Solicitud de Servicio |
-      |---------|---------------------------------------------|
-      | **Description** | Como técnico, quiero recibir notificaciones de nuevas solicitudes. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que hay una nueva solicitud, cuando el cliente la crea, entonces recibo notificación inmediata con detalles. |
-      | **Escenario 2:** Dado que la solicitud es urgente, cuando el cliente marca prioridad alta, entonces recibo alerta especial. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US24     | Cliente | Alta     | EP06  |
-
-      ---
-
-      | Title   | Abrir Reclamo/Ticket |
-      |---------|----------------------|
-      | **Description** | Como cliente, quiero abrir un reclamo si el servicio no fue satisfactorio, para que la plataforma lo gestione. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que el servicio no cumplió expectativas, cuando abro un reclamo, entonces especifico detalles y adjunto evidencias. |
-      | **Escenario 2:** Dado que presento un reclamo, cuando lo envío, entonces recibo número de ticket y tiempo estimado de respuesta. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US25     | Cliente | Media    | EP06  |
-
-      ---
-
-      | Title   | Calificar a un Profesional |
-      |---------|---------------------------|
-      | **Description** | Como cliente, quiero calificar a un profesional tras el servicio. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que recibí un servicio, cuando doy una calificación de 1-5 estrellas y un comentario, entonces queda registrado en su perfil. |
-      | **Escenario 2:** Dado que quiero ser objetivo, cuando califico, entonces puedo evaluar diferentes aspectos como puntualidad, calidad y profesionalismo. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US26     | Cliente | Media    | EP06  |
-
-      ---
-
-      | Title   | Ver Calificaciones de Profesionales |
-      |---------|------------------------------------|
-      | **Description** | Como cliente, quiero ver calificaciones y reseñas de otros usuarios. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero evaluar, cuando ingreso al perfil del profesional, entonces veo calificaciones y comentarios de otros clientes. |
-      | **Escenario 2:** Dado que quiero información veraz, cuando leo reseñas, entonces puedo filtrar por calificación y fecha. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US27     | Cliente | Media    | EP06  |
-
-      ---
-
-      | Title   | Calificación Promedio del Profesional |
-      |---------|--------------------------------------|
-      | **Description** | Como cliente, quiero ver la calificación promedio del profesional. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero referencia rápida, cuando ingreso al perfil, entonces la app muestra la calificación promedio actualizada. |
-      | **Escenario 2:** Dado que comparo profesionales, cuando reviso sus perfiles, entonces veo calificación promedio destacada visiblemente. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US28     | Cliente | Baja     | EP06  |
-
-      ---
-
-      | Title   | Reseñas Anónimas |
-      |---------|------------------|
-      | **Description** | Como cliente, quiero dejar reseñas de forma anónima. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que deseo privacidad, cuando publico una reseña, entonces la app oculta mi identidad al resto de usuarios. |
-      | **Escenario 2:** Dado que elijo anonimato, cuando dejo reseña, entonces mi perfil no aparece vinculado a la evaluación. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US29     | Cliente | Media    | EP06  |
-
-      ---
-
-      | Title   | Ver Reseñas de Otros Clientes |
-      |---------|------------------------------|
-      | **Description** | Como cliente, quiero ver reseñas de otros usuarios. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero referencias, cuando ingreso al perfil del profesional, entonces puedo ver reseñas recientes y detalladas de otros clientes. |
-      | **Escenario 2:** Dado que busco información específica, cuando filtro reseñas, entonces encuentro evaluaciones sobre aspectos particulares del servicio. |
-
-      **---**
-
-      | Story ID | User    | Priority | Epic  |
-      |----------|---------|----------|-------|
-      | US30     | Cliente | Baja     | EP06  |
-
-      ---
-
-      | Title   | Solicitar Actualización de Calificación |
-      |---------|----------------------------------------|
-      | **Description** | Como cliente, quiero actualizar mi calificación si cambio de opinión. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero modificar mi reseña, cuando la edito, entonces la app actualiza la calificación y el comentario. |
 
 
       ### Technical Stories
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS01     | Developer | Alta     | EP01  |
 
-      ---
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS01</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API de Registro de Usuario</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que gestione el registro de nuevos usuarios para que puedan registrarse en la plataforma.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /register → 201 (Created) con usuario registrado.</li>
+              <li><strong>Escenario 2:</strong> POST /register con datos inválidos → 400 con mensaje de error.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
 
-      | Title   | Crear API de Registro de Usuario |
-      |---------|----------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que gestione el registro de nuevos usuarios para que puedan registrarse en la plataforma. |
 
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que soy un nuevo usuario, cuando hago una solicitud POST a la API `/register`, entonces recibo una respuesta 201 (Created) con el usuario registrado. |
-      | **Escenario 2:** Dado que ingreso datos inválidos, cuando intento registrarme, entonces la respuesta debe ser un error 400 con un mensaje adecuado. |
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS02</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Editar Perfil de Usuario</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita editar los datos del perfil del usuario para mantener su información actualizada.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> PUT /profile/{userId} → datos actualizados correctamente.</li>
+              <li><strong>Escenario 2:</strong> PUT /profile/{userId} con datos inválidos → 400 con mensaje de validación.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
 
-      ---
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS03</td>
+          <td>Developer</td>
+          <td>Media</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API de Recuperación de Cuenta</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los usuarios recuperar su cuenta cuando olviden su contraseña.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /recover-password → envío de correo con enlace de restablecimiento.</li>
+              <li><strong>Escenario 2:</strong> POST /recover-password con correo inexistente → 404 con mensaje adecuado.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
 
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS02     | Developer | Alta     | EP01  |
 
-      ---
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS04</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API de Búsqueda de Técnicos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los clientes buscar técnicos según especialidad, ubicación y reputación.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> GET /search-technicians con filtros → devuelve lista de técnicos.</li>
+              <li><strong>Escenario 2:</strong> GET /search-technicians sin resultados → array vacío, status 200.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS05</td>
+          <td>Developer</td>
+          <td>Media</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Contactar a Técnicos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los clientes contactar a los técnicos directamente desde sus perfiles.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /contact-technician → 201 con confirmación de envío.</li>
+              <li><strong>Escenario 2:</strong> POST /contact-technician con mensaje vacío → 400 con mensaje de error.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS06</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API de Filtrado Avanzado de Técnicos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita filtrar técnicos por múltiples criterios y ordenar por reputación o cercanía.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> GET /search-technicians con filtros múltiples → devuelve lista ordenada.</li>
+              <li><strong>Escenario 2:</strong> GET /search-technicians sin coincidencias → array vacío, status 200.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS07</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP03</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Gestión de Servicios</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los técnicos gestionar sus servicios, tarifas y disponibilidad.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /services → guarda servicio en DB.</li>
+              <li><strong>Escenario 2:</strong> PUT /services/{serviceId} → actualiza disponibilidad correctamente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
 
-      | Title   | Crear API para Editar Perfil de Usuario |
-      |---------|-----------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita editar los datos del perfil del usuario para mantener su información actualizada. |
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS08</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP03</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API de Notificaciones de Solicitudes</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los técnicos recibir notificaciones de nuevas solicitudes de trabajo.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /request-service → notificación en tiempo real al técnico.</li>
+              <li><strong>Escenario 2:</strong> Técnico desconectado → notificación sincronizada al reconectarse.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS09</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Gestión de Solicitudes</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los clientes gestionar las solicitudes de servicio y a los técnicos confirmar sus trabajos.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /create-request → guarda solicitud en DB.</li>
+              <li><strong>Escenario 2:</strong> PUT /confirm-request/{requestId} → marca solicitud como confirmada.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS10</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Realizar Pagos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los clientes realizar pagos de manera segura y a los técnicos recibir pagos instantáneos.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /payment → pago procesado y respuesta 200.</li>
+              <li><strong>Escenario 2:</strong> POST /payment con error → 402 con mensaje adecuado.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS11</td>
+          <td>Developer</td>
+          <td>Media</td>
+          <td>EP06</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Calificaciones y Reseñas</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que permita a los clientes calificar y dejar reseñas sobre los técnicos.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /rate-technician → calificación registrada.</li>
+              <li><strong>Escenario 2:</strong> POST /review-technician → reseña guardada y visible.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS12</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP04</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Gamificación y Niveles</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero crear una API que gestione los niveles de gamificación de los usuarios (Bronce, Plata, Oro) basados en su actividad.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /gamify/{userId} → asigna nivel correspondiente.</li>
+              <li><strong>Escenario 2:</strong> Usuario no cumple requisitos → 400 con mensaje indicando insuficiencia.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS13</td>
+          <td>Developer</td>
+          <td>Media</td>
+          <td>EP04</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Notificación de Logros</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero notificar automáticamente al usuario cuando alcanza logros o sube de nivel.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> Usuario alcanza logro → recibe notificación y recompensa aplicada.</li>
+              <li><strong>Escenario 2:</strong> Usuario sube de nivel → desbloqueo de beneficios y notificaciones.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>TS14</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP06</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Crear API para Reclamos y Tickets</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Description</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Como desarrollador, quiero que los clientes puedan abrir reclamos y generar tickets de soporte.</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Acceptance Criteria</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Escenario 1:</strong> POST /ticket → crea ticket con descripción y evidencias.</li>
+              <li><strong>Escenario 2:</strong> Ticket enviado → devuelve número de ticket y tiempo estimado de respuesta.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
 
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que tengo un perfil existente, cuando hago una solicitud PUT a la API `/profile/{userId}`, entonces los datos deben ser actualizados correctamente en la base de datos. |
-      | **Escenario 2:** Dado que los datos de entrada son incorrectos, cuando intento actualizar el perfil, entonces la respuesta debe ser un error 400 con un mensaje de validación. |
 
-      ---
 
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS03     | Developer | Media    | EP01  |
 
-      ---
 
-      | Title   | Crear API de Recuperación de Cuenta |
-      |---------|-------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los usuarios recuperar su cuenta cuando olviden su contraseña. |
 
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que he olvidado mi contraseña, cuando hago una solicitud POST a la API `/recover-password`, entonces recibo un correo con un enlace para restablecer mi contraseña. |
-      | **Escenario 2:** Dado que ingreso una dirección de correo incorrecta, cuando intento recuperar mi contraseña, entonces la respuesta debe ser un error 404 con un mensaje adecuado. |
 
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS04     | Developer | Alta     | EP02  |
-
-      ---
-
-      | Title   | Crear API de Búsqueda de Profesionales |
-      |---------|----------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes buscar profesionales según especialidad, ubicación y reputación. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que aplico filtros de especialidad y ubicación, cuando hago una solicitud GET a la API `/search-professionals`, entonces obtengo una lista de profesionales que cumplen con los filtros. |
-      | **Escenario 2:** Dado que no hay resultados para mi búsqueda, cuando hago la solicitud, entonces la respuesta debe ser un array vacío con el código de estado 200. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS05     | Developer | Media    | EP02  |
-
-      ---
-
-      | Title   | Crear API para Contactar al Profesional |
-      |---------|-----------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes contactar a los profesionales directamente desde sus perfiles. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero contactar a un profesional, cuando hago una solicitud POST a la API `/contact-professional`, entonces recibo una respuesta 201 (Created) indicando que el mensaje ha sido enviado correctamente. |
-      | **Escenario 2:** Dado que ingreso un mensaje vacío, cuando intento enviar el mensaje, entonces la respuesta debe ser un error 400 con un mensaje de error. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS06     | Developer | Alta     | EP03  |
-
-      ---
-
-      | Title   | Crear API para Gestión de Servicios |
-      |---------|-------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los profesionales gestionar sus servicios, tarifas y disponibilidad. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que quiero añadir un nuevo servicio, cuando hago una solicitud POST a la API `/services`, entonces mi servicio se guarda correctamente en la base de datos. |
-      | **Escenario 2:** Dado que quiero actualizar la disponibilidad, cuando hago una solicitud PUT a la API `/services/{serviceId}`, entonces la disponibilidad del servicio se actualiza correctamente. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS07     | Developer | Alta     | EP03  |
-
-      ---
-
-      | Title   | Crear API de Notificaciones de Solicitudes |
-      |---------|-------------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los profesionales recibir notificaciones de nuevas solicitudes de trabajo. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que hay una nueva solicitud, cuando el cliente hace una solicitud POST a la API `/request-service`, entonces el profesional recibe una notificación en tiempo real. |
-      | **Escenario 2:** Dado que el profesional está desconectado, cuando vuelve a conectarse, entonces la notificación debe ser sincronizada correctamente. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS08     | Developer | Alta     | EP04  |
-
-      ---
-
-      | Title   | Crear API para Gamificación y Niveles |
-      |---------|---------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que gestione los niveles de gamificación de los usuarios (Bronce, Plata, Oro) basados en su actividad. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que un usuario ha completado ciertas acciones, cuando hago una solicitud POST a la API `/gamify/{userId}`, entonces el sistema debe asignar un nivel correspondiente (Bronce, Plata o Oro). |
-      | **Escenario 2:** Dado que el usuario no ha completado suficientes acciones, cuando intento asignar un nivel, entonces la respuesta debe ser un error 400 con un mensaje indicando que no se alcanzaron los requisitos. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS09     | Developer | Alta     | EP05  |
-
-      ---
-
-      | Title   | Crear API para Gestión de Solicitudes |
-      |---------|--------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes gestionar las solicitudes de servicio y a los profesionales confirmar sus trabajos. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que un cliente envía una solicitud, cuando hago una solicitud POST a la API `/create-request`, entonces el sistema guarda la solicitud en la base de datos. |
-      | **Escenario 2:** Dado que un profesional confirma una solicitud, cuando hace una solicitud PUT a la API `/confirm-request/{requestId}`, entonces la solicitud se marca como confirmada. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS10     | Developer | Alta     | EP05  |
-
-      ---
-
-      | Title   | Crear API para Realizar Pagos |
-      |---------|-------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes realizar pagos de manera segura y a los profesionales recibir pagos instantáneos. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que un cliente realiza un pago, cuando hace una solicitud POST a la API `/payment`, entonces el pago se procesa correctamente y el cliente recibe una respuesta 200. |
-      | **Escenario 2:** Dado que el pago falla, cuando intento procesarlo, entonces la respuesta debe ser un error 402 con un mensaje adecuado. |
-
-      ---
-
-      | Story ID | User      | Priority | Epic  |
-      |----------|-----------|----------|-------|
-      | TS11     | Developer | Media    | EP06  |
-
-      ---
-
-      | Title   | Crear API para Calificaciones y Reseñas |
-      |---------|-----------------------------------------|
-      | **Description** | Como desarrollador, quiero crear una API que permita a los clientes calificar y dejar reseñas sobre los profesionales. |
-
-      | Acceptance Criteria |
-      |---------------------|
-      | **Escenario 1:** Dado que un cliente califica a un profesional, cuando hago una solicitud POST a la API `/rate-professional`, entonces la calificación se guarda correctamente. |
-      | **Escenario 2:** Dado que un cliente deja una reseña, cuando hago una solicitud POST a la API `/review-professional`, entonces la reseña se guarda y es visible en el perfil del profesional. |
 
       ### Spike Story
 
-       **Spike Story 1:**
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-01</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP01</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Registro de Usuarios y Autenticación</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            La aplicación móvil Android Studio y backend .NET 9 requieren un sistema de registro seguro y escalable para clientes y técnicos. Se investigarán patrones de autenticación, hashing de contraseñas, validaciones y sincronización móvil-backend.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, quiero investigar y prototipar la creación y validación de usuarios para identificar riesgos, compatibilidad y esfuerzo técnico antes de implementar la funcionalidad completa.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li><strong>Given</strong> la necesidad de registrar usuarios, <strong>When</strong> se evalúan librerías de autenticación en Android y .NET 9, <strong>Then</strong> se documenta la opción más segura y escalable.</li>
+              <li><strong>Given</strong> la aplicación móvil, <strong>When</strong> se prototipa la creación de usuarios con validación de campos y hashing de contraseña, <strong>Then</strong> el prototipo funciona correctamente y se documenta.</li>
+              <li><strong>Given</strong> el backend .NET 9, <strong>When</strong> se implementa un endpoint de prueba para registrar usuarios, <strong>Then</strong> se registran correctamente los datos y se retornan códigos de estado adecuados.</li>
+              <li>Se documentan riesgos de seguridad y mitigaciones.</li>
+              <li>Se estima esfuerzo de implementación completa.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-02</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP02</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Búsqueda y Contacto de Técnicos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Se requiere investigar y prototipar APIs de búsqueda por especialidad, ubicación y reputación y mensajería directa para Android y .NET 9, considerando rendimiento, filtros y notificaciones push.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, queremos explorar cómo realizar búsquedas eficientes y contactabilidad segura de técnicos, para identificar riesgos y compatibilidad antes de desarrollar.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li>Prototipar búsqueda filtrada en backend .NET 9 con criterios de especialidad y ubicación.</li>
+              <li>Prototipo móvil Android para visualizar resultados de búsqueda y enviar mensajes.</li>
+              <li>Evaluar rendimiento de filtros y latencia de mensajes.</li>
+              <li>Documentar riesgos de concurrencia y seguridad.</li>
+              <li>Prototipo funcional mínimo y estimación de esfuerzo de desarrollo.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-03</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP03</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Gestión de Servicios y Disponibilidad de Técnicos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Se investigará cómo manejar la creación, edición y disponibilidad de servicios de los técnicos, sincronización entre móvil y backend .NET 9, y almacenamiento seguro de datos.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, queremos prototipar la gestión de servicios y disponibilidad para evaluar riesgos técnicos y estimar esfuerzo antes de implementar.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li>Prototipo backend .NET 9 para crear/editar servicios y disponibilidad.</li>
+              <li>Prototipo móvil Android para reflejar cambios en tiempo real.</li>
+              <li>Evaluar sincronización y posibles conflictos de datos.</li>
+              <li>Documentar riesgos de seguridad y escalabilidad.</li>
+              <li>Estimación de esfuerzo y prototipo funcional mínimo.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-04</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Gestión de Solicitudes y Pagos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Se investigará cómo gestionar solicitudes de servicios, confirmaciones de trabajos, pagos seguros y notificaciones en Android Studio y backend .NET 9, incluyendo flujos de aceptación, rechazo y liberación automática de pagos.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, queremos prototipar la gestión de solicitudes y pagos para identificar riesgos técnicos, validar la integración móvil-backend y estimar esfuerzo antes de implementar la funcionalidad completa.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li>Prototipo backend .NET 9 para crear, actualizar y confirmar solicitudes.</li>
+              <li>Prototipo Android para enviar solicitudes, recibir notificaciones y visualizar estado en tiempo real.</li>
+              <li>Prototipo de flujo de pagos seguro usando librerías .NET 9, incluyendo liberación automática tras confirmación.</li>
+              <li>Documentar riesgos de seguridad, manejo de errores y sincronización de estados.</li>
+              <li>Estimar esfuerzo de desarrollo completo y entregar un prototipo funcional mínimo.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-05</td>
+          <td>Developer</td>
+          <td>Media</td>
+          <td>EP04</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Gamificación y Niveles de Usuario</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Se investigará cómo implementar niveles de gamificación (Bronce, Plata, Oro) en la app Android y backend .NET 9, incluyendo criterios de progresión, recompensas automáticas y notificaciones de logros.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, queremos prototipar niveles y recompensas para usuarios, evaluar riesgos técnicos y confirmar compatibilidad móvil-backend antes de desarrollar la funcionalidad completa.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li>Prototipo backend .NET 9 para almacenar y calcular niveles de usuario según actividad.</li>
+              <li>Prototipo Android que muestre niveles, progreso y recompensas en la interfaz de usuario.</li>
+              <li>Evaluar sincronización en tiempo real entre móvil y backend.</li>
+              <li>Documentar riesgos de escalabilidad y seguridad de los datos de usuario.</li>
+              <li>Entregar un prototipo funcional mínimo con estimación de esfuerzo para la implementación completa.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-06</td>
+          <td>Developer</td>
+          <td>Media</td>
+          <td>EP06</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Calificaciones y Reseñas de Técnicos</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Se investigará cómo almacenar y mostrar calificaciones y reseñas de técnicos, considerando seguridad de datos, escalabilidad, filtros y compatibilidad entre Android Studio y .NET 9.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, queremos prototipar la funcionalidad de calificaciones y reseñas para evaluar riesgos y definir el flujo técnico antes de desarrollar.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li>Prototipo backend .NET 9 para almacenar calificaciones y reseñas, con endpoints seguros.</li>
+              <li>Prototipo Android para enviar y visualizar reseñas filtradas.</li>
+              <li>Documentar riesgos de integridad de datos y rendimiento.</li>
+              <li>Prototipo funcional mínimo y estimación de esfuerzo completo.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      
+      <table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+        <tr>
+          <th>Story ID</th>
+          <th>User</th>
+          <th>Priority</th>
+          <th>Epic</th>
+        </tr>
+        <tr>
+          <td>SP-07</td>
+          <td>Developer</td>
+          <td>Alta</td>
+          <td>EP05</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Title</th>
+        </tr>
+        <tr>
+          <td colspan="4" align="center">Investigar Notificaciones de Nueva Solicitud</td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Contexto</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Se investigará cómo enviar notificaciones push y alertas en Android Studio cuando un cliente crea una nueva solicitud, asegurando compatibilidad con backend .NET 9, rendimiento y escalabilidad.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Spike Story</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            Como equipo de desarrollo, queremos prototipar notificaciones de nuevas solicitudes para identificar riesgos, compatibilidad y estimar esfuerzo antes de implementar la funcionalidad completa.
+          </td>
+        </tr>
+        <tr>
+          <th colspan="4" align="center">Criterios de Aceptación</th>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <ul>
+              <li>Prototipo backend .NET 9 para enviar eventos de nueva solicitud a dispositivos Android.</li>
+              <li>Prototipo Android que reciba y muestre notificaciones en tiempo real.</li>
+              <li>Documentar riesgos de latencia, escalabilidad y seguridad.</li>
+              <li>Prototipo funcional mínimo con estimación de esfuerzo de desarrollo completo.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
 
-      | Story ID | User      | Priority | Epic |
-      | -------- | --------- | -------- | ---- |
-      | SP-01    | Developer | Alta     | EP01 |
-
-      **Title**: Investigar API para el Registro de Nuevo Usuario
-
-      **Description**:
-      Como desarrollador, quiero investigar las mejores prácticas y bibliotecas para gestionar el registro de nuevos usuarios en la plataforma.
-
-      **Acceptance Criteria**:
-
-      * **Dado** que se investiga sobre las API más seguras y eficientes para el registro,
-      * **Cuando** se evalúan las opciones disponibles,
-      * **Entonces** se presenta una recomendación sobre la API a utilizar y un prototipo funcional básico.
-
-      ---
-
-       **Spike Story 2:**
-
-      | Story ID | User      | Priority | Epic |
-      | -------- | --------- | -------- | ---- |
-      | SP-02    | Developer | Alta     | EP02 |
-
-      **Title**: Investigar API para Búsqueda de Profesionales
-
-      **Description**:
-      Como desarrollador, quiero investigar las mejores opciones para implementar la funcionalidad de búsqueda de profesionales por especialidad, ubicación y reputación.
-
-      **Acceptance Criteria**:
-
-      * **Dado** que se investigan APIs que permitan búsqueda avanzada,
-      * **Cuando** se comparan las opciones en términos de velocidad y facilidad de integración,
-      * **Entonces** se presenta una recomendación sobre la API a utilizar y un prototipo funcional básico.
-
-      ---
-
-       **Spike Story 3:**
-
-      | Story ID | User      | Priority | Epic |
-      | -------- | --------- | -------- | ---- |
-      | SP-03    | Developer | Media    | EP03 |
-
-      **Title**: Investigar API para la Gestión de Servicios
-
-      **Description**:
-      Como desarrollador, quiero investigar las opciones de API para gestionar los servicios, tarifas y disponibilidad de los profesionales técnicos.
-
-      **Acceptance Criteria**:
-
-      * **Dado** que se exploran diferentes APIs para la gestión de servicios,
-      * **Cuando** se evalúan criterios de flexibilidad y escalabilidad,
-      * **Entonces** se presenta una recomendación con un prototipo funcional.
-
-      ---
-
-       **Spike Story 4:**
-
-      | Story ID | User      | Priority | Epic |
-      | -------- | --------- | -------- | ---- |
-      | SP-04    | Developer | Alta     | EP05 |
-
-      **Title**: Investigar API para Gestión de Solicitudes
-
-      **Description**:
-      Como desarrollador, quiero investigar las opciones para implementar la gestión de solicitudes de servicio, y cómo facilitar la confirmación de trabajos a los profesionales.
-
-      **Acceptance Criteria**:
-
-      * **Dado** que se evalúan las APIs que permiten gestionar solicitudes,
-      * **Cuando** se comparan diferentes proveedores y sus características,
-      * **Entonces** se presenta una solución adecuada con un prototipo funcional.
-
-      ---
-
-       **Spike Story 5:**
-
-      | Story ID | User      | Priority | Epic |
-      | -------- | --------- | -------- | ---- |
-      | SP-05    | Developer | Alta     | EP06 |
-
-      **Title**: Investigar API para Calificaciones y Reseñas
-
-      **Description**:
-      Como desarrollador, quiero investigar las opciones para integrar un sistema de calificación y reseñas dentro de la plataforma.
-
-      **Acceptance Criteria**:
-
-      * **Dado** que se revisan las APIs de calificación y reseñas,
-      * **Cuando** se evalúan opciones por seguridad y facilidad de integración,
-      * **Entonces** se presenta una recomendación con un prototipo funcional básico.
 
 
-
+     
 
     - **2.4.2. Impact Mapping**
 
@@ -1203,50 +2658,90 @@
 
         ![User Journey Mapping Segmento 2](./feature/chapter02/ImpactMap_Clientes.png)
 
-    - **2.4.3. Product Backlog** 
-      | # Orden | User Story Id | Título | Story Points (1 / 2 / 3 / 5 / 8) |
-      |---|---|---|---|
-      | 1 | US01 | Registro de Nuevo Usuario | 3 |
-      | 2 | US02 | Registro de Nuevo Profesional | 5 |
-      | 3 | US03 | Recuperación de Cuenta/Login | 3 |
-      | 4 | US04 | Editar Perfil de Usuario | 2 |
-      | 5 | US05 | Ver Perfil Detallado del Profesional | 5 |
-      | 6 | US06 | Contactar al Profesional | 3 |
-      | 7 | US07 | Buscar Profesionales por Especialidad y Ubicación | 8 |
-      | 8 | US08 | Solicitar Servicio al Profesional | 5 |
-      | 9 | US09 | Crear y Actualizar Servicios Ofrecidos | 3 |
-      | 10 | US10 | Gestionar Disponibilidad | 3 |
-      | 11 | US11 | Recibir Notificaciones de Solicitudes | 5 |
-      | 12 | US12 | Aceptar o Rechazar Solicitudes | 2 |
-      | 13 | US13 | Confirmar Finalización de Servicio | 5 |
-      | 14 | US14 | Notificación de Respuesta del Profesional | 2 |
-      | 15 | US15 | Visualizar Progreso y Puntos Acumulados | 3 |
-      | 16 | US16 | Recibir Recompensas por Logros | 2 |
-      | 17 | US17 | Crear Solicitud de Servicio | 5 |
-      | 18 | US18 | Ver Estado de la Solicitud | 3 |
-      | 19 | US19 | Realizar Pago del Servicio | 8 |
-      | 20 | US20 | Solicitar Reembolso o Disputa | 3 |
-      | 21 | US21 | Confirmación de Contratación por Profesional | 5 |
-      | 22 | US22 | Cancelar Solicitud de Servicio | 2 |
-      | 23 | US23 | Notificación de Nueva Solicitud de Servicio | 3 |
-      | 24 | US24 | Abrir Reclamo/Ticket | 5 |
-      | 25 | US25 | Calificar a un Profesional | 3 |
-      | 26 | US26 | Ver Calificaciones de Profesionales | 2 |
-      | 27 | US27 | Calificación Promedio del Profesional | 2 |
-      | 28 | US28 | Reseñas Anónimas | 1 |
-      | 29 | US29 | Ver Reseñas de Otros Clientes | 3 |
-      | 30 | US30 | Solicitar Actualización de Calificación | 1 |
-      | 31 | TS01 | Crear API de Registro de Usuario | 5 |
-      | 32 | TS02 | Crear API para Editar Perfil de Usuario | 3 |
-      | 33 | TS03 | Crear API de Recuperación de Cuenta | 3 |
-      | 34 | TS04 | Crear API de Búsqueda de Profesionales | 5 |
-      | 35 | TS05 | Crear API para Contactar al Profesional | 3 |
-      | 36 | TS06 | Crear API para Gestión de Servicios | 5 |
-      | 37 | TS07 | Crear API de Notificaciones de Solicitudes | 5 |
-      | 38 | TS08 | Crear API para Gamificación y Niveles | 3 |
-      | 39 | TS09 | Crear API para Gestión de Solicitudes | 5 |
-      | 40 | TS10 | Crear API para Realizar Pagos | 8 |
-      | 41 | TS11 | Crear API para Calificaciones y Reseñas | 3 |
+    - **2.4.3. Product Backlog**
+   
+
+      <table>
+        <tr>
+          <th>#</th>
+          <th>Story ID</th>
+          <th>Título</th>
+          <th>Story Points</th>
+        </tr>
+        <tr><td>1</td><td>US01</td><td>Registro de Nuevo Usuario</td><td>3</td></tr>
+        <tr><td>2</td><td>US02</td><td>Registro de Nuevo Profesional</td><td>5</td></tr>
+        <tr><td>3</td><td>US03</td><td>Recuperación de Cuenta/Login</td><td>3</td></tr>
+        <tr><td>4</td><td>US04</td><td>Editar Perfil de Usuario</td><td>2</td></tr>
+        <tr><td>5</td><td>US05</td><td>Ver Perfil Detallado del Profesional</td><td>5</td></tr>
+        <tr><td>6</td><td>US06</td><td>Contactar al Profesional</td><td>3</td></tr>
+        <tr><td>7</td><td>US07</td><td>Buscar Profesionales por Especialidad y Ubicación</td><td>8</td></tr>
+        <tr><td>8</td><td>US08</td><td>Solicitar Servicio al Profesional</td><td>5</td></tr>
+        <tr><td>9</td><td>US09</td><td>Crear y Actualizar Servicios Ofrecidos</td><td>3</td></tr>
+        <tr><td>10</td><td>US10</td><td>Gestionar Disponibilidad</td><td>3</td></tr>
+        <tr><td>11</td><td>US11</td><td>Recibir Notificaciones de Solicitudes</td><td>5</td></tr>
+        <tr><td>12</td><td>US12</td><td>Aceptar o Rechazar Solicitudes</td><td>2</td></tr>
+        <tr><td>13</td><td>US13</td><td>Confirmar Finalización de Servicio</td><td>5</td></tr>
+        <tr><td>14</td><td>US14</td><td>Notificación de Respuesta del Profesional</td><td>2</td></tr>
+        <tr><td>15</td><td>US15</td><td>Visualizar Progreso y Puntos Acumulados</td><td>3</td></tr>
+        <tr><td>16</td><td>US16</td><td>Recibir Recompensas por Logros</td><td>2</td></tr>
+        <tr><td>17</td><td>US17</td><td>Crear Solicitud de Servicio</td><td>5</td></tr>
+        <tr><td>18</td><td>US18</td><td>Ver Estado de la Solicitud</td><td>3</td></tr>
+        <tr><td>19</td><td>US19</td><td>Realizar Pago del Servicio</td><td>8</td></tr>
+        <tr><td>20</td><td>US20</td><td>Solicitar Reembolso o Disputa</td><td>3</td></tr>
+        <tr><td>21</td><td>US21</td><td>Confirmación de Contratación por Profesional</td><td>5</td></tr>
+        <tr><td>22</td><td>US22</td><td>Cancelar Solicitud de Servicio</td><td>2</td></tr>
+        <tr><td>23</td><td>US23</td><td>Notificación de Nueva Solicitud de Servicio</td><td>3</td></tr>
+        <tr><td>24</td><td>US24</td><td>Abrir Reclamo/Ticket</td><td>5</td></tr>
+        <tr><td>25</td><td>US25</td><td>Calificar a un Profesional</td><td>3</td></tr>
+        <tr><td>26</td><td>US26</td><td>Ver Calificaciones de Profesionales</td><td>2</td></tr>
+        <tr><td>27</td><td>US27</td><td>Calificación Promedio del Profesional</td><td>2</td></tr>
+        <tr><td>28</td><td>US28</td><td>Reseñas Anónimas</td><td>1</td></tr>
+        <tr><td>29</td><td>US29</td><td>Ver Reseñas de Otros Clientes</td><td>3</td></tr>
+        <tr><td>30</td><td>US30</td><td>Solicitar Actualización de Calificación</td><td>1</td></tr>
+      </table>
+      
+      <h2>Technical Stories</h2>
+      <table>
+        <tr>
+          <th>#</th>
+          <th>Story ID</th>
+          <th>Título</th>
+          <th>Story Points</th>
+        </tr>
+        <tr><td>31</td><td>TS01</td><td>Crear API de Registro de Usuario</td><td>5</td></tr>
+        <tr><td>32</td><td>TS02</td><td>Crear API para Editar Perfil de Usuario</td><td>3</td></tr>
+        <tr><td>33</td><td>TS03</td><td>Crear API de Recuperación de Cuenta</td><td>3</td></tr>
+        <tr><td>34</td><td>TS04</td><td>Crear API de Búsqueda de Profesionales</td><td>5</td></tr>
+        <tr><td>35</td><td>TS05</td><td>Crear API para Contactar al Profesional</td><td>3</td></tr>
+        <tr><td>36</td><td>TS06</td><td>Crear API para Gestión de Servicios</td><td>5</td></tr>
+        <tr><td>37</td><td>TS07</td><td>Crear API de Notificaciones de Solicitudes</td><td>5</td></tr>
+        <tr><td>38</td><td>TS08</td><td>Crear API para Gamificación y Niveles</td><td>3</td></tr>
+        <tr><td>39</td><td>TS09</td><td>Crear API para Gestión de Solicitudes</td><td>5</td></tr>
+        <tr><td>40</td><td>TS10</td><td>Crear API para Realizar Pagos</td><td>8</td></tr>
+        <tr><td>41</td><td>TS11</td><td>Crear API para Calificaciones y Reseñas</td><td>3</td></tr>
+      </table>
+      
+      <h2>Spike Stories</h2>
+      <table>
+        <tr>
+          <th>#</th>
+          <th>Story ID</th>
+          <th>Título</th>
+          <th>Story Points</th>
+        </tr>
+        <tr><td>42</td><td>SP-01</td><td>Investigar Registro de Usuarios y Autenticación</td><td>5</td></tr>
+        <tr><td>43</td><td>SP-02</td><td>Investigar Búsqueda y Contacto de Técnicos</td><td>5</td></tr>
+        <tr><td>44</td><td>SP-03</td><td>Investigar Gestión de Servicios y Disponibilidad de Técnicos</td><td>5</td></tr>
+        <tr><td>45</td><td>SP-04</td><td>Investigar Gestión de Solicitudes y Pagos</td><td>5</td></tr>
+        <tr><td>46</td><td>SP-05</td><td>Investigar Gamificación y Niveles de Usuario</td><td>3</td></tr>
+        <tr><td>47</td><td>SP-06</td><td>Investigar Calificaciones y Reseñas de Técnicos</td><td>3</td></tr>
+        <tr><td>48</td><td>SP-07</td><td>Investigar Notificaciones de Nueva Solicitud</td><td>5</td></tr>
+      </table>
+
+
+
+
+    
 
     
   - **2.5. Strategic-Level Domain-Driven Design**
@@ -1274,7 +2769,8 @@
       Identificación de eventos:
   El primer paso consiste en identificar los eventos y organizarlos siguiendo una línea de tiempo imaginaria de izquierda a derecha. Algunos eventos pueden aparecer en la misma columna si no tienen un orden consecutivo. Los eventos se representan con post-its anaranjados.
       <div align="center">
-      <img src="./feature/chapter02/Paso_1.jpeg"/>
+      <img src="./feature/chapter02/event1.jpeg"/>
+
       </div>
       <br>
       Identificación de comandos:
@@ -1282,7 +2778,9 @@
 
 
       <div align="center">
-      <img src="./feature/chapter02/Paso_2.jpeg"/>
+      <img src="./feature/chapter02/event2.jpeg"/>
+      <img src="./feature/chapter02/event3.jpeg"/>
+
       </div>
       <br>
       
@@ -1290,12 +2788,18 @@
       Después, se determinan los agentes o usuarios que realizan los comandos, representados con post-its amarillos.
 
       <div align="center">
-      <img src="./feature/chapter02/Paso_3.jpeg"/>
+      <img src="./feature/chapter02/event4.jpeg"/>
+      <img src="./feature/chapter02/event5.jpeg"/>
       </div>
       <br>
                 
       Agrupación por agregados y bounded contexts:
       Finalmente, se relacionan los eventos entre sí mediante los agregados y entidades involucradas, agrupándolos en bounded contexts. También se trazan líneas punteadas para señalar la interacción de comandos con eventos en distintos bounded contexts.
+    
+      <div align="center">
+      <img src="./feature/chapter02/event6.jpeg"/>
+      </div>
+      <br>
       
       - **2.5.1.1. Candidate Context Discovery**  
    
@@ -1306,11 +2810,16 @@
         | **IAM (Accesos)**                                         | Permitir que el usuario se registre, inicie sesión y gestione su perfil en la aplicación                                    | Usuario registrado, usuario autenticado, acceso al perfil de usuario             |
         | **Alerts (Notificaciones)**                               | Enviar notificaciones relevantes sobre el estado de las solicitudes, servicios o cambios en la plataforma                   | Notificación de solicitud aceptada, notificación de cambio de estado, alerta de disponibilidad |
         | **Payments (Pagos)**                                      | Realizar pagos de forma segura, confirmar transacciones y notificar al usuario sobre el estado de su pago                 | Pago realizado, pago fallido, confirmación de pago exitoso                       |
-        | **Worker Catalog (Catálogo de Profesionales)**            | Ver detalles de los profesionales y realizar solicitudes de servicios                                                     | Perfil profesional visualizado, solicitud de servicio enviada, perfil actualizado |
+        | **Technician Catalog (Catálogo de Profesionales)**            | Ver detalles de los profesionales y realizar solicitudes de servicios                                                     | Perfil profesional visualizado, solicitud de servicio enviada, perfil actualizado |
         | **Tec-Section (Sección Técnica)**                         | Gestionar las solicitudes de servicio, la disponibilidad de los profesionales y confirmar la finalización de los trabajos  | Solicitud de servicio confirmada, disponibilidad actualizada, servicio completado |
 
 
       - **2.5.1.2. Domain Message Flows Modeling**
+         El Domain Storytelling es una técnica visual y colaborativa que permite descubrir y compartir el conocimiento sobre un dominio de negocio. Su objetivo principal es generar una comprensión común del funcionamiento de un proceso empresarial específico entre las distintas partes involucradas, como los expertos del negocio y los equipos técnicos.
+
+        Por esta razón, realizamos los domain storytelling enfocados en las conexiones entre los bounded contexts, con el fin de analizar y comprender de manera más profunda la lógica del negocio.
+      <img src="./feature/chapter02/modeling.jpeg"/>
+        
       - **2.5.1.3. Bounded Context Canvases**
       
         El Bounded Context Canvas es una herramienta visual usada en Diseño Dirigido por el Dominio (DDD) para definir los límites y relaciones entre los Contextos Delimitados dentro de un sistema. Facilita la comprensión compartida del nombre, propósito, entidades y políticas de negocio de cada contexto.
@@ -1318,38 +2827,39 @@
         A continuación, definiremos y desarrollaremos los Bounded Context Canvases de nuestros tres contextos delimitados.
         ## IAM:
          <div align="center">
-          <img src="./feature/chapter02/Iam.png"/>
+          <img src="./feature/chapter02/Canvases1.jpeg"/>
           </div>
           <br>
           
         ## Payment:
          <div align="center">
-          <img src="./feature/chapter02/Payment.png"/>
+          <img src="./feature/chapter02/Canvases3.jpeg"/>
           </div>
           <br>
 
-        ## Worker-Catalog:
+        ## Technician-Catalog:
           <div align="center">
-          <img src="./feature/chapter02/worker-catalog.png"/>
+          <img src="./feature/chapter02/Canvases5.jpeg"/>
           </div>
           <br>
 
         ## Alerts:
           <div align="center">
-          <img src="./feature/chapter02/Alerts.png"/>
+          <img src="./feature/chapter02/Canvases2.jpeg"/>
           </div>
           <br>
 
         ## Tec Section:
           <div align="center">
-          <img src="./feature/chapter02/tec-section.png"/>
+          <img src="./feature/chapter02/Canvases5.jpeg"/>
           </div>
           <br>
 
     - **2.5.2. Context Mapping**
 
-      Este Context Map ilustra las interacciones entre los Bounded Contexts de Alguien Dijo Chamba, aplicando patrones de DDD como Upstream/Downstream, ACLs y Conformist.
+      En esta sección se presenta el Context Map desarrollado para el negocio Alguien Dijo Chamba, el cual muestra las interacciones y relaciones estructurales entre los distintos Bounded Contexts identificados. El objetivo de este ejercicio es comprender cómo se comunican y dependen entre sí las diferentes partes del dominio, aplicando los patrones de Domain-Driven Design (DDD) pertinentes, tales como Upstream/Downstream y Conformist.
 
+      Para la elaboración de los context maps, el equipo analizó la información obtenida durante las etapas previas de descubrimiento del dominio, especialmente los resultados del Domain Storytelling, y la utilizó para construir y refinar los diseños candidatos.
         <div align="center">
           <img src="./feature/chapter02/aaa.png"/>
           </div>
@@ -1374,22 +2884,22 @@
                 <br>
   - **2.6. Tactical-Level Domain-Driven Design**
 
-    - **2.6.1. Bounded Context: Worker-Catalog**
+    - **2.6.1. Bounded Context: Technician-Catalog**
       - **2.6.1.1. Domain Layer** <br>
         **Sub-capa Model:**
         | Tipo         | Nombre                           | Descripción                                                            | Responsabilidad Principal                                                                                  | Relación con otros elementos                           |
         | ------------ | -------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-        | Aggregate    | WorkerProfile                    | Entidad que representa la información profesional de un Worker         | Ser el punto de entrada para gestionar la información profesional (nombre, skills, experiencia, categoría) | Relacionado con Tec-Section (para asignar solicitudes) |
-        | Value Object | WorkerContact                    | Datos de contacto (teléfono, email, ubicación aproximada)              | Mantener información de contacto inmutable                                                                 | Parte de WorkerProfile                                 |
-        | Value Object | WorkerSkill                      | Skill o habilidad específica de un Worker (ej: plomería, electricidad) | Representar de manera granular las competencias del Worker                                                 | Parte de WorkerProfile                                 |
-        | Value Object | WorkerRating                     | Puntaje y métricas agregadas del Worker                                | Calcular reputación y promedio de reseñas                                                                  | Relacionado con Alerts para notificar cambios          |
-        | Aggregate    | Category                         | Agrupación de Workers por área de especialidad                         | Organizar Workers en categorías (ej: electricidad, carpintería)                                            | Relacionado con WorkerProfile                          |
-        | Command      | RegisterWorkerCommand            | Comando para registrar un nuevo Worker en el catálogo                  | Encapsular datos iniciales de registro                                                                     | Usado al crear WorkerProfile                           |
-        | Command      | UpdateWorkerProfileCommand       | Comando para actualizar datos del perfil                               | Modificar nombre, contacto, skills, disponibilidad                                                         | Usado por Worker                                       |
-        | Command      | AddSkillToWorkerCommand          | Comando para añadir un skill a un Worker                               | Enriquecer el perfil profesional                                                                           | Usado por Worker                                       |
-        | Command      | RateWorkerCommand                | Comando para asignar calificación a un Worker                          | Agregar reseña/calificación del cliente                                                                    | Usado por Customer                                     |
-        | Query        | GetWorkerProfilesByCategoryQuery | Consulta para obtener Workers por categoría                            | Recuperar listado de Workers en una categoría específica                                                   | Usado en Worker-Catalog UI                             |
-        | Query        | GetWorkerProfileByIdQuery        | Consulta para obtener detalles de un Worker específico                 | Consultar perfil público completo                                                                          | Usado por Customers y Tec-Section                      |
+        | Aggregate    | TechnicianProfile                    | Entidad que representa la información profesional de un Technician         | Ser el punto de entrada para gestionar la información profesional (nombre, skills, experiencia, categoría) | Relacionado con Tec-Section (para asignar solicitudes) |
+        | Value Object | TechnicianContact                    | Datos de contacto (teléfono, email, ubicación aproximada)              | Mantener información de contacto inmutable                                                                 | Parte de TechnicianProfile                                 |
+        | Value Object | TechnicianSkill                      | Skill o habilidad específica de un Technician (ej: plomería, electricidad) | Representar de manera granular las competencias del Technician                                                 | Parte de TechnicianProfile                                 |
+        | Value Object | TechnicianRating                     | Puntaje y métricas agregadas del Technician                                | Calcular reputación y promedio de reseñas                                                                  | Relacionado con Alerts para notificar cambios          |
+        | Aggregate    | Category                         | Agrupación de Technicians por área de especialidad                         | Organizar Technicians en categorías (ej: electricidad, carpintería)                                            | Relacionado con TechnicianProfile                          |
+        | Command      | RegisterTechnicianCommand            | Comando para registrar un nuevo Technician en el catálogo                  | Encapsular datos iniciales de registro                                                                     | Usado al crear TechnicianProfile                           |
+        | Command      | UpdateTechnicianProfileCommand       | Comando para actualizar datos del perfil                               | Modificar nombre, contacto, skills, disponibilidad                                                         | Usado por Technician                                       |
+        | Command      | AddSkillToTechnicianCommand          | Comando para añadir un skill a un Technician                               | Enriquecer el perfil profesional                                                                           | Usado por Technician                                       |
+        | Command      | RateTechnicianCommand                | Comando para asignar calificación a un Technician                          | Agregar reseña/calificación del cliente                                                                    | Usado por Customer                                     |
+        | Query        | GetTechnicianProfilesByCategoryQuery | Consulta para obtener Technicians por categoría                            | Recuperar listado de Technicians en una categoría específica                                                   | Usado en Technician-Catalog UI                             |
+        | Query        | GetTechnicianProfileByIdQuery        | Consulta para obtener detalles de un Technician específico                 | Consultar perfil público completo                                                                          | Usado por Customers y Tec-Section                      |
 
 
 
@@ -1397,31 +2907,31 @@
 
         | Tipo    | Nombre               | Descripción                                               | Responsabilidad Principal                    | Relación con otros elementos                             |
         | ------- | -------------------- | --------------------------------------------------------- | -------------------------------------------- | -------------------------------------------------------- |
-        | Service | WorkerCatalogService | Servicio mock para listar y consultar perfiles de Workers | Simular catálogo de Workers en la aplicación | Usado en la capa Application                             |
-        | Service | WorkerApiService     | Servicio para integrar con el backend vía API REST        | Gestionar Workers y categorías en BD         | Se comunica con `/api/v1/workers` y `/api/v1/categories` |
+        | Service | TechnicianCatalogService | Servicio mock para listar y consultar perfiles de Technicians | Simular catálogo de Technicians en la aplicación | Usado en la capa Application                             |
+        | Service | TechnicianApiService     | Servicio para integrar con el backend vía API REST        | Gestionar Technicians y categorías en BD         | Se comunica con `/api/v1/Technicians` y `/api/v1/categories` |
 
 
       - **2.6.1.2. Interface Layer**
         **Sub-capa Service:**
         | Tipo       | Nombre                                          | Descripción                                                       | Responsabilidad Principal                                 | Relación con otros elementos     |
         | ---------- | ----------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------- | -------------------------------- |
-        | Controller | WorkerProfileController                         | Exponer endpoints para registrar, actualizar y consultar perfiles | Gestionar WorkerProfile vía comandos/queries              | Usa recursos y assemblers        |
-        | Controller | CategoryController                              | Exponer endpoints para gestionar categorías de Workers            | Crear y listar categorías                                 | Usa CategoryResource             |
-        | Resource   | WorkerProfileResource                           | Representa petición de registro o actualización de Worker         | Recibir datos estructurados (skills, contacto, categoría) | Usado en WorkerProfileController |
-        | Resource   | WorkerProfileResponseResource                   | Respuesta con información completa del Worker                     | Exponer perfil público/profesional                        | Usado en WorkerProfileController |
-        | Resource   | CategoryResource                                | Representa petición/estructura de una categoría                   | Datos de categoría de Worker                              | Usado en CategoryController      |
+        | Controller | TechnicianProfileController                         | Exponer endpoints para registrar, actualizar y consultar perfiles | Gestionar TechnicianProfile vía comandos/queries              | Usa recursos y assemblers        |
+        | Controller | CategoryController                              | Exponer endpoints para gestionar categorías de Technicians            | Crear y listar categorías                                 | Usa CategoryResource             |
+        | Resource   | TechnicianProfileResource                           | Representa petición de registro o actualización de Technician         | Recibir datos estructurados (skills, contacto, categoría) | Usado en TechnicianProfileController |
+        | Resource   | TechnicianProfileResponseResource                   | Respuesta con información completa del Technician                     | Exponer perfil público/profesional                        | Usado en TechnicianProfileController |
+        | Resource   | CategoryResource                                | Representa petición/estructura de una categoría                   | Datos de categoría de Technician                              | Usado en CategoryController      |
         | Resource   | CategoryResponseResource                        | Respuesta con detalles de una categoría                           | Mostrar lista de categorías disponibles                   | Usado en CategoryController      |
-        | Assembler  | RegisterWorkerCommandFromResourceAssembler      | Convierte recurso en RegisterWorkerCommand                        | Desacoplar REST de dominio                                | Usado en WorkerProfileController |
-        | Assembler  | UpdateWorkerProfileCommandFromResourceAssembler | Convierte recurso en UpdateWorkerProfileCommand                   | Igual que arriba                                          | Usado en WorkerProfileController |
-        | Assembler  | WorkerProfileResourceFromEntityAssembler        | Convierte entidad WorkerProfile en respuesta                      | Asegurar consistencia en API                              | Usado en WorkerProfileController |
+        | Assembler  | RegisterTechnicianCommandFromResourceAssembler      | Convierte recurso en RegisterTechnicianCommand                        | Desacoplar REST de dominio                                | Usado en TechnicianProfileController |
+        | Assembler  | UpdateTechnicianProfileCommandFromResourceAssembler | Convierte recurso en UpdateTechnicianProfileCommand                   | Igual que arriba                                          | Usado en TechnicianProfileController |
+        | Assembler  | TechnicianProfileResourceFromEntityAssembler        | Convierte entidad TechnicianProfile en respuesta                      | Asegurar consistencia en API                              | Usado en TechnicianProfileController |
 
 
       - **2.6.1.3. Application Layer**
         **Sub-capa Internal:**
         | Tipo           | Nombre                          | Descripción                                  | Responsabilidad Principal                            | Relación con otros elementos      |
         | -------------- | ------------------------------- | -------------------------------------------- | ---------------------------------------------------- | --------------------------------- |
-        | CommandHandler | WorkerProfileCommandServiceImpl | Implementación de comandos de WorkerProfile  | Crear, actualizar, agregar skills, registrar reseñas | Usado por WorkerProfileController |
-        | QueryHandler   | WorkerProfileQueryServiceImpl   | Implementación de consultas de WorkerProfile | Consultar perfiles y categorías                      | Usado por WorkerProfileController |
+        | CommandHandler | TechnicianProfileCommandServiceImpl | Implementación de comandos de TechnicianProfile  | Crear, actualizar, agregar skills, registrar reseñas | Usado por TechnicianProfileController |
+        | QueryHandler   | TechnicianProfileQueryServiceImpl   | Implementación de consultas de TechnicianProfile | Consultar perfiles y categorías                      | Usado por TechnicianProfileController |
         | CommandHandler | CategoryCommandServiceImpl      | Implementación de comandos para categorías   | Crear/actualizar categorías                          | Usado por CategoryController      |
         | QueryHandler   | CategoryQueryServiceImpl        | Implementación de consultas para categorías  | Listar categorías disponibles                        | Usado por CategoryController      |
         
@@ -1429,8 +2939,8 @@
         **Sub-capa Repository:**
         | Tipo       | Nombre                  | Descripción                    | Responsabilidad Principal       | Relación con otros elementos |
         | ---------- | ----------------------- | ------------------------------ | ------------------------------- | ---------------------------- |
-        | Repository | WorkerProfileRepository | Repositorio para WorkerProfile | Persistir perfiles y reseñas    | Usado en capa Application    |
-        | Repository | CategoryRepository      | Repositorio para Category      | Persistir categorías de Workers | Usado en capa Application    |
+        | Repository | TechnicianProfileRepository | Repositorio para TechnicianProfile | Persistir perfiles y reseñas    | Usado en capa Application    |
+        | Repository | CategoryRepository      | Repositorio para Category      | Persistir categorías de Technicians | Usado en capa Application    |
 
       - **2.6.1.5. Bounded Context Software Architecture Component Level Diagrams**
         <br>
@@ -1442,9 +2952,9 @@
       - **2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**      - **2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**
         - **2.6.1.6.1. Bounded Context Domain Layer Class Diagrams**<br>
         <br><br>
-          El diagrama de clases del bounded context Worker-Catalog modela el catálogo de trabajadores bajo principios de DDD y Clean Architecture. La entidad principal es WorkerProfile, como Aggregate Root, que concentra información profesional, contacto, habilidades, calificaciones y categoría, con trazabilidad mediante campos de auditoría.
+          El diagrama de clases del bounded context Technician-Catalog modela el catálogo de trabajadores bajo principios de DDD y Clean Architecture. La entidad principal es TechnicianProfile, como Aggregate Root, que concentra información profesional, contacto, habilidades, calificaciones y categoría, con trazabilidad mediante campos de auditoría.
 
-          Los Value Objects (WorkerContact, WorkerSkill, WorkerRating) encapsulan datos inmutables, mientras que Category organiza a los trabajadores por especialidad. Los Commands y Queries representan casos de uso explícitos, y los Servicios (WorkerCatalogService, WorkerApiService) orquestan operaciones y comunicación con infraestructura, garantizando un diseño cohesivo, escalable y mantenible.<br> <br>
+          Los Value Objects (TechnicianContact, TechnicianSkill, TechnicianRating) encapsulan datos inmutables, mientras que Category organiza a los trabajadores por especialidad. Los Commands y Queries representan casos de uso explícitos, y los Servicios (TechnicianCatalogService, TechnicianApiService) orquestan operaciones y comunicación con infraestructura, garantizando un diseño cohesivo, escalable y mantenible.<br> <br>
                 <div align="center">
                   <img src="./feature/chapter02/Bounded_Context_Software_Architecture_Code_Level_Diagrams_Worker.jpeg"/>
                 </div>
@@ -1456,15 +2966,15 @@
                 <br>
 
 
-        **Tabla: WorkerProfile**
+        **Tabla: TechnicianProfile**
 
         | Campo        | Tipo         | Descripción                                     |
           | ------------ | ------------ | --------------------------------------------- |
-          | id           | varchar(36)  | Identificador único del Worker (PK)           |
-          | name         | varchar(120) | Nombre del Worker                             |
-          | email        | varchar(120) | Correo electrónico del Worker                 |
-          | phone        | varchar(20)  | Número de teléfono del Worker                 |
-          | location     | varchar(150) | Ubicación aproximada del Worker               |
+          | id           | varchar(36)  | Identificador único del Technician (PK)           |
+          | name         | varchar(120) | Nombre del Technician                             |
+          | email        | varchar(120) | Correo electrónico del Technician                 |
+          | phone        | varchar(20)  | Número de teléfono del Technician                 |
+          | location     | varchar(150) | Ubicación aproximada del Technician               |
           | experience   | text         | Experiencia o biografía profesional           |
           | rating\_avg  | decimal(3,2) | Promedio de calificaciones recibidas          |
           | status       | varchar(20)  | Estado del perfil (ACTIVE, INACTIVE, PENDING) |
@@ -1472,12 +2982,12 @@
           | created\_at  | datetime     | Fecha de creación del perfil                  |
           | updated\_at  | datetime     | Fecha de última actualización del perfil      |
 
-        **Tabla: WorkerSkill**
+        **Tabla: TechnicianSkill**
 
         | Campo       | Tipo         | Descripción                                         |
           | ----------- | ------------ | --------------------------------------------------- |
           | id          | int          | Identificador único de la habilidad (PK)            |
-          | worker\_id  | varchar(36)  | ID del Worker al que pertenece la habilidad (FK)    |
+          | Technician\_id  | varchar(36)  | ID del Technician al que pertenece la habilidad (FK)    |
           | skill\_name | varchar(120) | Nombre de la habilidad (ej: plomería, electricidad) |
 
         **Tabla: Category**
@@ -1490,12 +3000,12 @@
           | created\_at | datetime     | Fecha de creación del registro                         |
           | updated\_at | datetime     | Fecha de última actualización del registro             |
 
-        **Tabla: WorkerRating**
+        **Tabla: TechnicianRating**
 
         | Campo        | Tipo         | Descripción                                      |
           | ------------ | ------------ | ------------------------------------------------ |
           | id           | int          | Identificador único de la calificación (PK).     |
-          | worker\_id   | varchar(36)  | ID del trabajador calificado (FK).               |
+          | Technician\_id   | varchar(36)  | ID del trabajador calificado (FK).               |
           | customer\_id | varchar(36)  | ID del cliente que realizó la reseña.            |
           | score        | int          | Puntaje asignado (1–5).                          |
           | comment      | varchar(300) | Comentario escrito por el cliente.               |
@@ -1512,10 +3022,10 @@
 
         | Tipo     | Nombre     | Descripción                                                                 | Responsabilidad Principal                                    | Relación con otros elementos                  |
         |----------|------------|-----------------------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------------------|
-        | Entity   | Payment    | Representa un pago realizado por un cliente a un técnico.                   | Gestionar información del pago (monto, estado, fecha).       | Relación con `Customer`, `Worker`, `Order`.   |
+        | Entity   | Payment    | Representa un pago realizado por un cliente a un técnico.                   | Gestionar información del pago (monto, estado, fecha).       | Relación con `Customer`, `Technician`, `Order`.   |
         | Entity   | Transaction| Registro detallado de la operación financiera.                             | Validar y asegurar consistencia de la transacción.           | Asociado a `Payment`.                         |
         | ValueObj | Amount     | Valor del monto a pagar en una transacción.                                | Garantizar formato, precisión y reglas de negocio de dinero. | Parte de `Payment` y `Transaction`.           |
-        | Entity   | Order      | Representa el servicio acordado entre cliente y técnico.                   | Conectar el servicio contratado con su pago.                 | Relación con `Customer` y `Worker`.           |
+        | Entity   | Order      | Representa el servicio acordado entre cliente y técnico.                   | Conectar el servicio contratado con su pago.                 | Relación con `Customer` y `Technician`.           |
 
         **Sub-capa Services**
 
@@ -1573,16 +3083,16 @@
         
        | Tipo         | Nombre                  | Descripción                                            | Responsabilidad Principal                             | Relación con otros elementos                                                                                                                                |
         |--------------|-------------------------|--------------------------------------------------------|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-        | Aggregate    | Alert                   | Clase para definir una Alerta de la aplicación         | Ser el punto de entrada para la gestion de Alertas    | Relacionado con el boundedContext de pagos para generar Alertas y el boundedContext de Tec-Section para generar una Alerta al momento de llamar a un Worker |
+        | Aggregate    | Alert                   | Clase para definir una Alerta de la aplicación         | Ser el punto de entrada para la gestion de Alertas    | Relacionado con el boundedContext de pagos para generar Alertas y el boundedContext de Tec-Section para generar una Alerta al momento de llamar a un Technician |
         | Value Object | AlertType               | Value object usado en el Aggregate Alert               | Representa el tipo de Alerta                          | Relacionado con Alert                                                                                                                                       |
         | Value Object | AlertTittle             | Value object usado en el Aggregate Alert               | Representa el titulo de la Alerta                     | Relacionado con Alert                                                                                                                                       |
         | Value Object | AlertMessage            | Value object usado en el Aggregate Alert               | Representa el contenido de la Alerta                  | Relacionado con Alert                                                                                                                                       |
-        | Command      | CreateAlertCommand      | Comando para crear una Alerta                          | Encapsular los datos requeridos para crear una alerta | Usado cuando se quiere crear una alerta para el Worker y el Customer                                                                                        |
-        | Command      | DeleteAlertCommand      | Comando para eliminar una Alert                        | Encapsular los datos para crear eliminar una alerta   | Verifica si el Worker  o el Customer  eliminan la alerta. Tambien si el Worker  rechaza una alerta esta se eliminara luego para este mismo.                 |
-        | Command      | AcceptAlertCommand      | Comando para aceptar una Alert                         | Modificar informacion para aceptar una alerta         | Usado cuando el Worker  acepta el trabajo pedido por el Customer                                                                                            |
-        | Command      | DeclineAlertCommand     | Comando para rechazar una Alert                        | Modificar informacion para rechazar una alerta        | Usado cuando el Worker  acepta el trabajo pedido por el Customer                                                                                            |
+        | Command      | CreateAlertCommand      | Comando para crear una Alerta                          | Encapsular los datos requeridos para crear una alerta | Usado cuando se quiere crear una alerta para el Technician y el Customer                                                                                        |
+        | Command      | DeleteAlertCommand      | Comando para eliminar una Alert                        | Encapsular los datos para crear eliminar una alerta   | Verifica si el Technician  o el Customer  eliminan la alerta. Tambien si el Technician  rechaza una alerta esta se eliminara luego para este mismo.                 |
+        | Command      | AcceptAlertCommand      | Comando para aceptar una Alert                         | Modificar informacion para aceptar una alerta         | Usado cuando el Technician  acepta el trabajo pedido por el Customer                                                                                            |
+        | Command      | DeclineAlertCommand     | Comando para rechazar una Alert                        | Modificar informacion para rechazar una alerta        | Usado cuando el Technician  acepta el trabajo pedido por el Customer                                                                                            |
         | Query        | GetAlertByCustomerQuery | Consulta para obtener todas las alertas del Customer   | Recuperar las alertas del Usuario                     | Usado en la seccion de Alertas del Customer                                                                                                                 |
-        | Query        | GetAlertByWorkerQuery   | Consulta para obtener todas las alertas del Worker     | Recuperar las alertas del Worker                      | Usado en la seccion de Alertas del Worker                                                                                                                   |
+        | Query        | GetAlertByTechnicianQuery   | Consulta para obtener todas las alertas del Technician     | Recuperar las alertas del Technician                      | Usado en la seccion de Alertas del Technician                                                                                                                   |
         
         **Sub-capa Service:**
     
@@ -1596,7 +3106,7 @@
       
           | Tipo       | Nombre                                   | Descripción                                                  | Responsabilidad Principal                                                                                                                  | Relación con otros elementos                                                             |
           |------------|------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-          | Controller | AlertController                          | Controlador REST para gestionar Alertas                      | Recibir solicitudes tanto de Customer como de Worker sobre alertas, coordina los comandos correspondiente y devuelve la respuesta adecuada | Utiliza `AlertRequestResource`, `AlerResponseResource` y los assemblers correspondientes |
+          | Controller | AlertController                          | Controlador REST para gestionar Alertas                      | Recibir solicitudes tanto de Customer como de Technician sobre alertas, coordina los comandos correspondiente y devuelve la respuesta adecuada | Utiliza `AlertRequestResource`, `AlerResponseResource` y los assemblers correspondientes |
           | Resource   | AlertRequestResource                     | Estructura de una peticion para crear o modificar Alertas    | Representar y exponer datos del dominio de forma accesible y estructurada para el Cliente                                                  | Uso en `AlertController` para enviar datos estructurados al sistema                      |
           | Resource   | AlertResponseResource                    | Estructura de una respuesta con información de una alerta    | Representar y exponer datos del dominio de forma accesible y estructurada para el Cliente                                                  | Uso en `AlertController` para responder con datos del sistema                            |
           | Assembler  | CreateAlertCommandFromResourceAssembler  | Convierte un recurso de peticion en un `CreateAlertCommand`  | Evitar el acoplamiento entre la interfaz REST y la capa de aplicación                                                                      | Usado en `AlertController` para traducir la petición a `CreateAlertCommand`              |
@@ -1611,7 +3121,7 @@
         | Tipo           | Nombre                  | Descripción                              | Responsabilidad Principal                                                                            | Relación con otros elementos                                                                    |
         |----------------|-------------------------|------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
         | CommandHandler | AlertCommandServiceImpl | Implementación de los comandos de Alert  | Implementar los métodos de crear, aceptar, rechazar y eliminar Alertas                               | Implementa la interfaz `AlertCommandService`. `AlertController` y `CommandHandlers` del dominio |
-        | QueryHandler   | AlertQueryServiceImpl   | Implementación de las consultas de Alert | Implementar métodos para obtener alertas por ` GetAlertByCustomerQuery` y `GetAlertByWorkerQuery `   | Implementa la interfaz `AlerQueryService`. Usado por `AlertController` y lo Query  del dominio  |
+        | QueryHandler   | AlertQueryServiceImpl   | Implementación de las consultas de Alert | Implementar métodos para obtener alertas por ` GetAlertByCustomerQuery` y `GetAlertByTechnicianQuery `   | Implementa la interfaz `AlerQueryService`. Usado por `AlertController` y lo Query  del dominio  |
 
       - **2.6.3.4. Infrastructure Layer**
         **Sub-capa Repository**
@@ -1622,7 +3132,7 @@
       
       - **2.6.3.5. Bounded Context Software Architecture Component Level Diagrams**
         <br><br>
-        El diagrama de componentes del Alert System muestra una arquitectura modular y bien definida. Los controladores gestionan la comunicación con los usuarios Customer y Worker, delegando la ejecución en los servicios de aplicación. Las entidades de dominio encapsulan la lógica central, mientras que los repositorios manejan la persistencia de datos. Este enfoque sigue los principios de DDD y Clean Architecture, garantizando separación de responsabilidades, mantenibilidad y facilidad de extensión del sistema.<br> <br>
+        El diagrama de componentes del Alert System muestra una arquitectura modular y bien definida. Los controladores gestionan la comunicación con los usuarios Customer y Technician, delegando la ejecución en los servicios de aplicación. Las entidades de dominio encapsulan la lógica central, mientras que los repositorios manejan la persistencia de datos. Este enfoque sigue los principios de DDD y Clean Architecture, garantizando separación de responsabilidades, mantenibilidad y facilidad de extensión del sistema.<br> <br>
         <div align="center">
         <img src="feature/chapter02/Alert_Component.png">
         </div>
@@ -1631,7 +3141,7 @@
       
         - **2.6.3.6.1. Bounded Context Domain Layer Class Diagrams**
           <br><br>
-          Este diagrama UML representa la arquitectura de un sistema de gestión de alertas centrado en la administración de notificaciones entre Customers y Workers. La estructura está basada en principios de diseño orientado a objetos y se organiza en capas de comandos y consultas, siguiendo un enfoque CQRS . A lo largo del análisis, se describirán los principales componentes del sistema, como los servicios de comandos y consultas, la entidad central Alert, así como los value objects, los comandos y consultas asociados. También se explicará cómo estas clases interactúan entre sí mediante relaciones de herencia, interfaces, asociación y dependencia para mantener una lógica de negocio clara, desacoplada y mantenible.<br> <br>
+          Este diagrama UML representa la arquitectura de un sistema de gestión de alertas centrado en la administración de notificaciones entre Customers y Technicians. La estructura está basada en principios de diseño orientado a objetos y se organiza en capas de comandos y consultas, siguiendo un enfoque CQRS . A lo largo del análisis, se describirán los principales componentes del sistema, como los servicios de comandos y consultas, la entidad central Alert, así como los value objects, los comandos y consultas asociados. También se explicará cómo estas clases interactúan entre sí mediante relaciones de herencia, interfaces, asociación y dependencia para mantener una lógica de negocio clara, desacoplada y mantenible.<br> <br>
         <div align="center">
         <img src="feature/chapter02/Diagrama_de_Datos_Bounded_Alert.jpg">
         </div>
@@ -1653,7 +3163,7 @@
           | title        | varchar(120) | Título de la alerta              |
           | message      | varchar(250) | Contenido de la alerta           |
           | customer_id  | int          | ID del Customer relacionado      |
-          | worker_id    | int          | ID del Worker relacionado        |
+          | Technician_id    | int          | ID del Technician relacionado        |
           | created_at   | datetime     | Fecha de creación de la alerta   |
           | updated_at   | datetime     | Fecha de última actualización    |
 
@@ -1664,43 +3174,43 @@
         
 | Tipo         | Nombre         | Descripción                                                         | Responsabilidad Principal                                   | Relación con otros elementos                                                                                  |
 |--------------|----------------|---------------------------------------------------------------------|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Aggregate    | WorkRequest    | Entidad que representa una solicitud de trabajo                     | Ser el punto de entrada para gestionar trabajos solicitados | Relacionado con WorkerProfile para asignar técnicos y con los servicios que manejan solicitudes               |
+| Aggregate    | WorkRequest    | Entidad que representa una solicitud de trabajo                     | Ser el punto de entrada para gestionar trabajos solicitados | Relacionado con TechnicianProfile para asignar técnicos y con los servicios que manejan solicitudes               |
 | Value Object | WorkStatus     | Value object dentro de WorkRequest                                  | Representa el estado del trabajo (pending, accepted, etc.)  | Relacionado con WorkRequest                                                                                    |
 | Value Object | WorkDetails    | Value object dentro de WorkRequest                                  | Representa descripción final, monto y horario               | Relacionado con WorkRequest                                                                                    |
-| Aggregate    | WorkerProfile  | Entidad que representa el perfil del técnico                        | Ser el punto de entrada para gestionar información de Worker | Relacionado con WorkRequest, ya que es quien recibe o acepta las solicitudes de trabajo                       |
-| Value Object | WorkerStatus   | Value object dentro de WorkerProfile                                | Representa el estado del técnico (PENDING_APPROVAL, ACTIVE) | Relacionado con WorkerProfile                                                                                  |
-| Value Object | WorkerContact  | Value object dentro de WorkerProfile                                | Contiene información de contacto como email y teléfono      | Relacionado con WorkerProfile                                                                                  |
+| Aggregate    | TechnicianProfile  | Entidad que representa el perfil del técnico                        | Ser el punto de entrada para gestionar información de Technician | Relacionado con WorkRequest, ya que es quien recibe o acepta las solicitudes de trabajo                       |
+| Value Object | TechnicianStatus   | Value object dentro de TechnicianProfile                                | Representa el estado del técnico (PENDING_APPROVAL, ACTIVE) | Relacionado con TechnicianProfile                                                                                  |
+| Value Object | TechnicianContact  | Value object dentro de TechnicianProfile                                | Contiene información de contacto como email y teléfono      | Relacionado con TechnicianProfile                                                                                  |
 | Command      | CreateWorkRequestCommand | Comando para crear una solicitud de trabajo          | Encapsular datos requeridos para generar un nuevo WorkRequest | Usado cuando un Customer registra un nuevo trabajo                                                                |
-| Command      | UpdateWorkRequestCommand | Comando para actualizar datos de un WorkRequest     | Modificar datos como fecha, dirección o descripción         | Usado por el Customer antes de que un Worker lo acepte                                                               |
-| Command      | AcceptWorkRequestCommand | Comando para aceptar un trabajo solicitado         | Modificar estado de WorkRequest a "accepted"                | Usado cuando un Worker acepta el trabajo                                                                              |
-| Command      | CompleteWorkRequestCommand | Comando para marcar un trabajo como completado     | Modificar estado y registrar monto y descripción final      | Usado por el Worker al finalizar el servicio                                                                        |
-| Query        | GetWorkRequestsByWorkerQuery | Consulta para obtener solicitudes por Worker      | Recuperar las solicitudes asignadas a un Worker             | Usado en la sección de solicitudes del Worker                                                                      |
+| Command      | UpdateWorkRequestCommand | Comando para actualizar datos de un WorkRequest     | Modificar datos como fecha, dirección o descripción         | Usado por el Customer antes de que un Technician lo acepte                                                               |
+| Command      | AcceptWorkRequestCommand | Comando para aceptar un trabajo solicitado         | Modificar estado de WorkRequest a "accepted"                | Usado cuando un Technician acepta el trabajo                                                                              |
+| Command      | CompleteWorkRequestCommand | Comando para marcar un trabajo como completado     | Modificar estado y registrar monto y descripción final      | Usado por el Technician al finalizar el servicio                                                                        |
+| Query        | GetWorkRequestsByTechnicianQuery | Consulta para obtener solicitudes por Technician      | Recuperar las solicitudes asignadas a un Technician             | Usado en la sección de solicitudes del Technician                                                                      |
 | Query        | GetWorkRequestsByCustomerQuery | Consulta para obtener solicitudes por Customer    | Recuperar las solicitudes hechas por un Customer            | Usado en la sección de solicitudes del Customer                                                                  |
 
   **Sub-capa Service:**
     
 | Tipo      | Nombre              | Descripción                                                    | Responsabilidad Principal                                                | Relación con otros elementos                                                                   |
 |-----------|---------------------|----------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Service   | WorkRequestService  | Servicio simulado para manejar solicitudes de trabajo (mock).  | Retornar listado de solicitudes para un Worker o Customer (Observable).   | Usado en capa Application para renderizar en vistas de Worker y Customer                       |
-| Service   | WorkerApiService    | Servicio para integrar con el backend vía API REST             | Gestionar Workers, Customers, categorías y solicitudes en la base de datos | Se comunica con la API (`/api/v1/workers`, `/api/v1/users`, `/api/v1/categories`). Consumido en capa Application |
+| Service   | WorkRequestService  | Servicio simulado para manejar solicitudes de trabajo (mock).  | Retornar listado de solicitudes para un Technician o Customer (Observable).   | Usado en capa Application para renderizar en vistas de Technician y Customer                       |
+| Service   | TechnicianApiService    | Servicio para integrar con el backend vía API REST             | Gestionar Technicians, Customers, categorías y solicitudes en la base de datos | Se comunica con la API (`/api/v1/Technicians`, `/api/v1/users`, `/api/v1/categories`). Consumido en capa Application |
 
   - **2.6.4.2. Interface Layer**
     **Sub-capa REST**
   
   | Tipo       | Nombre                                           | Descripción                                                              | Responsabilidad Principal                                                                                          | Relación con otros elementos                                                                 |
   |------------|--------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-  | Controller | WorkRequestController                           | Controlador REST para gestionar solicitudes de trabajo                   | Recibir solicitudes de Customer (crear, actualizar, listar) y de Worker (aceptar, completar), y coordinar comandos | Utiliza `WorkRequestResource`, `WorkRequestResponseResource` y los assemblers correspondientes |
-  | Controller | WorkerProfileController                         | Controlador REST para gestionar perfiles de técnicos                     | Exponer endpoints para registrar, actualizar y consultar información de Worker                                     | Utiliza `WorkerProfileResource`, `WorkerProfileResponseResource` y los assemblers correspondientes |
+  | Controller | WorkRequestController                           | Controlador REST para gestionar solicitudes de trabajo                   | Recibir solicitudes de Customer (crear, actualizar, listar) y de Technician (aceptar, completar), y coordinar comandos | Utiliza `WorkRequestResource`, `WorkRequestResponseResource` y los assemblers correspondientes |
+  | Controller | TechnicianProfileController                         | Controlador REST para gestionar perfiles de técnicos                     | Exponer endpoints para registrar, actualizar y consultar información de Technician                                     | Utiliza `TechnicianProfileResource`, `TechnicianProfileResponseResource` y los assemblers correspondientes |
   | Resource   | WorkRequestResource                             | Estructura de una petición para crear o modificar un WorkRequest          | Representar datos del dominio (dirección, fecha, descripción, categoría, etc.) de forma accesible al Cliente        | Usado en `WorkRequestController` para recibir datos estructurados del Customer                 |
   | Resource   | WorkRequestResponseResource                     | Estructura de respuesta para un WorkRequest                              | Exponer estado, técnico asignado y detalles del trabajo en formato accesible                                        | Usado en `WorkRequestController` para responder con datos procesados                           |
-  | Resource   | WorkerProfileResource                           | Estructura de petición para crear o modificar un perfil de Worker         | Representar datos como nombre, experiencia, contacto, categoría                                                     | Usado en `WorkerProfileController` para recibir información del Worker                        |
-  | Resource   | WorkerProfileResponseResource                   | Estructura de respuesta para un perfil de Worker                          | Exponer datos del técnico en formato accesible (estado, disponibilidad, contacto)                                   | Usado en `WorkerProfileController` para responder con datos procesados                        |
+  | Resource   | TechnicianProfileResource                           | Estructura de petición para crear o modificar un perfil de Technician         | Representar datos como nombre, experiencia, contacto, categoría                                                     | Usado en `TechnicianProfileController` para recibir información del Technician                        |
+  | Resource   | TechnicianProfileResponseResource                   | Estructura de respuesta para un perfil de Technician                          | Exponer datos del técnico en formato accesible (estado, disponibilidad, contacto)                                   | Usado en `TechnicianProfileController` para responder con datos procesados                        |
   | Assembler  | CreateWorkRequestCommandFromResourceAssembler   | Convierte un recurso de petición en un `CreateWorkRequestCommand`         | Evitar acoplamiento entre la interfaz REST y la capa de aplicación                                                  | Usado en `WorkRequestController` para traducir la petición a comando                          |
   | Assembler  | UpdateWorkRequestCommandFromResourceAssembler   | Convierte un recurso de petición en un `UpdateWorkRequestCommand`         | Evitar acoplamiento entre REST y la capa de aplicación                                                              | Usado en `WorkRequestController`                                                              |
-  | Assembler  | AcceptWorkRequestCommandFromResourceAssembler   | Convierte un recurso de petición en un `AcceptWorkRequestCommand`         | Traducir acción del Worker al comando correspondiente                                                              | Usado en `WorkRequestController`                                                              |
+  | Assembler  | AcceptWorkRequestCommandFromResourceAssembler   | Convierte un recurso de petición en un `AcceptWorkRequestCommand`         | Traducir acción del Technician al comando correspondiente                                                              | Usado en `WorkRequestController`                                                              |
   | Assembler  | CompleteWorkRequestCommandFromResourceAssembler | Convierte un recurso de petición en un `CompleteWorkRequestCommand`       | Traducir acción de finalizar trabajo al comando correspondiente                                                     | Usado en `WorkRequestController`                                                              |
   | Assembler  | WorkRequestResourceFromEntityAssembler          | Convierte una entidad WorkRequest en un recurso de respuesta              | Asegurar respuesta consistente para el cliente                                                                      | Usado en `WorkRequestController` para retornar `WorkRequestResponseResource`                   |
-  | Assembler  | WorkerProfileResourceFromEntityAssembler        | Convierte una entidad WorkerProfile en un recurso de respuesta            | Asegurar respuesta consistente para el cliente                                                                      | Usado en `WorkerProfileController` para retornar `WorkerProfileResponseResource`               |
+  | Assembler  | TechnicianProfileResourceFromEntityAssembler        | Convierte una entidad TechnicianProfile en un recurso de respuesta            | Asegurar respuesta consistente para el cliente                                                                      | Usado en `TechnicianProfileController` para retornar `TechnicianProfileResponseResource`               |
   
 - **2.6.4.3. Application Layer**
   **Sub-capa Internal**
@@ -1709,8 +3219,8 @@
   |----------------|----------------------------------|------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
   | CommandHandler | WorkRequestCommandServiceImpl    | Implementación de los comandos de WorkRequest        | Implementar métodos para crear, actualizar, aceptar y completar solicitudes de trabajo     | Implementa la interfaz `WorkRequestCommandService`. Usado por `WorkRequestController` y los CommandHandlers del dominio |
   | QueryHandler   | WorkRequestQueryServiceImpl      | Implementación de las consultas de WorkRequest       | Implementar métodos para obtener solicitudes por estado, cliente o técnico                 | Implementa la interfaz `WorkRequestQueryService`. Usado por `WorkRequestController` y los QueryHandlers del dominio       |
-  | CommandHandler | WorkerProfileCommandServiceImpl  | Implementación de los comandos de WorkerProfile      | Implementar métodos para registrar y actualizar perfiles de técnicos                      | Implementa la interfaz `WorkerProfileCommandService`. Usado por `WorkerProfileController` y los CommandHandlers del dominio |
-  | QueryHandler   | WorkerProfileQueryServiceImpl    | Implementación de las consultas de WorkerProfile     | Implementar métodos para consultar perfiles por categoría, disponibilidad, experiencia     | Implementa la interfaz `WorkerProfileQueryService`. Usado por `WorkerProfileController` y los QueryHandlers del dominio   |
+  | CommandHandler | TechnicianProfileCommandServiceImpl  | Implementación de los comandos de TechnicianProfile      | Implementar métodos para registrar y actualizar perfiles de técnicos                      | Implementa la interfaz `TechnicianProfileCommandService`. Usado por `TechnicianProfileController` y los CommandHandlers del dominio |
+  | QueryHandler   | TechnicianProfileQueryServiceImpl    | Implementación de las consultas de TechnicianProfile     | Implementar métodos para consultar perfiles por categoría, disponibilidad, experiencia     | Implementa la interfaz `TechnicianProfileQueryService`. Usado por `TechnicianProfileController` y los QueryHandlers del dominio   |
 
 - **2.6.4.4. Infrastructure Layer**
   **Sub-capa Repository**
@@ -1718,11 +3228,11 @@
   | Tipo       | Nombre                  | Descripción                                   | Responsabilidad Principal                                              | Relación con otros elementos                                                                 |
   |------------|-------------------------|-----------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
   | Repository | WorkRequestRepository   | Repositorio para el modelo `WorkRequest`      | Acceder y manipular datos persistidos de solicitudes de trabajo        | Usado en la capa Application por `WorkRequestCommandServiceImpl` y `WorkRequestQueryServiceImpl` |
-  | Repository | WorkerProfileRepository | Repositorio para el modelo `WorkerProfile`    | Acceder y manipular datos persistidos de perfiles de técnicos          | Usado en la capa Application por `WorkerProfileCommandServiceImpl` y `WorkerProfileQueryServiceImpl` |
+  | Repository | TechnicianProfileRepository | Repositorio para el modelo `TechnicianProfile`    | Acceder y manipular datos persistidos de perfiles de técnicos          | Usado en la capa Application por `TechnicianProfileCommandServiceImpl` y `TechnicianProfileQueryServiceImpl` |
 
     - **2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**
  <br><br>
-       El diagrama de componentes de Tec Section muestra la organización del sistema en dos módulos principales: WorkRequest y WorkerProfile, cada uno compuesto por cuatro elementos con responsabilidades específicas. Los Controllers cumplen el rol de exponer datos, actuando como interfaz REST para que los actores externos (Customer y Worker) interactúen con la aplicación. Los Services se encargan de ejecutar datos, orquestando la lógica de negocio mediante la creación, actualización y finalización de solicitudes. Los Resources permiten consultar datos, garantizando que la información del dominio se estructure y presente de manera consistente para su consumo. Finalmente, los Repositories se responsabilizan de modificar datos, encapsulando la persistencia y asegurando independencia entre el dominio y la infraestructura. Esta división modular garantiza claridad en las responsabilidades, bajo acoplamiento y facilidad de mantenimiento, siguiendo los principios de DDD y Clean Architecture.
+       El diagrama de componentes de Tec Section muestra la organización del sistema en dos módulos principales: WorkRequest y TechnicianProfile, cada uno compuesto por cuatro elementos con responsabilidades específicas. Los Controllers cumplen el rol de exponer datos, actuando como interfaz REST para que los actores externos (Customer y Technician) interactúen con la aplicación. Los Services se encargan de ejecutar datos, orquestando la lógica de negocio mediante la creación, actualización y finalización de solicitudes. Los Resources permiten consultar datos, garantizando que la información del dominio se estructure y presente de manera consistente para su consumo. Finalmente, los Repositories se responsabilizan de modificar datos, encapsulando la persistencia y asegurando independencia entre el dominio y la infraestructura. Esta división modular garantiza claridad en las responsabilidades, bajo acoplamiento y facilidad de mantenimiento, siguiendo los principios de DDD y Clean Architecture.
         <div align="center">
         <img src="feature/chapter02/TecSection_Component.jpg">
         </div>
@@ -1759,7 +3269,7 @@
   | finalAmount        | decimal(10,2)  | Monto final del servicio acordado                   |
   | finalWork**Description** | varchar(250) | Descripción final del trabajo realizado             |
   | status             | varchar(15)    | Estado de la solicitud (pending, accepted, etc.)    |
-  | worker_id          | int            | ID del Worker relacionado (FK)                      |
+  | Technician_id          | int            | ID del Technician relacionado (FK)                      |
   | created_at         | datetime       | Fecha de creación de la solicitud                   |
   | updated_at         | datetime       | Fecha de última actualización de la solicitud       |
 
@@ -1914,35 +3424,15 @@
 
 
 
-- **Conclusiones**
 
-  En este primer entregable, el equipo de Thedraws ha logrado cumplir con los objetivos planteados, elaborando un informe detallado que refleja los avances del proyecto. Gracias a un enfoque cuidadoso y bien organizado, se ha conseguido comunicar de manera efectiva los beneficios de la app “Alguien dijo Chamba” a los usuarios, estableciendo una base sólida para las etapas futuras del proyecto. Este primer paso garantiza que la estructura y visión de Thedraws se transmitan con claridad, facilitando la transición hacia fases más complejas del desarrollo.
 
-- **Bibliografía**
 
-  1. Google. (s.f.). *Google HTML/CSS Style Guide*. Recuperado de [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)
 
-  2. Mendel, J. (s.f.). Seriously, what’s your (startup’s) problem? *Medium*. Recuperado de [https://medium.com/@jakemendel/seriously-whats-your-startup-s-problemb3a884c54ab4](https://medium.com/@jakemendel/seriously-whats-your-startup-s-problemb3a884c54ab4)
 
-  3. ProgresSA Lean. (s.f.). 5W+2H - Técnica de análisis de problemas. *ProgresSA Lean*. Recuperado de [https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/](https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/)
 
-  4. SpecFlow. (s.f.). *Gherkin Conventions for Readable Specifications*. Recuperado de [https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/](https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/)
 
-  5. Structurizr. (s.f.). *Embedding diagrams*. Recuperado de [https://docs.structurizr.com/cloud/embed](https://docs.structurizr.com/cloud/embed)
 
-  6. Tamim, N. (s.f.). How to use PlantUML with Markdown \[Gist]. *GitHub*. Recuperado de [https://gist.github.com/noamtamim/f11982b28602bd7e604c233fbe9d910f](https://gist.github.com/noamtamim/f11982b28602bd7e604c233fbe9d910f)
 
-  7. The Markdown Guide. (s.f.). *The Markdown Guide*. Recuperado de [https://www.markdownguide.org/](https://www.markdownguide.org/)
-
-  8. Tune, N. (s.f.). Domain-Driven Architecture Diagrams. *Medium*. Recuperado de [https://medium.com/nick-tune-tech-strategy-blog/domain-driven-architecture](https://medium.com/nick-tune-tech-strategy-blog/domain-driven-architecture)
-
-  9. W3Schools. (s.f.). *HTML Style Guide and Coding Conventions*. Recuperado de [https://www.w3schools.com/html/html5\_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)
-  
-
-- **Anexo**
-
-  Eventstorming https://acortar.link/cUUGdN<br>
-  PPT del Proyecto https://acortar.link/8CJQm9
 
 
 
