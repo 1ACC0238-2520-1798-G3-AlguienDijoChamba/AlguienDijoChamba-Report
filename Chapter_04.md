@@ -713,6 +713,10 @@
 
 ## **Conclusiones**
   En este primer entregable, el equipo de Thedraws ha logrado cumplir con los objetivos planteados, elaborando un informe detallado que refleja los avances del proyecto. Gracias a un enfoque cuidadoso y bien organizado, se ha conseguido comunicar de manera efectiva los beneficios de la app “Alguien dijo Chamba” a los usuarios, estableciendo una base sólida para las etapas futuras del proyecto. Este primer paso garantiza que la estructura y visión de Thedraws se transmitan con claridad, facilitando la transición hacia fases más complejas del desarrollo.
+
+  La integración de herramientas modernas, buenas prácticas de desarrollo y una colaboración efectiva permitió al equipo avanzar de manera significativa en la implementación y validación del producto. Se logró desplegar tanto la landing page como la aplicación móvil, documentar los servicios y establecer una base sólida para los siguientes sprints, asegurando la calidad y coherencia del proyecto.
+
+  
 ## **Bibliografía**
   1. Google. (s.f.). *Google HTML/CSS Style Guide*. Recuperado de [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)
 
