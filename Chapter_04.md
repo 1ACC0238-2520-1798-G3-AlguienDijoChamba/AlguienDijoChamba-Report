@@ -527,7 +527,7 @@
       <img src="https://i.imgur.com/YqhFr0I.png">
        </div>
       
-      Link del video: <a href="">Video </a>
+      Link del video: <a href="https://acortar.link/se3cmV">Video </a>
 
       - **4.2.1.6. Services Documentation Evidence for Sprint Review**
        <br> En este Sprint se logró documentar con OpenAPI los endpoints correspondientes a las funcionalidades implementadas. La documentación incluye detalles técnicos de los servicios consumidos por la aplicación móvil, como los verbos HTTP, parámetros de entrada y respuestas esperadas, permitiendo una mejor comprensión e integración de la app con la API.   
@@ -750,8 +750,4 @@
 ## **Anexos**
   **Eventstorming:** [https://acortar.link/cUUGdN](https://acortar.link/cUUGdN)<br>
 
-  **PPT del Proyecto:** [https://acortar.link/8CJQm9](https://acortar.link/8CJQm9)
-
-  **Link del Lanading Page:** [ttps://alguiendijochamba-landingpage.netlify.app/](ttps://alguiendijochamba-landingpage.netlify.app/) 
-
-  **Link del video del aplicativo movil:** [https://acortar.link/se3cmV](https://acortar.link/se3cmV)
+  **PPT del Proyecto:** ^[https://acortar.link/8CJQm9](https://acortar.link/8CJQm9) 
