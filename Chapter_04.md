@@ -751,3 +751,7 @@
   **Eventstorming:** [https://acortar.link/cUUGdN](https://acortar.link/cUUGdN)<br>
 
   **PPT del Proyecto:** ^[https://acortar.link/8CJQm9](https://acortar.link/8CJQm9) 
+
+  **Video del aplicativo movil:** [https://acortar.link/se3cmV](https://acortar.link/se3cmV)
+
+  **Link del Landing Page:** [https://alguiendijochamba-landingpage.netlify.app/](https://alguiendijochamba-landingpage.netlify.app/)
