@@ -62,12 +62,14 @@
 | Versión | Fecha | Autor | Descripción de la modificación |
 |----|----|----|----|
 | TB1 | 17/09/2025 | Diego Bastidas, Fabrisio Belahonia, Rafael Dominguez, Sebastian Escobar, Alonso Muñiz | Redacción de los Capítulos I: Presentación, II: Requirements Development and Software Solution Design |
-| TP | 7/10/2025 | Diego Bastidas, Fabrisio Belahonia, Rafael Dominguez, Sebastian Escobar, Alonso Muñiz | Corrección de los Capítulos I: Presentación, II: Requirements Development and Software Solution Design. Redacción del Capítulo III: Solution UI/UX Design y Capítulo IV: Product Implementation & Validation|
+| TP1 | 7/10/2025 | Diego Bastidas, Fabrisio Belahonia, Rafael Dominguez, Sebastian Escobar, Alonso Muñiz | Corrección de los Capítulos I: Presentación, II: Requirements Development and Software Solution Design. Redacción del Capítulo III: Solution UI/UX Design y Capítulo IV: Product Implementation & Validation|
 
 
 # Project Report Collaboration Insights
 
 Enlace de la organización para el reporte del proyecto: [https://github.com/1ACC0238-2520-1798-G3-AlguienDijoChamba ](https://github.com/1ACC0238-2520-1798-G3-AlguienDijoChamba)
+
+TB1:
 
 <img src="feature/chapter01/insights1.png">
 
@@ -75,6 +77,13 @@ Enlace de la organización para el reporte del proyecto: [https://github.com/1AC
 
 <img src="feature/chapter01/insights3.png">
 
+TP1:
+
+<img src="https://i.imgur.com/JnLEci8.png">
+
+<img src="https://i.imgur.com/cabd8vi.png">
+
+<img src="https://i.imgur.com/oYhcXFF.png">
 
 
 # Contenido
