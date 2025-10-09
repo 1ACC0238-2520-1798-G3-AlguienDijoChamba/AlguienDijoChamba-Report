@@ -750,4 +750,8 @@
 ## **Anexos**
   **Eventstorming:** [https://acortar.link/cUUGdN](https://acortar.link/cUUGdN)<br>
 
-  **PPT del Proyecto:** ^[https://acortar.link/8CJQm9](https://acortar.link/8CJQm9) 
+  **PPT del Proyecto:** [https://acortar.link/8CJQm9](https://acortar.link/8CJQm9)
+
+  **Link del Lanading Page:** [ttps://alguiendijochamba-landingpage.netlify.app/](ttps://alguiendijochamba-landingpage.netlify.app/) 
+
+  **Link del video del aplicativo movil:** [https://acortar.link/se3cmV](https://acortar.link/se3cmV)
