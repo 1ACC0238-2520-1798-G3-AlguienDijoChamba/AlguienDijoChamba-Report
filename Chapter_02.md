@@ -2815,6 +2815,11 @@
 
 
       - **2.5.1.2. Domain Message Flows Modeling**
+         El Domain Storytelling es una técnica visual y colaborativa que permite descubrir y compartir el conocimiento sobre un dominio de negocio. Su objetivo principal es generar una comprensión común del funcionamiento de un proceso empresarial específico entre las distintas partes involucradas, como los expertos del negocio y los equipos técnicos.
+
+        Por esta razón, realizamos los domain storytelling enfocados en las conexiones entre los bounded contexts, con el fin de analizar y comprender de manera más profunda la lógica del negocio.
+      <img src="./feature/chapter02/modeling.jpeg"/>
+        
       - **2.5.1.3. Bounded Context Canvases**
       
         El Bounded Context Canvas es una herramienta visual usada en Diseño Dirigido por el Dominio (DDD) para definir los límites y relaciones entre los Contextos Delimitados dentro de un sistema. Facilita la comprensión compartida del nombre, propósito, entidades y políticas de negocio de cada contexto.
@@ -2852,8 +2857,9 @@
 
     - **2.5.2. Context Mapping**
 
-      Este Context Map ilustra las interacciones entre los Bounded Contexts de Alguien Dijo Chamba, aplicando patrones de DDD como Upstream/Downstream, ACLs y Conformist.
+      En esta sección se presenta el Context Map desarrollado para el negocio Alguien Dijo Chamba, el cual muestra las interacciones y relaciones estructurales entre los distintos Bounded Contexts identificados. El objetivo de este ejercicio es comprender cómo se comunican y dependen entre sí las diferentes partes del dominio, aplicando los patrones de Domain-Driven Design (DDD) pertinentes, tales como Upstream/Downstream y Conformist.
 
+      Para la elaboración de los context maps, el equipo analizó la información obtenida durante las etapas previas de descubrimiento del dominio, especialmente los resultados del Domain Storytelling, y la utilizó para construir y refinar los diseños candidatos.
         <div align="center">
           <img src="./feature/chapter02/aaa.png"/>
           </div>
@@ -3415,6 +3421,7 @@
   | event\_type      | Tipo de evento (REGISTERED, SIGNED\_IN, FAILED\_LOGIN).                    |
   | event\_timestamp | Fecha y hora en que ocurrió el evento.                                     |
   | details          | Detalles adicionales del evento (ej. IP, descripción del error, etc.).     |
+
 
 
 
