@@ -61,12 +61,29 @@
 
 | Versión | Fecha | Autor | Descripción de la modificación |
 |----|----|----|----|
-| TB1 |  |  | Redacción de los Capítulos I: Presentación, II: Requirements Elicitation & Analysis, III: Requirements Specification, IV:  Solution Software Design |
-| TP |  |  |  |
-| TB2 |  |  |  |
-| TF |  |  |  |
+| TB1 | 17/09/2025 | Diego Bastidas, Fabrisio Belahonia, Rafael Dominguez, Sebastian Escobar, Alonso Muñiz | Redacción de los Capítulos I: Presentación, II: Requirements Development and Software Solution Design |
+| TP1 | 7/10/2025 | Diego Bastidas, Fabrisio Belahonia, Rafael Dominguez, Sebastian Escobar, Alonso Muñiz | Corrección de los Capítulos I: Presentación, II: Requirements Development and Software Solution Design. Redacción del Capítulo III: Solution UI/UX Design y Capítulo IV: Product Implementation & Validation|
+
 
 # Project Report Collaboration Insights
+
+Enlace de la organización para el reporte del proyecto: [https://github.com/1ACC0238-2520-1798-G3-AlguienDijoChamba ](https://github.com/1ACC0238-2520-1798-G3-AlguienDijoChamba)
+
+TB1:
+
+<img src="feature/chapter01/insights1.png">
+
+<img src="feature/chapter01/insights2.png">
+
+<img src="feature/chapter01/insights3.png">
+
+TP1:
+
+<img src="https://i.imgur.com/JnLEci8.png">
+
+<img src="https://i.imgur.com/cabd8vi.png">
+
+<img src="https://i.imgur.com/oYhcXFF.png">
 
 
 # Contenido
@@ -77,129 +94,161 @@
     - [Tabla de contenidos](#tabla-de-contenidos)
 - [**Student Outcome**](#student-outcome)
 - ## [ **Capítulo I:  Presentación** ](#-capítulo-i-introducción-)
-  - [**1.1. Startup Profile**](#11-startup-profile)
-    - [**1.1.1. Descripción de la Startup**](#111-descripción-de-la-startup)
-    - [**1.1.2. Perfiles de integrantes del equipo**](#112-perfiles-de-integrantes-del-equipo)
-  - [**1.2. Solution Profile**](#12-solution-profile)
-    - [**1.2.1 Antecedentes y problemática**](#121-antecedentes-y-problemática)
-    - [What (¿Qué?)](#what-qué)
-    - [Who (¿Quién?)](#who-quién)
-    - [Where (¿Dónde?)](#where-dónde)
-    - [When (¿Cuándo?)](#when-cuándo)
-    - [Why (¿Por qué?)](#why-por-qué)
-    - [How (¿Cómo?)](#how-cómo)
-    - [How much (¿Cuánto?)](#how-much-cuánto)
-    - [**1.2.2 Lean UX Process**](#122-lean-ux-process)
-    - [**1.2.2.1. Lean UX Problem Statements**](#1221-lean-ux-problem-statements)
-    - [**1.2.2.2. Lean UX Assumptions**](#1222-lean-ux-assumptions)
-    - [**1.2.2.3. Lean UX Hypothesis Statements**](#1223-lean-ux-hypothesis-statements)
-    - [**1.2.2.4. Lean UX Canvas**](#1224-lean-ux-canvas)
-  - [**1.3. Segmentos objetivo**](#13-segmentos-objetivo)
-- ## [ **Capítulo II: Requirements Elicitation \& Analysis**](#-capítulo-ii-requirements-elicitation--analysis)
-  - [**2.1. Competidores**](#21-competidores)
-    - [**2.1.1. Análisis competitivo**](#211-análisis-competitivo)
-    - [**2.1.2. Estrategias y tácticas frente a competidores**](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [**2.2. Entrevistas**](#22-entrevistas)
-    - [**2.2.1. Diseño de entrevistas**](#221-diseño-de-entrevistas)
-    - [**2.2.2. Registro de entrevistas**](#222-registro-de-entrevistas)
-    - [**2.2.3. Análisis de entrevistas**](#223-análisis-de-entrevistas)
-  - [**2.3. Needfinding**](#23-needfinding)
-    - [**2.3.1. User Personas**](#231-user-personas)
-    - [**2.3.2. User Task Matrix**](#232-user-task-matrix)
-    - [**2.3.3. User Journey Mapping**](#233-user-journey-mapping)
-    - [**2.3.4. Empathy Mapping**](#234-empathy-mapping)
-    - [**2.3.5. As-is Scenario Mapping**](#235-as-is-scenario-mapping)
-  - [**2.4. Ubiquitous Language**](#24-ubiquitous-language)
-- ## [ **Capítulo III: Requirements Specification**](#-capítulo-iii-requirements-specification)
-  - [**3.1. To-Be Scenario Mapping**](#31-to-be-scenario-mapping)
-  - [**3.2. User Stories**](#32-user-stories)
-  - [**3.3. Impact Mapping**](#33-impact-mapping)
-  - [**3.4. Product Backlog**](#34-product-backlog)
-- ## [**Capítulo IV: Solution Software Design**](#capítulo-iv-solution-software-design)
-  - [**4.1. Strategic-Level Domain-Driven Design**](#Strategic-Level-Domain-Driven-Design)
-    - [**4.1.1. EventStorming**](#411-general-style-guidelines)
-      - [**4.1.1.1. Candidate Context Discovery**](#412-web-style-guidelines)    
-      - [**4.1.1.2. Domain Message Flows Modeling**](#412-web-style-guidelines)
-      - [**4.1.1.3. Bounded Context Canvases**](#412-web-style-guidelines)
-    - [**4.1.2. Context Mapping**](#411-general-style-guidelines)    
-    - [**4.1.3. Software Architecture**](#411-general-style-guidelines)
-      - [**4.1.3.1. Software Architecture Context Level Diagrams**](#411-general-style-guidelines)
-      - [**4.1.3.2. Software Architecture Container Level Diagrams**](#411-general-style-guidelines)
-      - [**4.1.3.3. Software Architecture Deployment Diagrams**](#411-general-style-guidelines)
-  - [**4.2. Tactical-Level Domain-Driven Design**](#42-information-architecture)
-    - [**4.2.1. Bounded Context: Bounded Context Name**](#421-organization-systems)
-      - [**4.2.1.1. Domain Layer**](#421-organization-systems)
-      - [**4.2.1.2. Interface Layer**](#421-organization-systems)
-      - [**4.2.1.3. Application Layer**](#421-organization-systems)
-      - [**4.2.1.4. Infrastructure Layer**](#421-organization-systems)
-      - [**4.2.1.5. Bounded Context Software Architecture Component Level Diagrams**](#421-organization-systems)
-      - [**4.2.1.6. Bounded Context Software Architecture Code Level Diagrams**](#421-organization-systems)
-        - [**4.2.1.6.1. Bounded Context Domain Layer Class Diagrams**](#421-organization-systems)
-        - [**4.2.1.6.2. Bounded Context Database Design Diagram**](#421-organization-systems)
-- ## [**Capítulo V: Solution UI/UX Design**](#capítulo-v-solution-ui/ux-design)
-  - [**5.1. Product Design**](#41-style-guidelines)
-    - [**5.1.1. Style Guidelines**](#41-style-guidelines)
-      - [**5.1.1.1. General Style Guidelines**](#411-general-style-guidelines)
-    - [**5.1.2. Information Architecture**](#42-information-architecture)
-      - [**5.1.2.1. Organization Systems**](#421-organization-systems)
-      - [**5.1.2.2. Labelling Systems**](#422-labeling-systems)
-      - [**5.1.2.3. SEO Tags and Meta Tags**](#423-seo-tags-and-meta-tags)
-      - [**5.1.2.4. Searching Systems**](#424-searching-systems)
-      - [**5.1.2.5. Navigation Systems**](#425-navigation-systems)
-    - [**5.1.3. Landing Page UI Design**](#43-landing-page-ui-design)
-        - [**5.1.3.1. Landing Page Wireframe**](#431-landing-page-wireframe)
-        - [**5.1.3.2. Landing Page Mock-up**](#432-landing-page-mock-up)
-    - [**5.1.4. Mobile Applications UX/UI Design**](#44-web-applications-uxui-design)
-      - [**5.1.4.1. Mobile Applications Wireframes**](#441-web-applications-wireframes)
-      - [**5.1.4.2. Mobile Applications Wireflow Diagrams**](#442-web-applications-wireflow-diagrams)
-      - [**5.1.4.3. Mobile Applications Mock-ups**](#443-web-applications-mock-ups)
-      - [**5.1.4.4. Mobile Applications User Flow Diagrams**](#444-web-applications-user-flow-diagrams)
-      - [**5.1.4.5. Mobile Applications Prototyping**](#45-web-applications-prototyping)
-- ## [**Capítulo VI: Product Implementation, Validation \& Deployment**](#capítulo-v-product-implementation-validation--deployment)
-  - [**6.1. Software Configuration Management**](#51-software-configuration-management)
-    - [**6.1.1. Software Development Environment Configuration**](#511-software-development-environment-configuration)
-    - [**6.1.2. Source Code Management**](#512-source-code-management)
-    - [**6.1.3. Source Code Style Guide \& Conventions**](#513-source-code-style-guide--conventions)
-    - [**6.1.4. Software Deployment Configuration**](#514-software-deployment-configuration)
-  - [**6.2. Landing Page, Services \& Applications Implementation**](#52-landing-page-services--applications-implementation)
-    - [**6.2.1. Sprint 1**](#521-sprint-1)
-      - [**6.2.1.1. Sprint Planning 1**](#5211-sprint-planning-1)
-      - [**6.2.1.2. Sprint Backlog 1**](#5212-sprint-backlog-1)
-      - [**6.2.1.3. Development Evidence for Sprint Review**](#5213-development-evidence-for-sprint-review)
-      - [**6.2.1.4. Testing Suite Evidence for Sprint Review**](#5214-testing-suite-evidence-for-sprint-review)
-      - [**6.2.1.5. Execution Evidence for Sprint Review**](#5215-execution-evidence-for-sprint-review)
-      - [**6.2.1.6. Services Documentation Evidence for Sprint Review**](#5216-services-documentation-evidence-for-sprint-review)
-      - [**6.2.1.7. Software Deployment Evidence for Sprint Review**](#5217-software-deployment-evidence-for-sprint-review)
-      - [**6.2.1.8. Team Collaboration Insights during Sprint**](#5218-team-collaboration-insights-during-sprint)
-    - [**6.2.2. Sprint 2**](#521-sprint-1)
-      - [**6.2.2.1. Sprint Planning 2**](#5211-sprint-planning-1)
-      - [**6.2.2.2. Sprint Backlog 2**](#5212-sprint-backlog-1)
-      - [**6.2.2.3. Development Evidence for Sprint Review**](#5213-development-evidence-for-sprint-review)
-      - [**6.2.2.4. Testing Suite Evidence for Sprint Review**](#5214-testing-suite-evidence-for-sprint-review)
-      - [**6.2.2.5. Execution Evidence for Sprint Review**](#5215-execution-evidence-for-sprint-review)
-      - [**6.2.2.6. Services Documentation Evidence for Sprint Review**](#5216-services-documentation-evidence-for-sprint-review)
-      - [**6.2.2.7. Software Deployment Evidence for Sprint Review**](#5217-software-deployment-evidence-for-sprint-review)
-      - [**6.2.2.8. Team Collaboration Insights during Sprint**](#5218-team-collaboration-insights-during-sprint)
-    - [**6.2.3. Sprint 3**](#521-sprint-1)
-      - [**6.2.3.1. Sprint Planning 3**](#5211-sprint-planning-1)
-      - [**6.2.3.2. Sprint Backlog 3**](#5212-sprint-backlog-1)
-      - [**6.2.3.3. Development Evidence for Sprint Review**](#5213-development-evidence-for-sprint-review)
-      - [**6.2.3.4. Testing Suite Evidence for Sprint Review**](#5214-testing-suite-evidence-for-sprint-review)
-      - [**6.2.3.5. Execution Evidence for Sprint Review**](#5215-execution-evidence-for-sprint-review)
-      - [**6.2.3.6. Services Documentation Evidence for Sprint Review**](#5216-services-documentation-evidence-for-sprint-review)
-      - [**6.2.3.7. Software Deployment Evidence for Sprint Review**](#5217-software-deployment-evidence-for-sprint-review)
-      - [**6.2.3.8. Team Collaboration Insights during Sprint**](#5218-team-collaboration-insights-during-sprint)
-  - [**6.3. Validation Interviews**](#52-validation-interviews)
-    - [**6.3.1. Diseño de Entrevistas**](#631-diseño-de-entrevistas)
-    - [**6.3.2. Registro de Entrevistas**](#632-registro-de-entrevistas)
-    - [**6.3.3. Evaluaciones según heurísticas**](#633-evaluaciones-segun-heurísticas)
-  - [**6.4. Video About-the-Product**](#52-video-about-the-product)
+  - [**1.1. Startup Profile**]()
+    - [**1.1.1. Descripción de la Startup**]()
+    - [**1.1.2. Perfiles de integrantes del equipo**]()
+  - [**1.2. Solution Profile**]()
+    - [**1.2.1 Antecedentes y problemática**]()
+      - [What (¿Qué?)]()
+      - [Who (¿Quién?)]()
+      - [Where (¿Dónde?)]()
+      - [When (¿Cuándo?)]()
+      - [Why (¿Por qué?)]()
+      - [How (¿Cómo?)]()
+      - [How much (¿Cuánto?)]()
+    - [**1.2.2 Lean UX Process**]()
+    - [**1.2.2.1. Lean UX Problem Statements**]()
+    - [**1.2.2.2. Lean UX Assumptions**]()
+    - [**1.2.2.3. Lean UX Hypothesis Statements**]()
+    - [**1.2.2.4. Lean UX Canvas**]()
+  - [**1.3. Segmentos objetivo**]()
+- ## [ **Capítulo II: Requirements Development and Software Solution Design**]()
+  - [**2.1. Competidores**]()
+    - [**2.1.1. Análisis competitivo**]()
+    - [**2.1.2. Estrategias y tácticas frente a competidores**]()
+  - [**2.2. Entrevistas**]()
+    - [**2.2.1. Diseño de entrevistas**]()
+    - [**2.2.2. Registro de entrevistas**]()
+    - [**2.2.3. Análisis de entrevistas**]()
+  - [**2.3. Needfinding**]()
+    - [**2.3.1. User Personas**]()
+    - [**2.3.2. User Task Matrix**]()
+    - [**2.3.3. User Journey Mapping**]()
+    - [**2.3.4. Empathy Mapping**]()
+    - [**2.3.5. Ubiquitous Language**]()
+  - [**2.4. Requirements specification**]()
+    - [**2.4.1. User Stories**]()
+    - [**2.4.2. Impact Mapping**]()
+    - [**2.4.3. Product Backlog**]()
+  - [**2.5. Strategic-Level Domain-Driven Design**]()
+    - [**2.5.1. EventStorming**]()
+      - [**2.5.1.1. Candidate Context Discovery**]()    
+      - [**2.5.1.2. Domain Message Flows Modeling**]()
+      - [**2.5.1.3. Bounded Context Canvases**]()
+    - [**2.5.2. Context Mapping**]()    
+    - [**2.5.3. Software Architecture**]()
+      - [**2.5.3.1. Software Architecture Context Level Diagrams**]()
+      - [**2.5.3.2. Software Architecture Container Level Diagrams**]()
+      - [**2.5.3.3. Software Architecture Deployment Diagrams**]()
+  - [**2.6. Tactical-Level Domain-Driven Design**]()
+    - [**2.6.1. Bounded Context: Worker-Catalog**]()
+      - [**2.6.1.1. Domain Layer**]()
+      - [**2.6.1.2. Interface Layer**]()
+      - [**2.6.1.3. Application Layer**]()
+      - [**2.6.1.4. Infrastructure Layer**]()
+      - [**2.6.1.5. Bounded Context Software Architecture Component Level Diagrams**]()
+      - [**2.6.1.6. Bounded Context Software Architecture Code Level Diagrams**]()
+        - [**2.6.1.6.1. Bounded Context Domain Layer Class Diagrams**]()
+        - [**2.6.1.6.2. Bounded Context Database Design Diagram**]()
+    - [**2.6.2. Bounded Context: Payments**]()
+      - [**2.6.2.1. Domain Layer**]()
+      - [**2.6.2.2. Interface Layer**]()
+      - [**2.6.2.3. Application Layer**]()
+      - [**2.6.2.4. Infrastructure Layer**]()
+      - [**2.6.2.5. Bounded Context Software Architecture Component Level Diagrams**]()
+      - [**2.6.2.6. Bounded Context Software Architecture Code Level Diagrams**]()
+        - [**2.6.2.6.1. Bounded Context Domain Layer Class Diagrams**]()
+        - [**2.6.2.6.2. Bounded Context Database Design Diagram**]()
+    - [**2.6.3. Bounded Context: Alerts**]()
+      - [**2.6.3.1. Domain Layer**]()
+      - [**2.6.3.2. Interface Layer**]()
+      - [**2.6.3.3. Application Layer**]()
+      - [**2.6.3.4. Infrastructure Layer**]()
+      - [**2.6.3.5. Bounded Context Software Architecture Component Level Diagrams**]()
+      - [**2.6.3.6. Bounded Context Software Architecture Code Level Diagrams**]()
+        - [**2.6.3.6.1. Bounded Context Domain Layer Class Diagrams**]()
+        - [**2.6.3.6.2. Bounded Context Database Design Diagram**]()
+    - [**2.6.4. Bounded Context: Tec-Section**]()
+      - [**2.6.4.1. Domain Layer**]()
+      - [**2.6.4.2. Interface Layer**]()
+      - [**2.6.4.3. Application Layer**]()
+      - [**2.6.4.4. Infrastructure Layer**]()
+      - [**2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**]()
+      - [**2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**]()
+        - [**2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**]()
+        - [**2.6.4.6.2. Bounded Context Database Design Diagram**]()
+    - [**2.6.5. Bounded Context: IAM**]()
+      - [**2.6.5.1. Domain Layer**]()
+      - [**2.6.5.2. Interface Layer**]()
+      - [**2.6.5.3. Application Layer**]()
+      - [**2.6.5.4. Infrastructure Layer**]()
+      - [**2.6.5.5. Bounded Context Software Architecture Component Level Diagrams**]()
+      - [**2.6.5.6. Bounded Context Software Architecture Code Level Diagrams**]()
+        - [**2.6.5.6.1. Bounded Context Domain Layer Class Diagrams**]()
+        - [**2.6.5.6.2. Bounded Context Database Design Diagram**]()
+- ## [**Capítulo III: Solution UI/UX Design**]()
+  - [**3.1. Product Design**]()
+    - [**3.1.1. Style Guidelines**]()
+      - [**3.1.1.1. General Style Guidelines**]()
+    - [**3.1.2. Information Architecture**]()
+      - [**3.1.2.1. Organization Systems**]()
+      - [**3.1.2.2. Labelling Systems**]()
+      - [**3.1.2.3. SEO Tags and Meta Tags**]()
+      - [**3.1.2.4. Searching Systems**]()
+      - [**3.1.2.5. Navigation Systems**]()
+    - [**3.1.3. Landing Page UI Design**]()
+        - [**3.1.3.1. Landing Page Wireframe**]()
+        - [**3.1.3.2. Landing Page Mock-up**]()
+    - [**3.1.4. Mobile Applications UX/UI Design**]()
+      - [**3.1.4.1. Mobile Applications Wireframes**]()
+      - [**3.1.4.2. Mobile Applications Wireflow Diagrams**]()
+      - [**3.1.4.3. Mobile Applications Mock-ups**]()
+      - [**3.1.4.4. Mobile Applications User Flow Diagrams**]()
+      - [**3.1.4.5. Mobile Applications Prototyping**]()
+- ## [**Capítulo IV: Product Implementation, Validation \& Deployment**]()
+  - [**4.1. Software Configuration Management**]()
+    - [**4.1.1. Software Development Environment Configuration**]()
+    - [**4.1.2. Source Code Management**]()
+    - [**4.1.3. Source Code Style Guide \& Conventions**]()
+    - [**4.1.4. Software Deployment Configuration**]()
+  - [**4.2. Landing Page, Services \& Applications Implementation**]()
+    - [**4.2.1. Sprint 1**]()
+      - [**4.2.1.1. Sprint Planning 1**]()
+      - [**4.2.1.2. Sprint Backlog 1**]()
+      - [**4.2.1.3. Development Evidence for Sprint Review**]()
+      - [**4.2.1.4. Testing Suite Evidence for Sprint Review**]()
+      - [**4.2.1.5. Execution Evidence for Sprint Review**]()
+      - [**4.2.1.6. Services Documentation Evidence for Sprint Review**]()
+      - [**4.2.1.7. Software Deployment Evidence for Sprint Review**]()
+      - [**4.2.1.8. Team Collaboration Insights during Sprint**]()
+    - [**4.2.2. Sprint 2**]()
+      - [**4.2.2.1. Sprint Planning 2**]()
+      - [**4.2.2.2. Sprint Backlog 2**]()
+      - [**4.2.2.3. Development Evidence for Sprint Review**]()
+      - [**4.2.2.4. Testing Suite Evidence for Sprint Review**]()
+      - [**4.2.2.5. Execution Evidence for Sprint Review**]()
+      - [**4.2.2.6. Services Documentation Evidence for Sprint Review**]()
+      - [**4.2.2.7. Software Deployment Evidence for Sprint Review**]()
+      - [**4.2.2.8. Team Collaboration Insights during Sprint**]()
+    - [**4.2.3. Sprint 3**]()
+      - [**4.2.3.1. Sprint Planning 3**]()
+      - [**4.2.3.2. Sprint Backlog 3**]()
+      - [**4.2.3.3. Development Evidence for Sprint Review**]()
+      - [**4.2.3.4. Testing Suite Evidence for Sprint Review**]()
+      - [**4.2.3.5. Execution Evidence for Sprint Review**]()
+      - [**4.2.3.6. Services Documentation Evidence for Sprint Review**]()
+      - [**4.2.3.7. Software Deployment Evidence for Sprint Review**]()
+      - [**4.2.3.8. Team Collaboration Insights during Sprint**]()
+  - [**4.3. Validation Interviews**]()
+    - [**4.3.1. Diseño de Entrevistas**]()
+    - [**4.3.2. Registro de Entrevistas**]()
+    - [**4.3.3. Evaluaciones según heurísticas**]()
+  - [**4.4. Video About-the-Product**]()
 
 # Student Outcome
-
 | Criterio específico | Acciones realizadas | Conclusiones |
 |----|----|----|
-|Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software|  |  |
+|Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software| **Diego Bastidas:**<br> **TB1:** En el Capítulo I, participé activamente en la redacción de la presentación del proyecto, la descripción de la startup y la elaboración de los perfiles de los integrantes. En el Capítulo II, colaboré en el análisis competitivo y en la especificación de requisitos, contribuyendo a la definición de user stories y la estructura del backlog.<br><br>**TP1:** Como team leader, lideré la elaboración de los Capítulos III y IV, realicé correcciones en el Capítulo I y desarrollé la landing page, lo que implicó actualizarme en diseño UI/UX, herramientas de prototipado y despliegue de aplicaciones móviles.<br><br>**Fabrisio Belahonia:**<br> **TB1:** En el Capítulo I, apoyé en la elaboración del perfil de la startup y la identificación de la problemática. En el Capítulo II, participé en el diseño y análisis de entrevistas, así como en la construcción de user personas y el mapeo de la experiencia del usuario.<br><br>**TP1:**  Me encargué de corregir el EventStorming, crear prototipos en Figma y realizar correcciones en los user stories, lo que me permitió profundizar en modelado de dominios, diseño de interfaces y documentación ágil<br><br>**Rafael Dominguez:**<br> **TB1:** En el Capítulo I, ayudé en la redacción de la solución propuesta y la identificación de los segmentos objetivo. En el Capítulo II, colaboré en la especificación de requisitos y en la documentación de la arquitectura de software.<br><br>**TP1:**  Me encargué del diseño en Figma y de la creación de pantallas en Android Studio, actualizando mis conocimientos en herramientas de diseño y desarrollo de interfaces móviles.<br><br>**Sebastian Escobar:**<br> **TB1:** En el Capítulo I, contribuí en la elaboración de los antecedentes y la problemática. En el Capítulo II, participé en el análisis de competidores y en la definición de la arquitectura de alto nivel.<br><br>**TP1:**  Me encargué de la creación de pantallas en Android Studio, lo que me permitió fortalecer mis habilidades en desarrollo móvil y en la aplicación de buenas prácticas de UI/UX.<br><br>**Alonso Muñiz:**<br> **TB1:** En el Capítulo I, participé en la descripción de los perfiles de los integrantes y la presentación general. En el Capítulo II, apoyé en la elaboración de la matriz de tareas de usuario y en la documentación de los contextos de dominio.<br><br>**TP1:** Colaboré en la revisión de los entregables y en la integración de los distintos componentes del proyecto, reforzando mis conocimientos en integración de equipos multidisciplinarios y documentación técnica.|**TB1:**<br>La actualización constante de conceptos y conocimientos en ingeniería de software nos permitió abordar de manera efectiva los retos de los capítulos 1 y 2, aplicando metodologías actuales y mejores prácticas para el desarrollo del proyecto y nuestro crecimiento profesional.<br><br>**TP1:**  El trabajo colaborativo y la actualización continua de conocimientos han sido fundamentales para enfrentar los desafíos del proyecto, permitiéndonos aplicar enfoques modernos de ingeniería de software y preparándonos para un desempeño profesional competente y actualizado.|
 
 
 <br>
@@ -208,9 +257,32 @@
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |----|----|----|
-Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software.|  |  |
+|Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software.| **Diego Bastidas:**<br> **TB1:** En el Capítulo I, participé activamente en la presentación del proyecto y la descripción de la startup, lo que me llevó a investigar nuevas tendencias en emprendimientos tecnológicos. En el Capítulo II, colaboré en el análisis competitivo y la especificación de requisitos, actualizando mis conocimientos sobre metodologías ágiles y herramientas de documentación.<br><br>**TP1:** Como team leader, lideré la elaboración de los Capítulos III y IV, realicé correcciones en el Capítulo I, desarrollé la landing page y el backend, lo que me exigió aprender sobre diseño UI/UX, prototipado, despliegue de aplicaciones móviles y arquitectura de backend, reafirmando la importancia de actualizarme constantemente para afrontar nuevos retos tecnológicos.<br><br>**Fabrisio Belahonia:**<br> **TB1:** En el Capítulo I, apoyé en la elaboración del perfil de la startup y la identificación de la problemática, lo que me motivó a buscar información sobre casos similares y soluciones innovadoras. En el Capítulo II, participé en el diseño y análisis de entrevistas, así como en la construcción de user personas, reforzando la importancia de la empatía y el aprendizaje continuo sobre experiencia de usuario.<br><br>**TP1:** Me encargué de corregir el EventStorming, crear prototipos en Figma y realizar correcciones en los user stories, lo que me permitió profundizar en modelado de dominios, diseño de interfaces y documentación ágil, demostrando la necesidad de aprender nuevas herramientas y enfoques para el desarrollo de soluciones de software.<br><br>**Rafael Dominguez:**<br> **TB1:** En el Capítulo I, ayudé en la redacción de la solución propuesta y la identificación de los segmentos objetivo, investigando sobre segmentación de mercado y modelos de negocio. En el Capítulo II, colaboré en la especificación de requisitos y en la documentación de la arquitectura de software, lo que me impulsó a actualizarme en patrones de diseño y buenas prácticas de ingeniería.<br><br>**TP1:** Me encargué del diseño en Figma y de la creación de pantallas en Android Studio, lo que me llevó a aprender sobre herramientas de diseño y desarrollo móvil, reforzando la importancia del aprendizaje permanente para adaptarme a nuevas tecnologías.<br><br>**Sebastian Escobar:**<br> **TB1:** En el Capítulo I, contribuí en la elaboración de los antecedentes y la problemática, investigando tendencias actuales del sector. En el Capítulo II, participé en el análisis de competidores y en la definición de la arquitectura de alto nivel, lo que me llevó a profundizar en herramientas de modelado y análisis de competencia.<br><br>**TP1:** Me encargué de la creación de pantallas en Android Studio, lo que me permitió fortalecer mis habilidades en desarrollo móvil y en la aplicación de buenas prácticas de UI/UX, evidenciando la importancia de actualizar mis conocimientos para el desarrollo profesional.<br><br>**Alonso Muñiz:**<br> **TB1:** En el Capítulo I, participé en la descripción de los perfiles de los integrantes y la presentación general, buscando referentes en equipos multidisciplinarios. En el Capítulo II, apoyé en la elaboración de la matriz de tareas de usuario y en la documentación de los contextos de dominio, lo que me motivó a aprender sobre técnicas de análisis de usuario y modelado de dominios.<br><br>**TP1:** Me encargué del Capítulo III, realicé correcciones del Capítulo II y colaboré en el backend, lo que me impulsó a aprender sobre integración de equipos, documentación técnica y desarrollo backend, reafirmando la necesidad de aprendizaje continuo.|**TB1:** El aprendizaje permanente ha sido esencial para adaptarnos a los retos de cada etapa del proyecto, permitiéndonos incorporar nuevas metodologías, herramientas y enfoques en el desarrollo de soluciones de ingeniería de software. Esta actitud nos prepara para un desempeño profesional competente, actualizado y capaz de responder a los cambios tecnológicos del sector.<br><br>**TP1:** El aprendizaje permanente es un pilar fundamental para el desarrollo profesional en el ámbito de la ingeniería de software. A lo largo del proyecto, la necesidad de actualizar y adquirir nuevos conocimientos ha sido evidente en cada etapa, desde la conceptualización hasta la implementación y validación de la solución.|
+
 
 <br>
 
+
 ----
+# OBJETIVOS SMART
+
+| Nombre                                 | Código       | Objetivo SMART   | Específico                                                                                                                               | Medible                                                                                                                                       | Alcanzable                                                                                   | Relevante                                                                                                                  |
+|----------------------------------------|--------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| Bastidas Bastidas, Diego Martin        | U20221A301   | Objetivo SMART 1 | Desarrollar una aplicación web con enfoque en seguridad utilizando Spring Boot y MySQL.                                                  | Finalizar el proyecto en 8 semanas, implementar autenticación JWT y validaciones OWASP.                                                       | Dedicando 6 horas semanales para desarrollo y pruebas.                                      | Fortalecer habilidades técnicas aplicadas a proyectos reales.                                                              |
+| Bastidas Bastidas, Diego Martin        | U20221A301   | Objetivo SMART 2 | Obtener una certificación básica en ciberseguridad para complementar mi perfil como desarrollador.                                       | Aprobar un curso certificado (como Cisco CyberOps o similar) en 3 meses.                                                                      | Estudiando 4 horas semanales con recursos oficiales.                                        | Aumentar mi empleabilidad y preparación para roles híbridos.                                                               |
+| Belahonia Miranda, Fabrisio            | U202220219   | Objetivo SMART 1 | Construir una API REST segura y documentarla en GitHub como parte de mi portafolio.                                                      | Subir al menos 5 commits semanales, incluir pruebas unitarias y documentación técnica.                                                        | Asignando 5 horas semanales para desarrollo y documentación.                             | Mejorar mi visibilidad profesional y demostrar dominio técnico.                                                            |
+| Belahonia Miranda, Fabrisio            | U202220219   | Objetivo SMART 2 | Participar en un foro técnico compartiendo experiencias sobre desarrollo seguro.                                                          | Publicar 1 post semanal en LinkedIn y participar en al menos 2 eventos virtuales en 2 meses.                                                  | Reservando 3 horas semanales para redacción y networking.                                 | Posicionarme como referente en prácticas seguras de desarrollo.                                                            |
+| Domínguez Vargas, Rafael Alexander     | U202312318   | Objetivo SMART 1 | Crear un blog técnico sobre vulnerabilidades comunes en aplicaciones web.                                                                | Publicar 1 artículo semanal durante 2 meses y alcanzar 500 visitas mensuales.                                                                  | Asignando 2 horas semanales para redacción y promoción.                                   | Compartir conocimientos y posicionarme como experto en seguridad web.                                                      |
+| Domínguez Vargas, Rafael Alexander     | U202312318   | Objetivo SMART 2 | Contribuir a un proyecto open source enfocado en seguridad web.                                                                          | Realizar al menos 5 pull requests en 3 meses y documentar cada contribución.                                                                  | Asignando 3 horas semanales para revisión de issues y desarrollo.                         | Ganar experiencia colaborativa y mejorar mi reputación como desarrollador.                                                 |
+| Escobar Palomino, Sebastian Matias     | U202220219   | Objetivo SMART 1 | Diseñar un curso introductorio sobre ciberseguridad para principiantes.                                                                  | Crear 5 módulos y lanzarlo en una plataforma educativa antes de fin de año.                                                                   | Dedicando 5 horas semanales para diseño de contenido y pruebas.                           | Democratizar el acceso al conocimiento y fortalecer mi perfil como educador técnico.                                       |
+| Escobar Palomino, Sebastian Matias     | U202220219   | Objetivo SMART 2 | Crear contenido educativo sobre desarrollo seguro en YouTube.                                                                            | Publicar 1 video quincenal durante 3 meses con al menos 300 visualizaciones por video.                                                        | Reservando 4 horas semanales para guión, grabación y edición.                             | Posicionarme como referente en prácticas seguras de desarrollo.                                                             |
+| Muñiz Huayanca, Percy Alonso           | U202319563   | Objetivo SMART 1 | Convertirme en desarrollador Full Stack con sólidos conocimientos en ciberseguridad.                                                     | Completar 2 cursos certificados (desarrollo web avanzado y ciberseguridad práctica) y aplicar principios OWASP en un proyecto personal.       | Estudiando 5 horas semanales y realizando ejercicios prácticos.                          | Fortalecer mi perfil profesional y adquirir habilidades clave para el mercado actual.                                      |
+| Muñiz Huayanca, Percy Alonso           | U202319563   | Objetivo SMART 2 | Construir una marca personal como desarrollador Full Stack enfocado en ciberseguridad.                                                   | Publicar 1 post semanal en LinkedIn, compartir contenido en GitHub y alcanzar 200 seguidores en 3 meses.                                     | Asignando 3 horas semanales para escribir y compartir experiencias.                      | Potenciar mi visibilidad profesional y demostrar mis conocimientos al público objetivo.                                     |
+
+
+
+
+
+
+
 
