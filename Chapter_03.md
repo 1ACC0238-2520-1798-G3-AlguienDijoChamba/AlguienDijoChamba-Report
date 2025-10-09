@@ -470,4 +470,6 @@
         <br>
       - **3.1.4.5. Mobile Applications Prototyping**
 
+      **Link del video:** [https://acortar.link/rnHeKG](https://acortar.link/rnHeKG)
+
 
