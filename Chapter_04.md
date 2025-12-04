@@ -690,7 +690,110 @@
     ¿Qué tan fácil fue editar tu perfil?
 
     Si pudieras cambiar una cosa de la app, ¿qué sería?
+    
     - **4.3.2. Registro de Entrevistas**<br>
+
+      ## **### Entrevista 1**
+      
+      ### **Datos del entrevistador:**
+      
+      **Nombre:** Fabrisio Belahonia Miranda
+      
+      ### **Datos del entrevistado:**
+      
+      **Nombre:** Cameron Bustamante
+      **Edad:** 24 años
+      **Distrito de residencia:** San Juan de Lurigancho
+      
+      ### **Evidencia:**
+      
+      ![Entrevista 1](feature/chapter04/exposision_1.jpeg)
+
+      ### **Enlace:**
+      https://n9.cl/5fnhy
+      
+      ### **Resumen de la entrevista:**
+      
+      Andrea comentó que la aplicación *AlguienDijoChamba* le parece una herramienta muy útil para encontrar técnicos de forma rápida y confiable. Le gustó que la interfaz sea clara y que los servicios estén organizados por categorías, lo que facilita la búsqueda. Destacó que la idea de poder ver perfiles con experiencia y reseñas le transmite mayor seguridad al momento de contratar a alguien.
+      
+      ---
+      
+      ## **### Entrevista 2**
+      
+      ### **Datos del entrevistador:**
+      
+      **Nombre:** Fabrisio Belahonia Miranda
+      
+      ### **Datos del entrevistado:**
+      
+      **Nombre:** Bruno Minaya
+      **Edad:** 28 años
+      **Distrito de residencia:** Independencia
+      
+      ### **Evidencia:**
+      
+      ![Entrevista 2](feature/chapter04/exposision_2.jpeg)
+
+      ### **Enlace:**
+      
+      https://n9.cl/xvsjm
+      
+      ### **Resumen de la entrevista:**
+      
+      Cameron mencionó que la aplicación le ayudaría a ahorrar tiempo, ya que actualmente buscar un técnico confiable puede ser complicado. Le agradó la posibilidad de comparar profesionales y ver sus tarifas antes de solicitar un servicio. Además, le pareció positivo que exista un sistema de puntuación porque eso le permitiría tomar decisiones más informadas.
+      
+      ---
+      
+      ## **### Entrevista 3**
+      
+      ### **Datos del entrevistador:**
+      
+      **Nombre:** Fabrisio Belahonia Miranda
+      
+      ### **Datos del entrevistado:**
+      
+      **Nombre:** Sebastián Silva
+      **Edad:** 22 años
+      **Distrito de residencia:** El Agustino
+      
+      ### **Evidencia:**
+      
+      ![Entrevista 3](feature/chapter04/exposision_3.jpeg)
+      
+      ### **Enlace:**
+      
+      https://n9.cl/lvtoa
+    
+      
+      ### **Resumen de la entrevista:**
+      
+      Bruno comentó que la aplicación le parece práctica, especialmente porque permite ver información del técnico antes de contratarlo. Le gustó mucho la idea del chat, ya que considera que facilita explicar el problema y coordinar la visita. También mencionó que la app se siente moderna y sencilla, lo que la hace atractiva para usuarios jóvenes.
+      
+      ---
+      
+      ## **### Entrevista 4**
+      
+      ### **Datos del entrevistador:**
+      
+      **Nombre:** Fabrisio Belahonia Miranda
+      
+      ### **Datos del entrevistado:**
+      
+      **Nombre:** Andrea Aponte
+      **Edad:** 25 años
+      **Distrito de residencia:** Ate
+      
+      ### **Evidencia:**
+      
+      ![Entrevista 4](feature/chapter04/exposision_4.jpeg)
+
+      ### **Enlace:**
+      https://n9.cl/kdce5
+    
+      ### **Resumen de la entrevista:**
+      
+      Sebastián mencionó que *AlguienDijoChamba* sería muy útil para encontrar técnicos sin depender de recomendaciones informales. Le pareció interesante que la aplicación muestre el estado del servicio y permita hacer seguimiento. También le gustó la idea de tener un historial de técnicos contratados para futuras referencias.
+
 
 
     - **4.3.3. Evaluaciones según heurísticas**<br>
@@ -897,4 +1000,5 @@
   **Video del aplicativo movil:** [https://acortar.link/se3cmV](https://acortar.link/se3cmV)
 
   **Link del Landing Page:** [https://alguiendijochamba-landingpage.netlify.app/](https://alguiendijochamba-landingpage.netlify.app/)
+
 
