@@ -668,6 +668,148 @@
       | Dominguez Vargas, Rafael Alexander  | iam(Login,Signup), Figma Design, Frontend  |
       | Escobar Palomino, Sebastian Matias  | Frontend                                   |
       | Muñiz Huayanca, Percy Alonso        | Backend                                    |
+ 
+  - **4.3. Validation Interviews**
+    - **4.3.1. Diseño de Entrevistas**<br>
+    ¿Qué tan fácil te pareció usar la aplicación?
+
+    ¿Pudiste encontrar el servicio que buscabas sin problemas?
+
+    ¿Qué te gustó más de la app?
+
+    ¿Qué te gustó menos o te generó confusión?
+
+    ¿Contratarías a un profesional desde la app? ¿Por qué?
+
+    ¿La información de los profesionales te parece suficiente?
+
+    ¿Te resultó útil recibir notificaciones sobre el estado del servicio?
+
+    ¿El chat te ayudó a comunicarte mejor con el profesional?
+
+    ¿Qué tan fácil fue editar tu perfil?
+
+    Si pudieras cambiar una cosa de la app, ¿qué sería?
+    - **4.3.2. Registro de Entrevistas**<br>
+
+
+    - **4.3.3. Evaluaciones según heurísticas**<br>
+    
+    ## **UX Heuristics & Principles Evaluation**
+    
+    **Usability – Inclusive Design – Information Architecture**
+    
+    **CARRERA:** Ingeniería de Software
+    **CURSO:** Aplicaciones moviles
+    **SECCIÓN:** 1798
+    **PROFESORES:** Jorge Luis Mayta Guillermo
+    **AUDITOR:** AlguienDijoChamba Team
+    **CLIENTE(S):** Equipo de Desarrollo ADC
+    
+    ---
+    
+    ## **SITE o APP A EVALUAR**
+    
+    **AlguienDijoChamba – Plataforma de conexión entre usuarios y técnicos especializados.**
+    Permite a clientes buscar servicios técnicos y contratar profesionales según su perfil o especialidad.
+    
+    ---
+    
+    ## **TAREAS A EVALUAR**
+    
+    El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+    
+    1. Registro de un nuevo usuario
+    2. Búsqueda de un técnico por especialidad
+    3. Revisión del perfil del técnico
+    4. Solicitud de servicio
+    5. Registro de técnico en la plataforma
+    6. Visualización de servicios solicitados
+    7. Pago del servicio
+    
+    **No están incluidas en esta versión de la evaluación las siguientes tareas:**
+    
+    * Recomendaciones automáticas según historial
+    * Sistema de soporte al cliente
+    
+    ---
+    
+    ## **ESCALA DE SEVERIDAD**
+    
+    | Nivel | Descripción                                                                                            |
+    | ----- | ------------------------------------------------------------------------------------------------------ |
+    | **1** | Problema superficial: se supera fácilmente o es poco frecuente. No necesita corrección inmediata.      |
+    | **2** | Problema menor: ocurre ocasionalmente y genera fricción. Prioridad baja.                               |
+    | **3** | Problema mayor: ocurre frecuentemente o afecta el flujo de uso. Prioridad alta.                        |
+    | **4** | Problema crítico: bloquea al usuario o impide completar tareas. Debe corregirse antes del lanzamiento. |
+    
+    ---
+    
+    # **TABLA RESUMEN**
+    
+    | # | Problema                                                                | Severidad | Heurística / Principio violado           |
+    | - | ----------------------------------------------------------------------- | --------- | ---------------------------------------- |
+    | 1 | Interfaz inicial poco clara para nuevos usuarios                        | 3         | Usability: Consistencia y estándares     |
+    | 2 | No se comunica adecuadamente la protección de datos personales          | 3         | Inclusive Design: Protección del usuario |
+    | 3 | No existe un tutorial de bienvenida o recorrido inicial                 | 1         | Usability: Ayuda y documentación         |
+
+
+    ---
+    
+    # **DESCRIPCIÓN DE PROBLEMAS**
+    
+    ---
+    
+    ## **PROBLEMA #1: Interfaz inicial poco clara para nuevos usuarios**
+    
+    **Severidad:** 3
+    **Heurística violada:** Usabilidad – Consistencia y estándares
+    
+    ### **Problema:**
+    
+    Nuevos usuarios reportaron dificultad para identificar las acciones principales (buscar servicio, registrarse como técnico o explorar categorías).
+    
+    ### **Recomendación:**
+    
+    Reorganizar la pantalla inicial resaltando las acciones esenciales mediante iconos grandes, etiquetas claras y un menú simplificado.
+    
+    ---
+    
+  
+    ## **PROBLEMA #2: No se comunica adecuadamente la protección de datos personales**
+    
+    **Severidad:** 3
+    **Heurística violada:** Diseño inclusivo – Protección del usuario
+    
+    ### **Problema:**
+    
+    La plataforma no resalta claramente cómo se manejan los datos personales, ni ofrece un enlace visible a la política de privacidad.
+    
+    ### **Recomendación:**
+    
+    Mostrar un resumen de privacidad al registrarse y añadir un acceso visible desde el menú principal.
+    
+    ---
+    
+    ## **PROBLEMA #3: No existe un tutorial de bienvenida o recorrido inicial**
+    
+    **Severidad:** 1
+    **Heurística violada:** Usabilidad – Ayuda y documentación
+    
+    ### **Problema:**
+    
+    Los usuarios primerizos no cuentan con una guía que explique paso a paso cómo usar la plataforma.
+    
+    ### **Recomendación:**
+    
+    Implementar un onboarding interactivo de 3–5 pasos que muestre las funciones principales.
+    
+    
+
+
+
+    
+
 
       ## Report:
 
@@ -755,3 +897,4 @@
   **Video del aplicativo movil:** [https://acortar.link/se3cmV](https://acortar.link/se3cmV)
 
   **Link del Landing Page:** [https://alguiendijochamba-landingpage.netlify.app/](https://alguiendijochamba-landingpage.netlify.app/)
+
